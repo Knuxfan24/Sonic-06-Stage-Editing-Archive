@@ -1,0 +1,3 @@
+The doors used in Aquatic Base.
+
+All five parameters (all of them being 32 bit signed integers) are unknown. The second one always appears to be 0, needs investigation.
