@@ -3,7 +3,7 @@
   <Length type="float" default="10" description="" />
   <Width type="float" default="15" description="" />
   <Height type="float" default="15" description="" />
-  <TargetObject type="float" default="4294967295" description="What player_start2 Object ID this volume should activate (Currently hardcoded because HedgeLib is dumb)." />
+  <TargetObject type="float" default="4294967295" description="What player_start2 Object ID this volume should activate." />
   <FollowMode type="bool" default="false" description="Does the character activated by this amigo_collision follow the player or are they directly controlled." />
   
   <Extra type="preview_box_x" name="Width" />
