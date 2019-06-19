@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <GismoName type="string" default="WoodBox" description="What physics object should spawn here?" />
+  <Respawn type="bool" default="False" description="Whether this prop should respawn after going a certain distance once destroyed." />
+  <Parameter2 type="float" default="10" description="???" />
+  <Parameter3 type="float" default="3" description="???" />
+</Template>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="float" default="5000" description="???" />
+	<Parameter1 type="float" default="5000" description="???" />
+	<Parameter2 type="float" default="2000" description="???" />
+	<Parameter3 type="string" default="Anim_green_main" description="???" />
+	<Parameter4 type="string" default="Anim_green_main" description="???" />
+	<Parameter5 type="string" default="Anim_green_main" description="???" />
+	<Parameter6 type="float" default="1" description="???" />
+</Template>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <ScaleHeight type="float" default="1500" description="???" />
+  <PlayerPresentScaleSpeed type="float" default="10" description="???" />
+  <NoPlayerPresentScaleSpeed type="float" default="30" description="???" />
+  <TimeBeforeCollapse type="float" default="1" description="???" />
+  <MaximumLoweredHeight type="float" default="700" description="???" />
+  <MinimumLoweredHeight type="float" default="500" description="???" />
+  
+  <Extra type="model" name="rct_obj_seesaw.model" />
+</Template>

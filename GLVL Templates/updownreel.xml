@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <LengthOfRope type="float" default="-1000" description="How long the 'rope' is." />
+  <FinalRingPosition type="float" default="-100" description="How far from the top should the grab ring stop at." />
+  <MovementTime type="float" default="1" description="How long the ring takes to move between positions" />
+</Template>

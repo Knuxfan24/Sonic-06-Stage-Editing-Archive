@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="string" default="" description="???" />
+	<Parameter1 type="float" default="1" description="???" />
+	<Parameter2 type="float" default="0" description="???" />
+	<Parameter3 type="float" default="0" description="???" />
+	<Parameter4 type="string" default="" description="???" />
+	<Parameter5 type="string" default="" description="???" />
+	<Parameter6 type="string" default="sit_read" description="???" />
+	<Parameter7 type="string" default="" description="???" />
+	<Parameter8 type="vector" description="???" />
+	<Parameter9 type="float" default="4294967295" description="???" />
+	<Parameter10 type="float" default="0" description="???" />
+	<Parameter11 type="float" default="1" description="???" />
+	<Parameter12 type="string" default="" description="???" />
+	<Parameter13 type="string" default="" description="???" />
+	<Parameter14 type="bool" default="False" description="???" />
+	<Parameter15 type="bool" default="False" description="???" />
+	<Parameter16 type="float" default="64" description="???" />
+	<Parameter17 type="float" default="0" description="???" />
+</Template>

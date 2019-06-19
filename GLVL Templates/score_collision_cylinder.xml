@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="float" default="49" description="???" />
+	<Parameter1 type="float" default="90" description="???" />
+	<Parameter2 type="string" default="twn_apple" description="???" />
+	<Parameter3 type="float" default="100" description="???" />
+</Template>

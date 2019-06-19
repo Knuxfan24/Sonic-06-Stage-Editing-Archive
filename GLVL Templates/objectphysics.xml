@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <GismoName type="string" default="WoodBox" description="What physics object should spawn here?" />
+  <Respawn type="bool" default="False" description="Whether this prop should respawn after going a certain distance once destroyed." />
+  
+  <Extra type="model" name="cmn_woodbox.model" condition="GismoName == WoodBox" />
+  <Extra type="model" name="dtd_obj_pot.model" condition="GismoName == dtd_pot" /> 
+  <Extra type="model" name="tpj_obj_board.model" condition="GismoName == tpj_obj_board" />
+  <Extra type="model" name="tpj_obj_logwall.model" condition="GismoName == tpj_obj_logwall_r" /> 
+  <Extra type="model" name="tpj_obj_ruinA.model" condition="GismoName == tpj_obj_ruinA_r" /> 
+  <Extra type="model" name="tpj_obj_ruinB.model" condition="GismoName == tpj_obj_ruinB" /> 
+  <Extra type="model" name="tpj_obj_ruinB.model" condition="GismoName == tpj_obj_ruinB_r" /> 
+</Template>

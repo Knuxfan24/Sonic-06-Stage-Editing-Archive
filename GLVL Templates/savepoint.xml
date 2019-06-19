@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <Extra type="model" name="cmn_savepoint.model" />
+  <Extra type="description" name="Checkpoints that you can smack face first into for whatever reason." />
+</Template>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <VehicleType type="float" default="1" description="Which vehicle should spawn here" />
+  <UnknownString1 type="string" default="" description="Unknown." />
+  <SpawnState type="bool" default="False" description="Whether to spawn Shadow in the vehicle or not?" />
+  <UnknownBoolean1 type="bool" default="False" description="Unknown." />
+  <GliderPath type="string" default="" description="Path that the Glider should follow?" />
+  
+  <Extra type="model" name="Gadget_Jeep.model" condition="VehicleType == 1" />
+  <Extra type="model" name="Gadget_Bike.model" condition="VehicleType == 2" />
+  <Extra type="model" name="Gadget_Hover.model" condition="VehicleType == 3" />
+  <Extra type="model" name="Gadget_Glider.model" condition="VehicleType == 4" />
+  <Extra type="description" name="The vehicles Shadow can drive throughout the game. Beep beep!" />
+</Template>

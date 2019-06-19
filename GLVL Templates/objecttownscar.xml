@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="float" default="3" description="???" />
+	<Parameter1 type="string" default="twn_b_common_car02" description="???" />
+	<Parameter2 type="string" default="NpcCarBot" description="???" />
+	<Parameter3 type="string" default="" description="???" />
+	<Parameter4 type="float" default="86" description="???" />
+	<Parameter5 type="float" default="0" description="???" />
+</Template>

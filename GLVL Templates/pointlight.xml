@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <LightName type="string" default="aqapointb01" description="What point light entry in the stage's scene lua should be used." />
+</Template>

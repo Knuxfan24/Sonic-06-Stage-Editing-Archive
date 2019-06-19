@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="string" default="map_tpj" description="???" />
+	<Parameter1 type="string" default="leaf_01" description="???" />
+	<Parameter2 type="string" default="" description="???" />
+	<Parameter3 type="string" default="" description="???" />
+</Template>
