@@ -1,4 +1,4 @@
-Seems to only be used in a test set and in the Iblis Phase 1 fight for Silver.
+Seems to only be used in a test set and in the Iblis Phase 1 fight for Silver, used for playing Ambient sound files.
 
 First three parameters are volume size.
 Fourth parameter (a single) always appears to be set to 1?
