@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <LaunchSpeed type="float" default="2000" description="How much force this Dash Panel should launch the player with." />
+  <OutOfControl type="float" default="0.5" description="How long it should take after being launched for the player to be able to control the character again." />
+  
+  <Extra type="model" name="cmn_dashpanel.model" />
+  <Extra type="description" name="Boost Pad! Boost Pad! Boost Pad! Boost Pads are awesome! Boost Pad! Boost Pad!." />
+</Template>

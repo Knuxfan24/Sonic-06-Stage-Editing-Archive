@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Template>
+  <Speed type="float" default="120" description="How fast the ball can move, setting this value too high seems to break." />
+  <UnknownFloat1 type="float" default="0.01" description="Unknown." />
+  <UnknownFloat2 type="float" default="0" description="Unknown." />
+  
+  <Extra type="description" name="The floating ball in Aquatic Base." />
+</Template>

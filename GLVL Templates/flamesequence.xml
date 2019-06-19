@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="float" default="60" description="???" />
+	<Parameter1 type="string" default="flame_switch_onoff" description="???" />
+</Template>

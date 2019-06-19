@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="string" default="Line01" description="???" />
+	<Parameter1 type="float" default="2000" description="???" />
+	<Parameter2 type="float" default="0.05" description="???" />
+	<Parameter3 type="float" default="4" description="???" />
+	<Parameter4 type="float" default="2400" description="???" />
+	<Parameter5 type="float" default="1" description="???" />
+	<Parameter6 type="float" default="10000" description="???" />
+	<Parameter7 type="float" default="3" description="???" />
+	<Parameter8 type="float" default="2" description="???" />
+	<Parameter9 type="float" default="2" description="???" />
+	<Parameter10 type="float" default="2" description="???" />
+	<Parameter11 type="float" default="100" description="???" />
+	<Parameter12 type="string" default="ev_001" description="???" />
+	<Parameter13 type="string" default="ev_001" description="???" />
+	<Parameter14 type="float" default="1" description="???" />
+	<Parameter15 type="float" default="60" description="???" />
+	<Parameter16 type="float" default="3000" description="???" />
+	<Parameter17 type="float" default="2" description="???" />
+	<Parameter18 type="float" default="5000" description="???" />
+	<Parameter19 type="float" default="1000" description="???" />
+	<Parameter20 type="float" default="1000" description="???" />
+	<Parameter21 type="bool" default="False" description="???" />
+	<Parameter22 type="vector" description="???" />
+	<Parameter23 type="float" default="3" description="???" />
+	<Parameter24 type="float" default="1500" description="???" />
+</Template>

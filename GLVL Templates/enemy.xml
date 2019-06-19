@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<Template>
+  <EnemyType type="string" default="eGunner" description="What enemy this is." />
+  <EnemyPalette type="float" default="0" description="Which alternate palette the enemy should use." />
+  <EnemyParameter type="string" default="eGunner_Fix" description="What parameter this enemy should use." />
+  <UnknownFloat1 type="float" default="0" description="Unknown" />
+  
+  <Extra type="model" name="en_cglm.model" condition="EnemyType == cGolem" />
+  <Extra type="model" name="en_cBiter.model" condition="EnemyType == cBiter" />
+  <Extra type="model" name="en_cTaker.model" condition="EnemyType == cTaker" />
+  <Extra type="model" name="en_cCrawler.model" condition="EnemyType == cCrawler" />
+
+  <Extra type="model" name="en_cGazer.model" condition="EnemyType == cGazer" />
+  <Extra type="model" name="en_cStalker.model" condition="EnemyType == cStalker" />
+  <Extra type="model" name="en_cTitan.model" condition="EnemyType == cTitan" />
+  <Extra type="model" name="en_cTricker.model" condition="EnemyType == cTricker" />
+
+  <Extra type="model" name="en_eArmor.model" condition="EnemyType == eArmor" />
+  <Extra type="model" name="en_eBomber.model" condition="EnemyType == eBomber" />
+  <Extra type="model" name="en_eBluster.model" condition="EnemyType == eBluster" />
+  <Extra type="model" name="en_eBuster.model" condition="EnemyType == eBuster" />
+  <Extra type="model" name="en_eBuster_Fly.model" condition="EnemyType == eBuster(Fly)" />
+  <Extra type="model" name="en_eCannon.model" condition="EnemyType == eCannon" />
+  <Extra type="model" name="en_eCannon.model" condition="EnemyType == eCannon(Fly)" />
+  <Extra type="model" name="en_eChaser.model" condition="EnemyType == eChaser" />
+  <Extra type="model" name="en_eCommander.model" condition="EnemyType == eCommander" />
+  <Extra type="model" name="en_eFlyer.model" condition="EnemyType == eFlyer" />
+  <Extra type="model" name="en_eGuardian.model" condition="EnemyType == eGuardian" />
+  <Extra type="model" name="en_eGunner.model" condition="EnemyType == eGunner" />
+  <Extra type="model" name="en_eGunner_Fly.model" condition="EnemyType == eGunner(Fly)" />
+  <Extra type="model" name="en_eHunter.model" condition="EnemyType == eHunter" />
+  <Extra type="model" name="en_eKeeper.model" condition="EnemyType == eKeeper" />
+  <Extra type="model" name="en_eLancer.model" condition="EnemyType == eLancer" />
+  <Extra type="model" name="en_eLancer_Fly.model" condition="EnemyType == eLancer(Fly)" />
+  <Extra type="model" name="en_eLiner.model" condition="EnemyType == eLiner" />
+  <Extra type="model" name="en_eRounder.model" condition="EnemyType == eRounder" />
+  <Extra type="model" name="en_eSearcher.model" condition="EnemyType == eSearcher" />
+  <Extra type="model" name="en_eStinger.model" condition="EnemyType == eStinger" />
+  <Extra type="model" name="en_eStinger_Fly.model" condition="EnemyType == eStinger(Fly)" />
+  <Extra type="model" name="en_eSweeper.model" condition="EnemyType == eSweeper" />
+  <Extra type="model" name="en_eWalker.model" condition="EnemyType == eWalker" />
+  
+  <Extra type="model" name="en_eCerberus.model" condition="EnemyType == eCerberus" />
+  <Extra type="model" name="en_eGenesis.model" condition="EnemyType == eGenesis" />
+  <Extra type="model" name="en_eWyvern.model" condition="EnemyType == eWyvern" />
+  <Extra type="model" name="en_iblis01.model" condition="EnemyType == firstiblis" />
+  <Extra type="model" name="en_iblis02.model" condition="EnemyType == secondiblis" />
+  <Extra type="model" name="en_iblis03.model" condition="EnemyType == thirdiblis" />
+  <Extra type="model" name="en_fmef_Root.model" condition="EnemyType == firstmefiress" />
+  <Extra type="model" name="en_Kyozoress.model" condition="EnemyType == secondmefiress" />
+  <Extra type="model" name="en_Solaris01.model" condition="EnemyType == solaris01" />
+  <Extra type="model" name="en_Solaris02.model" condition="EnemyType == solaris02" />
+  
+  <Extra type="description" name="Basic Enemy Object" />
+</Template>

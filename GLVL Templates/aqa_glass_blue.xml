@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<Template>
+  <UnknownFloat1 type="float" default="1" description="Unknown." />
+</Template>

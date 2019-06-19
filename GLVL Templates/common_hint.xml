@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <HintName type="string" default="hint_all01_a00_am" description="Hint to play when touching this object" />
+  
+  <Extra type="model" name="cmn_Hint.model" />
+  <Extra type="description" name="The Hint Bubbles to tell you basic tasks." />
+</Template>

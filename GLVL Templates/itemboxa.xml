@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Template>
+  <Item type="float" default="2" description="What item is in this capsule." />
+  
+  <Extra type="model" name="cmn_itmbox_a1.model" condition="Item == 1" />
+  <Extra type="model" name="cmn_itmbox_a2.model" condition="Item == 2" />
+  <Extra type="model" name="cmn_itmbox_a3.model" condition="Item == 3" />
+  <Extra type="model" name="cmn_itmbox_a4.model" condition="Item == 4" />
+  <Extra type="model" name="cmn_itmbox_a5.model" condition="Item == 5" />
+  <Extra type="model" name="cmn_itmbox_a6.model" condition="Item == 6" />
+  <Extra type="model" name="cmn_itmbox_a7.model" condition="Item == 7" />
+  <Extra type="model" name="cmn_itmbox_a8.model" condition="Item == 8" />
+</Template>

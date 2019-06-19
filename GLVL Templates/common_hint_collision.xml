@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <HintName type="string" default="hint_aqa01_a00_sn" description="Hint to play when touching this volume." />
+  <Length type="float" default="10" description="" />
+  <Width type="float" default="15" description="" />
+  <Height type="float" default="15" description="" />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
+</Template>
