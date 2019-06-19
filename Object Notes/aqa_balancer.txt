@@ -1,0 +1,5 @@
+The large floating balls that the player can use to cross large chasms in Aquatic Base.
+
+First parameter (a single) controls how fast the ball can move, although values above a certain number (find what number this is) cause the player to disconnect from the ball and float in place.
+Second parameter (a single) is unknown, alternates between 0.01 and 0.9 depending on the set files.
+Third parameter (a single) is unknown, used values appear to be 0, 20 and 3000.
