@@ -1,1 +1,0 @@
-Quickly hacked together tool utilising HedgeLib to search set files for objects and their parameters.
