@@ -1,0 +1,5 @@
+The Golden Rings that act as both Currency and Life Insurance.
+
+First parameter (a boolean) controls whether or not the Ring casts a shadow.
+Second parameter (a single) is unknown, never seems to reach 1?
+Third parameter (a string) seems to control Sonic and Shadow's path when Light Dashing along the Ring, leaving this blank will prevent them from Light Dashing and will also enable Sonic's Yellow Gem Magnet Shield to attract the Ring.

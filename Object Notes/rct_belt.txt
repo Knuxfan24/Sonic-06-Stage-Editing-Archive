@@ -1,0 +1,6 @@
+The Radical Train Conveyer Belts that change direction just to be annoying.
+
+First parameter (a single) controls how fast the belt moves when moving in its forward direction.
+Second parameter (a single) controls how fast the belt moves when moving in its backwards direction.
+Third parameter (a single) controls how long it takes before the Conveyer Belt changes which direction its moving in.
+Fourth parameter (a single) is unknown, possibly some form of identifier?
