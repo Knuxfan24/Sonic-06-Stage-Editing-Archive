@@ -2,7 +2,7 @@
 <Template>
   <EmeraldColour type="float" default="1" description="The colour of the Chaos Emerald." />
   
-  <Extra type="model" name="cmn_emeraldW.model" condition="EmeraldColour == 1" />
+  <Extra type="model" name="cmn_emeraldW.model" condition="EmeraldColour == 0" />
   <Extra type="model" name="cmn_emeraldW.model" condition="EmeraldColour == 1" />
   <Extra type="model" name="cmn_emeraldS.model" condition="EmeraldColour == 2" />
   <Extra type="model" name="cmn_emeraldY.model" condition="EmeraldColour == 3" />
