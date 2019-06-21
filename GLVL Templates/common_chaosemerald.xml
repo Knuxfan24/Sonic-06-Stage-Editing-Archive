@@ -1,4 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="1" description="???" />
+  <EmeraldColour type="float" default="1" description="The colour of the Chaos Emerald." />
+  
+  <Extra type="model" name="cmn_emeraldW.model" condition="EmeraldColour == 1" />
+  <Extra type="model" name="cmn_emeraldW.model" condition="EmeraldColour == 1" />
+  <Extra type="model" name="cmn_emeraldS.model" condition="EmeraldColour == 2" />
+  <Extra type="model" name="cmn_emeraldY.model" condition="EmeraldColour == 3" />
+  <Extra type="model" name="cmn_emeraldP.model" condition="EmeraldColour == 4" />
+  <Extra type="model" name="cmn_emeraldG.model" condition="EmeraldColour == 5" />
+  <Extra type="model" name="cmn_emeraldB.model" condition="EmeraldColour == 6" />
+  <Extra type="model" name="cmn_emeraldR.model" condition="EmeraldColour == 7" />
+  <Extra type="description" name="The Chaos Emeralds, which seem to be able to act as a stage's Goal Ring as well." />
 </Template>

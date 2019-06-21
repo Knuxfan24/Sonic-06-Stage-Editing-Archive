@@ -1,0 +1,10 @@
+The Chaos Emeralds, which seem to be able to act as a stage's Goal Ring as well.
+
+The only parameter (a signed 32 bit integer) controls the Emerald's colour.
+0 and 1 = Grey
+2 = Cyan
+3 = Yellow
+4 = Purple
+5 = Green
+6 = Blue
+7 = Red
