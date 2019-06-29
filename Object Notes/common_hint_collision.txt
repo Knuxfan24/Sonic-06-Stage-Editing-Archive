@@ -1,0 +1,4 @@
+The Hint triggers that spit out dialogue from the stage to the player.
+
+First parameter (a string) is the name of the dialogue to be loaded from the MST files to display in the text boxes.
+Parameters 2, 3 and 4 are volume size.
