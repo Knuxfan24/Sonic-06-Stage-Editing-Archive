@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="88.7646" description="???" />
-	<Parameter1 type="float" default="918.836" description="???" />
-	<Parameter2 type="float" default="1299.88" description="???" />
-	<Parameter3 type="float" default="1" description="???" />
+  <Length type="float" default="10" description="" />
+  <Width type="float" default="15" description="" />
+  <Height type="float" default="15" description="" />
+  <UnknownFloat1 type="float" default="1" description="Unknown." />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
+  <Extra type="description" name="YOU! SHALL NOT! PASS!" />
 </Template>
