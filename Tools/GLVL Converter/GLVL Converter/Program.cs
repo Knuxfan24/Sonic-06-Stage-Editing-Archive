@@ -354,7 +354,8 @@ namespace GLvl_Converter
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[0].Data.ToString()) * 100));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[1].Data.ToString()) * 100));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[2].Data.ToString()) * 50));
-                        s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[3].Data.ToString())));
+                        if (int.TryParse(gensObject.Parameters[3].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[3].Data.ToString()))); }
+                        else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
                         s06Object.Parameters.Add(new SetObjectParam(typeof(bool), gensObject.Parameters[4].Data));
                         break;
                     case "objectphysics_item":
