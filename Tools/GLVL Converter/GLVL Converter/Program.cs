@@ -56,14 +56,8 @@ namespace GLvl_Converter
                     case "spring":
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[0].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[1].Data.ToString())));
-                        if (int.TryParse(gensObject.Parameters[2].Data.ToString(), out uintCheck))
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[2].Data.ToString())));
-                        }
-                        else
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u));
-                        }
+                        if (int.TryParse(gensObject.Parameters[2].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[2].Data.ToString()))); }
+                        else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
                         break;
                     case "enemy":
                         s06Object.Parameters.Add(new SetObjectParam(typeof(string), gensObject.Parameters[0].Data));
@@ -177,8 +171,10 @@ namespace GLvl_Converter
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[9].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(string), gensObject.Parameters[10].Data));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(string), gensObject.Parameters[11].Data));
-                        s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[12].Data.ToString())));
-                        s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[13].Data.ToString())));
+                        if (int.TryParse(gensObject.Parameters[12].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[12].Data.ToString()))); }
+                        else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
+                        if (int.TryParse(gensObject.Parameters[13].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[13].Data.ToString()))); }
+                        else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
                         break;
                     case "ring":
                         s06Object.Parameters.Add(new SetObjectParam(typeof(bool), gensObject.Parameters[0].Data));
@@ -197,14 +193,8 @@ namespace GLvl_Converter
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[0].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[1].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[2].Data.ToString())));
-                        if (int.TryParse(gensObject.Parameters[3].Data.ToString(), out uintCheck))
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[3].Data.ToString())));
-                        }
-                        else
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u));
-                        }
+                        if (int.TryParse(gensObject.Parameters[3].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[3].Data.ToString()))); }
+                        else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
                         break;
                     case "common_dashring":
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[0].Data.ToString())));
@@ -219,14 +209,8 @@ namespace GLvl_Converter
                         s06Object.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(gensObject.Parameters[3].Data.ToString())));
                         break;
                     case "chainjump":
-                        if (int.TryParse(gensObject.Parameters[0].Data.ToString(), out uintCheck))
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[0].Data.ToString())));
-                        }
-                        else
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u));
-                        }
+                        if (int.TryParse(gensObject.Parameters[0].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[0].Data.ToString()))); }
+                        else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
                         break;
                     case "wvo_jumpsplinter":
                         s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[0].Data.ToString())));
@@ -305,14 +289,8 @@ namespace GLvl_Converter
                         break;
                     case "common_laser":
                         s06Object.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(gensObject.Parameters[0].Data.ToString())));
-                        if (int.TryParse(gensObject.Parameters[2].Data.ToString(), out uintCheck))
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[1].Data.ToString())));
-                        }
-                        else
-                        {
-                            s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u));
-                        }
+                        if (int.TryParse(gensObject.Parameters[2].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[1].Data.ToString()))); }
+                        else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
                         s06Object.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(gensObject.Parameters[2].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[3].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[4].Data.ToString())));
