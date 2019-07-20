@@ -289,7 +289,7 @@ namespace GLvl_Converter
                         break;
                     case "common_laser":
                         s06Object.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(gensObject.Parameters[0].Data.ToString())));
-                        if (int.TryParse(gensObject.Parameters[2].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[1].Data.ToString()))); }
+                        if (int.TryParse(gensObject.Parameters[1].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[1].Data.ToString()))); }
                         else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }
                         s06Object.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(gensObject.Parameters[2].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[3].Data.ToString())));
