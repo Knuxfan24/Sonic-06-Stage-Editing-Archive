@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <SwitchBehaviour type="float" default="1" description="How the switch behaves when pressed and unpressed." />
+  <Parameter1 type="string" default="placeholder" description="LUA event to fire when the switch is turned on. Game appears to crash if this is left blank." />
+  <Parameter2 type="string" default="" description="LUA event to fire when the switch is turned off." />
+  <ActiveTime type="float" default="0" description="How long the switch will stay active for when SwitchBehaviour is set to 3." />
+  <TargetObject type="float" default="4294967295" description="What object this switch should activate." />
+  
+  <Extra type="model" name="cmn_switch01.model" />
+  <Extra type="description" name="Switches that affect things in the world." />
+</Template>

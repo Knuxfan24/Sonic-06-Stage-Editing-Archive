@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <MovementMode type="float" default="1" description="How the spikes behave." />
+  <UpTime type="float" default="1" description="Time before the spikes raise up." />
+  <DownTime type="float" default="1" description="Time before the spikes lower into the ground." />
+	
+  <Extra type="model" name="cmn_thorn.model" />
+</Template>

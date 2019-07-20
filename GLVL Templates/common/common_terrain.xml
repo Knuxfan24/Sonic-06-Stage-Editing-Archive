@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Parameter0 type="float" default="150" description="???" />
+	<Parameter1 type="float" default="6000" description="???" />
+	<Parameter2 type="float" default="2000" description="???" />
+	<Parameter3 type="float" default="1" description="???" />
+</Template>
