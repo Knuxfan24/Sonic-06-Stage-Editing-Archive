@@ -43,11 +43,12 @@ namespace GLvl_Converter
             };
             setTarget.Objects.Add(item2);
 
+            int objectID = 1;
             //Object Conversion
             foreach (SetObject gensObject in setSource.Objects)
             {
                 SetObject s06Object = new SetObject();
-                Console.WriteLine(gensObject.ObjectType);
+                Console.WriteLine(gensObject.ObjectType + ", Object ID: " + objectID);
 
                 int uintCheck;
 
@@ -1201,6 +1202,7 @@ namespace GLvl_Converter
                     Transform = trans,
                 };
                 setTarget.Objects.Add(item);
+                objectID++;
             }
 
             //Saving Converted Set
