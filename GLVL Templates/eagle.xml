@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-	<Parameter0 type="float" default="2000" description="???" />
-	<Parameter1 type="string" default="Line13" description="???" />
-	<Parameter2 type="bool" default="False" description="???" />
-</Template>

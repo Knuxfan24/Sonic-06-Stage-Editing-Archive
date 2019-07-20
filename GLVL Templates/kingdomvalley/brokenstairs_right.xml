@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <CollapseTime type="float" default="0.5" description="How long after being stepped on before the stair collapses." />
+  
+  <Extra type="model" name="kdv_obj_stairs01.model" />
+  <Extra type="description" name="The stairs that fall apart when the player walks on them in Kingdom Valley." />
+</Template>
