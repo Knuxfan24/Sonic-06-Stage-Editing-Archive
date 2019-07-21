@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="12" description="???" />
-	<Parameter1 type="float" default="2500" description="???" />
-	<Parameter2 type="float" default="4000" description="???" />
-	<Parameter3 type="float" default="115" description="???" />
-	<Parameter4 type="float" default="10" description="???" />
-	<Parameter5 type="float" default="1.5" description="???" />
-	<Parameter6 type="float" default="1" description="???" />
+  <Radius type="float" default="15" description="???" />
+  <Height type="float" default="15" description="???" />
+  <Power type="float" default="4000" description="???" />
+  <Pitch type="float" default="115" description="???" />
+  <Yaw type="float" default="10" description="???" />
+  <RotationTime type="float" default="1.5" description="???" />
+  <OutTime type="float" default="1" description="???" />
 </Template>

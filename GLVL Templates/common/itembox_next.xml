@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="6" description="???" />
-	<Parameter1 type="bool" default="False" description="???" />
-	<Parameter2 type="bool" default="False" description="???" />
+  <Item type="float" default="2" description="What item is in this capsule." />
+  <Flag1 type="bool" default="False" description="Unknown. (internal name is kinda vauge)" />
+  <Flag2 type="bool" default="False" description="Unknown. (internal name is kinda vauge)" />
 </Template>

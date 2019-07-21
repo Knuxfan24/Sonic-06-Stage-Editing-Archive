@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="884.123" description="???" />
-	<Parameter1 type="float" default="1000.5" description="???" />
-	<Parameter2 type="bool" default="True" description="???" />
-	<Parameter3 type="float" default="0" description="???" />
-	<Parameter4 type="float" default="1" description="???" />
-	<Parameter5 type="vector" description="???" />
-	<Parameter6 type="vector" description="???" />
+  <Radius type="float" default="15" description="The radius of this cylinder volume." />
+  <Height type="float" default="15" description="The height of this cylinder volume." />
+  <Cancelable type="bool" default="false" description="Can this camera be cancelled by something else? (maybe?)" />
+  <Priority type="float" default="0" description="The priority of this camera volume, higher values will override volumes with lower values." />
+  <onintersect type="float" default="4" description="How the camera behaves?" />
+  <CameraPosition type="vector" description="Where the camera should be located in the world." />
+  <CameraTarget type="vector" description="Where the camera Should target, 0,0,0 seems to equal the player." />
 </Template>

@@ -2,11 +2,11 @@
 <Template>
   <BallCount type="float" default="20" description="Maximum amount of balls that can be active from this launcher." />
   <HitsBeforeBurst type="float" default="5" description="How many times the balls from this launcher can be hit before bursting." />
-  <UnknownFloat1 type="float" default="0.1" description="Unknown." />
-  <UnknownFloat2 type="float" default="0.99" description="Unknown." />
-  <UnknownFloat3 type="float" default="400" description="Unknown." />
+  <Friction type="float" default="0.1" description="Something to do with the friction of the balls?" />
+  <AirFriction type="float" default="0.99" description="Something to do with the friction of the balls?" />
+  <Speed type="float" default="400" description="The speed the balls should be launched at?" />
   <DelayBetweenLaunches type="float" default="0.5" description="How long it takes for this launcher to fire another ball." />
-  <UnknownUInt1 type="float" default="1" description="Unknown." />
+  <Target type="float" default="1" description="The object the balls should be fired towards?" />
   
   <Extra type="model" name="aqa_obj_launcher.model" />
   <Extra type="description" name="The thing that launches the small magnetic balls in Aquatic Base." />

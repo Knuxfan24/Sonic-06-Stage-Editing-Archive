@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="3800" description="???" />
-	<Parameter1 type="float" default="1.5" description="???" />
-	<Parameter2 type="float" default="4294967295" description="???" />
-	<Parameter3 type="float" default="52" description="???" />
+  <LaunchSpeed type="float" default="3000" description="How much force this Spring should launch the player with." />
+  <OutOfControl type="float" default="0.5" description="How long it should take after being launched for the player to be able to move again." />
+  <TargetObject type="float" default="4294967295" description="What Object ID this Spring should launch the player to." />
+  <GlobalFlag type="float" default="0" description="Some sort of identifier? (internal name is kinda vauge)" />
 </Template>

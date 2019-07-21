@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <Template>
-  <ToggleType type="float" default="1" description="Which of the two (technically three) toggle states to use." />
-  <UnknownFloat1 type="float" default="2000" description="Unknown." />
-  <UnknownFloat2 type="float" default="10000" description="Unknown." />
-  <ResetTime type="float" default="5" description="Time before resetting on ToggleType 1" />
+  <MagnetType type="float" default="1" description="Which of the toggle states to use." />
+  <Radius type="float" default="2000" description="The radius this magnet should affect." />
+  <Force type="float" default="10000" description="Something to do with how much force is applied to objects within the radius?" />
+  <ResetTime type="float" default="5" description="Time before resetting on MagnetType 1" />
   
   <Extra type="model" name="aqa_obj_magnetA.model" />
   <Extra type="description" name="The magnets that double as kill switches in Aquatic Base." />

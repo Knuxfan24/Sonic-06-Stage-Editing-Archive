@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <Template>
-  <UnknownInt1 type="float" default="1" description="Unknown." />
-  <UnknownInt2 type="float" default="0" description="Unknown." />
-  <UnknownInt3 type="float" default="1" description="Unknown." />
-  <UnknownInt4 type="float" default="1" description="Unknown." />
-  <UnknownInt5 type="float" default="1" description="Unknown." />
+  <Signal type="float" default="1" description="Unknown (internal name is kinda vauge)." />
+  <ESP type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <Open type="float" default="1" description="Time it takes for the door to open?" />
+  <Close type="float" default="1" description="Time it takes for the door to close?" />
+  <Content type="float" default="1" description="Unknown (internal name is kinda vauge)." />
   
   <Extra type="model" name="aqa_obj_door.model" />
   <Extra type="description" name="The doors in Aquatic Base." />
