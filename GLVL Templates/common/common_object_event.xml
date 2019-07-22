@@ -3,7 +3,7 @@
   <Length type="float" default="10" description="" />
   <Width type="float" default="15" description="" />
   <Height type="float" default="15" description="" />
-  <EventToTrigger type="string" default="" description="What even should be triggered when touching this volume." />
+  <EventToTrigger type="string" default="" description="What event should be triggered when touching this volume." />
   <Content type="float" default="2" description="Unknown (internal name is kinda vauge)." />
   <Default type="float" default="0" description="Unknown (internal name is kinda vauge)." />
   
