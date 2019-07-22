@@ -7,4 +7,8 @@
   <SubLightName type="string" default="altLightAnim_Sub" description="The name of the Sub Light Colour, as defined in the stage's scene lua." />
   <AmbientLightName type="string" default="altLightAnim_Ambient" description="The name of the Ambient Light Colour, as defined in the stage's scene lua." />
   <Default type="float" default="1" description="Unknown (internal name is kinda vauge)." />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
 </Template>
