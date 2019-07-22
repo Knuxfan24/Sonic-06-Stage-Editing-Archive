@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="603.085" description="???" />
-	<Parameter1 type="float" default="1649.85" description="???" />
-	<Parameter2 type="float" default="935.424" description="???" />
-	<Parameter3 type="float" default="200" description="???" />
-	<Parameter4 type="float" default="600" description="???" />
-	<Parameter5 type="float" default="2" description="???" />
-	<Parameter6 type="bool" default="False" description="???" />
+  <Length type="float" default="10" description="" />
+  <Width type="float" default="15" description="" />
+  <Height type="float" default="15" description="" />
+  <Power type="float" default="200" description="Speed to launch the player up at when in this volume?" />
+  <Floatheight type="float" default="600" description="Maximum height when in this volume?" />
+  <Content type="float" default="2" description="Unknown (internal name is kinda vauge)." />
+  <Signal type="bool" default="False" description="Activated by an object?" />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
 </Template>

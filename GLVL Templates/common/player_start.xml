@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="0" description="???" />
+  <Identifier type="float" default="0" description="Either this, or the same as player_npc. Shares internal name with the identifier of player_start2." />
 </Template>

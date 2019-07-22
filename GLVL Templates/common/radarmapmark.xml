@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="9" description="???" />
-	<Parameter1 type="float" default="5" description="???" />
-	<Parameter2 type="bool" default="False" description="???" />
+  <Target type="float" default="4294967295" description="The object to tie this icon to?" />
+  <Mark type="float" default="5" description="The type of icon to place on the radar?" />
+  <Animation type="bool" default="False" description="Does this icon on the map animate." />
 </Template>

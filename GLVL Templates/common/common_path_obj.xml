@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="string" default="AqaManta" description="???" />
-	<Parameter1 type="string" default="Line29" description="???" />
-	<Parameter2 type="float" default="800" description="???" />
-	<Parameter3 type="float" default="0.05" description="???" />
+  <GismoName type="string" default="AqaManta" description="What object should spawn here?" />
+  <PathName type="string" default="" description="The path this object should follow?" />
+  <Speed type="float" default="500" description="The speed this physics object should move at?" />
+  <Interpolation type="float" default="0.05" description="Amount of smoothing for this object's movement along the path?" />
 </Template>

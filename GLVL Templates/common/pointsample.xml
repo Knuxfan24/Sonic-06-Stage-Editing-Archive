@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
 <Template>
-  <UnknownInt32 type="float" default="7632239" description="Unknown" />
+  <Content type="float" default="7632239" description="Unknown (internal name is kinda vauge)." />
 </Template>

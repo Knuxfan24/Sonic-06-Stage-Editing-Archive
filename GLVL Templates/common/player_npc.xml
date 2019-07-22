@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="5" description="???" />
+  <CharacterID type="float" default="0" description="What character should be spawned by this object?" />
+  
+  <Extra type="model" name="sonic_Root_Idle.model" />
 </Template>

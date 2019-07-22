@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="string" default="aqa_foothold" description="???" />
-	<Parameter1 type="bool" default="False" description="???" />
-	<Parameter2 type="string" default="Line21" description="???" />
-	<Parameter3 type="float" default="500" description="???" />
-	<Parameter4 type="float" default="1" description="???" />
-	<Parameter5 type="float" default="1" description="???" />
-	<Parameter6 type="float" default="1" description="???" />
-	<Parameter7 type="float" default="0" description="???" />
-	<Parameter8 type="float" default="0" description="???" />
+  <GismoName type="string" default="WoodBox" description="What physics object should spawn here." />
+  <Restart type="bool" default="False" description="Unknown (internal name is kinda vauge)." />
+  <PathName type="string" default="" description="The path this physics object should follow?" />
+  <Velocity type="float" default="500" description="The speed this physics object should move at?" />
+  <StartMode type="float" default="1" description="Unknown (position in the path to start at?)" />
+  <PathMode type="float" default="1" description="Unknown." />
+  <MotionMode type="float" default="1" description="Unknown (internal name is kinda vauge)." />
+  <MotionSpeed type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <MotionParam type="float" default="0" description="Unknown (internal name is kinda vauge)." />
 </Template>

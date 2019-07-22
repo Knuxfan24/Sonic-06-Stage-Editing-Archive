@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="200" description="???" />
-	<Parameter1 type="string" default="Line01" description="???" />
+  <Interval type="float" default="200" description="Distance between Rings?" />
+  <PathName type="string" default="" description="Name of the path to spawn the Rings along?" />
 </Template>

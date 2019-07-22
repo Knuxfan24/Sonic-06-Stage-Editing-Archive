@@ -3,7 +3,7 @@
   <EnemyType type="string" default="eGunner" description="What enemy this is." />
   <EnemyPalette type="float" default="0" description="Which alternate palette the enemy should use." />
   <EnemyParameter type="string" default="eGunner_Fix" description="What parameter this enemy should use." />
-  <UnknownFloat1 type="float" default="0" description="Unknown" />
+  <Radius type="float" default="0" description="Unknown (radius that this enemy can detect the player in?)" />
   
   <Extra type="model" name="en_cglm.model" condition="EnemyType == cGolem" />
   <Extra type="model" name="en_cBiter.model" condition="EnemyType == cBiter" />

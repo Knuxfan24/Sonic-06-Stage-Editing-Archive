@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="1" description="???" />
-	<Parameter1 type="float" default="4294967295" description="???" />
-	<Parameter2 type="float" default="6" description="???" />
-	<Parameter3 type="float" default="100" description="???" />
-	<Parameter4 type="float" default="3" description="???" />
-	<Parameter5 type="float" default="2" description="???" />
-	<Parameter6 type="float" default="0" description="???" />
-	<Parameter7 type="float" default="0" description="???" />
-	<Parameter8 type="float" default="0" description="???" />
-	<Parameter9 type="float" default="0" description="???" />
-	<Parameter10 type="bool" default="False" description="???" />
+  <Alone type="float" default="1" description="Is this just one object for the laser set? (Shouldn't this be a bool in that case?)" />
+  <Pair type="float" default="4294967295" description="The object ID of the second laser for this set." />
+  <AmountOfLasers type="float" default="6" description="How many lasers should fill this space." />
+  <SpaceBetweenLasers type="float" default="100" description="How large should the (cosmetic) gaps between the lasers be." />
+  <OnTime type="float" default="3" description="How long this set of lasers stay on for." />
+  <OffTime type="float" default="2" description="How long this set of lasers stay off for." />
+  <Range type="float" default="0" description="How far this laser can move vertically?" />
+  <Speed type="float" default="0" description="How fast this laser should move?" />
+  <RadRange type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <RadSpeed type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <NActivate type="bool" default="False" description="Unknown. (Activated by an event?)" />
 </Template>

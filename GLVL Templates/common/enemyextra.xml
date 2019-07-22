@@ -3,17 +3,17 @@
   <EnemyType type="string" default="eGunner" description="What enemy this is." />
   <EnemyPalette type="float" default="0" description="Which alternate palette the enemy should use." />
   <EnemyParameter type="string" default="eGunner_Fix" description="What parameter this enemy should use." />
-  <UnknownFloat1 type="float" default="0" description="Unknown" />
-  <UnknownBoolean1 type="bool" default="False" description="???" />
-  <UnknownBoolean2 type="bool" default="True" description="???" />
-  <UnknownBoolean3 type="bool" default="False" description="???" />
-  <UnknownBoolean4 type="bool" default="False" description="???" />
-  <UnknownString1 type="string" default="" description="???" />
-  <UnknownFloat2 type="float" default="1000" description="???" />
-  <UnknownString2 type="string" default="" description="???" />
-  <UnknownString3 type="string" default="" description="Path to follow?" />
-  <UnknownUInt1 type="float" default="4294967295" description="???" />
-  <UnknownUInt2 type="float" default="4294967295" description="???" />
+  <Radius type="float" default="0" description="Unknown (radius that this enemy can detect the player in?)" />
+  <Restart type="bool" default="False" description="???" />
+  <FindPlayer type="bool" default="True" description="???" />
+  <IsBoss type="bool" default="False" description="Is this enemyextra a boss, likely used for lua script events?" />
+  <IsFixed type="bool" default="False" description="Can this enemy move?" />
+  <AppearPath type="string" default="" description="???" />
+  <AppearVelocity type="float" default="1000" description="???" />
+  <SearchPath type="string" default="" description="???" />
+  <ActionPath type="string" default="" description="Path to follow?" />
+  <AttackTarget type="float" default="4294967295" description="The object this enemy should be launched at on death?" />
+  <HomingTarget type="float" default="4294967295" description="Something similar to that ^?" />
   
   <Extra type="model" name="en_cglm.model" condition="EnemyType == cGolem" />
   <Extra type="model" name="en_cBiter.model" condition="EnemyType == cBiter" />

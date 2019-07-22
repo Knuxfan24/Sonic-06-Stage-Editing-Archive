@@ -3,7 +3,7 @@
   <Length type="float" default="10" description="" />
   <Width type="float" default="15" description="" />
   <Height type="float" default="15" description="" />
-  <UnknownFloat1 type="float" default="1" description="Unknown." />
+  <Default type="float" default="1" description="Unknown (internal name is kinda vauge)." />
   
   <Extra type="preview_box_x" name="Width" />
   <Extra type="preview_box_y" name="Height" />

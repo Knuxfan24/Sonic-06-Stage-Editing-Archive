@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="45" description="???" />
-	<Parameter1 type="float" default="0" description="???" />
-	<Parameter2 type="float" default="2000" description="???" />
-	<Parameter3 type="float" default="0.5" description="???" />
+  <Angle type="float" default="25" description="Pitch angle this Dash Ring launches the player at." />
+  <Yaw type="float" default="0" description="Yaw angle this Dash Ring launches the player at?" />
+  <LaunchSpeed type="float" default="3000" description="How much force this Dash Ring should launch the player with." />
+  <OutOfControl type="float" default="0.5" description="How long it should take after being launched for the player to be able to move again." />
 </Template>

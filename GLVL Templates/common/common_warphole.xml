@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="0" description="???" />
-	<Parameter1 type="string" default="" description="???" />
-	<Parameter2 type="vector" description="???" />
+  <Content type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <EventToTrigger type="string" default="" description="What even should be triggered when interacting with this warphole." />
+  <Target type="vector" description="Where to teleport the player to when touched?" />
 </Template>

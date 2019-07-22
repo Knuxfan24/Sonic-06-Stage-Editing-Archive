@@ -2,7 +2,7 @@
 <Template>
   <Identifier type="float" default="0" description="Some sort of unique identifer. Purpose unknown." />
   <Character type="string" default="sonic_new" description="Character To Use." />
-  <SwitchTo type="bool" default="False" description="Whether this character should be switched to or not." />
+  <Amigo type="bool" default="False" description="Whether this character will behave like an amigo or be taken control of." />
   
   <Extra type="model" name="sonic_Root_Idle.model" />
   <Extra type="description" name="Where any player characters will spawn." />

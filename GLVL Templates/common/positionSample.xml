@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="7632239" description="???" />
+  <Type type="float" default="7632239" description="Unknown (internal name is kinda vauge)." />
 </Template>
