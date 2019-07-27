@@ -1,0 +1,3 @@
+Very perliminary tool to convert a 3D Mesh to a collision.bin file for '06. This is VERY wonky (rotating the model by -90 degrees on the X axis) & also doesn't have any collision flag support (well it DOES, but we don't know what to put there just yet). But it KINDA works & that's better than NOT having any way to generate collision at all.
+
+The code is heavily tied into [LibGens](https://github.com/DarioSamo/libgens-sonicglvl) & is mostly based on Sajid's previous attempt to write this. So it can be a god damn nightmare to even get compiled.

@@ -1,0 +1,22 @@
+﻿Build started 27/07/2019 18:41:10.
+     1>Project "G:\Utilities\libgens-sonicglvl\src\s06col\s06col.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\s06col.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\depends\hk2010_2_0_r1\Source /I"..\LibGens-externals" /I..\..\depends\fbxsdk\include /I..\..\depends\allegro\include /I..\..\depends\pthreads\include /I..\..\depends\ogre\include /I..\LibS06 /I..\LibGens /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Utilities\libgens-sonicglvl\src\s06col.exe" /NOLOGO /LIBPATH:../../depends/allegro/lib /LIBPATH:../../depends/fbxsdk/lib/vs2010/x86/release /LIBPATH:"../../depends/hk2010_2_0_r1/Lib/win32_net_9-0/release_multithreaded_dll" /LIBPATH:../../depends/pthreads/lib/x86 /LIBPATH:../../lib/Release "allegro-5.0.10-monolith-mt.lib" LibGens.lib "LibGens-externals.lib" LibS06.lib "libfbxsdk-md.lib" hkBase.lib hkSerialize.lib hkSceneData.lib hkInternal.lib hkGeometryUtilities.lib hkVisualize.lib hkCompat.lib hkpCollide.lib hkpConstraintSolver.lib hkpDynamics.lib hkpInternal.lib hkpUtilities.lib hkpVehicle.lib hkaAnimation.lib hkaInternal.lib hkaRagdoll.lib /MANIFEST /ManifestFile:"Release\s06col.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Utilities\libgens-sonicglvl\src\s06col.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Utilities\libgens-sonicglvl\src\s06col.lib" /MACHINE:X86 Release\main.obj
+         Generating code
+         Finished generating code
+         s06col.vcxproj -> G:\Utilities\libgens-sonicglvl\src\s06col.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\Utilities\libgens-sonicglvl\src\s06col.exe;#1" /manifest Release\s06col.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\s06col.unsuccessfulbuild".
+         Touching "Release\s06col.lastbuildstate".
+     1>Done Building Project "G:\Utilities\libgens-sonicglvl\src\s06col\s06col.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.25
