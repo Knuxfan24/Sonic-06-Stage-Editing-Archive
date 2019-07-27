@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="vector" description="???" />
-	<Parameter1 type="float" default="13000" description="???" />
-	<Parameter2 type="float" default="0" description="???" />
-	<Parameter3 type="float" default="2.5" description="???" />
-	<Parameter4 type="vector" description="???" />
-	<Parameter5 type="vector" description="???" />
+  <PosY type="vector" description="Something to do with the Tornado's position?" />
+  <ChaseSpeed type="float" default="13000" description="Something to do with how fast the Tornado moves?" />
+  <Homing type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <ThrowSpeed type="float" default="2.5" description="Something to do with the time between objects being thrown out of the Tornado?" />
+  <ToPos type="vector" description="Where the Tornado should move to?" />
+  <Length type="vector" description="How long the Tornado is?" />
 </Template>

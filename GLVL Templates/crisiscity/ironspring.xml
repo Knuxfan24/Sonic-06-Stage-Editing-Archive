@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="3" description="???" />
-	<Parameter1 type="float" default="10" description="???" />
-	<Parameter2 type="float" default="0" description="???" />
-	<Parameter3 type="float" default="5000" description="???" />
-	<Parameter4 type="float" default="0.5" description="???" />
-	<Parameter5 type="float" default="0.1" description="???" />
+	<TargetObject type="float" default="4294967295" description="Where this bar should fling Silver to." />
+	<Pitch type="float" default="25" description="Pitch angle this bar should launch Silver at?" />
+	<Yaw type="float" default="0" description="Yaw angle this bar should launch Silver at?" />
+	<LaunchSpeed type="float" default="5000" description="How much force this bar should launch Silver with." />
+	<OutTime type="float" default="0.5" description="Unknown?" />
+	<OnTime type="float" default="0.1" description="Unknown?" />
 </Template>

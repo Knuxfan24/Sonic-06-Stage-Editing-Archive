@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="1000" description="???" />
-	<Parameter1 type="float" default="10" description="???" />
-	<Parameter2 type="float" default="800" description="???" />
-	<Parameter3 type="float" default="2000" description="???" />
-	<Parameter4 type="float" default="10" description="???" />
+  <Force type="float" default="1000" description="How strong the gravitational pull of this Solaris eye is." />
+  <Time type="float" default="10" description="Unknown?" />
+  <MinimumRadius type="float" default="800" description="The minimal radius before this eye starts affecting the player?" />
+  <MaximumRadius type="float" default="2000" description="The maximum radius in which this eye affects the player?" />
+  <Appear type="float" default="10" description="Time before this Solaris eye appears?" />
 </Template>

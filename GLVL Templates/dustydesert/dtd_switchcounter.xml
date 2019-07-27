@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="3" description="???" />
-	<Parameter1 type="float" default="12" description="???" />
-	<Parameter2 type="float" default="14" description="???" />
-	<Parameter3 type="float" default="16" description="???" />
-	<Parameter4 type="float" default="4294967295" description="???" />
-	<Parameter5 type="float" default="4294967295" description="???" />
-	<Parameter6 type="float" default="4294967295" description="???" />
-	<Parameter7 type="float" default="4294967295" description="???" />
-	<Parameter8 type="float" default="4294967295" description="???" />
-	<Parameter9 type="float" default="4294967295" description="???" />
-	<Parameter10 type="string" default="" description="???" />
+  <Count type="float" default="1" description="Amount of objects to target?" />
+  <FirstTarget type="float" default="4294967295" description="First object to target." />
+  <SecondTarget type="float" default="4294967295" description="Second object to target." />
+  <ThirdTarget type="float" default="4294967295" description="Third object to target." />
+  <FourthTarget type="float" default="4294967295" description="Fourth object to target." />
+  <FifthTarget type="float" default="4294967295" description="Fifth object to target." />
+  <SixthTarget type="float" default="4294967295" description="Sixth object to target." />
+  <SeventhTarget type="float" default="4294967295" description="Seventh object to target." />
+  <EighthTarget type="float" default="4294967295" description="Eighth object to target." />
+  <NinthTarget type="float" default="4294967295" description="Ninth object to target." />
+  <EventToTrigger type="string" default="" description="LUA event to fire when the switch is turned on." />
 </Template>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="1" description="???" />
-	<Parameter1 type="float" default="5" description="???" />
-	<Parameter2 type="float" default="1" description="???" />
-	<Parameter3 type="float" default="1" description="???" />
+  <AttackPower type="float" default="1" description="Unknown?" />
+  <WaitTime type="float" default="5" description="How long this crater should wait between fire bursts?" />
+  <Time type="float" default="1" description="How long this crater should shoot fire for?" />
+  <Place type="float" default="1" description="Whether this object is on the floor, wall or roof?" />
 </Template>

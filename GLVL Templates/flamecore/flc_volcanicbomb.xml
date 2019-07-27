@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="6000" description="???" />
-	<Parameter1 type="float" default="2500" description="???" />
-	<Parameter2 type="float" default="3000" description="???" />
-	<Parameter3 type="float" default="321" description="???" />
-	<Parameter4 type="float" default="0.2" description="???" />
-	<Parameter5 type="float" default="0.1" description="???" />
-	<Parameter6 type="float" default="30" description="???" />
-	<Parameter7 type="float" default="0.5" description="???" />
-	<Parameter8 type="float" default="30" description="???" />
-	<Parameter9 type="float" default="3000" description="???" />
-	<Parameter10 type="float" default="5000" description="???" />
-	<Parameter11 type="float" default="30" description="???" />
+  <Length type="float" default="10" description="" />
+  <Width type="float" default="15" description="" />
+  <Height type="float" default="15" description="" />
+  <VolcanoObject type="float" default="321" description="Unknown (would have assumed it'd be something to do with the background volcano?)" />
+  <CycleTime type="float" default="0.2" description="How long between bombs?" />
+  <CycleTimr type="float" default="0.1" description="Unknwon (connected to CycleTime?)" />
+  <VolcanoCycle type="float" default="30" description="Unknown (internal name is kinda vauge)." />
+  <VolcanoDelay type="float" default="0.5" description="Unknown (internal name is kinda vauge)." />
+  <VolcanoTime type="float" default="30" description="Unknown (internal name is kinda vauge)." />
+  <BombHeight type="float" default="3000" description="Unknown (internal name is kinda vauge)." />
+  <BombRange type="float" default="5000" description="Unknown (internal name is kinda vauge)." />
+  <BombAngle type="float" default="30" description="Angle the meteors should fall from?" />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
 </Template>

@@ -3,7 +3,7 @@
   <Length type="float" default="10" description="" />
   <Width type="float" default="15" description="" />
   <Height type="float" default="15" description="" />
-  <EventToTrigger type="string" default="" description="What even should be triggered when touching this eventbox." />
+  <EventToTrigger type="string" default="" description="What event should be triggered when touching this eventbox." />
   <Default type="float" default="1" description="Unknown. Seems to always be 1? (internal name is kinda vauge)" />
   
   <Extra type="preview_box_x" name="Width" />

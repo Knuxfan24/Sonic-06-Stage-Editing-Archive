@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="0" description="???" />
+  <Time type="float" default="0" description="Time before the glass shatters?" />
 </Template>
