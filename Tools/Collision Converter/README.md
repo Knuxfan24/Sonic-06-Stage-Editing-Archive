@@ -4,29 +4,25 @@ The code is heavily tied into [LibGens](https://github.com/DarioSamo/libgens-son
 
 For collision properties, add one or more of these to the end of your mesh name. For example, to have a metal wall without stickiness: add @10003 to the end of the mesh name.
 
-0: Default
+0/4/7/B/C/D/F = Default (Stone/Concrete)
 
-1: Shallow Water
+1 = Shallow Water
 
-2: Wood
+2 = Wood
 
-3: Metal
+3 = Metal
 
-4: Stone
+5 = Grass
 
-5: Grass
+6 = Sand
 
-6: Sand
+8 = Snow
 
-7: Stone Again?
+9 = Dirt
 
-8: Snow
+A = Squeak Sound upon landing or braking (Glass?)
 
-9: Dirt
-
-A: Glass?
-
-D: Echoey Metal? (not present on Nonami's list)
+E = Echoey Metal
 
 10000: Wall
 
