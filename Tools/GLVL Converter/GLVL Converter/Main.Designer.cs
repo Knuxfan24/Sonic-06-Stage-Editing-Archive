@@ -31,8 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.filepathBox = new System.Windows.Forms.TextBox();
             this.templatesBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.templatesLabel = new System.Windows.Forms.Label();
             this.templatesButton = new System.Windows.Forms.Button();
             this.filepathButton = new System.Windows.Forms.Button();
             this.convertButton = new System.Windows.Forms.Button();
@@ -44,8 +43,10 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.outputpathButton = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.outputLabel = new System.Windows.Forms.Label();
             this.outputpathBox = new System.Windows.Forms.TextBox();
+            this.s06toGLVLCheckbox = new System.Windows.Forms.CheckBox();
+            this.filepathLabel = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,23 +66,14 @@
             this.templatesBox.TabIndex = 1;
             this.templatesBox.TextChanged += new System.EventHandler(this.TemplatesBox_TextChanged);
             // 
-            // label1
+            // templatesLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Generations SET:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "GLvl Templates:";
+            this.templatesLabel.AutoSize = true;
+            this.templatesLabel.Location = new System.Drawing.Point(17, 60);
+            this.templatesLabel.Name = "templatesLabel";
+            this.templatesLabel.Size = new System.Drawing.Size(84, 13);
+            this.templatesLabel.TabIndex = 3;
+            this.templatesLabel.Text = "GLvl Templates:";
             // 
             // templatesButton
             // 
@@ -200,14 +192,14 @@
             this.outputpathButton.UseVisualStyleBackColor = false;
             this.outputpathButton.Click += new System.EventHandler(this.OutputpathButton_Click);
             // 
-            // label3
+            // outputLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 86);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 13);
-            this.label3.TabIndex = 33;
-            this.label3.Text = "Output SET:";
+            this.outputLabel.AutoSize = true;
+            this.outputLabel.Location = new System.Drawing.Point(35, 86);
+            this.outputLabel.Name = "outputLabel";
+            this.outputLabel.Size = new System.Drawing.Size(66, 13);
+            this.outputLabel.TabIndex = 33;
+            this.outputLabel.Text = "Output SET:";
             // 
             // outputpathBox
             // 
@@ -217,19 +209,40 @@
             this.outputpathBox.TabIndex = 32;
             this.outputpathBox.TextChanged += new System.EventHandler(this.OutputpathBox_TextChanged);
             // 
+            // s06toGLVLCheckbox
+            // 
+            this.s06toGLVLCheckbox.AutoSize = true;
+            this.s06toGLVLCheckbox.Location = new System.Drawing.Point(13, 112);
+            this.s06toGLVLCheckbox.Name = "s06toGLVLCheckbox";
+            this.s06toGLVLCheckbox.Size = new System.Drawing.Size(100, 17);
+            this.s06toGLVLCheckbox.TabIndex = 35;
+            this.s06toGLVLCheckbox.Text = "Convert to GLvl";
+            this.s06toGLVLCheckbox.UseVisualStyleBackColor = true;
+            this.s06toGLVLCheckbox.CheckedChanged += new System.EventHandler(this.S06toGLVLCheckbox_CheckedChanged);
+            // 
+            // filepathLabel
+            // 
+            this.filepathLabel.Location = new System.Drawing.Point(0, 30);
+            this.filepathLabel.Name = "filepathLabel";
+            this.filepathLabel.Size = new System.Drawing.Size(101, 23);
+            this.filepathLabel.TabIndex = 53;
+            this.filepathLabel.Text = "Generations SET:";
+            this.filepathLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(478, 141);
+            this.Controls.Add(this.filepathLabel);
+            this.Controls.Add(this.s06toGLVLCheckbox);
             this.Controls.Add(this.outputpathButton);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.outputpathBox);
             this.Controls.Add(this.convertButton);
             this.Controls.Add(this.templatesButton);
             this.Controls.Add(this.filepathButton);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.templatesLabel);
             this.Controls.Add(this.templatesBox);
             this.Controls.Add(this.filepathBox);
             this.Controls.Add(this.menuStrip);
@@ -252,8 +265,7 @@
 
         private System.Windows.Forms.TextBox filepathBox;
         private System.Windows.Forms.TextBox templatesBox;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label templatesLabel;
         private System.Windows.Forms.Button templatesButton;
         private System.Windows.Forms.Button filepathButton;
         private System.Windows.Forms.Button convertButton;
@@ -263,10 +275,12 @@
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.Button outputpathButton;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.TextBox outputpathBox;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.CheckBox s06toGLVLCheckbox;
+        private System.Windows.Forms.Label filepathLabel;
     }
 }
 

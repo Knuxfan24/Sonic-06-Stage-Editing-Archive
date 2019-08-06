@@ -17,10 +17,12 @@ namespace GLvl_Converter
         string filepath = "";
         string templates = "";
         string outputpath = "";
+        bool bodgeWorkaround = true;
 
         public Main()
         {
             InitializeComponent();
+            s06toGLVLCheckbox.Checked = Properties.Settings.Default.s06toGLVLCheck;
         }
 
         private void FilepathBox_TextChanged(object sender, EventArgs e)
@@ -34,7 +36,8 @@ namespace GLvl_Converter
         {
             OpenFileDialog setBrowser = new OpenFileDialog();
             setBrowser.Title = "Select SET Data";
-            setBrowser.Filter = "Sonic Generations SET Data (*.set.xml)|*.set.xml";
+            if (s06toGLVLCheckbox.Checked) { setBrowser.Filter = "Sonic '06 SET Data (*.set)|*.set"; }
+            else { setBrowser.Filter = "Sonic Generations SET Data (*.set.xml)|*.set.xml"; }
             setBrowser.FilterIndex = 1;
             setBrowser.RestoreDirectory = true;
             if (setBrowser.ShowDialog() == DialogResult.OK)
@@ -77,7 +80,8 @@ namespace GLvl_Converter
 
         private void ConvertButton_Click(object sender, EventArgs e)
         {
-            Program.ConvertSET(filepath, templates);
+            if (!s06toGLVLCheckbox.Checked) { GLVLtoS06.ConvertSET(filepath, templates); }
+            else { s06toGLVL.ConvertSET(filepath, templates, outputpath); }
         }
 
         private void SaveToolStripMenuItem_Click(object sender, EventArgs e)
@@ -148,7 +152,9 @@ namespace GLvl_Converter
         {
             SaveFileDialog setBrowser = new SaveFileDialog();
             setBrowser.Title = "Select Output Data";
-            setBrowser.Filter = "Sonic '06 SET Data (*.set)|*.set";
+
+            if (!s06toGLVLCheckbox.Checked) { setBrowser.Filter = "Sonic '06 SET Data (*.set)|*.set"; }
+            else { setBrowser.Filter = "Sonic Generations SET Data (*.set.xml)|*.set.xml"; }
             setBrowser.FilterIndex = 1;
             setBrowser.RestoreDirectory = true;
             if (setBrowser.ShowDialog() == DialogResult.OK)
@@ -170,6 +176,31 @@ namespace GLvl_Converter
         private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show($"GLvl Converter\n\n{version}\n\nContributors:\nKnuxfan24 - Lead Developer\nHyper - Co-developer", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void S06toGLVLCheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!bodgeWorkaround)
+            {
+                filepathBox.Text = "";
+                outputpathBox.Text = "";
+            }
+            else
+            {
+                bodgeWorkaround = false;
+            }
+            Properties.Settings.Default.s06toGLVLCheck = s06toGLVLCheckbox.Checked;
+            Properties.Settings.Default.Save();
+            if (s06toGLVLCheckbox.Checked)
+            {
+                filepathLabel.Text = "Sonic '06 SET:";
+                outputLabel.Text = "Output XML:";
+            }
+            if (!s06toGLVLCheckbox.Checked)
+            {
+                filepathLabel.Text = "Generations SET:";
+                outputLabel.Text = "Output SET:";
+            }
         }
     }
 }

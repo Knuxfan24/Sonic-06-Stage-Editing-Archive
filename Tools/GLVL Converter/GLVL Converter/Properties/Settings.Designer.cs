@@ -58,5 +58,17 @@ namespace GLvl_Converter.Properties {
                 this["lastSavedOutput"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool s06toGLVLCheck {
+            get {
+                return ((bool)(this["s06toGLVLCheck"]));
+            }
+            set {
+                this["s06toGLVLCheck"] = value;
+            }
+        }
     }
 }
