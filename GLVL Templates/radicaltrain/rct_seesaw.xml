@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <ScaleHeight type="float" default="1500" description="???" />
-  <PlayerPresentScaleSpeed type="float" default="10" description="???" />
-  <NoPlayerPresentScaleSpeed type="float" default="30" description="???" />
-  <TimeBeforeCollapse type="float" default="1" description="???" />
-  <MaximumLoweredHeight type="float" default="700" description="???" />
-  <MinimumLoweredHeight type="float" default="500" description="???" />
+  <ScaleHeight type="float" default="1500" description="The height of the scales" />
+  <PlayerPresentScaleSpeed type="float" default="10" description="The speed the scales move at when a player is on them." />
+  <NoPlayerPresentScaleSpeed type="float" default="30" description="The speed the scales move at when a player is not on them." />
+  <TimeBeforeCollapse type="float" default="1" description="How long after standing on them will the scale collapse." />
+  <MaximumLoweredHeight type="float" default="700" description="How far down the scale can move." />
+  <MinimumLoweredHeight type="float" default="500" description="How far up the other scale should move when a player is stood on one." />
   
   <Extra type="model" name="rct_obj_seesaw.model" />
 </Template>

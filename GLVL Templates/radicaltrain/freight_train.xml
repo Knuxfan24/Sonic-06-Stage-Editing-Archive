@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="string" default="Line_path07" description="???" />
-	<Parameter1 type="float" default="750" description="???" />
-	<Parameter2 type="float" default="0.1" description="???" />
-	<Parameter3 type="float" default="10" description="???" />
-	<Parameter4 type="float" default="2600" description="???" />
-	<Parameter5 type="float" default="0" description="???" />
-	<Parameter6 type="float" default="35000" description="???" />
-	<Parameter7 type="string" default="0000" description="???" />
-	<Parameter8 type="string" default="0111" description="???" />
-	<Parameter9 type="string" default="1111" description="???" />
-	<Parameter10 type="string" default="0011" description="???" />
-	<Parameter11 type="string" default="1011" description="???" />
-	<Parameter12 type="string" default="0000" description="???" />
-	<Parameter13 type="string" default="1111" description="???" />
-	<Parameter14 type="string" default="1011" description="???" />
-	<Parameter15 type="string" default="0001" description="???" />
-	<Parameter16 type="string" default="0101" description="???" />
-	<Parameter17 type="float" default="1000" description="???" />
-	<Parameter18 type="float" default="1000" description="???" />
-	<Parameter19 type="bool" default="False" description="???" />
+  <Path type="string" default="" description="The path the train follows." />
+  <Speed type="float" default="300" description="The train's top speed." />
+  <Interpolation type="float" default="0.1" description="Unknown." />
+  <Num type="float" default="5" description="Number of carriages?" />
+  <Interval type="float" default="2600" description="Unknown." />
+  <Loop type="float" default="0" description="Unknown." />
+  <Start type="float" default="0" description="Unknown." />
+  <On1 type="string" default="0000" description="Unknown" />
+  <On2 type="string" default="0111" description="Unknown." />
+  <On3 type="string" default="1111" description="Unknown." />
+  <On4 type="string" default="0011" description="Unknown." />
+  <On5 type="string" default="1011" description="Unknown." />
+  <On6 type="string" default="0000" description="Unknown." />
+  <On7 type="string" default="1111" description="Unknown." />
+  <On8 type="string" default="1011" description="Unknown." />
+  <On9 type="string" default="0001" description="Unknown." />
+  <On10 type="string" default="0101" description="Unknown." />
+  <Acceleration type="float" default="1000" description="How fast the train accelerates?" />
+  <Decceleration type="float" default="1000" description="How fast the train decelerates?" />
+  <Boss type="bool" default="False" description="Unknown." />
 </Template>

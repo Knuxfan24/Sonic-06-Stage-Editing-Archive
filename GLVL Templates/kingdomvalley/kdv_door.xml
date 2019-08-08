@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="1" description="???" />
-	<Parameter1 type="float" default="0" description="???" />
-	<Parameter2 type="float" default="1" description="???" />
-	<Parameter3 type="float" default="1" description="???" />
-	<Parameter4 type="float" default="1" description="???" />
+  <Signal type="float" default="1" description="Unknown (internal name is kinda vauge)." />
+  <ESP type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <Open type="float" default="1" description="Time it takes for the door to open?" />
+  <Close type="float" default="1" description="Time it takes for the door to close?" />
+  <Content type="float" default="1" description="Unknown (internal name is kinda vauge)." />
 </Template>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="vector" description="???" />
-	<Parameter1 type="float" default="2500" description="???" />
-	<Parameter2 type="float" default="2500" description="???" />
-	<Parameter3 type="float" default="3000" description="???" />
-	<Parameter4 type="float" default="0" description="???" />
-	<Parameter5 type="float" default="0.5" description="???" />
-	<Parameter6 type="float" default="1" description="???" />
-	<Parameter7 type="float" default="1" description="???" />
+  <Target type="vector" description="The position the rope ends at." />
+  <Height1 type="float" default="2500" description="The height obtained from the first bounce on the rope." />
+  <Height2 type="float" default="2500" description="The height obtained from the second bounce on the rope." />
+  <Height3 type="float" default="3000" description="The height obtained from the third bounce on the rope." />
+  <dec type="float" default="0" description="Unknown (internal name is kinda vauge)." />
+  <Time1 type="float" default="0.5" description="The time the player spends on the rope before being launched on the first bounce?" />
+  <Time2 type="float" default="1" description="The time the player spends on the rope before being launched on the second bounce?" />
+  <Time3 type="float" default="1" description="The time the player spends on the rope before being launched on the third bounce?" />
 </Template>

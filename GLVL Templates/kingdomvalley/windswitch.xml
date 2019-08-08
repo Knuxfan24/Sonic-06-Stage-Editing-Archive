@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="264" description="???" />
-	<Parameter1 type="float" default="4294967295" description="???" />
-	<Parameter2 type="float" default="4294967295" description="???" />
-	<Parameter3 type="float" default="4294967295" description="???" />
-	<Parameter4 type="float" default="0" description="???" />
+  <Target1 type="float" default="264" description="Unknown (internal name is kinda vauge)." />
+  <Target2 type="float" default="4294967295" description="Unknown (internal name is kinda vauge)." />
+  <Target3 type="float" default="4294967295" description="Unknown (internal name is kinda vauge)." />
+  <Target4 type="float" default="4294967295" description="Unknown (internal name is kinda vauge)." />
+  <Base type="float" default="0" description="Unknown (internal name is kinda vauge)." />
 </Template>

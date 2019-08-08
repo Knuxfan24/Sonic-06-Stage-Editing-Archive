@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="0.5" description="???" />
-	<Parameter1 type="float" default="20" description="???" />
-	<Parameter2 type="float" default="50" description="???" />
-	<Parameter3 type="string" default="Line01" description="???" />
+  <AppearTime type="float" default="0.5" description="Time the rail takes to fully appear." />
+  <DisappearTime type="float" default="20" description="Time before the rail fades away." />
+  <Length type="float" default="50" description="Width of the graphic?" />
+  <Path type="string" default="" description="The path the rail should follow." />
 </Template>
