@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="3050.14" description="???" />
-	<Parameter1 type="float" default="1933.51" description="???" />
+  <Radius type="float" default="15" description="The radius of this cylinder volume." />
+  <Height type="float" default="15" description="The height of this cylinder volume." />
 </Template>

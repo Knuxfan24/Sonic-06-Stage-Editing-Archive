@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="2697.9" description="???" />
-	<Parameter1 type="float" default="498.078" description="???" />
-	<Parameter2 type="float" default="2147.94" description="???" />
-	<Parameter3 type="float" default="3000" description="???" />
+  <Length type="float" default="10" description="" />
+  <Width type="float" default="15" description="" />
+  <Height type="float" default="15" description="" />
+  <CollisionSize type="float" default="3000" description="Unknown." />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
 </Template>

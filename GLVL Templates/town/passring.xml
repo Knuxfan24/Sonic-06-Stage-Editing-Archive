@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="4294967295" description="???" />
-	<Parameter1 type="float" default="5" description="???" />
-	<Parameter2 type="float" default="1" description="???" />
+  <NextRing type="float" default="4294967295" description="The next ring in the chain." />
+  <Lifetime type="float" default="5" description="How long this ring should be active for?" />
+  <Scale type="float" default="1" description="The size of this ring." />
 </Template>

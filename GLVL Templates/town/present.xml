@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="string" default="hint_kdv01_w00_sn" description="???" />
+  <HintToPlay type="string" default="" description="Hint to play upon collecting this present." />
 </Template>

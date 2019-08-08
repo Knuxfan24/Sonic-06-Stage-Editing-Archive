@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="string" default="" description="???" />
-	<Parameter1 type="float" default="1000" description="???" />
-	<Parameter2 type="float" default="3" description="???" />
+  <EventToTrigger type="string" default="" description="The event to trigger upon doing something (being lit up?)" />
+  <GlobalFlagNumber type="float" default="1000" description="Unknown. (an identifier?)" />
+  <Colour type="float" default="3" description="The colour of the orb on top of this post." />
 </Template>

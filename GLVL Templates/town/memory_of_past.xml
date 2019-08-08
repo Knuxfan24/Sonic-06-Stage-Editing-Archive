@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="float" default="1500" description="???" />
-	<Parameter1 type="string" default="" description="???" />
-	<Parameter2 type="string" default="" description="???" />
-	<Parameter3 type="float" default="27" description="???" />
-	<Parameter4 type="float" default="5" description="???" />
+  <Radius type="float" default="15" description="The radius of this volume." />
+  <EventToTrigger type="string" default="" description="The event to trigger upon activating this object." />
+  <TextID type="string" default="" description="Unknown." />
+  <TargetObject type="float" default="4294967295" description="The object to activate with this object." />
+  <Lifetime type="float" default="5" description="How long the 'vision' lasts for." />
 </Template>

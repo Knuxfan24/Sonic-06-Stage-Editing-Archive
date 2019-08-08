@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="string" default="hint_kdv01_w00_sn" description="???" />
-	<Parameter1 type="string" default="object/twn/twn_obj_present" description="???" />
+  <HintToPlay type="string" default="" description="Hint to play upon collecting this object." />
+  <Model type="string" default="object/twn/twn_obj_present" description="The model this object should use." />
 </Template>
