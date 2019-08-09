@@ -8,12 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ookii.Dialogs;
 
 namespace GLvl_Converter
 {
     public partial class Main : Form
     {
-        string version = "0.1-indev";
+        string version = "0.2-indev";
         string filepath = "";
         string templates = "";
         string outputpath = "";
@@ -57,7 +58,7 @@ namespace GLvl_Converter
         }
         private void TemplatesButton_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog templatesBrowser = new FolderBrowserDialog();
+            VistaFolderBrowserDialog templatesBrowser = new VistaFolderBrowserDialog();
             if (templatesBrowser.ShowDialog() == DialogResult.OK)
             {
                 templates = templatesBrowser.SelectedPath;
@@ -82,6 +83,7 @@ namespace GLvl_Converter
         {
             if (!s06toGLVLCheckbox.Checked) { GLVLtoS06.ConvertSET(filepath, templates); }
             else { s06toGLVL.ConvertSET(filepath, templates, outputpath); }
+            tm_UpdateList.Start();
         }
 
         private void SaveToolStripMenuItem_Click(object sender, EventArgs e)
@@ -146,6 +148,7 @@ namespace GLvl_Converter
         {
             filepathBox.Text = Properties.Settings.Default.lastSavedSET;
             templatesBox.Text = Properties.Settings.Default.glvlTemplates;
+            this.MaximumSize = new System.Drawing.Size(int.MaxValue, 478);
         }
 
         private void OutputpathButton_Click(object sender, EventArgs e)
@@ -200,6 +203,38 @@ namespace GLvl_Converter
             {
                 filepathLabel.Text = "Generations SET:";
                 outputLabel.Text = "Output SET:";
+            }
+        }
+
+        private void Tm_UpdateList_Tick(object sender, EventArgs e)
+        {
+            idList.Items.Clear();
+            foreach (var item in GLVLtoS06.listOfIDs)
+            {
+                idList.Items.Add(item);
+            }
+            tm_UpdateList.Stop();
+        }
+
+        public static bool showIDs;
+
+        private void Btn_ShowIDs_Click(object sender, EventArgs e)
+        {
+            if (showIDs)
+            {
+                idList.Visible = true;
+                Height = 478;
+                btn_ShowIDs.Text = "Hide IDs";
+
+                showIDs = false;
+            }
+            else
+            {
+                idList.Visible = false;
+                Height = 180;
+                btn_ShowIDs.Text = "Show IDs";
+
+                showIDs = true;
             }
         }
     }

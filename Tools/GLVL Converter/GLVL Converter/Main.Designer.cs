@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.filepathBox = new System.Windows.Forms.TextBox();
             this.templatesBox = new System.Windows.Forms.TextBox();
@@ -47,11 +48,16 @@
             this.outputpathBox = new System.Windows.Forms.TextBox();
             this.s06toGLVLCheckbox = new System.Windows.Forms.CheckBox();
             this.filepathLabel = new System.Windows.Forms.Label();
+            this.idList = new System.Windows.Forms.ListBox();
+            this.tm_UpdateList = new System.Windows.Forms.Timer(this.components);
+            this.btn_ShowIDs = new System.Windows.Forms.Button();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // filepathBox
             // 
+            this.filepathBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.filepathBox.Location = new System.Drawing.Point(105, 30);
             this.filepathBox.Name = "filepathBox";
             this.filepathBox.Size = new System.Drawing.Size(335, 20);
@@ -60,6 +66,8 @@
             // 
             // templatesBox
             // 
+            this.templatesBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.templatesBox.Location = new System.Drawing.Point(105, 56);
             this.templatesBox.Name = "templatesBox";
             this.templatesBox.Size = new System.Drawing.Size(335, 20);
@@ -77,6 +85,7 @@
             // 
             // templatesButton
             // 
+            this.templatesButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.templatesButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(171)))), ((int)(((byte)(83)))));
             this.templatesButton.FlatAppearance.BorderSize = 0;
             this.templatesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -91,6 +100,7 @@
             // 
             // filepathButton
             // 
+            this.filepathButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.filepathButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(171)))), ((int)(((byte)(83)))));
             this.filepathButton.FlatAppearance.BorderSize = 0;
             this.filepathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -105,6 +115,7 @@
             // 
             // convertButton
             // 
+            this.convertButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.convertButton.BackColor = System.Drawing.Color.LightGreen;
             this.convertButton.Enabled = false;
             this.convertButton.FlatAppearance.BorderSize = 0;
@@ -180,6 +191,7 @@
             // 
             // outputpathButton
             // 
+            this.outputpathButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.outputpathButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(171)))), ((int)(((byte)(83)))));
             this.outputpathButton.FlatAppearance.BorderSize = 0;
             this.outputpathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -203,6 +215,8 @@
             // 
             // outputpathBox
             // 
+            this.outputpathBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.outputpathBox.Location = new System.Drawing.Point(105, 82);
             this.outputpathBox.Name = "outputpathBox";
             this.outputpathBox.Size = new System.Drawing.Size(335, 20);
@@ -212,7 +226,7 @@
             // s06toGLVLCheckbox
             // 
             this.s06toGLVLCheckbox.AutoSize = true;
-            this.s06toGLVLCheckbox.Location = new System.Drawing.Point(13, 112);
+            this.s06toGLVLCheckbox.Location = new System.Drawing.Point(12, 114);
             this.s06toGLVLCheckbox.Name = "s06toGLVLCheckbox";
             this.s06toGLVLCheckbox.Size = new System.Drawing.Size(100, 17);
             this.s06toGLVLCheckbox.TabIndex = 35;
@@ -229,11 +243,42 @@
             this.filepathLabel.Text = "Generations SET:";
             this.filepathLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // idList
+            // 
+            this.idList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.idList.FormattingEnabled = true;
+            this.idList.Location = new System.Drawing.Point(10, 140);
+            this.idList.Name = "idList";
+            this.idList.Size = new System.Drawing.Size(458, 290);
+            this.idList.TabIndex = 54;
+            // 
+            // tm_UpdateList
+            // 
+            this.tm_UpdateList.Tick += new System.EventHandler(this.Tm_UpdateList_Tick);
+            // 
+            // btn_ShowIDs
+            // 
+            this.btn_ShowIDs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_ShowIDs.BackColor = System.Drawing.Color.SkyBlue;
+            this.btn_ShowIDs.FlatAppearance.BorderSize = 0;
+            this.btn_ShowIDs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ShowIDs.Location = new System.Drawing.Point(312, 109);
+            this.btn_ShowIDs.Name = "btn_ShowIDs";
+            this.btn_ShowIDs.Size = new System.Drawing.Size(75, 23);
+            this.btn_ShowIDs.TabIndex = 55;
+            this.btn_ShowIDs.Text = "Hide IDs";
+            this.btn_ShowIDs.UseVisualStyleBackColor = false;
+            this.btn_ShowIDs.Click += new System.EventHandler(this.Btn_ShowIDs_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(478, 141);
+            this.ClientSize = new System.Drawing.Size(478, 439);
+            this.Controls.Add(this.btn_ShowIDs);
+            this.Controls.Add(this.idList);
             this.Controls.Add(this.filepathLabel);
             this.Controls.Add(this.s06toGLVLCheckbox);
             this.Controls.Add(this.outputpathButton);
@@ -246,10 +291,10 @@
             this.Controls.Add(this.templatesBox);
             this.Controls.Add(this.filepathBox);
             this.Controls.Add(this.menuStrip);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip;
             this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(494, 180);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GLvl Converter";
@@ -281,6 +326,9 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.CheckBox s06toGLVLCheckbox;
         private System.Windows.Forms.Label filepathLabel;
+        private System.Windows.Forms.ListBox idList;
+        private System.Windows.Forms.Timer tm_UpdateList;
+        private System.Windows.Forms.Button btn_ShowIDs;
     }
 }
 

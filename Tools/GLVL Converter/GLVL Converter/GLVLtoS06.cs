@@ -11,6 +11,8 @@ namespace GLvl_Converter
 {
     class GLVLtoS06
     {
+        public static List<string> listOfIDs = new List<string>() { };
+
         static public void ConvertSET(string filepath, string templates)
         {
             S06SetData setTarget = new S06SetData();
@@ -37,7 +39,8 @@ namespace GLvl_Converter
             foreach (SetObject gensObject in setSource.Objects)
             {
                 SetObject s06Object = new SetObject();
-                Console.WriteLine(gensObject.ObjectType + ", Object ID: " + objectID);
+                Console.WriteLine(gensObject.ObjectType + " - ID: " + objectID);
+                listOfIDs.Add(gensObject.ObjectType + " - ID: " + objectID);
 
                 int uintCheck;
 

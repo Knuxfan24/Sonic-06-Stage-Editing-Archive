@@ -59,5 +59,25 @@ namespace GLvl_Converter.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] HedgeLib {
+            get {
+                object obj = ResourceManager.GetObject("HedgeLib", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Ookii_Dialogs {
+            get {
+                object obj = ResourceManager.GetObject("Ookii_Dialogs", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

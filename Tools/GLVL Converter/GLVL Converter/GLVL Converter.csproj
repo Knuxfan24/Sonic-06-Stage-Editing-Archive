@@ -36,9 +36,11 @@
     <ApplicationIcon>Logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HedgeLib, Version=0.0.375.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\HedgeLib.dll</HintPath>
+    <Reference Include="HedgeLib">
+      <HintPath>..\..\..\..\..\..\Sonic '06\Object Research\Tools\GLVL Converter\GLVL Converter\bin\Debug\HedgeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>F:\Projects\Visual Studio\source\repos\Sonic '06 Toolkit\Sonic '06 Toolkit\bin\Debug\Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -93,6 +95,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Ookii.Dialogs.dll" />
+    <None Include="bin\Debug\HedgeLib.dll" />
     <Content Include="Logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
