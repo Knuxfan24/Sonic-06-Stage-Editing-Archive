@@ -83,6 +83,7 @@ namespace GLvl_Converter
         {
             if (!s06toGLVLCheckbox.Checked) { GLVLtoS06.ConvertSET(filepath, templates); }
             else { s06toGLVL.ConvertSET(filepath, templates, outputpath); }
+            idList.Items.Clear();
             tm_UpdateList.Start();
         }
 
@@ -208,7 +209,6 @@ namespace GLvl_Converter
 
         private void Tm_UpdateList_Tick(object sender, EventArgs e)
         {
-            idList.Items.Clear();
             foreach (var item in GLVLtoS06.listOfIDs)
             {
                 idList.Items.Add(item);
