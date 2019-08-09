@@ -3,7 +3,7 @@
   <Path type="string" default="" description="The path the train follows." />
   <Speed type="float" default="300" description="The train's top speed." />
   <Interpolation type="float" default="0.1" description="Unknown." />
-  <Num type="float" default="5" description="Number of carriages?" />
+  <Num type="float" default="5" description="Number of carriages." />
   <Interval type="float" default="2600" description="Unknown." />
   <Loop type="float" default="0" description="Unknown." />
   <Start type="float" default="0" description="Unknown." />

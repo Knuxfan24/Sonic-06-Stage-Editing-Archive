@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <Radius type="float" default="15" description="???" />
-  <Height type="float" default="15" description="???" />
-  <Power type="float" default="4000" description="???" />
-  <Pitch type="float" default="115" description="???" />
-  <Yaw type="float" default="10" description="???" />
-  <RotationTime type="float" default="1.5" description="???" />
-  <OutTime type="float" default="1" description="???" />
+  <Radius type="float" default="50" description="The radius of the volume for the pole." />
+  <Height type="float" default="12" description="The height of the volume for the pole" />
+  <Power type="float" default="4000" description="The force the player is launched with." />
+  <Pitch type="float" default="70" description="The height angle that the player is launched at." />
+  <Yaw type="float" default="0" description="The direction on the X axis that the player is launched at, from the centre of the pole." />
+  <RotationTime type="float" default="1.5" description="How long it takes to do one loop of the pole." />
+  <OutOfControl type="float" default="0.5" description="How long it should take after being launched for the player to be able to move again." />
 </Template>
