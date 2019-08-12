@@ -6,7 +6,7 @@
   <SpaceBetweenLasers type="float" default="100" description="How large should the (cosmetic) gaps between the lasers be." />
   <OnTime type="float" default="3" description="How long this set of lasers stay on for." />
   <OffTime type="float" default="2" description="How long this set of lasers stay off for." />
-  <Range type="float" default="0" description="How far this laser can move vertically?" />
+  <RangeParam type="float" default="0" description="How far this laser can move vertically?" />
   <Speed type="float" default="0" description="How fast this laser should move?" />
   <RadRange type="float" default="0" description="Unknown (internal name is kinda vauge)." />
   <RadSpeed type="float" default="0" description="Unknown (internal name is kinda vauge)." />
