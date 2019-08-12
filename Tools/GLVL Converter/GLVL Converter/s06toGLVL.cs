@@ -29,7 +29,7 @@ namespace GLvl_Converter
             foreach (SetObject s06Object in setSource.Objects)
             {
                 paramNames.Clear();
-                var file = Directory.GetFiles(@"G:\Utilities\Sonic 06 & Storybook Duology\SonicGLVL\database\objects\", s06Object.ObjectType + ".xml", SearchOption.AllDirectories)
+                var file = Directory.GetFiles(templatesFolder, s06Object.ObjectType + ".xml", SearchOption.AllDirectories)
                 .FirstOrDefault();
                 if (file != null)
                 {

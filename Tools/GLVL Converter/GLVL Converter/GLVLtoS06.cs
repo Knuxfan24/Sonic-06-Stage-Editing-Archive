@@ -13,7 +13,7 @@ namespace GLvl_Converter
     {
         public static List<string> listOfIDs = new List<string>() { };
 
-        static public void ConvertSET(string filepath, string templates)
+        static public void ConvertSET(string filepath, string templates, string versionNumber)
         {
             S06SetData setTarget = new S06SetData();
             GensSetData setSource = new GensSetData();
@@ -23,7 +23,7 @@ namespace GLvl_Converter
             //Dud Object at 0,0,0 to work around HedgeLib often breaking the first object in the set.
             SetObject dubObject = new SetObject();
             dubObject.ObjectID = 0;
-            dubObject.Parameters.Add(new SetObjectParam(typeof(string), "HedgeLib Workaround"));
+            dubObject.Parameters.Add(new SetObjectParam(typeof(string), $"HedgeLib Workaround // Converted by GLvl Converter - Version {versionNumber}"));
             dubObject.Parameters.Add(new SetObjectParam(typeof(bool), false));
             List<SetObjectParam> parameters2 = dubObject.Parameters;
             SetObject item2 = new SetObject
@@ -281,6 +281,11 @@ namespace GLvl_Converter
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[8].Data.ToString())));
                         break;
                     case "common_laser":
+                        for (int i = 0; i < gensObject.Parameters.Count; i++)
+                        {
+                            Console.WriteLine(gensObject.Parameters[i].Data);
+                        }
+
                         s06Object.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(gensObject.Parameters[0].Data.ToString())));
                         if (int.TryParse(gensObject.Parameters[1].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[1].Data.ToString()))); }
                         else { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), 4294967295u)); }

@@ -51,6 +51,7 @@
             this.idList = new System.Windows.Forms.ListBox();
             this.tm_UpdateList = new System.Windows.Forms.Timer(this.components);
             this.btn_ShowIDs = new System.Windows.Forms.Button();
+            this.patchButton = new System.Windows.Forms.Button();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -264,7 +265,7 @@
             this.btn_ShowIDs.BackColor = System.Drawing.Color.SkyBlue;
             this.btn_ShowIDs.FlatAppearance.BorderSize = 0;
             this.btn_ShowIDs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ShowIDs.Location = new System.Drawing.Point(312, 109);
+            this.btn_ShowIDs.Location = new System.Drawing.Point(206, 109);
             this.btn_ShowIDs.Name = "btn_ShowIDs";
             this.btn_ShowIDs.Size = new System.Drawing.Size(75, 23);
             this.btn_ShowIDs.TabIndex = 55;
@@ -272,11 +273,26 @@
             this.btn_ShowIDs.UseVisualStyleBackColor = false;
             this.btn_ShowIDs.Click += new System.EventHandler(this.Btn_ShowIDs_Click);
             // 
+            // patchButton
+            // 
+            this.patchButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.patchButton.BackColor = System.Drawing.Color.Plum;
+            this.patchButton.FlatAppearance.BorderSize = 0;
+            this.patchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.patchButton.Location = new System.Drawing.Point(287, 109);
+            this.patchButton.Name = "patchButton";
+            this.patchButton.Size = new System.Drawing.Size(100, 23);
+            this.patchButton.TabIndex = 56;
+            this.patchButton.Text = "Patch GLvl SET";
+            this.patchButton.UseVisualStyleBackColor = false;
+            this.patchButton.Click += new System.EventHandler(this.PatchButton_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(478, 439);
+            this.Controls.Add(this.patchButton);
             this.Controls.Add(this.btn_ShowIDs);
             this.Controls.Add(this.idList);
             this.Controls.Add(this.filepathLabel);
@@ -329,6 +345,7 @@
         private System.Windows.Forms.ListBox idList;
         private System.Windows.Forms.Timer tm_UpdateList;
         private System.Windows.Forms.Button btn_ShowIDs;
+        private System.Windows.Forms.Button patchButton;
     }
 }
 

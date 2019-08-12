@@ -70,6 +70,7 @@ namespace SONIC_THE_HEDGEHOG__2006__Object_Peeker
 
         private void SearchButton_Click(object sender, EventArgs e)
         {
+            specificParamList.Clear();
             if (mode == "Unique Values of Specific Parameter")
             {
                 int.TryParse(paramBox.Text, out specificParam);

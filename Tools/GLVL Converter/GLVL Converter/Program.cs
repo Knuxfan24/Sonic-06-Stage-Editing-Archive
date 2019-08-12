@@ -17,18 +17,18 @@ namespace GLvl_Converter
         [STAThread]
         static void Main()
         {
-            WritePrerequisites();
+            //WritePrerequisites();
 
-            try
-            {
+            //try
+            //{
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new Main());
-            }
-            catch
-            {
-                WritePrerequisites();
-            }
+            //}
+            //catch
+            //{
+            //    WritePrerequisites();
+            //}
         }
 
         public static void WritePrerequisites()

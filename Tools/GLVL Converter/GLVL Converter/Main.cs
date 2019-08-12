@@ -14,7 +14,7 @@ namespace GLvl_Converter
 {
     public partial class Main : Form
     {
-        string version = "0.2-indev";
+        string version = "0.3-indev";
         string filepath = "";
         string templates = "";
         string outputpath = "";
@@ -28,6 +28,7 @@ namespace GLvl_Converter
 
         private void FilepathBox_TextChanged(object sender, EventArgs e)
         {
+            if (filepathBox.Text.Length > 0) { patchButton.Enabled = true; }
             filepath = filepathBox.Text;
             Properties.Settings.Default.lastSavedSET = filepathBox.Text;
             Properties.Settings.Default.Save();
@@ -56,6 +57,7 @@ namespace GLvl_Converter
             Properties.Settings.Default.Save();
             CheckIfValid();
         }
+
         private void TemplatesButton_Click(object sender, EventArgs e)
         {
             VistaFolderBrowserDialog templatesBrowser = new VistaFolderBrowserDialog();
@@ -83,7 +85,7 @@ namespace GLvl_Converter
         {
             idList.Items.Clear();
             GLVLtoS06.listOfIDs.Clear();
-            if (!s06toGLVLCheckbox.Checked) { GLVLtoS06.ConvertSET(filepath, templates); }
+            if (!s06toGLVLCheckbox.Checked) { GLVLtoS06.ConvertSET(filepath, templates, version); }
             else { s06toGLVL.ConvertSET(filepath, templates, outputpath); }
             tm_UpdateList.Start();
         }
@@ -198,11 +200,13 @@ namespace GLvl_Converter
             Properties.Settings.Default.Save();
             if (s06toGLVLCheckbox.Checked)
             {
+                patchButton.Enabled = false;
                 filepathLabel.Text = "Sonic '06 SET:";
                 outputLabel.Text = "Output XML:";
             }
             if (!s06toGLVLCheckbox.Checked)
             {
+                patchButton.Enabled = true;
                 filepathLabel.Text = "Generations SET:";
                 outputLabel.Text = "Output SET:";
             }
@@ -210,10 +214,11 @@ namespace GLvl_Converter
 
         private void Tm_UpdateList_Tick(object sender, EventArgs e)
         {
-            foreach (var item in GLVLtoS06.listOfIDs)
+            for (int i = GLVLtoS06.listOfIDs.Count - 1; i >= 0; i--)
             {
-                idList.Items.Add(item);
+                idList.Items.Add(GLVLtoS06.listOfIDs[i]);
             }
+
             tm_UpdateList.Stop();
         }
 
@@ -237,6 +242,26 @@ namespace GLvl_Converter
 
                 showIDs = true;
             }
+        }
+
+        private void PatchButton_Click(object sender, EventArgs e)
+        {
+            idList.Items.Clear();
+            GLVLtoS06.listOfIDs.Clear();
+            if (templatesBox.Text.Length != 0) { GLVLSetPatcher.Patcher(filepath, templates); }
+            else 
+            {
+                MessageBox.Show("Please select a directory for GLvl Templates.", "Template Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                VistaFolderBrowserDialog templatesBrowser = new VistaFolderBrowserDialog();
+                if (templatesBrowser.ShowDialog() == DialogResult.OK)
+                {
+                    templates = templatesBrowser.SelectedPath;
+                    templatesBox.Text = templates;
+                    CheckIfValid();
+                }
+            }
+            tm_UpdateList.Start();
         }
     }
 }
