@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <Parameter0 type="float" default="1000" description="???" />
-  <Parameter1 type="float" default="2000" description="???" />
-  <Parameter2 type="float" default="3000" description="???" />
-  <Parameter3 type="float" default="0" description="???" />
-  <Parameter4 type="float" default="1" description="???" />
-  <Parameter5 type="float" default="2" description="???" />
+  <Speed1 type="float" default="1000" description="The speed the player is launched on the first bounce." />
+  <Speed2 type="float" default="2000" description="The speed the player is launched on the second bounce." />
+  <Speed3 type="float" default="3000" description="The speed the player is launched on the third bounce." />
+  <Charge1 type="float" default="0" description="Unknown." />
+  <Charge2 type="float" default="1" description="Unknown." />
+  <Charge3 type="float" default="2" description="Unknown." />
   <Psychokinesis type="bool" default="False" description="Does this Lotus require Silver's Psychokinesis to use." />
-  <Parameter7 type="float" default="0.5" description="???" />
+  <NoConTime type="float" default="0.5" description="Unknown" />
   
   <Extra type="model" name="tpj_obj_lotus.model" />
 </Template>

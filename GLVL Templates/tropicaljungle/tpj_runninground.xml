@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-	<Parameter0 type="string" default="Line_wood01" description="???" />
-	<Parameter1 type="float" default="300" description="???" />
+  <PathName type="string" default="" description="The path used by this object." />
+  <Radius type="float" default="15" description="Radius of this volume." />
 </Template>
