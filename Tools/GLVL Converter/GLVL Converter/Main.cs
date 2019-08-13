@@ -86,7 +86,11 @@ namespace GLvl_Converter
             idList.Items.Clear();
             GLVLtoS06.listOfIDs.Clear();
             if (!s06toGLVLCheckbox.Checked) { GLVLtoS06.ConvertSET(filepath, templates, version); }
-            else { s06toGLVL.ConvertSET(filepath, templates, outputpath); }
+            else
+            {
+                s06toGLVL.ConvertSET(filepath, outputpath);
+                GLVLSetPatcher.Patcher(outputpath, templates);
+            }
             tm_UpdateList.Start();
         }
 
@@ -214,9 +218,19 @@ namespace GLvl_Converter
 
         private void Tm_UpdateList_Tick(object sender, EventArgs e)
         {
-            for (int i = GLVLtoS06.listOfIDs.Count - 1; i >= 0; i--)
+            if (!s06toGLVLCheckbox.Checked)
             {
-                idList.Items.Add(GLVLtoS06.listOfIDs[i]);
+                for (int i = GLVLtoS06.listOfIDs.Count - 1; i >= 0; i--)
+                {
+                    idList.Items.Add(GLVLtoS06.listOfIDs[i]);
+                }
+            }
+            else
+            {
+                for (int i = s06toGLVL.listOfIDs.Count - 1; i >= 0; i--)
+                {
+                    idList.Items.Add(s06toGLVL.listOfIDs[i]);
+                }
             }
 
             tm_UpdateList.Stop();

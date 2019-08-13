@@ -30,6 +30,11 @@ namespace GLvl_Converter
                         objectName = line.Substring(startIndex, endIndex - startIndex - 1);
                         file = Directory.GetFiles(templatesFolder, line.Substring(startIndex, endIndex - startIndex - 1) + ".xml", SearchOption.AllDirectories)
                         .FirstOrDefault();
+                        if (file == null)
+                        {
+                            lineNumber++;
+                            continue;
+                        }
 
                         paramNames.Clear();
                         string[] template = File.ReadAllLines(file);
