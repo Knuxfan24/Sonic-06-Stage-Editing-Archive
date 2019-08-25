@@ -1,4 +1,5 @@
---Fixed by Rad, thanks man!
+--Created by Aruki (https://github.com/arukibree)
+--Fixed by Radfordhound
 
 clearListener()
 fileIn "IO.ms"
