@@ -282,9 +282,7 @@ namespace GLvl_Converter
                         break;
                     case "common_laser":
                         for (int i = 0; i < gensObject.Parameters.Count; i++)
-                        {
                             Console.WriteLine(gensObject.Parameters[i].Data);
-                        }
 
                         s06Object.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(gensObject.Parameters[0].Data.ToString())));
                         if (int.TryParse(gensObject.Parameters[1].Data.ToString(), out uintCheck)) { s06Object.Parameters.Add(new SetObjectParam(typeof(uint), uint.Parse(gensObject.Parameters[1].Data.ToString()))); }
@@ -537,7 +535,17 @@ namespace GLvl_Converter
                         s06Object.Parameters.Add(new SetObjectParam(typeof(bool), gensObject.Parameters[2].Data));
                         break;
                     case "rope":
-                        s06Object.Parameters.Add(new SetObjectParam(typeof(Vector3), gensObject.Parameters[0].Data));
+                        var ropeTargetPosString_cev = gensObject.Parameters[0].Data.ToString();
+                        string[] ropeTargetPosArray_cev = ropeTargetPosString_cev.Split(' ');
+                        ropeTargetPosArray_cev[0] = ropeTargetPosArray_cev[0].Remove(0, 1);
+                        ropeTargetPosArray_cev[0] = ropeTargetPosArray_cev[0].Remove(ropeTargetPosArray_cev[0].Length - 1, 1);
+                        ropeTargetPosArray_cev[1] = ropeTargetPosArray_cev[1].Remove(ropeTargetPosArray_cev[1].Length - 1, 1);
+                        ropeTargetPosArray_cev[2] = ropeTargetPosArray_cev[2].Remove(ropeTargetPosArray_cev[2].Length - 1, 1);
+                        float ropeTargetPosX_cev = float.Parse(ropeTargetPosArray_cev[0]) * 100;
+                        float ropeTargetPosY_cev = float.Parse(ropeTargetPosArray_cev[1]) * 100;
+                        float ropeTargetPosZ_cev = float.Parse(ropeTargetPosArray_cev[2]) * 100;
+                        Vector3 ropeTargetPos_cev = new Vector3(ropeTargetPosX_cev, ropeTargetPosY_cev, ropeTargetPosZ_cev);
+                        s06Object.Parameters.Add(new SetObjectParam(typeof(Vector3), ropeTargetPos_cev)); //Rope Target Position
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[1].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[2].Data.ToString())));
                         s06Object.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(gensObject.Parameters[3].Data.ToString())));
