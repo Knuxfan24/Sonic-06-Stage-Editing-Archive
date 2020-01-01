@@ -2,7 +2,7 @@
 --Fixed by Radfordhound
 
 clearListener()
-fileIn "IO.ms"
+fileIn "ExporterIO.ms"
 
 yzflip = true
 
