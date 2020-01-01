@@ -1,3 +1,5 @@
-Exports splines made in 3DS Max to 06's Path Format. Seems to have some weird problems with scale, so I would recommend exporting them to an OBJ file first & reimporting that before exporting. autodesk plz fix
+# PATH Importer
+Imports splines from Sonic '06 PATH files into 3ds Max.
 
-The splines don't seem to need any actual naming, as they seem to be based on the file itself.
+# PATH Exporter
+Exports splines made in 3ds Max to Sonic '06 PATH files. The splines don't seem to need any actual naming, as they seem to be based on the file itself.
