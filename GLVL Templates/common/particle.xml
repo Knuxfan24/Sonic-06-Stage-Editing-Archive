@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <PaticleBank type="string" default="map_aqa" description="The bank to search for this particle." />
-  <ParticleName type="string" default="bubble_01" description="The particle to use here." />
-  <Cycle type="float" default="8" description="Unknown?" />
-  <CycleWidth type="float" default="4" description="Unknown?" />
-  <SoundEffectBank type="string" default="" description="The sound bank to search for a sound effect in." />
-  <SoundEffectName type="string" default="" description="The sound effect to play at this particle." />
-</Template>

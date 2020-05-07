@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Angle type="float" default="25" description="Pitch angle this Rainbow Ring launches the player at." />
-  <Yaw type="float" default="0" description="Yaw angle this Rainbow Ring launches the player at?" />
-  <LaunchSpeed type="float" default="3000" description="How much force this Rainbow Ring should launch the player with." />
-  <OutOfControl type="float" default="0.5" description="How long it should take after being launched for the player to be able to move again." />
-  
-  <Extra type="model" name="cmn_rainbowring.model" />
-</Template>

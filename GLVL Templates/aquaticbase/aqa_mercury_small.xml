@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Template>
-  <HitsBeforeBurst type="float" default="5" description="How many times the ball can be hit before bursting." />
-  <Friction type="float" default="0.1" description="Something to do with the friction of the ball?" />
-  <AirFriction type="float" default="0.99" description="Something to do with the friction of the ball?" />
-  
-  <Extra type="description" name="The little magnetised balls in Aquatic Base that have a habit of screwing up the Homing Attack." />
-</Template>

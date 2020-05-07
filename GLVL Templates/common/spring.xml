@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Template>
-  <LaunchSpeed type="float" default="3000" description="How much force this Spring should launch the player with." />
-  <OutOfControl type="float" default="0.5" description="How long it should take after being launched for the player to be able to move again." />
-  <TargetObject type="float" default="4294967295" description="What Object ID this Spring should launch the player to." />
-  
-  <Extra type="model" name="cmn_spring.model" />
-</Template>

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Height type="float" default="0" description="The final height of this pillar." />
-  <Time type="float" default="1" description="How long it takes for this platform to move into place." />
-  <Content type="float" default="1" description="How this platform is activated (I think?)" />
-  <NoEffect type="bool" default="False" description="Whether or not this pillar should have the effect of sand falling off it when moving." />
-  
-  <Extra type="model" name="dtd_obj_pillarA.model" />
-</Template>

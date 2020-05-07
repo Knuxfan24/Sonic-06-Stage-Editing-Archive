@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Radius type="float" default="15" description="Radius of this sphere volume." />
-  <EventToTrigger type="string" default="" description="What even should be triggered when touching this eventsphere." />
-  <Default type="float" default="1" description="Unknown. Seems to always be 1? (internal name is kinda vauge)" />
-</Template>

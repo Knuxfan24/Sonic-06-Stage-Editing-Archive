@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <EventToTrigger type="string" default="" description="The event to trigger upon breaking this vent open (or entering it?)?" />
-  <WarpTarget type="vector" description="Where to warp the player to upon entering this vent." />
-</Template>

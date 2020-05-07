@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <HintToPlay type="string" default="" description="Hint to play upon collecting this disk." />
-  
-  <Extra type="model" name="twn_obj_disk.model" />
-  <Extra type="description" name="Do Rimlight just keep all their info on ZIP Disks or something?" />
-  <Extra type="offset_rotation_y_speed" name="60" />
-</Template>

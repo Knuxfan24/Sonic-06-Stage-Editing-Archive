@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<Template>
-  <Identifier type="float" default="0" description="Some sort of unique identifer. Purpose unknown." />
-  <Character type="string" default="sonic_new" description="Character To Use." />
-  <Amigo type="bool" default="False" description="Whether this character will behave like an amigo or be taken control of." />
-  
-  <Extra type="model" name="sonic_Root_Idle.model" />
-  <Extra type="description" name="Where any player characters will spawn." />
-</Template>

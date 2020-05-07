@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <EventToTrigger type="string" default="goto_b" description="Event to trigger when touching this mirror." />
-  <Appearance type="float" default="8" description="Which stage texture should be displayed on this mirror." />
-</Template>

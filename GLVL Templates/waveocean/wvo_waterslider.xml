@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <PathName type="string" default="Line01" description="The path to water slide along." />
-  <Radius type="float" default="15" description="The radius of this volume." />
-</Template>

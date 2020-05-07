@@ -1,5 +1,0 @@
-Where any player characters or amigo will spawn.
-
-First parameter (a 32 bit signed integer) appears to be some sort of identifier, as setting this value to be the same as another ones will cause the first object to spawn in the location of the second one and remove the second one entirely.
-Second parameter (a string) is the character to spawn.
-Third parameter (a boolean) controls where the character should be switced to upon activation or if they should follow the player character.

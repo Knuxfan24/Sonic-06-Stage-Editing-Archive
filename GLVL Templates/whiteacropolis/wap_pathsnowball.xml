@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <PathName type="string" default="Line01" description="The path this snowball should follow." />
-  <Speed type="float" default="1000" description="The speed this snowball should move along the path at." />
-  <Distance type="float" default="1000" description="Unknown." />
-  <Coefficient type="float" default="0.01" description="Unknown." />
-</Template>

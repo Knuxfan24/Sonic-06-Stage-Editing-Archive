@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Radius type="float" default="15" description="The radius of this cylinder volume." />
-  <Height type="float" default="15" description="The height of this cylinder volume." />
-</Template>

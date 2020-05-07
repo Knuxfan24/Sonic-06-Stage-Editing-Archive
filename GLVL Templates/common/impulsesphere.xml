@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Radius type="float" default="15" description="The radius of this sphere volume." />
-  <Impulse type="float" default="10000" description="Force to apply to objects that enter this volume?" />
-</Template>

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <HintToPlay type="string" default="" description="Hint to play upon collecting this object." />
-  <Model type="string" default="object/twn/twn_obj_present" description="The model this object should use." />
-</Template>

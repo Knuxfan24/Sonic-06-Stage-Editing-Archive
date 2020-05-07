@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Content type="float" default="2" description="Unknown" />
-  <Speed type="float" default="1000" description="Speed this orca should move along the path at." />
-  <PathName type="string" default="Line01" description="The path this orca should follow." />
-  <Distance type="float" default="0" description="The distance from the path this orca can be?" />
-  <Coefficient type="float" default="0" description="Unknown" />
-  <EventToTrigger type="string" default="" description="LUA Event to trigger when touching this orca." />
-</Template>

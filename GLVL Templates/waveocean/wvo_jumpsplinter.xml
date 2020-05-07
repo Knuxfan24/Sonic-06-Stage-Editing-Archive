@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <TargetObject type="float" default="4294967295" description="What Object ID the character should jump to." />
-</Template>

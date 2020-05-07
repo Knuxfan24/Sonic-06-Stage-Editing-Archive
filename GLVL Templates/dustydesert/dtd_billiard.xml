@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Count type="float" default="9" description="The amount of Billiard Balls that should spawn here." />
-  <Time type="float" default="10" description="The amount of hits on the ball's timer?" />
-  <Power type="float" default="60" description="The speed the balls spawned from here should be moving at initially?" />
-</Template>

@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <GismoName type="string" default="twn_hardrock" description="What physics object should spawn here." />
-</Template>

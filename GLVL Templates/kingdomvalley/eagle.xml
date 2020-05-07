@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Speed type="float" default="2000" description="The speed the Eagle flys at." />
-  <Path type="string" default="" description="The path the Eagle follows." />
-  <NoLoop type="bool" default="False" description="Does this Eagle only fly this path once." />
-</Template>

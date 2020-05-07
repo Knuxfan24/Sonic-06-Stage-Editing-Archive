@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <HintToPlay type="string" default="" description="Hint to play upon collecting this present." />
-</Template>

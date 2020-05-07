@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <GismoName type="string" default="aqa_float" description="What physics object should spawn here?" />
-  <Wait type="float" default="10" description="Unknown?" />
-  <Hight type="float" default="-10000" description="Unknown, misspelling of Height?" />
-  <Speed type="float" default="-600" description="Speed this platform should fall?" />
-</Template>

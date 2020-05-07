@@ -1,6 +1,0 @@
-Seems to only be used in a test set and in the Iblis Phase 1 fight for Silver, used for playing Ambient sound files.
-
-First three parameters are volume size.
-Fourth parameter (a single) always appears to be set to 1?
-Fifth parameter (a string) would appear to be the name of a csb file in sound.arc.
-Sixth parameter (a string) might be the name of the sound in the supplied csb to play?

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <LaunchSpeed type="float" default="2000" description="The speed that the character will run at after going through the net." />
-  <OutOfControl type="float" default="0.5" description="The amount of time before the player can control the character again after going through the net." />
-  
-  <Extra type="model" name="wvo_obj_net.model" />
-  <Extra type="description" name="The nets that Sonic can spin kick through in Wave Ocean." />
-</Template>

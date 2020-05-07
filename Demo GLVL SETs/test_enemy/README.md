@@ -1,1 +1,0 @@
-A setup for the unused test_enemy map, with the terrain setup for GLVL and a custom dlc act script to load set_test_glvl.set from the xenon/test folder in scripts.arc. Useful for testing objects in a controlled environment and to get to grips with how the GLVL Converter should be used.

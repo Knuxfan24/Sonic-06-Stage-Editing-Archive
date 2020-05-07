@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <EventToTrigger type="string" default="kane" description="The event to trigger upon ringing this bell." />
-  <GroupName type="string" default="" description="Unknown." />
-  
-  <Extra type="model" name="twn_obj_bell.model" />
-  <Extra type="description" name="The bells in Soleanna Castle Town. Ding a ling." />
-</Template>

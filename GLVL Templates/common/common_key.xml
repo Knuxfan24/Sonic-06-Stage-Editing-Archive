@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <EventToTrigger type="string" default="test" description="Event to trigger upon picking up this key." />
-  
-  <Extra type="model" name="cmn_key.model" />
-  <Extra type="description" name="Because we needed the Emerald Hunting mechanic back in SOME WAY." />
-  <Extra type="offset_rotation_y_speed" name="120" />
-</Template>

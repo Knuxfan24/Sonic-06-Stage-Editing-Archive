@@ -1,8 +1,0 @@
-Panels of Spikes.
-
-First parameter (a signed 32 bit integer) controls how the spikes move.
-1 = Spikes will permantly stay up.
-2 = Spikes will alternate between going up and down.
-3 = Spikes will permantly stay down.
-Second parameter (a single) controls how long the spikes stay up for.
-Third parameter (a single) controls how long the spikes stay down for.

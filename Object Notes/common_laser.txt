@@ -1,6 +1,0 @@
-0 = Unknown
-1 = Target
-2 = Laser Count
-3 = Height
-4 = On Time
-5 = Off Time

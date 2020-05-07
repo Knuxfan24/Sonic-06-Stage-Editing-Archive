@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-	<Type type="float" default="3" description="The type of car this is?>" />
-	<PathName type="string" default="twn_b_common_car02" description="The path this car should follow?" />
-	<BrainName type="string" default="NpcCarBot" description="The AI this car should use?" />
-	<DownFileName type="string" default="" description="Unknown." />
-	<Colour type="float" default="86" description="The colour of this car?" />
-	<Health type="float" default="0" description="How much health this car has before being blown up?" />
-</Template>

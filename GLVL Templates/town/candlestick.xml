@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <FieLifetime type="float" default="3" description="How long the fire should burn for after being activated." />
-  <EventToTrigger type="string" default="" description="The event to trigger upon lighting this candle." />
-</Template>

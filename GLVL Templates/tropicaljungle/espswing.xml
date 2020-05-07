@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Length type="float" default="2000" description="The length of the ropes holding up the log?" />
-  <HitPower type="float" default="1" description="Unknown." />
-</Template>

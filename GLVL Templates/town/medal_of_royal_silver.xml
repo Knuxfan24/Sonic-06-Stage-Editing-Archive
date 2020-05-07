@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <GlobalFlag type="float" default="5110" description="Something to do with which Medal this is?" />
-</Template>

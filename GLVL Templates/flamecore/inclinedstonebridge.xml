@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Time1 type="float" default="3" description="Unknown (something to do with the bridge collapsing?)" />
-  <Time2 type="float" default="0" description="Unknown (something to do with the bridge collapsing?)" />
-</Template>

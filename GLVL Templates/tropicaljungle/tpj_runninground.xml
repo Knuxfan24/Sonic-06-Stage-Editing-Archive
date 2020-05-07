@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <PathName type="string" default="" description="The path used by this object." />
-  <Radius type="float" default="15" description="Radius of this volume." />
-</Template>

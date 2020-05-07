@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Speed type="float" default="0" description="Unknown." />
-  <PathName type="string" default="" description="The path this vine should follow for the animation?" />
-  <TargetObject type="float" default="4294967295" description="Where this vine launches the player to after flinging them." />
-  <MotionSpeed type="float" default="0" description="Unknown." />
-  <JumpFrame type="float" default="0" description="Unknown." />
-</Template>

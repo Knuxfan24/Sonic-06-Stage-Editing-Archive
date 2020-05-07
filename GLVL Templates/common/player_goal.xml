@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Template>
-  <CameraPosition type="vector" description="Where the camera should be located in the world." />
-  <CameraTarget type="vector" description="Where the camera Should target." />
-  
-  <Extra type="model" name="sonic_Root_Clear.model" />
-  <Extra type="description" name="Where the player will perform their victory pose." />
-</Template>

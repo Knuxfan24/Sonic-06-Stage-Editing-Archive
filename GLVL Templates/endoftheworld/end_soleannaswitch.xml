@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <TargetObject type="float" default="268435457" description="Some sort of object target, not sure what for (the timekeeper?)." />
-  <OffTime type="float" default="3" description="How long before the switch can be hit again." />
-</Template>

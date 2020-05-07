@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Radius type="float" default="15" description="The radius of this cylinder volume." />
-  <Height type="float" default="15" description="The height of this cylinder volume." />
-  <TargetName type="string" default="twn_apple" description="What object needs to collide with this volume to provide points?" />
-  <ScorePoint type="float" default="100" description="How many points each object gives?" />
-</Template>

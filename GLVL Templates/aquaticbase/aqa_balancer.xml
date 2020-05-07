@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Template>
-  <Speed type="float" default="120" description="How fast the ball can move, setting this value too high seems to break." />
-  <Deceleration type="float" default="0.01" description="Unknown." />
-  <PSI type="float" default="0" description="Something to do with Silver's psychokinesis." />
-  
-  <Extra type="description" name="The floating ball in Aquatic Base." />
-</Template>

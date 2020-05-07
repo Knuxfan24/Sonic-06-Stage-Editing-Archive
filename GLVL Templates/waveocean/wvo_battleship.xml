@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <PathName type="string" default="" description="The path the Egg Carrier should follow." />
-  <Distance type="float" default="15000" description="The height above the path the Egg Carrier should be positioned at? Doesn't seem right." />
-</Template>

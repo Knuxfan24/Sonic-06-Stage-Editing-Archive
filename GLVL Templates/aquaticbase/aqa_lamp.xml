@@ -1,5 +1,0 @@
-<?xml version="1.0" ?>
-<Template>
-  <Extra type="model" name="aqa_obj_lamp.model" />
-  <Extra type="description" name="A little lamp used in Aquatic Base." />
-</Template>

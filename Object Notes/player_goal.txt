@@ -1,4 +1,0 @@
-The location where the character who touches the Goal Ring will do their victory pose at.
-
-First parameter (a Vector3) controls the position of camera on the results screen.
-Second parameter (a Vector3) controls where the camera should point at on the results screen.

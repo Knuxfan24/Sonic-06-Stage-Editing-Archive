@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <OnTime type="float" default="3" description="How long this platform stays out for." />
-  <OffTime type="float" default="2" description="How long this platform stays in for." />
-  <AppearTime type="float" default="1" description="How long it takes for this platform to fully extend." />
-  <DisappearTime type="float" default="1" description="How long it takes for this platform to fully retract." />
-  
-  <Extra type="model" name="dtd_obj_movingfloor.model" />
-</Template>

@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" ?>
-<Template>
-  <Speed type="float" default="1" description="Something to do with the speed the glass barrier moves at?" />
-</Template>

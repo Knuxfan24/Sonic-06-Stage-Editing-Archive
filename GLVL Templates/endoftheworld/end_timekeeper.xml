@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Target type="float" default="268435457" description="Some sort of target, but not an object?" />
-  <StartTime type="float" default="10" description="How long before the visuals begin to distort?" />
-  <EndTime type="float" default="30" description="How long until the visuals fully distort?" />
-</Template>

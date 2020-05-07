@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <GlobalFlag1 type="float" default="1111" description="Unknown. (an identifier?)" />
-  <GlobalFlag2 type="float" default="2222" description="Unknown. (an identifier?)" />
-  <GlobalFlag3 type="float" default="3333" description="Unknown. (an identifier?)" />
-</Template>

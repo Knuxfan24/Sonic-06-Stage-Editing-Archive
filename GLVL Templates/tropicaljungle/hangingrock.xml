@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <NoCheckDamage type="bool" default="False" description="Unknown (whether the rock can be knocked down with damage?)" />
-</Template>

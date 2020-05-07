@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <Pitch type="float" default="25" description="Pitch angle the Jump Board is pointing/launches the player" />
-  <LaunchSpeed type="float" default="3000" description="How much force this Jump Board should launch the player with." />
-  <OutOfControl type="float" default="0.5" description="How long it should take after being launched for the player to be able to move again." />
-  <MaxSpeed type="float" default="1000" description="Maximum Speed this Jump Board can apply to the player?" />
-  <MediumSpeed type="float" default="700" description="Average Speed this Jump Board can apply to the player?" />
-</Template>

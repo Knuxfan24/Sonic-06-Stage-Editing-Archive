@@ -1,5 +1,0 @@
-Used for activating amigo characters or switching control to another character.
-
-First three parameters are volume size.
-Fourth parameter (a single) is the object that is activated by this volume.
-Fifth parameter (a boolean) controls whether the character activated by this volume follows the player around or is taken control of. 

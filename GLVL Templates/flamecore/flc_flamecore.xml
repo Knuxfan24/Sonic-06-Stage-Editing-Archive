@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Template>
-  <AttackTime1 type="float" default="5" description="Time between attacks?" />
-  <AttackTime2 type="float" default="1" description="Time each attack takes?" />
-  <AttackRange type="float" default="10000" description="How far the shockwaves from this object go." />
-  <FirstMode type="float" default="1" description="Unknown (internal name is kinda vauge)." />
-  <Event type="string" default="flamecool" description="Event to trigger once the PSI Mark on top is used." />
-</Template>
