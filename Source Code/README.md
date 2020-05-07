@@ -1,0 +1,1 @@
+This folder contains the source codes for the various applications found in this archive. These are only need if you plan to contribute to the application development process by making changes to the source. Most users will be fine ignoring these.
