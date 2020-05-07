@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <type type="integer" default="0" description="" />
+  <pathname type="string" default="" description="" />
+  <brainname type="string" default="" description="" />
+  <downfilename type="string" default="" description="" />
+  <color type="integer" default="0" description="" />
+  <hp type="integer" default="0" description="" />
+  <Extra type="description" name="objecttownscar" />
+</Template>

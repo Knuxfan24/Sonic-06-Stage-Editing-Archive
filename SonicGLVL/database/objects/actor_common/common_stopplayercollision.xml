@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <length type="float" default="0" description="" />
+  <width type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <default type="integer" default="0" description="" />
+  <Extra type="description" name="common_stopplayercollision" />
+</Template>

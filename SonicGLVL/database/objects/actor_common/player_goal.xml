@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <cam_pos type="vector" description="" />
+  <cam_tgt type="vector" description="" />
+  <Extra type="description" name="player_goal" />
+</Template>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <typeName type="string" default="" description="" />
+  <typeNumber type="integer" default="0" description="" />
+  <scriptName type="string" default="" description="" />
+  <radius type="float" default="0" description="" />
+  <Extra type="description" name="enemy" />
+</Template>

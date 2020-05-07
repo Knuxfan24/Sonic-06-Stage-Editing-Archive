@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <path type="string" default="" description="" />
+  <radius type="float" default="0" description="" />
+  <Extra type="description" name="wvo_waterslider" />
+</Template>

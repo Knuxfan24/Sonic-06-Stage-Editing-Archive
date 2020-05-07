@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <height type="float" default="0" description="" />
+  <height2 type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <Extra type="description" name="updownreel" />
+</Template>

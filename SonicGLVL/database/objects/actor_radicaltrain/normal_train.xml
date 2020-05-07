@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <path type="string" default="" description="" />
+  <speed type="float" default="0" description="" />
+  <interpolation type="float" default="0" description="" />
+  <num type="integer" default="0" description="" />
+  <interval type="float" default="0" description="" />
+  <loop type="integer" default="0" description="" />
+  <start type="float" default="0" description="" />
+  <acc type="float" default="0" description="" />
+  <dec type="float" default="0" description="" />
+  <camera type="vector" description="" />
+  <end type="float" default="0" description="" />
+  <Extra type="description" name="normal_train" />
+</Template>

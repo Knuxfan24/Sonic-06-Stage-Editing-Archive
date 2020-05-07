@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <appeartime type="float" default="0" description="" />
+  <disappeartime type="float" default="0" description="" />
+  <pathspd type="float" default="0" description="" />
+  <path type="string" default="" description="" />
+  <Extra type="description" name="cscflybillboard" />
+</Template>

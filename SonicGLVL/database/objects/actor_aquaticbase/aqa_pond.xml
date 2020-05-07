@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <length type="float" default="0" description="" />
+  <width type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <num type="integer" default="0" description="" />
+  <hp type="integer" default="0" description="" />
+  <friction type="float" default="0" description="" />
+  <air_friction type="float" default="0" description="" />
+  <vel type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <Extra type="description" name="aqa_pond" />
+</Template>

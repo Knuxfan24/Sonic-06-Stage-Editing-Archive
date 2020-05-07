@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <speed1 type="float" default="0" description="" />
+  <path type="string" default="" description="" />
+  <noloop type="bool" default="false" description="" />
+  <time type="float" default="0" description="" />
+  <temp type="float" default="0" description="" />
+  <flag type="bool" default="false" description="" />
+  <Extra type="description" name="eagle_ex" />
+</Template>

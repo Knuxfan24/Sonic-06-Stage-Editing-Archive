@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <length type="float" default="0" description="" />
+  <width type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <power type="float" default="0" description="" />
+  <floatheight type="float" default="0" description="" />
+  <content type="integer" default="0" description="" />
+  <signal type="bool" default="false" description="" />
+  <Extra type="description" name="common_windcollision_box" />
+</Template>

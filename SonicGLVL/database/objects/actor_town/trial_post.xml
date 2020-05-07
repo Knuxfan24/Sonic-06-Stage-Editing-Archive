@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <eventname type="string" default="" description="" />
+  <global_flag_no type="integer" default="0" description="" />
+  <my_color type="integer" default="0" description="" />
+  <Extra type="description" name="trial_post" />
+</Template>

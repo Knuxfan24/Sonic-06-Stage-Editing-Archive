@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <redowntime type="float" default="0" description="" />
+  <damagetime type="float" default="0" description="" />
+  <turntime type="float" default="0" description="" />
+  <speedswim type="float" default="0" description="" />
+  <doreverse type="bool" default="false" description="" />
+  <doloop type="bool" default="false" description="" />
+  <waitfruit type="bool" default="false" description="" />
+  <waitride type="bool" default="false" description="" />
+  <pathname type="string" default="" description="" />
+  <Extra type="description" name="turtle" />
+</Template>

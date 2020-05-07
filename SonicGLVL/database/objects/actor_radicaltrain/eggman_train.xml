@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <path type="string" default="" description="" />
+  <speed type="float" default="0" description="" />
+  <interpolation type="float" default="0" description="" />
+  <num type="integer" default="0" description="" />
+  <interval type="float" default="0" description="" />
+  <loop type="integer" default="0" description="" />
+  <start type="float" default="0" description="" />
+  <type type="integer" default="0" description="" />
+  <bombtime type="float" default="0" description="" />
+  <hp1 type="integer" default="0" description="" />
+  <hp2 type="integer" default="0" description="" />
+  <brake type="float" default="0" description="" />
+  <event type="string" default="" description="" />
+  <timeover type="string" default="" description="" />
+  <break type="integer" default="0" description="" />
+  <waittime type="float" default="0" description="" />
+  <distance type="float" default="0" description="" />
+  <timing type="float" default="0" description="" />
+  <vel type="float" default="0" description="" />
+  <acc type="float" default="0" description="" />
+  <dec type="float" default="0" description="" />
+  <left type="bool" default="false" description="" />
+  <camera type="vector" description="" />
+  <end type="float" default="0" description="" />
+  <minspeed type="float" default="0" description="" />
+  <Extra type="description" name="eggman_train" />
+</Template>

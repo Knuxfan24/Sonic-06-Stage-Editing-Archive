@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <radius type="float" default="0" description="" />
+  <event type="string" default="" description="" />
+  <textID type="string" default="" description="" />
+  <targetID type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <lifetime type="float" default="0" description="" />
+  <Extra type="description" name="memory_of_past" />
+</Template>

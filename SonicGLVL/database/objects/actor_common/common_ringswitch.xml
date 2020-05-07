@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <interval type="float" default="0" description="" />
+  <path type="string" default="" description="" />
+  <Extra type="description" name="common_ringswitch" />
+</Template>

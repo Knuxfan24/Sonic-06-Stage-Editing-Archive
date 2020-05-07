@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <height type="float" default="0" description="" />
+  <speed type="float" default="0" description="" />
+  <retspeed type="float" default="0" description="" />
+  <maxlen type="float" default="0" description="" />
+  <difference type="float" default="0" description="" />
+  <right type="integer" default="0" description="" />
+  <right_x type="float" default="0" description="" />
+  <right_z type="float" default="0" description="" />
+  <left type="integer" default="0" description="" />
+  <left_x type="float" default="0" description="" />
+  <left_z type="float" default="0" description="" />
+  <lua type="string" default="" description="" />
+  <Extra type="description" name="rct_seesaw_silver" />
+</Template>

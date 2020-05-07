@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<LevelDatabase>
+  <Entry name="Common" folder="actor_common" />
+  <Entry name="Camera Volumes" folder="amera_class" />
+  <Entry name="Aquatic Base" folder="actor_aquaticbase" />
+  <Entry name="Crisis City" folder="actor_crisiscity" />
+  <Entry name="Dusty Desert" folder="actor_dustydesert" />
+  <Entry name="End of the World" folder="actor_endoftheworld" />
+  <Entry name="Flame Core" folder="actor_flamecore" />
+  <Entry name="Kingdom Valley" folder="actor_kingdomvalley" />
+  <Entry name="Radical Train" folder="actor_radicaltrain" />
+  <Entry name="Soleanna" folder="actor_town" />
+  <Entry name="Tropical Jungle" folder="actor_tropicaljungle" />
+  <Entry name="Wave Ocean" folder="actor_waveocean" />
+  <Entry name="White Acropolis" folder="actor_whiteacropolis" />
+</LevelDatabase>

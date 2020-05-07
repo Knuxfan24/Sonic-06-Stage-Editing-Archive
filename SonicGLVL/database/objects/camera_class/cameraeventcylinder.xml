@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <radius type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <cancelable type="bool" default="false" description="" />
+  <prio type="integer" default="0" description="" />
+  <onintersect type="integer" default="0" description="" />
+  <data0 type="vector" description="" />
+  <data1 type="vector" description="" />
+  <Extra type="description" name="cameraeventcylinder" />
+</Template>

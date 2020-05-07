@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <objectName type="string" default="" description="" />
+  <path type="string" default="" description="" />
+  <speed type="float" default="0" description="" />
+  <interpolation type="float" default="0" description="" />
+  <Extra type="description" name="common_path_obj" />
+</Template>

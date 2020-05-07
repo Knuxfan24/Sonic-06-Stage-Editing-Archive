@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <radius type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <power type="float" default="0" description="" />
+  <pitch type="float" default="0" description="" />
+  <yaw type="float" default="0" description="" />
+  <rotation_time type="float" default="0" description="" />
+  <out_time type="float" default="0" description="" />
+  <Extra type="description" name="pole" />
+</Template>

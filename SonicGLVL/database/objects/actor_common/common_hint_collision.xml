@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <event type="string" default="" description="" />
+  <length type="float" default="0" description="" />
+  <width type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <Extra type="description" name="common_hint_collision" />
+</Template>

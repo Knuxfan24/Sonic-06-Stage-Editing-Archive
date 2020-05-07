@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <radius type="float" default="0" description="" />
+  <onintersect type="string" default="" description="" />
+  <default type="integer" default="0" description="" />
+  <Extra type="description" name="eventsphere" />
+</Template>

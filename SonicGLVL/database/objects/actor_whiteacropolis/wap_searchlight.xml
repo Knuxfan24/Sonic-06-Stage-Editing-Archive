@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <pitchangle type="float" default="0" description="" />
+  <pitchrange type="float" default="0" description="" />
+  <pitchspeed type="float" default="0" description="" />
+  <pitchtime type="float" default="0" description="" />
+  <yawangle type="float" default="0" description="" />
+  <yawrange type="float" default="0" description="" />
+  <yawspeed type="float" default="0" description="" />
+  <yawtime type="float" default="0" description="" />
+  <findtime type="float" default="0" description="" />
+  <loselength type="float" default="0" description="" />
+  <onintersect type="string" default="" description="" />
+  <brokenhead type="string" default="" description="" />
+  <allbrk type="bool" default="false" description="" />
+  <Extra type="description" name="wap_searchlight" />
+</Template>

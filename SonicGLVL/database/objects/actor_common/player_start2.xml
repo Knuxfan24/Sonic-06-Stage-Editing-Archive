@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <player_no type="integer" default="0" description="" />
+  <player_name type="string" default="" description="" />
+  <amigo type="bool" default="false" description="" />
+  <Extra type="description" name="player_start2" />
+</Template>

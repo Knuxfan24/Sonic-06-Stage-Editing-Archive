@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <length type="float" default="0" description="" />
+  <width type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <target type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <chase type="bool" default="false" description="" />
+  <Extra type="description" name="amigo_collision" />
+</Template>

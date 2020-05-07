@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <forward type="float" default="0" description="" />
+  <backward type="float" default="0" description="" />
+  <time1 type="float" default="0" description="" />
+  <time2 type="float" default="0" description="" />
+  <Extra type="description" name="rct_belt" />
+</Template>

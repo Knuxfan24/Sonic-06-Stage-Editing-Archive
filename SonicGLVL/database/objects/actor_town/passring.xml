@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <nextring type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <lifetime type="float" default="0" description="" />
+  <scale type="float" default="0" description="" />
+  <Extra type="description" name="passring" />
+</Template>

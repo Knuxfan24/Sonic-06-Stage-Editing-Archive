@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <number type="integer" default="0" description="" />
+  <Extra type="description" name="wap_snow" />
+</Template>

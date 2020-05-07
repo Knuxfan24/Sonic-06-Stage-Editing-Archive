@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <content type="integer" default="0" description="" />
+  <speed type="float" default="0" description="" />
+  <path type="string" default="" description="" />
+  <distance type="float" default="0" description="" />
+  <coefficient type="float" default="0" description="" />
+  <onintersect type="string" default="" description="" />
+  <Extra type="description" name="wvo_orca" />
+</Template>

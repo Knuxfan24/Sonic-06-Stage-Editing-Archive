@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <name type="string" default="" description="" />
+  <min_range type="float" default="0" description="" />
+  <max_range type="float" default="0" description="" />
+  <min_height type="float" default="0" description="" />
+  <max_height type="float" default="0" description="" />
+  <min_time type="float" default="0" description="" />
+  <max_time type="float" default="0" description="" />
+  <num type="integer" default="0" description="" />
+  <Extra type="description" name="aqa_wyvern_fall_dust" />
+</Template>

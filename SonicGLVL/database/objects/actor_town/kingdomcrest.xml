@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <global_flag1 type="integer" default="0" description="" />
+  <global_flag2 type="integer" default="0" description="" />
+  <global_flag3 type="integer" default="0" description="" />
+  <Extra type="description" name="kingdomcrest" />
+</Template>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <pitch type="float" default="0" description="" />
+  <yaw type="float" default="0" description="" />
+  <velocity type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <Extra type="description" name="common_rainbowring" />
+</Template>

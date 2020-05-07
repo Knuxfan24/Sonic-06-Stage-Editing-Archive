@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <height type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <content type="integer" default="0" description="" />
+  <noeffect type="bool" default="false" description="" />
+  <Extra type="description" name="dtd_pillar" />
+</Template>

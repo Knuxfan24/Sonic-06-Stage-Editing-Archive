@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <attacktime1 type="float" default="0" description="" />
+  <attacktime2 type="float" default="0" description="" />
+  <attackrange type="float" default="0" description="" />
+  <firstmode type="integer" default="0" description="" />
+  <event type="string" default="" description="" />
+  <Extra type="description" name="flc_flamecore" />
+</Template>

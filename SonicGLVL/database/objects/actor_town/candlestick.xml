@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <fire_lifetime type="float" default="0" description="" />
+  <eventname type="string" default="" description="" />
+  <Extra type="description" name="candlestick" />
+</Template>

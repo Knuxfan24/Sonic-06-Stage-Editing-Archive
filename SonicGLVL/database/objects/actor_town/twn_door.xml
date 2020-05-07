@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <signal type="integer" default="0" description="" />
+  <esp type="integer" default="0" description="" />
+  <open type="integer" default="0" description="" />
+  <close type="integer" default="0" description="" />
+  <content type="integer" default="0" description="" />
+  <lifepoint type="integer" default="0" description="" />
+  <onbroken type="string" default="" description="" />
+  <Extra type="description" name="twn_door" />
+</Template>

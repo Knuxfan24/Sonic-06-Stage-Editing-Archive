@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <pitch type="float" default="0" description="" />
+  <velocity type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <speed_max type="float" default="0" description="" />
+  <speed_mid type="float" default="0" description="" />
+  <Extra type="description" name="common_jumpboard" />
+</Template>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <stageName type="string" default="" description="" />
+  <appearances type="integer" default="0" description="" />
+  <Extra type="description" name="warpgate" />
+</Template>

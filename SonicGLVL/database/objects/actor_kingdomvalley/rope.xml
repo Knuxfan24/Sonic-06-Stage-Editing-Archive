@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <target type="vector" description="" />
+  <height1 type="float" default="0" description="" />
+  <height2 type="float" default="0" description="" />
+  <height3 type="float" default="0" description="" />
+  <dec type="float" default="0" description="" />
+  <time1 type="float" default="0" description="" />
+  <time2 type="float" default="0" description="" />
+  <time3 type="float" default="0" description="" />
+  <Extra type="description" name="rope" />
+</Template>

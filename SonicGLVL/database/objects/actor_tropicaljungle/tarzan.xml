@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <top type="float" default="0" description="" />
+  <bottom type="float" default="0" description="" />
+  <jumpspeed type="float" default="0" description="" />
+  <jumpcheckspeed type="float" default="0" description="" />
+  <fixdirection type="bool" default="false" description="" />
+  <hittutaspeed type="float" default="0" description="" />
+  <weight type="float" default="0" description="" />
+  <hitangle type="float" default="0" description="" />
+  <jumpcheckangle type="float" default="0" description="" />
+  <targetobj type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <camz type="float" default="0" description="" />
+  <camy type="float" default="0" description="" />
+  <isrouge type="bool" default="false" description="" />
+  <Extra type="description" name="tarzan" />
+</Template>

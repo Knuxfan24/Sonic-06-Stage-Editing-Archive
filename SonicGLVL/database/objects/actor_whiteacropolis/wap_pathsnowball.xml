@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <path type="string" default="" description="" />
+  <speed type="float" default="0" description="" />
+  <distance type="float" default="0" description="" />
+  <coefficient type="float" default="0" description="" />
+  <Extra type="description" name="wap_pathsnowball" />
+</Template>

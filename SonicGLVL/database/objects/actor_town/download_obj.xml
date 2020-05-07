@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <textID type="string" default="" description="" />
+  <download type="string" default="" description="" />
+  <Extra type="description" name="download_obj" />
+</Template>

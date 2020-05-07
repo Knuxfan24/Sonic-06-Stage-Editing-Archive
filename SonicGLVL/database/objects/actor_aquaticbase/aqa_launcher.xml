@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <num type="integer" default="0" description="" />
+  <hp type="integer" default="0" description="" />
+  <friction type="float" default="0" description="" />
+  <air_friction type="float" default="0" description="" />
+  <speed type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <target type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <Extra type="description" name="aqa_launcher" />
+</Template>

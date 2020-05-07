@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <alone type="integer" default="0" description="" />
+  <pair type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <num type="integer" default="0" description="" />
+  <interval type="float" default="0" description="" />
+  <ontime type="float" default="0" description="" />
+  <offtime type="float" default="0" description="" />
+  <range type="float" default="0" description="" />
+  <speed type="float" default="0" description="" />
+  <radrange type="float" default="0" description="" />
+  <radspeed type="float" default="0" description="" />
+  <nactivate type="bool" default="false" description="" />
+  <Extra type="description" name="common_laser" />
+</Template>

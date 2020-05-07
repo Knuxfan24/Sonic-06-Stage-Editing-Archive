@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <length type="float" default="0" description="" />
+  <width type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <lifepoint type="integer" default="0" description="" />
+  <onbroken type="string" default="" description="" />
+  <Extra type="description" name="invisible_collision_box" />
+</Template>

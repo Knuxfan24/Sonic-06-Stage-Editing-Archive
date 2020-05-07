@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <power type="float" default="0" description="" />
+  <deceleration type="float" default="0" description="" />
+  <psi type="float" default="0" description="" />
+  <Extra type="description" name="aqa_balancer" />
+</Template>

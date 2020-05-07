@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <velocity type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <Extra type="description" name="dashpanel" />
+</Template>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <content type="integer" default="0" description="" />
+  <flag1 type="bool" default="false" description="" />
+  <flag2 type="bool" default="false" description="" />
+  <Extra type="description" name="itembox_next" />
+</Template>

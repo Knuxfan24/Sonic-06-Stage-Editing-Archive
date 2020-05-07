@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <motionspd type="float" default="0" description="" />
+  <Extra type="description" name="freezedmantle" />
+</Template>

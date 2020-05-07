@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <content type="integer" default="0" description="" />
+  <event type="string" default="" description="" />
+  <target type="vector" description="" />
+  <Extra type="description" name="common_warphole" />
+</Template>

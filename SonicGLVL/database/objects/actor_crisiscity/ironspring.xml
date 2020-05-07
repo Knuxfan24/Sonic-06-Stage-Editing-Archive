@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <target type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <pitch type="float" default="0" description="" />
+  <yaw type="float" default="0" description="" />
+  <power type="float" default="0" description="" />
+  <out_time type="float" default="0" description="" />
+  <on_time type="float" default="0" description="" />
+  <Extra type="description" name="ironspring" />
+</Template>

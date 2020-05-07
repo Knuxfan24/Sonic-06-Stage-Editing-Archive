@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <length type="float" default="0" description="" />
+  <width type="float" default="0" description="" />
+  <height type="float" default="0" description="" />
+  <mainlight type="string" default="" description="" />
+  <sublight type="string" default="" description="" />
+  <ambient type="string" default="" description="" />
+  <default type="integer" default="0" description="" />
+  <Extra type="description" name="lightanimation" />
+</Template>

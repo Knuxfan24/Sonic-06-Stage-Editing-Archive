@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <spd1 type="float" default="0" description="" />
+  <spd2 type="float" default="0" description="" />
+  <spd3 type="float" default="0" description="" />
+  <charge1 type="float" default="0" description="" />
+  <charge2 type="float" default="0" description="" />
+  <charge3 type="float" default="0" description="" />
+  <espmode type="bool" default="false" description="" />
+  <nocontime type="float" default="0" description="" />
+  <Extra type="description" name="lotus" />
+</Template>

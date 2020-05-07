@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <objectName type="string" default="" description="" />
+  <restart type="bool" default="false" description="" />
+  <numItemObjects type="integer" default="0" description="" />
+  <itemIndex type="integer" default="0" description="" />
+  <Extra type="description" name="objectphysics_item" />
+</Template>

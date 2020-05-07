@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <objectName type="string" default="" description="" />
+  <restart type="bool" default="false" description="" />
+  <Extra type="description" name="objectphysics" />
+</Template>

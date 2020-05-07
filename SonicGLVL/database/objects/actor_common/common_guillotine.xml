@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+  <length type="integer" default="0" description="" />
+  <content type="integer" default="0" description="" />
+  <upwidth type="float" default="0" description="" />
+  <downwidth type="float" default="0" description="" />
+  <time type="float" default="0" description="" />
+  <speed type="float" default="0" description="" />
+  <distance type="float" default="0" description="" />
+  <Extra type="description" name="common_guillotine" />
+</Template>
