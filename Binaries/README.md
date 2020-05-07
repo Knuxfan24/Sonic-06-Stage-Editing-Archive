@@ -1,0 +1,1 @@
+If you don't intend to edit the code for the various tools on this archive, then this folder provides precompiled binary files and the required DLLs (where applicable) to allow the tools to be ran without requiring the user to download Visual Studio and compile them all manually.
