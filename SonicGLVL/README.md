@@ -2,4 +2,4 @@ This folder contains the templates and object definition file for SonicGLvl that
 
 If you also use SonicGLvl for Sonic Generations stage modding, then you may want to make a backup or download a fresh copy of it from the [LibGens GitHub page](https://github.com/DarioSamo/libgens-sonicglvl).
 
-The `#base.ar.00` and `#base.arl` files are Sonic Generations stage archives that are delibertely designed to be empty (minus a blank SET file and Green Hill's scene parameters), these can be used as a template for injecting your terrain into using Hedgehog Converter. Be sure to set the import scale for your '06 terrain to 1%, or the stage will not appear correctly in SonicGLvl.
+The `#base.ar.00` and `#base.arl` files are Sonic Generations stage archives that are deliberately designed to be empty (minus a blank SET file and Green Hill's scene parameters), these can be used as a template for injecting your terrain into using Hedgehog Converter. Be sure to set the import scale for your '06 terrain to 1%, or the stage will not appear correctly in SonicGLvl.
