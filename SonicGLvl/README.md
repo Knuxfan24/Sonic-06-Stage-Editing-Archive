@@ -1,4 +1,4 @@
-This folder contains the templates and object definition file for SonicGLvl that are used in the conversion process and for constructing SETs. Copy the `database` folder from here to your copy of SonicGLVL and replace the existing files.
+This folder contains the templates and object definition file for SonicGLvl that are used in the conversion process and for constructing SETs. Copy the `database` folder from here to your copy of SonicGLvl and replace the existing files.
 
 If you also use SonicGLvl for Sonic Generations stage modding, then you may want to make a backup or download a fresh copy of it from the [LibGens GitHub page](https://github.com/DarioSamo/libgens-sonicglvl).
 
