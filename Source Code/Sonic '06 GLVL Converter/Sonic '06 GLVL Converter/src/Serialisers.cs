@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace Sonic_06_GLVL_Converter.Serialisers
+namespace Sonic_06_GLvl_Converter.Serialisers
 {
     class Paths
     {

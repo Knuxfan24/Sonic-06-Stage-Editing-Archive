@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{824E3E1E-50D1-4662-BF7C-4DB791276581}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Sonic_06_GLVL_Converter</RootNamespace>
-    <AssemblyName>Sonic %2706 GLVL Converter</AssemblyName>
+    <RootNamespace>Sonic_06_GLvl_Converter</RootNamespace>
+    <AssemblyName>Sonic %2706 GLvl Converter</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

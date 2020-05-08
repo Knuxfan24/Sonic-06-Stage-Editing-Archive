@@ -4,7 +4,7 @@ using System.Linq;
 using HedgeLib.Sets;
 using System.Collections.Generic;
 
-namespace Sonic_06_GLVL_Converter
+namespace Sonic_06_GLvl_Converter
 {
     class GLvlPatcher
     {

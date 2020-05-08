@@ -5,9 +5,9 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.ComponentModel;
 using System.Collections.Generic;
-using Sonic_06_GLVL_Converter.Serialisers;
+using Sonic_06_GLvl_Converter.Serialisers;
 
-namespace Sonic_06_GLVL_Converter
+namespace Sonic_06_GLvl_Converter
 {
     public partial class Main : Form
     {
@@ -198,7 +198,7 @@ namespace Sonic_06_GLVL_Converter
                             "" +
                             "Knuxfan24 - Lead programmer and reverse-engineer\n" +
                             "HyperPolygon64 - UI stuff and slaved away at code",
-                            "About Sonic '06 GLvl Converter", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

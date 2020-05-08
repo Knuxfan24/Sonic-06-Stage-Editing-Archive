@@ -3,7 +3,7 @@ using HedgeLib;
 using HedgeLib.Sets;
 using System.Xml.Linq;
 
-namespace Sonic_06_GLVL_Converter
+namespace Sonic_06_GLvl_Converter
 {
     class Conversion
     {

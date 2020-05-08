@@ -1,4 +1,4 @@
-﻿namespace Sonic_06_GLVL_Converter
+﻿namespace Sonic_06_GLvl_Converter
 {
     partial class Main
     {
