@@ -3,8 +3,12 @@
   <length type="float" default="0" description="" />
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
-  <event type="string" default="" description="" />
+  <event type="string" default="" description="Event to trigger when entering the volume." />
   <content type="integer" default="0" description="" />
   <default type="integer" default="0" description="" />
+
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
   <Extra type="description" name="common_object_event" />
 </Template>

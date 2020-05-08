@@ -3,5 +3,6 @@
   <radius type="float" default="0" description="" />
   <lifepoint type="integer" default="0" description="" />
   <onbroken type="string" default="" description="" />
+  
   <Extra type="description" name="invisible_collision_sphere" />
 </Template>

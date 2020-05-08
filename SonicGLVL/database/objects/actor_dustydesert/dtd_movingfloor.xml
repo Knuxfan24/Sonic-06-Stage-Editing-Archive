@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <on_time type="float" default="0" description="" />
-  <off_time type="float" default="0" description="" />
-  <appear_time type="float" default="0" description="" />
-  <disappear_time type="float" default="0" description="" />
+  <on_time type="float" default="0" description="Time taken for the object to remain on." />
+  <off_time type="float" default="0" description="Time taken for the object to remain off." />
+  <appear_time type="float" default="0" description="Time taken for the object to move forwards." />
+  <disappear_time type="float" default="0" description="Time taken for the object to move backwards." />
+  
   <Extra type="description" name="dtd_movingfloor" />
 </Template>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <bank type="string" default="" description="" />
-  <name type="string" default="" description="" />
+  <bank type="string" default="" description="SBK file to load sounds from." />
+  <name type="string" default="" description="Sound to load from the SBK." />
+  
   <Extra type="description" name="ambience" />
 </Template>

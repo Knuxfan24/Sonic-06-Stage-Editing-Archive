@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <force type="float" default="0" description="" />
+  <force type="float" default="0" description="The input force to pull objects closer." />
   <time type="float" default="0" description="" />
   <radmin type="float" default="0" description="" />
   <radmax type="float" default="0" description="" />
   <appear type="float" default="0" description="" />
+  
   <Extra type="description" name="end_inputwarp" />
 </Template>

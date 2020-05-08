@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <height type="float" default="0" description="" />
-  <height2 type="float" default="0" description="" />
-  <time type="float" default="0" description="" />
+  <height type="float" default="0" description="The height of the wire." />
+  <height2 type="float" default="0" description="The maximum height of the ring." />
+  <time type="float" default="0" description="Time taken before restoring control to the player." />
+  
+  <Extra type="preview_box_y" name="Height" />
   <Extra type="description" name="updownreel" />
 </Template>

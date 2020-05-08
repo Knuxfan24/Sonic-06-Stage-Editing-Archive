@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <nocheckdamage type="bool" default="false" description="" />
+  
   <Extra type="description" name="hangingrock" />
 </Template>

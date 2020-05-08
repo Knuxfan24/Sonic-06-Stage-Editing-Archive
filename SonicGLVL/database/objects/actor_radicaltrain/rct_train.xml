@@ -7,5 +7,6 @@
   <interval type="float" default="0" description="" />
   <loop type="integer" default="0" description="" />
   <start type="float" default="0" description="" />
+  
   <Extra type="description" name="rct_train" />
 </Template>

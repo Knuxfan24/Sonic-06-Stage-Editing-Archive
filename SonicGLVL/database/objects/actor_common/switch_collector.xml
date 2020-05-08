@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <count type="integer" default="0" description="" />
-  <target0 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target1 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target2 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target3 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target4 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target5 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target6 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target7 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <target8 type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <event type="string" default="" description="" />
+  <target0 type="float" default="4294967295" description="First object to target." /> <!-- uint32 -->
+  <target1 type="float" default="4294967295" description="Second object to target." /> <!-- uint32 -->
+  <target2 type="float" default="4294967295" description="Third object to target." /> <!-- uint32 -->
+  <target3 type="float" default="4294967295" description="Fourth object to target." /> <!-- uint32 -->
+  <target4 type="float" default="4294967295" description="Fifth object to target." /> <!-- uint32 -->
+  <target5 type="float" default="4294967295" description="Sixth object to target." /> <!-- uint32 -->
+  <target6 type="float" default="4294967295" description="Seventh object to target." /> <!-- uint32 -->
+  <target7 type="float" default="4294967295" description="Eighth object to target." /> <!-- uint32 -->
+  <target8 type="float" default="4294967295" description="Ninth object to target." /> <!-- uint32 -->
+  <event type="string" default="" description="Event to trigger when the object is enabled." />
+  
   <Extra type="description" name="switch_collector" />
 </Template>

@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <velocity type="float" default="0" description="" />
-  <time type="float" default="0" description="" />
-  <target type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <velocity type="float" default="0" description="The speed the player will be launched at." />
+  <time type="float" default="0" description="Time taken before restoring control to the player." />
+  <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
   <globalflag type="integer" default="0" description="" />
+  
   <Extra type="description" name="spring_twn" />
 </Template>

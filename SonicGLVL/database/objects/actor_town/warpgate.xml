@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <stageName type="string" default="" description="" />
-  <appearances type="integer" default="0" description="" />
+  <stageName type="string" default="" description="Event to trigger when interacting with the object." />
+  <appearances type="integer" default="0" description="Variant of the image." />
+  
   <Extra type="description" name="warpgate" />
 </Template>

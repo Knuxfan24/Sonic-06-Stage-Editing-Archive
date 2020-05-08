@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="" />
-  <outtime type="float" default="0" description="" />
-  <intime type="float" default="0" description="" />
+  <content type="integer" default="0" description="Behaviour for the thorns." />
+  <outtime type="float" default="0" description="Time taken for the spikes to rise." />
+  <intime type="float" default="0" description="Time taken for the spikes to fall." />
+  
   <Extra type="description" name="common_thorn" />
 </Template>

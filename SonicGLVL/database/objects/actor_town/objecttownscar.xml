@@ -6,5 +6,6 @@
   <downfilename type="string" default="" description="" />
   <color type="integer" default="0" description="" />
   <hp type="integer" default="0" description="" />
+  
   <Extra type="description" name="objecttownscar" />
 </Template>

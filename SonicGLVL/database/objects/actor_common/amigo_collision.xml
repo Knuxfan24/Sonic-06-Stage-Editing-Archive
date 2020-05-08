@@ -3,7 +3,11 @@
   <length type="float" default="0" description="" />
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
-  <target type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <chase type="bool" default="false" description="" />
+  <target type="float" default="4294967295" description="Targetted object when entering the volume." /> <!-- uint32 -->
+  <chase type="bool" default="false" description="Determines if the character activated by this volume follows the player." />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
   <Extra type="description" name="amigo_collision" />
 </Template>

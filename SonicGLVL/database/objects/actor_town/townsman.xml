@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <actorname type="string" default="" description="" />
-  <mantype type="integer" default="0" description="" />
+  <mantype type="integer" default="0" description="Variant of the chosen actor." />
   <bodycolor type="integer" default="0" description="" />
   <haircolor type="integer" default="0" description="" />
   <mankind type="string" default="" description="" />
@@ -9,14 +9,15 @@
   <action type="string" default="" description="" />
   <talkevent type="string" default="" description="" />
   <target type="vector" description="" />
-  <target_actor type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <target_actor type="float" default="4294967295" description="" /> <!-- uint32 -->
   <manvariation type="integer" default="0" description="" />
   <turnmode type="integer" default="0" description="" />
   <brain type="string" default="" description="" />
   <brainparam type="string" default="" description="" />
   <norangeout type="bool" default="false" description="" />
   <nododge type="bool" default="false" description="" />
-  <target_ride type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <target_ride type="float" default="4294967295" description="" /> <!-- uint32 -->
   <globalflag type="integer" default="0" description="" />
+  
   <Extra type="description" name="townsman" />
 </Template>

@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <height type="float" default="0" description="" />
-  <speed type="float" default="0" description="" />
-  <retspeed type="float" default="0" description="" />
-  <maxlen type="float" default="0" description="" />
-  <difference type="float" default="0" description="" />
+  <height type="float" default="0" description="The initial height of the scales." />
+  <speed type="float" default="0" description="The speed the scales moves at when interacting with it." />
+  <retspeed type="float" default="0" description="The speed the scales moves at when turning idle." />
+  <maxlen type="float" default="0" description="Minimum height of the scales." />
+  <difference type="float" default="0" description="Maximum height of the opposite scale." />
   <right type="integer" default="0" description="" />
   <right_x type="float" default="0" description="" />
   <right_z type="float" default="0" description="" />
   <left type="integer" default="0" description="" />
   <left_x type="float" default="0" description="" />
   <left_z type="float" default="0" description="" />
-  <lua type="string" default="" description="" />
+  <lua type="string" default="" description="Lua script to use for object initialisation." />
+  
+  <Extra type="preview_box_y" name="Height" />
   <Extra type="description" name="rct_seesaw_silver" />
 </Template>

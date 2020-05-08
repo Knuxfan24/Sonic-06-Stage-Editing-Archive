@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <objectName type="string" default="" description="" />
-  <restart type="bool" default="false" description="" />
+  <objectName type="string" default="" description="Name of the object." />
+  <restart type="bool" default="false" description="Determines whether the object should respawn." />
   <pathName type="string" default="" description="" />
   <velocity type="float" default="0" description="" />
   <startMode type="integer" default="0" description="" />
@@ -9,5 +9,6 @@
   <motionMode type="integer" default="0" description="" />
   <motionSpeed type="float" default="0" description="" />
   <motionParam type="float" default="0" description="" />
+  
   <Extra type="description" name="physicspath" />
 </Template>

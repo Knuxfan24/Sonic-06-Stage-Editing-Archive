@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <target type="float" default="4294967295" description="" /> <!-- uint32 -->
   <mark type="integer" default="0" description="" />
-  <animation type="bool" default="false" description="" />
+  <animation type="bool" default="false" description="Determines if the object animates on the radar map." />
+  
   <Extra type="description" name="radarmapmark" />
 </Template>

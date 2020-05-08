@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <time type="float" default="0" description="" />
-  <speed type="float" default="0" description="" />
+  <speed type="float" default="0" description="The speed the object moves at." />
+  
   <Extra type="description" name="dtd_sandwave" />
 </Template>

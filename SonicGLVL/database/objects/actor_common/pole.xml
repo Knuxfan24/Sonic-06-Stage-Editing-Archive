@@ -2,10 +2,12 @@
 <Template>
   <radius type="float" default="0" description="" />
   <height type="float" default="0" description="" />
-  <power type="float" default="0" description="" />
-  <pitch type="float" default="0" description="" />
-  <yaw type="float" default="0" description="" />
-  <rotation_time type="float" default="0" description="" />
-  <out_time type="float" default="0" description="" />
+  <power type="float" default="0" description="The speed the player will be launched at." />
+  <pitch type="float" default="0" description="The angle the player will be launched at on the Y axis." />
+  <yaw type="float" default="0" description="The angle the player will be launched at on the X axis." />
+  <rotation_time type="float" default="0" description="Time taken to swing around the pole." />
+  <time type="float" default="0" description="Time taken before restoring control to the player." />
+  
+  <Extra type="preview_box_y" name="Height" />
   <Extra type="description" name="pole" />
 </Template>

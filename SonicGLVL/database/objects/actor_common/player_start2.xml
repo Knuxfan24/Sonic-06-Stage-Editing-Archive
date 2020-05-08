@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <player_no type="integer" default="0" description="" />
-  <player_name type="string" default="" description="" />
-  <amigo type="bool" default="false" description="" />
+  <player_name type="string" default="" description="Name of the character by Lua script filename." />
+  <amigo type="bool" default="false" description="Determines if this character follows the player." />
+  
   <Extra type="description" name="player_start2" />
 </Template>

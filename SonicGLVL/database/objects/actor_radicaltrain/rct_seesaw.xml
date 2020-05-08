@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <height type="float" default="0" description="" />
-  <speed type="float" default="0" description="" />
-  <retspeed type="float" default="0" description="" />
-  <time type="float" default="0" description="" />
-  <maxlen type="float" default="0" description="" />
-  <difference type="float" default="0" description="" />
+  <height type="float" default="0" description="The initial height of the scales." />
+  <speed type="float" default="0" description="The speed the scales moves at when interacting with it." />
+  <retspeed type="float" default="0" description="The speed the scales moves at when turning idle." />
+  <time type="float" default="0" description="Time taken before the scales collapse at the maximum height." />
+  <maxlen type="float" default="0" description="Minimum height of the scales." />
+  <difference type="float" default="0" description="Maximum height of the opposite scale." />
+  
   <Extra type="description" name="rct_seesaw" />
 </Template>

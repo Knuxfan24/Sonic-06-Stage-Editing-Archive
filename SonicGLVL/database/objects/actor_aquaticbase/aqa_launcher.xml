@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <num type="integer" default="0" description="" />
-  <hp type="integer" default="0" description="" />
+  <num type="integer" default="0" description="Maximum number of bubbles." />
+  <hp type="integer" default="0" description="Health of the bubbles." />
   <friction type="float" default="0" description="" />
   <air_friction type="float" default="0" description="" />
   <speed type="float" default="0" description="" />
-  <time type="float" default="0" description="" />
-  <target type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <time type="float" default="0" description="Time taken to create another bubble." />
+  <target type="float" default="4294967295" description="" /> <!-- uint32 -->
+  
   <Extra type="description" name="aqa_launcher" />
 </Template>

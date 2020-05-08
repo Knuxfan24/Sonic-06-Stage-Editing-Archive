@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <textID type="string" default="" description="" />
-  <download type="string" default="" description="" />
+  <textID type="string" default="" description="Hint to play from an MST when interacting with the object." />
+  <download type="string" default="" description="PKG file to load data from." />
+  
   <Extra type="description" name="download_obj" />
 </Template>

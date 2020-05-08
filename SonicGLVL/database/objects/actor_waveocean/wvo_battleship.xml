@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <path type="string" default="" description="" />
+  <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <distance type="float" default="0" description="" />
+  
   <Extra type="description" name="wvo_battleship" />
 </Template>

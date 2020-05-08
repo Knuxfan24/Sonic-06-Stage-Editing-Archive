@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <shinetime type="float" default="0" description="" />
+  <shinetime type="float" default="0" description="Time taken for the light remaining active." />
   <espmode type="bool" default="false" description="" />
   <light_r type="float" default="0" description="" />
   <light_g type="float" default="0" description="" />
@@ -9,6 +9,7 @@
   <light_att_b type="float" default="0" description="" />
   <light_att_c type="float" default="0" description="" />
   <light_range type="float" default="0" description="" />
-  <signalobj type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <signalobj type="float" default="4294967295" description="" /> <!-- uint32 -->
+  
   <Extra type="description" name="flamesingle" />
 </Template>

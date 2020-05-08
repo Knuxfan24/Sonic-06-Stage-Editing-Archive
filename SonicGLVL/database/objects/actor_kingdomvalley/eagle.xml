@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <speed1 type="float" default="0" description="" />
-  <path type="string" default="" description="" />
-  <noloop type="bool" default="false" description="" />
+  <speed1 type="float" default="0" description="The speed the object moves at." />
+  <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
+  <noloop type="bool" default="false" description="Determines if the object only follows this spline once." />
+  
   <Extra type="description" name="eagle" />
 </Template>

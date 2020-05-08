@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <event type="string" default="" description="" />
+  <event type="string" default="" description="Event to trigger when interacting with the object." />
+  
   <Extra type="description" name="common_key" />
 </Template>

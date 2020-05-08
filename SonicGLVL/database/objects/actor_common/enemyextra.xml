@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <typeName type="string" default="" description="" />
-  <typeNumber type="integer" default="0" description="" />
-  <scriptName type="string" default="" description="" />
+  <typeName type="string" default="" description="Name of the enemy." />
+  <typeNumber type="integer" default="0" description="Variant of the chosen enemy." />
+  <scriptName type="string" default="" description="Main function of the enemy." />
   <radius type="float" default="0" description="" />
   <restart type="bool" default="false" description="" />
   <findPlayer type="bool" default="false" description="" />
@@ -12,7 +12,8 @@
   <appearVelocity type="float" default="0" description="" />
   <searchPath type="string" default="" description="" />
   <actionPath type="string" default="" description="" />
-  <attackTarget type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <homingTarget type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <attackTarget type="float" default="4294967295" description="" /> <!-- uint32 -->
+  <homingTarget type="float" default="4294967295" description="" /> <!-- uint32 -->
+  
   <Extra type="description" name="enemyextra" />
 </Template>

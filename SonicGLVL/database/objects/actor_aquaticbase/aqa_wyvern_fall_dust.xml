@@ -8,5 +8,6 @@
   <min_time type="float" default="0" description="" />
   <max_time type="float" default="0" description="" />
   <num type="integer" default="0" description="" />
+  
   <Extra type="description" name="aqa_wyvern_fall_dust" />
 </Template>

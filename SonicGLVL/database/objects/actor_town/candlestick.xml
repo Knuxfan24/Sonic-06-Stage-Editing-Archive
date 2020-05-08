@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <fire_lifetime type="float" default="0" description="" />
-  <eventname type="string" default="" description="" />
+  <fire_lifetime type="float" default="0" description="Time taken before the fire is extinguished." />
+  <eventname type="string" default="" description="Event to trigger when interacting with the object." />
+  
   <Extra type="description" name="candlestick" />
 </Template>

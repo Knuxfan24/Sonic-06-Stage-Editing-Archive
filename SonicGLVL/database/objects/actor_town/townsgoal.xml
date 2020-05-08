@@ -4,5 +4,9 @@
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
   <collisionsize type="float" default="0" description="" />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
   <Extra type="description" name="townsgoal" />
 </Template>

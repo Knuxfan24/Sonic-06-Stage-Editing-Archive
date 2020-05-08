@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <appeartime type="float" default="0" description="" />
-  <disappeartime type="float" default="0" description="" />
+  <appeartime type="float" default="0" description="Time taken for the object to appear." />
+  <disappeartime type="float" default="0" description="Time taken before the object disappears." />
   <speed type="float" default="0" description="" />
-  <path type="string" default="" description="" />
+  <path type="string" default="" description="Name of the spline in a PATH file for the player to grind on." />
+  
   <Extra type="description" name="windroad" />
 </Template>

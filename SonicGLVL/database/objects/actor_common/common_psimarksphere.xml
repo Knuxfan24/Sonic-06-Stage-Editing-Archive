@@ -2,5 +2,6 @@
 <Template>
   <radius type="float" default="0" description="" />
   <event type="string" default="" description="" />
+  
   <Extra type="description" name="common_psimarksphere" />
 </Template>

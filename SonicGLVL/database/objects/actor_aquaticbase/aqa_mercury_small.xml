@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <hp type="integer" default="0" description="" />
+  <hp type="integer" default="0" description="Health of the bubble." />
   <friction type="float" default="0" description="" />
   <air_friction type="float" default="0" description="" />
+  
   <Extra type="description" name="aqa_mercury_small" />
 </Template>

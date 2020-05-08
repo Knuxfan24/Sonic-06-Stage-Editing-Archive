@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <objectName type="string" default="" description="" />
+  <objectName type="string" default="" description="Name of the object." />
+  
   <Extra type="description" name="twn_hardrock" />
 </Template>

@@ -3,9 +3,11 @@
   <radius type="float" default="0" description="" />
   <height type="float" default="0" description="" />
   <cancelable type="bool" default="false" description="" />
-  <prio type="integer" default="0" description="" />
+  <prio type="integer" default="0" description="The priority of the volume - higher values will be prioritised over other stacked volumes." />
   <onintersect type="integer" default="0" description="" />
-  <data0 type="vector" description="" />
-  <data1 type="vector" description="" />
+  <data0 type="vector" description="Position of the camera." />
+  <data1 type="vector" description="Target of the camera." />
+  
+  <Extra type="preview_box_y" name="Height" />
   <Extra type="description" name="cameraeventcylinder" />
 </Template>

@@ -5,5 +5,6 @@
   <open type="integer" default="0" description="" />
   <close type="integer" default="0" description="" />
   <content type="integer" default="0" description="" />
+  
   <Extra type="description" name="wvo_doorA" />
 </Template>

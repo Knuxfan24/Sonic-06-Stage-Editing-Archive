@@ -13,5 +13,6 @@
   <onintersect type="string" default="" description="" />
   <brokenhead type="string" default="" description="" />
   <allbrk type="bool" default="false" description="" />
+  
   <Extra type="description" name="wap_searchlight" />
 </Template>

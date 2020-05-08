@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <bank type="string" default="" description="" />
-  <name type="string" default="" description="" />
-  <sebank type="string" default="" description="" />
-  <sename type="string" default="" description="" />
+  <bank type="string" default="" description="PLC file to load particles from." />
+  <name type="string" default="" description="Particle to load from the PLC." />
+  <sebank type="string" default="" description="SBK file to load sounds from." />
+  <sename type="string" default="" description="Sound to load from the SBK." />
+  
   <Extra type="description" name="particlesphere" />
 </Template>

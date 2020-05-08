@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <time type="float" default="0" description="" />
+  <time type="float" default="0" description="Time taken before the object falls." />
+  
   <Extra type="description" name="brokenstairs_left" />
 </Template>

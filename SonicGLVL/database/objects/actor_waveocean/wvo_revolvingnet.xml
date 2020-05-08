@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <velocity type="float" default="0" description="" />
-  <control type="float" default="0" description="" />
+  <velocity type="float" default="0" description="The speed the player will be launched at." />
+  <control type="float" default="0" description="Time taken before restoring control to the player." />
+  
   <Extra type="description" name="wvo_revolvingnet" />
 </Template>

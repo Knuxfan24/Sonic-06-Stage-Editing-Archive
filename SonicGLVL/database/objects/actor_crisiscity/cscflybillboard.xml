@@ -4,5 +4,6 @@
   <disappeartime type="float" default="0" description="" />
   <pathspd type="float" default="0" description="" />
   <path type="string" default="" description="" />
+  
   <Extra type="description" name="cscflybillboard" />
 </Template>

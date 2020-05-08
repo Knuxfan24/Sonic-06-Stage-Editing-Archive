@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <kind type="integer" default="0" description="" />
+  <kind type="integer" default="0" description="Variant of the object." />
   <radius type="float" default="0" description="" />
   <force type="float" default="0" description="" />
-  <offtime type="float" default="0" description="" />
+  <offtime type="float" default="0" description="Time taken to reset the object if 'kind' is set to 1." />
+  
   <Extra type="description" name="aqa_magnet" />
 </Template>

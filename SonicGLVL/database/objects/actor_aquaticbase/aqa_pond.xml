@@ -3,11 +3,15 @@
   <length type="float" default="0" description="" />
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
-  <num type="integer" default="0" description="" />
-  <hp type="integer" default="0" description="" />
+  <num type="integer" default="0" description="Maximum number of bubbles." />
+  <hp type="integer" default="0" description="Health of the bubbles." />
   <friction type="float" default="0" description="" />
   <air_friction type="float" default="0" description="" />
   <vel type="float" default="0" description="" />
   <time type="float" default="0" description="" />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
   <Extra type="description" name="aqa_pond" />
 </Template>

@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <type type="integer" default="0" description="" />
+  <type type="integer" default="0" description="Name of the vehicle." />
   <downfilename type="string" default="" description="" />
-  <isGetOut type="bool" default="false" description="" />
+  <isGetOut type="bool" default="false" description="Determines if the character can exit the vehicle." />
   <isShoot type="bool" default="false" description="" />
   <RoutePath type="string" default="" description="" />
+  
   <Extra type="description" name="vehicle" />
 </Template>

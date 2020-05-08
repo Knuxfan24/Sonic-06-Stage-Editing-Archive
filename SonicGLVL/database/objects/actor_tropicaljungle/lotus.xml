@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <spd1 type="float" default="0" description="" />
-  <spd2 type="float" default="0" description="" />
-  <spd3 type="float" default="0" description="" />
+  <spd1 type="float" default="0" description="Maximum height of the first jump." />
+  <spd2 type="float" default="0" description="Maximum height of the second jump." />
+  <spd3 type="float" default="0" description="Maximum height of the third jump." />
   <charge1 type="float" default="0" description="" />
   <charge2 type="float" default="0" description="" />
   <charge3 type="float" default="0" description="" />
-  <espmode type="bool" default="false" description="" />
+  <espmode type="bool" default="false" description="Determines if the object requires psychokinesis." />
   <nocontime type="float" default="0" description="" />
+  
   <Extra type="description" name="lotus" />
 </Template>

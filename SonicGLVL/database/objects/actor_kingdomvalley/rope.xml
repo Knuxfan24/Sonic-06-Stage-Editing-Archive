@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target type="vector" description="" />
-  <height1 type="float" default="0" description="" />
-  <height2 type="float" default="0" description="" />
-  <height3 type="float" default="0" description="" />
+  <target type="vector" description="Position of the other end of the rope." />
+  <height1 type="float" default="0" description="Maximum height of the first jump." />
+  <height2 type="float" default="0" description="Maximum height of the second jump." />
+  <height3 type="float" default="0" description="Maximum height of the third jump." />
   <dec type="float" default="0" description="" />
   <time1 type="float" default="0" description="" />
   <time2 type="float" default="0" description="" />
   <time3 type="float" default="0" description="" />
+  
   <Extra type="description" name="rope" />
 </Template>

@@ -3,7 +3,7 @@
   <length type="float" default="0" description="" />
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
-  <volcanoobj type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
+  <volcanoobj type="float" default="4294967295" description="" /> <!-- uint32 -->
   <cycletime type="float" default="0" description="" />
   <cycletimr type="float" default="0" description="" />
   <volcanocycle type="float" default="0" description="" />
@@ -12,5 +12,9 @@
   <bombheight type="float" default="0" description="" />
   <bombrange type="float" default="0" description="" />
   <bombangle type="float" default="0" description="" />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
   <Extra type="description" name="flc_volcanicbomb" />
 </Template>

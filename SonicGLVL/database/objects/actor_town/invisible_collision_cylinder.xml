@@ -4,5 +4,7 @@
   <height type="float" default="0" description="" />
   <lifepoint type="integer" default="0" description="" />
   <onbroken type="string" default="" description="" />
+  
+  <Extra type="preview_box_y" name="Height" />
   <Extra type="description" name="invisible_collision_cylinder" />
 </Template>

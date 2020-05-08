@@ -2,5 +2,6 @@
 <Template>
   <name type="string" default="" description="" />
   <type type="integer" default="0" description="" />
+  
   <Extra type="description" name="firstiblis" />
 </Template>

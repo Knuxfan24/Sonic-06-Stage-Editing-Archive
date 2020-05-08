@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <shadow type="bool" default="false" description="" />
+  <shadow type="bool" default="false" description="Determines if the object casts a shadow." />
   <pathparam type="float" default="0" description="" />
-  <path type="string" default="" description="" />
+  <path type="string" default="" description="Name of the spline in a PATH file for the player to lightdash on." />
+  
   <Extra type="description" name="ring" />
 </Template>

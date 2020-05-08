@@ -4,5 +4,7 @@
   <height type="float" default="0" description="" />
   <target_name type="string" default="" description="" />
   <score_point type="integer" default="0" description="" />
+  
+  <Extra type="preview_box_y" name="Height" />
   <Extra type="description" name="score_collision_cylinder" />
 </Template>

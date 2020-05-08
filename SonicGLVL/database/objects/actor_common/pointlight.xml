@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <lightname type="string" default="" description="" />
+  <lightname type="string" default="" description="Name of the pointlight parameters defined in the Lua scene parameters." />
+  
   <Extra type="description" name="pointlight" />
 </Template>

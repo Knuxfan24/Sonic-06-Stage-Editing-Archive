@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <count type="integer" default="0" description="" />
-  <time type="float" default="0" description="" />
+  <count type="integer" default="0" description="Maximum number of balls." />
+  <time type="float" default="0" description="Time taken for the balls to explode." />
   <power type="float" default="0" description="" />
+  
   <Extra type="description" name="dtd_billiard" />
 </Template>

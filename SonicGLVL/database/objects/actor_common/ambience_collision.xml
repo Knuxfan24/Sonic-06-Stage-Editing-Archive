@@ -3,8 +3,12 @@
   <length type="float" default="0" description="" />
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
-  <fade type="float" default="0" description="" />
-  <bank type="string" default="" description="" />
-  <name type="string" default="" description="" />
+  <fade type="float" default="0" description="Time taken to fade the audio when entering and exiting the volume." />
+  <bank type="string" default="" description="SBK file to load sounds from." />
+  <name type="string" default="" description="Sound to load from the SBK." />
+  
+  <Extra type="preview_box_x" name="Width" />
+  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_z" name="Length" />
   <Extra type="description" name="ambience_collision" />
 </Template>

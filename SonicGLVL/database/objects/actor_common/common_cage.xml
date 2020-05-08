@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <scale type="float" default="0" description="" />
+  <scale type="float" default="0" description="Size of the object." />
+  
   <Extra type="description" name="common_cage" />
 </Template>

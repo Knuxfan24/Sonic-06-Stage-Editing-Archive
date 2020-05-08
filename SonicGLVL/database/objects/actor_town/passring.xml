@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <nextring type="float" default="4294967295" description="Actually a uint32, but SonicGLVL cannot edit those values" />
-  <lifetime type="float" default="0" description="" />
-  <scale type="float" default="0" description="" />
+  <nextring type="float" default="4294967295" description="Targets the next object in the chain." /> <!-- uint32 -->
+  <lifetime type="float" default="0" description="Time taken for the object to be active." />
+  <scale type="float" default="0" description="Size of the object." />
+  
   <Extra type="description" name="passring" />
 </Template>

@@ -2,8 +2,9 @@
 <Template>
   <attacktime1 type="float" default="0" description="" />
   <attacktime2 type="float" default="0" description="" />
-  <attackrange type="float" default="0" description="" />
+  <attackrange type="float" default="0" description="Maximum distance for the shockwaves." />
   <firstmode type="integer" default="0" description="" />
-  <event type="string" default="" description="" />
+  <event type="string" default="" description="Event to trigger when interacting with the object." />
+  
   <Extra type="description" name="flc_flamecore" />
 </Template>

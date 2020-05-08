@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <cam_pos type="vector" description="" />
-  <cam_tgt type="vector" description="" />
+  <cam_pos type="vector" description="Position of the camera." />
+  <cam_tgt type="vector" description="Target of the camera." />
+  
   <Extra type="description" name="player_goal" />
 </Template>

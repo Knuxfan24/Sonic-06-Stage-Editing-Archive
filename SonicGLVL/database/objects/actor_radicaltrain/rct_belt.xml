@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <forward type="float" default="0" description="" />
-  <backward type="float" default="0" description="" />
-  <time1 type="float" default="0" description="" />
+  <forward type="float" default="0" description="The speed the object moves forwards at." />
+  <backward type="float" default="0" description="The speed the object moves backwards at." />
+  <time1 type="float" default="0" description="Time taken for the object to change direction." />
   <time2 type="float" default="0" description="" />
+  
   <Extra type="description" name="rct_belt" />
 </Template>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <objectName type="string" default="" description="" />
-  <restart type="bool" default="false" description="" />
+  <objectName type="string" default="" description="Name of the object." />
+  <restart type="bool" default="false" description="Determines if the object should respawn." />
+  
   <Extra type="description" name="objectphysics" />
 </Template>

@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <kind0 type="string" default="" description="" />
-  <kind1 type="string" default="" description="" />
-  <kind2 type="string" default="" description="" />
-  <kind3 type="string" default="" description="" />
-  <kind4 type="string" default="" description="" />
-  <kind5 type="string" default="" description="" />
-  <kind6 type="string" default="" description="" />
-  <kind7 type="string" default="" description="" />
-  <kind8 type="string" default="" description="" />
-  <kind9 type="string" default="" description="" />
-  <speed type="float" default="0" description="" />
+  <kind0 type="string" default="" description="First name of the object to toss." />
+  <kind1 type="string" default="" description="Second name of the object to toss." />
+  <kind2 type="string" default="" description="Third name of the object to toss." />
+  <kind3 type="string" default="" description="Fourth name of the object to toss." />
+  <kind4 type="string" default="" description="Fifth name of the object to toss." />
+  <kind5 type="string" default="" description="Sixth name of the object to toss." />
+  <kind6 type="string" default="" description="Seventh name of the object to toss." />
+  <kind7 type="string" default="" description="Eigth name of the object to toss." />
+  <kind8 type="string" default="" description="Ninth name of the object to toss." />
+  <kind9 type="string" default="" description="Tenth name of the object to toss." />
+  <speed type="float" default="0" description="The speed the object will be launched at." />
   <time type="float" default="0" description="" />
   <error type="float" default="0" description="" />
   <ypos type="float" default="0" description="" />
+  
   <Extra type="description" name="end_outputwarp" />
 </Template>

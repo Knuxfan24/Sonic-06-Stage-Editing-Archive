@@ -7,5 +7,6 @@
   <content type="integer" default="0" description="" />
   <lifepoint type="integer" default="0" description="" />
   <onbroken type="string" default="" description="" />
+  
   <Extra type="description" name="twn_door" />
 </Template>

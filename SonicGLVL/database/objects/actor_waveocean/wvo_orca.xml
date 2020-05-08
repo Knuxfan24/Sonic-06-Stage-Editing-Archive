@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <content type="integer" default="0" description="" />
-  <speed type="float" default="0" description="" />
-  <path type="string" default="" description="" />
+  <speed type="float" default="0" description="The speed the object moves at." />
+  <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <distance type="float" default="0" description="" />
   <coefficient type="float" default="0" description="" />
-  <onintersect type="string" default="" description="" />
+  <onintersect type="string" default="" description="Event to trigger when interacting with the object." />
+  
   <Extra type="description" name="wvo_orca" />
 </Template>
