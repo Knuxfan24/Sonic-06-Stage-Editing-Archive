@@ -2,4 +2,5 @@ A collection of various small tools and a set of custom GLvl object templates de
 
 ## Libraries
 - [LibGens](https://github.com/DarioSamo/libgens-sonicglvl)
+- [LibS06](https://github.com/DarioSamo/libgens-sonicglvl/tree/master/src/LibS06)
 - A heavily modified [fork](https://github.com/Knuxfan24/HedgeLib) of [HedgeLib#](https://github.com/Radfordhound/HedgeLib)
