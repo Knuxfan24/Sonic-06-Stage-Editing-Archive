@@ -2,5 +2,6 @@
 <Template>
   <scale type="float" default="1" description="Size of the object." />
   
+  <Extra type="model" name="cmn_obj_cage.model" /> 
   <Extra type="description" name="A cage." />
 </Template>

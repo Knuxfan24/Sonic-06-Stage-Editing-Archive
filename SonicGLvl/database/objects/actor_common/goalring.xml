@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
+  <Extra type="model" name="cmn_obj_goalring.model" /> 
   <Extra type="description" name="A mysterious giant floating ring - it seems to whisper to the character saying 'you can pose now.'" />
 </Template>

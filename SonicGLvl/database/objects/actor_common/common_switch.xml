@@ -10,5 +10,6 @@
   <time type="float" default="0" description="Time taken for the switch to go inactive with certain behaviours." />
   <target type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   
+  <Extra type="model" name="cmn_obj_switch.model" /> 
   <Extra type="description" name="A magic floating orb that remotely activates things." />
 </Template>

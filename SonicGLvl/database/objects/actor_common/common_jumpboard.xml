@@ -6,5 +6,6 @@
   <speed_max type="float" default="1000" description="Maximum speed required for full launch." />
   <speed_mid type="float" default="700" description="Minimum speed to launch." />
   
+  <Extra type="model" name="cmn_obj_jumpboard.model" /> 
   <Extra type="description" name="A board that launches the player if they have sufficient speed." />
 </Template>

@@ -2,5 +2,13 @@
 <Template>
   <content type="integer" default="0" description="Item given when interacting with the object." />
   
+  <Extra type="model" name="cmn_obj_itemboxGroundRing5.model" condition="content == 1" />
+  <Extra type="model" name="cmn_obj_itemboxGroundRing10.model" condition="content == 2" />
+  <Extra type="model" name="cmn_obj_itemboxGroundRing20.model" condition="content == 3" />
+  <Extra type="model" name="cmn_obj_itemboxGroundLVup.model" condition="content == 4" />
+  <Extra type="model" name="cmn_obj_itemboxGroundSpeed.model" condition="content == 5" />
+  <Extra type="model" name="cmn_obj_itemboxGroundGageUp.model" condition="content == 6" />
+  <Extra type="model" name="cmn_obj_itemboxGroundMuteki.model" condition="content == 7" />
+  <Extra type="model" name="cmn_obj_itemboxGroundBaria.model" condition="content == 8" />
   <Extra type="description" name="A bubbly container that holds special items on the ground!" />
 </Template>

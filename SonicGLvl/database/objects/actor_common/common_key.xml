@@ -2,5 +2,6 @@
 <Template>
   <event type="string" default="" description="Event to trigger when interacting with the object." />
   
+  <Extra type="model" name="cmn_obj_key.model" /> 
   <Extra type="description" name="Place this object to unlock its secrets..." />
 </Template>

@@ -7,5 +7,8 @@
   <outtime type="float" default="1" description="Time taken for the spikes to rise." />
   <intime type="float" default="1" description="Time taken for the spikes to fall." />
   
+  <Extra type="model" name="cmn_obj_thornOn.model" condition="content == 1" />
+  <Extra type="model" name="cmn_obj_thornOn.model" condition="content == 2" />
+  <Extra type="model" name="cmn_obj_thornOff.model" condition="content == 3" />
   <Extra type="description" name="A spike trap." />
 </Template>

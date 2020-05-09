@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <LevelDatabase>
   <Entry name="Common" folder="actor_common" />
-  <Entry name="Camera Volumes" folder="amera_class" />
+  <Entry name="Camera Volumes" folder="camera_class" />
   <Entry name="Aquatic Base" folder="actor_aquaticbase" />
   <Entry name="Crisis City" folder="actor_crisiscity" />
   <Entry name="Dusty Desert" folder="actor_dustydesert" />

@@ -12,6 +12,8 @@
   <speed type="float" default="800" description="Speed of the guillotine movement." />
   <distance type="float" default="5" description="Distance between the player and the guillotine before it starts moving." />
 
-  <Extra type="preview_box_z" name="length" />
+  <Extra type="model" name="cmn_obj_guillotineA.model" condition="length == 1" />
+  <Extra type="model" name="cmn_obj_guillotineB.model" condition="length == 2" />
+  <Extra type="model" name="cmn_obj_guillotineC.model" condition="length == 3" />
   <Extra type="description" name="A cylindrical object with spikes that spins." />
 </Template>

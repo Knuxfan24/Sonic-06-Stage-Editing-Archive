@@ -2,5 +2,6 @@
 <Template>
   <event type="string" default="" description="Hint to play from an MST when interacting with the object." />
   
+  <Extra type="model" name="cmn_obj_hint.model" /> 
   <Extra type="description" name="Do you really need a hint on what this is?" />
 </Template>
