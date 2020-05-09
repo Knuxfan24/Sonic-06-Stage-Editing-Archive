@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="1 - Grey    | 5 - Green
-2 - Cyan   | 6 - Blue
-3 - Yellow | 7 - Red
-4 - Purple" />
+  <content type="integer" default="1" description="1 - Grey | 2 - Cyan | 3 - Yellow | 4 - Purple | 5 - Green
+6 - Blue | 7 - Red" />
 
   <Extra type="model" name="cmn_obj_emeraldW.model" condition="content == 1" />
   <Extra type="model" name="cmn_obj_emeraldS.model" condition="content == 2" />
