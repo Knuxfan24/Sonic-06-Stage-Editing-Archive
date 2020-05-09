@@ -2,7 +2,7 @@
 <Template>
   <velocity type="float" default="0" description="The speed the player will be launched at." />
   <time type="float" default="0" description="Time taken before restoring control to the player." />
-  <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
+  <target type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   <globalflag type="integer" default="0" description="" />
   
   <Extra type="description" name="Bounce Pad!" />

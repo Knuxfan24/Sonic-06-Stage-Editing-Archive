@@ -8,7 +8,7 @@
   <eventcolli type="string" default="" description="Event to trigger when enabling with the object." />
   <event_off type="string" default="" description="Event to trigger when disabling with the object." />
   <time type="float" default="0" description="Time taken for the switch to go inactive with certain behaviours." />
-  <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
+  <target type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   
   <Extra type="description" name="A magic floating orb that remotely activates things." />
 </Template>

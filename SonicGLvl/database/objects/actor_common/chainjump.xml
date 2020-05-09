@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
+  <target type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   
   <Extra type="description" name="A point that targets another for the player to jump between." />
 </Template>

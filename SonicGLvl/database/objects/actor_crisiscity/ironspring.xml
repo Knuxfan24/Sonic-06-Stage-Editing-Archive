@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
+  <target type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   <pitch type="float" default="0" description="The angle the player will be launched at on the Y axis." />
   <yaw type="float" default="0" description="The angle the player will be launched at on the X axis." />
   <power type="float" default="0" description="The speed the player will be launched at." />

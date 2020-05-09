@@ -9,7 +9,7 @@
   <weight type="float" default="0" description="" />
   <hitangle type="float" default="0" description="" />
   <jumpcheckangle type="float" default="0" description="" />
-  <targetobj type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
+  <targetobj type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   <camz type="float" default="0" description="" />
   <camy type="float" default="0" description="" />
   <isrouge type="bool" default="false" description="" />

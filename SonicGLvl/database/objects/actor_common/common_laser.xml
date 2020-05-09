@@ -3,7 +3,7 @@
   <alone type="integer" default="1" description="1 - Default.
 2 - Laser(s) with fixed length." />
 
-  <pair type="float" default="4294967295" description="Targetted laser to pair the beam." /> <!-- uint32 -->
+  <pair type="float" default="4294967295" description="Targeted laser to pair the beam." /> <!-- uint32 -->
   <num type="integer" default="1" description="Number of sub-lasers." />
   <interval type="float" default="0" description="Space between the sub-lasers." />
   <ontime type="float" default="0" description="Time taken for lasers to remain on." />

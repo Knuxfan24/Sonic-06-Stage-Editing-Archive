@@ -2,7 +2,7 @@
 <Template>
   <spd type="float" default="0" description="" />
   <pathname type="string" default="" description="" />
-  <targetobj type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
+  <targetobj type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   <motspd type="float" default="0" description="" />
   <jumpframe type="float" default="0" description="" />
   
