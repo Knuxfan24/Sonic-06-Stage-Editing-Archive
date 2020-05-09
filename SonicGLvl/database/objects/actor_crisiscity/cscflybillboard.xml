@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <appeartime type="float" default="0" description="" />
-  <disappeartime type="float" default="0" description="" />
-  <pathspd type="float" default="0" description="" />
-  <path type="string" default="" description="" />
+  <appeartime type="float" default="0" description="Time taken to appear." />
+  <disappeartime type="float" default="0" description="Time taken to reappear when the object disappears." />
+  <pathspd type="float" default="0" description="The speed the object moves at." />
+  <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   
-  <Extra type="description" name="cscflybillboard" />
+  <Extra type="model" name="csc_obj_billboard.model" />
+  <Extra type="description" name="Here comes a billboard!" />
 </Template>

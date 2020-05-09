@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <time type="float" default="0" description="" />
+  <time type="float" default="0" description="Time taken to explode." />
   
-  <Extra type="description" name="cscglassbuildbomb" />
+  <Extra type="model" name="csc_obj_glassbuild.model" />
+  <Extra type="description" name="An explosion that takes out a chunk of a building." />
 </Template>

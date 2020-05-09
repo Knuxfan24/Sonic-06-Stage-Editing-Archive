@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <time type="float" default="0" description="" />
+  <time type="float" default="0" description="Time taken to explode." />
   
-  <Extra type="description" name="cscglass" />
+  <Extra type="model" name="csc_obj_glass.model" />
+  <Extra type="description" name="Glass that shatters after the timer expires when targeted." />
 </Template>

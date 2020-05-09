@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="vector" description="" />
-  <posy type="float" default="0" description="" />
-  <chasespd type="float" default="0" description="" />
-  <homing type="float" default="0" description="" />
-  <throwspd type="vector" description="" />
-  <topos type="vector" description="" />
+  <length type="vector" description="Unknown." />
+  <posy type="float" default="0" description="The height of the object." />
+  <chasespd type="float" default="0" description="Unknown." />
+  <homing type="float" default="0" description="Unknown." />
+  <throwspd type="vector" description="Unknown." />
+  <topos type="vector" description="Unknown." />
   
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="csctornado" />
+  <Extra type="description" name="That tornado!" />
 </Template>
