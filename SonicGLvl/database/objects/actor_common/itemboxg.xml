@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="Item given when interacting with the object." />
+  <content type="integer" default="2" description="Item given when interacting with the object." />
   
   <Extra type="model" name="cmn_obj_itemboxGroundRing5.model" condition="content == 1" />
   <Extra type="model" name="cmn_obj_itemboxGroundRing10.model" condition="content == 2" />

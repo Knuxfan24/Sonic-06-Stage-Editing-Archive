@@ -4,7 +4,7 @@
 2 - Cyan   | 6 - Blue
 3 - Yellow | 7 - Red
 4 - Purple" />
-  
+
   <Extra type="model" name="cmn_obj_emeraldW.model" condition="content == 1" />
   <Extra type="model" name="cmn_obj_emeraldS.model" condition="content == 2" />
   <Extra type="model" name="cmn_obj_emeraldY.model" condition="content == 3" />

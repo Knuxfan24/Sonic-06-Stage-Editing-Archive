@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <mark type="integer" default="0" description="" />
+  <target type="float" default="4294967295" description="The object for the marker to follow." /> <!-- uint32 -->
+  
+  <mark type="integer" default="0" description="1 - Green Arrow | 2 - Blue Circle | 3 - Orange Circle
+4 - Yellow Circle | 5 - Yellow Square | 6 - Green Square
+7 - Red Square | 8 - Yellow Star | 9 - Red Circle" />
+
   <animation type="bool" default="false" description="Determines if the object animates on the radar map." />
   
   <Extra type="description" name="A point that creates a marker on the radar map." />

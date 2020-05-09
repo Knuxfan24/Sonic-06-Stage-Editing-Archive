@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <radius type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
-  <power type="float" default="0" description="The speed the player will be launched at." />
-  <pitch type="float" default="0" description="The angle the player will be launched at on the Y axis." />
+  <height type="float" default="15" description="" />
+  <power type="float" default="1800" description="The speed the player will be launched at." />
+  <pitch type="float" default="60" description="The angle the player will be launched at on the Y axis." />
   <yaw type="float" default="0" description="The angle the player will be launched at on the X axis." />
-  <rotation_time type="float" default="0" description="Time taken to swing around the pole." />
-  <time type="float" default="0" description="Time taken before restoring control to the player." />
+  <rotation_time type="float" default="0.5" description="Time taken to swing around the pole." />
+  <time type="float" default="3" description="Time taken before restoring control to the player." />
   
-  <Extra type="preview_box_y" name="Height" />
+  <Extra type="preview_box_y" name="height" />
   <Extra type="description" name="A cylindrical volume that makes the character spin around a pole." />
 </Template>

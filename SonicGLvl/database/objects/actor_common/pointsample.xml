@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="" />
+  <content type="integer" default="0" description="Unknown." />
   
   <Extra type="description" name="A dummy object for targetting." />
 </Template>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="Item given when interacting with the object." />
+  <content type="integer" default="2" description="Item given when interacting with the object." />
   <flag1 type="bool" default="false" description="Unknown." />
   <flag2 type="bool" default="false" description="Unknown." />
   

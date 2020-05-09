@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <player_no type="integer" default="0" description="" />
-  <player_name type="string" default="" description="Name of the character by Lua script filename." />
+  <player_no type="integer" default="0" description="Identifier for the player defined in Lua." />
+  <player_name type="string" default="sonic_new" description="Name of the character by Lua script filename." />
   <amigo type="bool" default="false" description="Determines if this character follows the player." />
   
   <Extra type="description" name="An object that marks the player beginning the stage. This can also be used for other players and also characters for AI initialisation." />

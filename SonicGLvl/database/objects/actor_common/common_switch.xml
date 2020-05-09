@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="1 - Remains active after interaction.
+  <content type="integer" default="1" description="1 - Remains active after interaction.
 2 - Deactivates when player isn't colliding.
 3 - Deactivates after the 'time' parameter expires.
 4 - Toggle mode." />

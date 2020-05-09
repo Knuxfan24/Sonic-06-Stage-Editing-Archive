@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <type type="integer" default="0" description="Name of the vehicle." />
-  <downfilename type="string" default="" description="" />
+  <type type="integer" default="4" description="1 - Jeep | 2 - Bike | 3 - Hovercraft | 4 - Glider" />
+  <downfilename type="string" default="" description="Unknown." />
   <isGetOut type="bool" default="false" description="Determines if the character can exit the vehicle." />
-  <isShoot type="bool" default="false" description="" />
-  <RoutePath type="string" default="" description="" />
+  <isShoot type="bool" default="false" description="Determines if the vehicle has weapons." />
+  <RoutePath type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   
   <Extra type="description" name="I Am... All of Me." />
 </Template>

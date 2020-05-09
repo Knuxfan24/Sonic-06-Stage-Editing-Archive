@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <count type="integer" default="0" description="" />
+  <count type="integer" default="0" description="Number of switches to be activated." />
   <target0 type="float" default="4294967295" description="First object to target." /> <!-- uint32 -->
   <target1 type="float" default="4294967295" description="Second object to target." /> <!-- uint32 -->
   <target2 type="float" default="4294967295" description="Third object to target." /> <!-- uint32 -->

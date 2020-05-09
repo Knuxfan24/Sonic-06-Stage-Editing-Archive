@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <player_no type="integer" default="0" description="" />
+  <player_no type="integer" default="0" description="Identifier for the player defined in Lua." />
   
-  <Extra type="description" name="player_start" />
+  <Extra type="description" name="An object that marks the player beginning the stage. This can also be used for other players and also characters for AI initialisation." />
 </Template>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <radius type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
+  <height type="float" default="15" description="" />
   <onintersect type="string" default="" description="Event to trigger when entering the volume." />
   <default type="integer" default="0" description="Unknown." />
   

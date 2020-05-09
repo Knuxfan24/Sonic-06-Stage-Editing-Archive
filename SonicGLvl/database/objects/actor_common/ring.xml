@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <shadow type="bool" default="true" description="Determines if the object casts a shadow." />
-  <pathparam type="float" default="0" description="" />
+  <pathparam type="float" default="0" description="Start of the position of the spline when lightdashing." />
   <path type="string" default="" description="Name of the spline in a PATH file for the player to lightdash on." />
   
-  <Extra type="model" name="cmn_obj_ring.model" /> 
-  <Extra type="description" name="Mmm... Onion rings." />
+  <Extra type="model" name="cmn_obj_ring.model" />
   <Extra type="offset_rotation_y_speed" name="120" />
+  <Extra type="description" name="Mmm... Onion rings." />
 </Template>

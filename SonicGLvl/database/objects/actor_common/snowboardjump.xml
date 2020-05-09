@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="float" default="0" description="" />
-  <width type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
-  <power type="float" default="0" description="The speed the player will be launched at." />
-  <pitch type="float" default="0" description="The angle the player will be launched at on the Y axis." />
-  <rate type="float" default="0" description="" />
-  <bpower_rate type="float" default="0" description="" />
-  <time type="float" default="0" description="Time taken before restoring control to the player." />
+  <length type="float" default="10" description="" />
+  <width type="float" default="15" description="" />
+  <height type="float" default="15" description="" />
+  <power type="float" default="3000" description="The speed the player will be launched at." />
+  <pitch type="float" default="45" description="The angle the player will be launched at on the Y axis." />
+  <rate type="float" default="0.5" description="The height the player will be launched at." />
+  <bpower_rate type="float" default="0.7" description="The speed of the jump elevation." />
+  <time type="float" default="1" description="Time taken before restoring control to the player." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
   <Extra type="description" name="A volume that launches the player when jumping on the snowboard." />
 </Template>
