@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="" />
+  <content type="integer" default="0" description="Unknown." />
   <event type="string" default="" description="Event to trigger when interacting with the object." />
-  <target type="vector" description="" />
+  <target type="vector" description="Transports the player to the specified location." />
   
-  <Extra type="description" name="common_warphole" />
+  <Extra type="description" name="A magic force field that transports the player somewhere." />
 </Template>

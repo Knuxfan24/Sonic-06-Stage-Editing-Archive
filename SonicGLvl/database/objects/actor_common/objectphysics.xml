@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <objectName type="string" default="" description="Name of the object." />
+  <objectName type="string" default="WoodBox" description="Name of the object." />
   <restart type="bool" default="false" description="Determines if the object should respawn." />
   
-  <Extra type="description" name="objectphysics" />
+  <Extra type="description" name="Boxes, lemons, spikes! You want it? It's yours, my friend, as long as you have enough memory!" />
 </Template>

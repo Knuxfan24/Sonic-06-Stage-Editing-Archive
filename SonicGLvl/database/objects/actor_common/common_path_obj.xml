@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <objectName type="string" default="" description="" />
-  <path type="string" default="" description="" />
-  <speed type="float" default="0" description="" />
-  <interpolation type="float" default="0" description="" />
+  <objectName type="string" default="" description="Name of the object in the 'PathObj.bin' file." />
+  <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
+  <speed type="float" default="800" description="The speed the object moves at." />
+  <interpolation type="float" default="0.05" description="Interpolated angle curves when taking sharp turns on splines." />
   
-  <Extra type="description" name="common_path_obj" />
+  <Extra type="description" name="Initialises an object on a spline - requires the object to be referenced in the 'PathObj.bin' file." />
 </Template>

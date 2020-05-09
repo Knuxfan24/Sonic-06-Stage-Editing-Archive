@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <pitch type="float" default="0" description="The angle the player will be launched at on the Y axis." />
-  <velocity type="float" default="0" description="The speed the player will be launched at." />
-  <time type="float" default="0" description="Time taken before restoring control to the player." />
-  <speed_max type="float" default="0" description="" />
-  <speed_mid type="float" default="0" description="" />
+  <pitch type="float" default="45" description="The angle the player will be launched at on the Y axis." />
+  <velocity type="float" default="2000" description="The speed the player will be launched at." />
+  <time type="float" default="0.5" description="Time taken before restoring control to the player." />
+  <speed_max type="float" default="1000" description="Maximum speed required for full launch." />
+  <speed_mid type="float" default="700" description="Minimum speed to launch." />
   
-  <Extra type="description" name="common_jumpboard" />
+  <Extra type="description" name="A board that launches the player if they have sufficient speed." />
 </Template>

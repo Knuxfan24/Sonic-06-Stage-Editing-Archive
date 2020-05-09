@@ -5,5 +5,5 @@
   <speed type="float" default="0" description="" />
   <path type="string" default="" description="Name of the spline in a PATH file for the player to grind on." />
   
-  <Extra type="description" name="windroad" />
+  <Extra type="description" name="A wind path that the player can grind on." />
 </Template>

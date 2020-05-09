@@ -26,5 +26,5 @@
   <end type="float" default="0" description="" />
   <minspeed type="float" default="0" description="" />
   
-  <Extra type="description" name="eggman_train" />
+  <Extra type="description" name="Eggman's black train used in Shadow's episode." />
 </Template>

@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <typeName type="string" default="" description="Name of the enemy." />
+  <typeName type="string" default="eGunner" description="Name of the enemy." />
   <typeNumber type="integer" default="0" description="Variant of the chosen enemy." />
-  <scriptName type="string" default="" description="Main function of the enemy." />
-  <radius type="float" default="0" description="" />
-  <restart type="bool" default="false" description="" />
-  <findPlayer type="bool" default="false" description="" />
-  <isBoss type="bool" default="false" description="" />
-  <isFixed type="bool" default="false" description="" />
-  <appearPath type="string" default="" description="" />
-  <appearVelocity type="float" default="0" description="" />
-  <searchPath type="string" default="" description="" />
-  <actionPath type="string" default="" description="" />
-  <attackTarget type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <homingTarget type="float" default="4294967295" description="" /> <!-- uint32 -->
+  <scriptName type="string" default="eGunner_Fix" description="Main function of the enemy." />
+  <radius type="float" default="0" description="Unknown." />
+  <restart type="bool" default="false" description="Determines if the enemy should respawn." />
+  <findPlayer type="bool" default="false" description="Determines if the enemy detects the player from anywhere." />
+  <isBoss type="bool" default="false" description="Determines if the enemy is a boss." />
+  <isFixed type="bool" default="false" description="Determines if the enemy is static." />
+  <appearPath type="string" default="" description="Name of the spline in a PATH file for the enemy to follow." />
+  <appearVelocity type="float" default="0" description="The speed the object moves at." />
+  <searchPath type="string" default="" description="Unknown." />
+  <actionPath type="string" default="" description="Name of the spline in a PATH file for the enemy to follow." />
+  <attackTarget type="float" default="4294967295" description="Target for the enemy to attack before spotting the player." /> <!-- uint32 -->
+  <homingTarget type="float" default="4294967295" description="Target for the enemy to fly to when destroyed." /> <!-- uint32 -->
   
-  <Extra type="description" name="enemyextra" />
+  <Extra type="description" name="Eggman's robots... with extra parameters!" />
 </Template>

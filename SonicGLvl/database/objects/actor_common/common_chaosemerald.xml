@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="Colour of the Chaos Emerald." />
+  <content type="integer" default="0" description="1 - Grey    | 5 - Green
+2 - Cyan   | 6 - Blue
+3 - Yellow | 7 - Red
+4 - Purple" />
   
-  <Extra type="description" name="common_chaosemerald" />
+  <Extra type="description" name="You mean... the Chaos Emeralds?" />
 </Template>

@@ -2,5 +2,5 @@
 <Template>
   <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
   
-  <Extra type="description" name="chainjump" />
+  <Extra type="description" name="A point that targets another for the player to jump between." />
 </Template>

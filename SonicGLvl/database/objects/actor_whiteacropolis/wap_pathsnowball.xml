@@ -5,5 +5,5 @@
   <distance type="float" default="0" description="" />
   <coefficient type="float" default="0" description="" />
   
-  <Extra type="description" name="wap_pathsnowball" />
+  <Extra type="description" name="That avalanche is carrying a snowball-- wait..." />
 </Template>

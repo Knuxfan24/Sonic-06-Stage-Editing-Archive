@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <pitch type="float" default="0" description="The angle the player will be launched at on the Y axis." />
-  <velocity type="float" default="0" description="The speed the player will be launched at." />
-  <time type="float" default="0" description="Time taken before restoring control to the player." />
+  <pitch type="float" default="45" description="The angle the player will be launched at on the Y axis." />
+  <velocity type="float" default="2000" description="The speed the player will be launched at." />
+  <time type="float" default="0.5" description="Time taken before restoring control to the player." />
   <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
   
-  <Extra type="description" name="jumppanel" />
+  <Extra type="description" name="A panel that launches the player." />
 </Template>

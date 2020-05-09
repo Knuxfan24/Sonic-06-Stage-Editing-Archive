@@ -7,5 +7,5 @@
   <data0 type="vector" description="Position of the camera." />
   <data1 type="vector" description="Target of the camera." />
   
-  <Extra type="description" name="cameraeventsphere" />
+  <Extra type="description" name="A volume that starts a camera event." />
 </Template>

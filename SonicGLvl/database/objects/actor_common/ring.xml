@@ -4,5 +4,5 @@
   <pathparam type="float" default="0" description="" />
   <path type="string" default="" description="Name of the spline in a PATH file for the player to lightdash on." />
   
-  <Extra type="description" name="ring" />
+  <Extra type="description" name="Mmm... Onion rings." />
 </Template>

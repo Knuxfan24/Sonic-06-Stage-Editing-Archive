@@ -5,5 +5,5 @@
   <sebank type="string" default="" description="SBK file to load sounds from." />
   <sename type="string" default="" description="Sound to load from the SBK." />
   
-  <Extra type="description" name="particlesphere" />
+  <Extra type="description" name="A sphere that creates particles." />
 </Template>

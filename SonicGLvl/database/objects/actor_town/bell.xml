@@ -3,5 +3,5 @@
   <eventname type="string" default="" description="Event to trigger when interacting with the object." />
   <group_name type="string" default="" description="" />
   
-  <Extra type="description" name="bell" />
+  <Extra type="description" name="Ding-dong!" />
 </Template>

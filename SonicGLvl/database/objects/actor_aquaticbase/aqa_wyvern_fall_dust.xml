@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <name type="string" default="" description="" />
-  <min_range type="float" default="0" description="" />
-  <max_range type="float" default="0" description="" />
-  <min_height type="float" default="0" description="" />
-  <max_height type="float" default="0" description="" />
-  <min_time type="float" default="0" description="" />
-  <max_time type="float" default="0" description="" />
-  <num type="integer" default="0" description="" />
+  <name type="string" default="" description="Unknown." />
+  <min_range type="float" default="0" description="Unknown." />
+  <max_range type="float" default="0" description="Unknown." />
+  <min_height type="float" default="0" description="Unknown." />
+  <max_height type="float" default="0" description="Unknown." />
+  <min_time type="float" default="0" description="Unknown." />
+  <max_time type="float" default="0" description="Unknown." />
+  <num type="integer" default="0" description="Unknown." />
   
-  <Extra type="description" name="aqa_wyvern_fall_dust" />
+  <Extra type="description" name="Unknown object." />
 </Template>

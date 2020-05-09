@@ -5,5 +5,5 @@
   <time type="float" default="0" description="" />
   <placetype type="integer" default="0" description="" />
   
-  <Extra type="description" name="crater" />
+  <Extra type="description" name="A crater that spews flames at intervals." />
 </Template>

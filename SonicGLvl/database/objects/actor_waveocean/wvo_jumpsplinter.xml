@@ -2,5 +2,5 @@
 <Template>
   <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
   
-  <Extra type="description" name="wvo_jumpsplinter" />
+  <Extra type="description" name="A bridge that shatters, throwing the character into a 'chainjump' event." />
 </Template>

@@ -4,5 +4,5 @@
   <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <noloop type="bool" default="false" description="Determines if the object only follows this spline once." />
   
-  <Extra type="description" name="eagle" />
+  <Extra type="description" name="FREEDOM?" />
 </Template>

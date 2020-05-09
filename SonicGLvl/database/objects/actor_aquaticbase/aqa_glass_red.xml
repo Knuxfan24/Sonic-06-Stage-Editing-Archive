@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <speed type="float" default="0" description="" />
+  <speed type="float" default="2" description="Speed of the glass panel moving down." />
   
-  <Extra type="description" name="aqa_glass_red" />
+  <Extra type="model" name="aqa_obj_breakdoorB.model" /> 
+  <Extra type="description" name="A glass barrier that can be shattered by the player." />
 </Template>

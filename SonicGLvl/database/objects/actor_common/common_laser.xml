@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <alone type="integer" default="0" description="" />
+  <alone type="integer" default="1" description="1 - Default.
+2 - Laser(s) with fixed length." />
+
   <pair type="float" default="4294967295" description="Targetted laser to pair the beam." /> <!-- uint32 -->
-  <num type="integer" default="0" description="" />
-  <interval type="float" default="0" description="" />
+  <num type="integer" default="1" description="Number of sub-lasers." />
+  <interval type="float" default="0" description="Space between the sub-lasers." />
   <ontime type="float" default="0" description="Time taken for lasers to remain on." />
   <offtime type="float" default="0" description="Time taken for lasers to remain off." />
   <range type="float" default="0" description="Maximum height of the laser." />
   <speed type="float" default="0" description="Speed of the laser movement." />
-  <radrange type="float" default="0" description="" />
-  <radspeed type="float" default="0" description="" />
-  <nactivate type="bool" default="false" description="" />
+  <radrange type="float" default="0" description="Angle of rotation at 0 degrees." />
+  <radspeed type="float" default="0" description="Rotation speed for the angle." />
+  <nactivate type="bool" default="false" description="Unknown." />
   
-  <Extra type="description" name="common_laser" />
+  <Extra type="description" name="I'M A' FIRIN' MAH LASER!! This game is from 2006, it's appropriate right?" />
 </Template>

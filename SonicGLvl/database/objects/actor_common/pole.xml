@@ -9,5 +9,5 @@
   <time type="float" default="0" description="Time taken before restoring control to the player." />
   
   <Extra type="preview_box_y" name="Height" />
-  <Extra type="description" name="pole" />
+  <Extra type="description" name="A cylindrical volume that makes the character spin around a pole." />
 </Template>

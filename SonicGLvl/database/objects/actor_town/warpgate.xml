@@ -3,5 +3,5 @@
   <stageName type="string" default="" description="Event to trigger when interacting with the object." />
   <appearances type="integer" default="0" description="Variant of the image." />
   
-  <Extra type="description" name="warpgate" />
+  <Extra type="description" name="A magic mirror that teleports the player to another location." />
 </Template>

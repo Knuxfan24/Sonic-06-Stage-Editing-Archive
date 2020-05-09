@@ -7,5 +7,5 @@
   <coefficient type="float" default="0" description="" />
   <onintersect type="string" default="" description="Event to trigger when interacting with the object." />
   
-  <Extra type="description" name="wvo_orca" />
+  <Extra type="description" name="Whoa, that's a big one." />
 </Template>

@@ -2,5 +2,5 @@
 <Template>
   <time type="float" default="0" description="Time taken before the object falls." />
   
-  <Extra type="description" name="brokenstairs_left" />
+  <Extra type="description" name="A set of stairs arranged to the left that collapse." />
 </Template>

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="float" default="0" description="" />
-  <width type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
-  <num type="integer" default="0" description="Maximum number of bubbles." />
-  <hp type="integer" default="0" description="Health of the bubbles." />
-  <friction type="float" default="0" description="" />
-  <air_friction type="float" default="0" description="" />
-  <vel type="float" default="0" description="" />
-  <time type="float" default="0" description="" />
+  <length type="float" default="10" description="" />
+  <width type="float" default="15" description="" />
+  <height type="float" default="15" description="" />
+  <num type="integer" default="10" description="Maximum number of bubbles." />
+  <hp type="integer" default="5" description="Health of the bubbles." />
+  <friction type="float" default="0.1" description="Force applied to bubbles when attacked." />
+  <air_friction type="float" default="0.99" description="Resistance when attacked." />
+  <vel type="float" default="1" description="Vertical bounce height." />
+  <time type="float" default="1" description="Time taken to create another bubble." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="aqa_pond" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that spawns small bubbles of mercury." />
 </Template>

@@ -2,5 +2,5 @@
 <Template>
   <textID type="string" default="" description="Hint to play from an MST when interacting with the object." />
   
-  <Extra type="description" name="disk" />
+  <Extra type="description" name="A disk of some kind... Probably DVD-RAM, seems very square." />
 </Template>

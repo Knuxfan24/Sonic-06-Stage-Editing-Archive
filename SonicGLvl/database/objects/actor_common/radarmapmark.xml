@@ -4,5 +4,5 @@
   <mark type="integer" default="0" description="" />
   <animation type="bool" default="false" description="Determines if the object animates on the radar map." />
   
-  <Extra type="description" name="radarmapmark" />
+  <Extra type="description" name="A point that creates a marker on the radar map." />
 </Template>

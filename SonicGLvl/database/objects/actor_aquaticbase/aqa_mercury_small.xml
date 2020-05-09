@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <hp type="integer" default="0" description="Health of the bubble." />
-  <friction type="float" default="0" description="" />
-  <air_friction type="float" default="0" description="" />
+  <hp type="integer" default="5" description="Health of the bubble." />
+  <friction type="float" default="0.1" description="Force applied to bubbles when attacked." />
+  <air_friction type="float" default="0.99" description="Resistance when attacked." />
   
-  <Extra type="description" name="aqa_mercury_small" />
+  <Extra type="description" name="A small bubble of mercury." />
 </Template>

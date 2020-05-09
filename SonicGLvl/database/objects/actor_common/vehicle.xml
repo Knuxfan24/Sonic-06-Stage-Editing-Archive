@@ -6,5 +6,5 @@
   <isShoot type="bool" default="false" description="" />
   <RoutePath type="string" default="" description="" />
   
-  <Extra type="description" name="vehicle" />
+  <Extra type="description" name="I Am... All of Me." />
 </Template>

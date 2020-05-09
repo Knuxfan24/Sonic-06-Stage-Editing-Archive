@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <typeName type="string" default="" description="Name of the enemy." />
+  <typeName type="string" default="eGunner" description="Name of the enemy." />
   <typeNumber type="integer" default="0" description="Variant of the chosen enemy." />
-  <scriptName type="string" default="" description="Main function of the enemy." />
-  <radius type="float" default="0" description="" />
+  <scriptName type="string" default="eGunner_Fix" description="Main function of the enemy." />
+  <radius type="float" default="0" description="Unknown." />
   
-  <Extra type="description" name="enemy" />
+  <Extra type="description" name="Eggman's robots!" />
 </Template>

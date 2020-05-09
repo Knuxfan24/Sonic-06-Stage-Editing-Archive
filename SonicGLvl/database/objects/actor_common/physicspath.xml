@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <objectName type="string" default="" description="Name of the object." />
+  <objectName type="string" default="WoodBox" description="Name of the object." />
   <restart type="bool" default="false" description="Determines whether the object should respawn." />
-  <pathName type="string" default="" description="" />
-  <velocity type="float" default="0" description="" />
-  <startMode type="integer" default="0" description="" />
-  <pathMode type="integer" default="0" description="" />
-  <motionMode type="integer" default="0" description="" />
-  <motionSpeed type="float" default="0" description="" />
-  <motionParam type="float" default="0" description="" />
+  <pathName type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
+  <velocity type="float" default="1000" description="The speed the object moves at." />
+  <startMode type="integer" default="1" description="Behaviour for activity." />
+  <pathMode type="integer" default="1" description="Behaviour for spline control." />
+  <motionMode type="integer" default="0" description="Unknown." />
+  <motionSpeed type="float" default="0" description="Unknown." />
+  <motionParam type="float" default="0" description="Unknown." />
   
-  <Extra type="description" name="physicspath" />
+  <Extra type="description" name="Attaches a physics object to a spline." />
 </Template>

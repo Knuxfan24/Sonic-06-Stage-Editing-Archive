@@ -2,5 +2,5 @@
 <Template>
   <event type="string" default="" description="Event to trigger when interacting with the object." />
   
-  <Extra type="description" name="common_key" />
+  <Extra type="description" name="Place this object to unlock its secrets..." />
 </Template>

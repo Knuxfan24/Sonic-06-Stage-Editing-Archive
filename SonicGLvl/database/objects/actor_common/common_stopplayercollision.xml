@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="float" default="0" description="" />
-  <width type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
-  <default type="integer" default="0" description="" />
+  <length type="float" default="10" description="" />
+  <width type="float" default="15" description="" />
+  <height type="float" default="15" description="" />
+  <default type="integer" default="0" description="Unknown." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="common_stopplayercollision" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that creates invisible collision to stop the player." />
 </Template>

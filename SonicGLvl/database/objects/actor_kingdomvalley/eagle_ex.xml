@@ -7,5 +7,5 @@
   <temp type="float" default="0" description="" />
   <flag type="bool" default="false" description="" />
   
-  <Extra type="description" name="eagle_ex" />
+  <Extra type="description" name="EXTRA FREEDOM?" />
 </Template>

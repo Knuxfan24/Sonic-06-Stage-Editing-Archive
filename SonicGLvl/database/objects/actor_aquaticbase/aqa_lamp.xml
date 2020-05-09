@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <Extra type="description" name="aqa_lamp" />
+  <Extra type="model" name="aqa_obj_lamp.model" /> 
+  <Extra type="description" name="A beacon light that flashes when active." />
 </Template>

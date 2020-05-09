@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <num type="integer" default="0" description="Maximum number of bubbles." />
-  <hp type="integer" default="0" description="Health of the bubbles." />
-  <friction type="float" default="0" description="" />
-  <air_friction type="float" default="0" description="" />
-  <speed type="float" default="0" description="" />
-  <time type="float" default="0" description="Time taken to create another bubble." />
-  <target type="float" default="4294967295" description="" /> <!-- uint32 -->
+  <num type="integer" default="20" description="Maximum number of bubbles." />
+  <hp type="integer" default="5" description="Health of the bubbles." />
+  <friction type="float" default="0.1" description="Force applied to bubbles when attacked." />
+  <air_friction type="float" default="0.99" description="Resistance when attacked." />
+  <speed type="float" default="400" description="Speed of the bubbles." />
+  <time type="float" default="0.5" description="Time taken to create another bubble." />
+  <target type="float" default="4294967295" description="Target of another 'aqa_launcher' for the bubbles to follow." /> <!-- uint32 -->
   
-  <Extra type="description" name="aqa_launcher" />
+  <Extra type="model" name="aqa_obj_launcher.model" /> 
+  <Extra type="description" name="An object that fires bubbles of mercury." />
 </Template>

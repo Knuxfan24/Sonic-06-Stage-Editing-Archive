@@ -8,5 +8,5 @@
   <lifepoint type="integer" default="0" description="" />
   <onbroken type="string" default="" description="" />
   
-  <Extra type="description" name="twn_door" />
+  <Extra type="description" name="A door with the Soleanna theme." />
 </Template>

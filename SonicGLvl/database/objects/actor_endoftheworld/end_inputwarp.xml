@@ -6,5 +6,5 @@
   <radmax type="float" default="0" description="" />
   <appear type="float" default="0" description="" />
   
-  <Extra type="description" name="end_inputwarp" />
+  <Extra type="description" name="An object that pulls in other objects." />
 </Template>

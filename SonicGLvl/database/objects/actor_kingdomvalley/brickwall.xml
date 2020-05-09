@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <Extra type="description" name="brickwall" />
+  <Extra type="description" name="A wall that can be broken by the player." />
 </Template>

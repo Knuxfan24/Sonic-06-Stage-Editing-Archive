@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <kind type="integer" default="0" description="Variant of the object." />
-  <radius type="float" default="0" description="" />
-  <force type="float" default="0" description="" />
-  <offtime type="float" default="0" description="Time taken to reset the object if 'kind' is set to 1." />
+  <kind type="integer" default="1" description="Variant of the object." />
+  <radius type="float" default="1000" description="Radius for objects to be affected." />
+  <force type="float" default="3500" description="Force given to the objects." />
+  <offtime type="float" default="15" description="Time taken to reset the object if 'kind' is set to 1." />
   
-  <Extra type="description" name="aqa_magnet" />
+  <Extra type="model" name="aqa_obj_magnetB.model" condition="kind == 1" />
+  <Extra type="model" name="aqa_obj_magnetC.model" condition="kind == 2" />
+  <Extra type="description" name="A cylindrical object that destroys surrounding objects when attacked." />
 </Template>

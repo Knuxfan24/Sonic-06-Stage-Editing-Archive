@@ -5,5 +5,5 @@
   <time1 type="float" default="0" description="Time taken for the object to change direction." />
   <time2 type="float" default="0" description="" />
   
-  <Extra type="description" name="rct_belt" />
+  <Extra type="description" name="A conveyor belt that changes direction." />
 </Template>

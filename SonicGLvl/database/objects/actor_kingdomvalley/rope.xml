@@ -9,5 +9,5 @@
   <time2 type="float" default="0" description="" />
   <time3 type="float" default="0" description="" />
   
-  <Extra type="description" name="rope" />
+  <Extra type="description" name="A rope that springs the player at multiple set heights." />
 </Template>

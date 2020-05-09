@@ -2,5 +2,5 @@
 <Template>
   <global_flag type="integer" default="0" description="" />
   
-  <Extra type="description" name="medal_of_royal_silver" />
+  <Extra type="description" name="A silver medal - the appearance of these are bound by save data." />
 </Template>

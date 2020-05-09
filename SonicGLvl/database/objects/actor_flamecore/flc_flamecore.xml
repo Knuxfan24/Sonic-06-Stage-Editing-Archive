@@ -6,5 +6,5 @@
   <firstmode type="integer" default="0" description="" />
   <event type="string" default="" description="Event to trigger when interacting with the object." />
   
-  <Extra type="description" name="flc_flamecore" />
+  <Extra type="description" name="A large ball of fire that's destroyed with psychokinesis." />
 </Template>

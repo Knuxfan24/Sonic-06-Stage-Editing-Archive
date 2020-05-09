@@ -2,5 +2,5 @@
 <Template>
   <turtle type="float" default="4294967295" description="" /> <!-- uint32 -->
   
-  <Extra type="description" name="fruit" />
+  <Extra type="description" name="Some delicious fruit that you can feed turtles with." />
 </Template>

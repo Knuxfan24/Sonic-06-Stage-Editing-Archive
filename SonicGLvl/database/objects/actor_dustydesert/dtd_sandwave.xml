@@ -3,5 +3,5 @@
   <time type="float" default="0" description="" />
   <speed type="float" default="0" description="The speed the object moves at." />
   
-  <Extra type="description" name="dtd_sandwave" />
+  <Extra type="description" name="An object that creates sand waves." />
 </Template>

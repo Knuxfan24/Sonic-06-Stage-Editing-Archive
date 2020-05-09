@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <power type="float" default="0" description="The speed the object moves at." />
-  <deceleration type="float" default="0" description="" />
-  <psi type="float" default="0" description="" />
+  <power type="float" default="120" description="The walking speed of the mercury bubble." />
+  <deceleration type="float" default="0.01" description="The deceleration speed." />
+  <psi type="float" default="0" description="Unused?" />
   
-  <Extra type="description" name="aqa_balancer" />
+  <Extra type="description" name="A large bubble of mercury that characters can walk on." />
 </Template>

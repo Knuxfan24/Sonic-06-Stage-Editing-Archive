@@ -5,5 +5,5 @@
   <numItemObjects type="integer" default="0" description="Maximum number of sub-objects spawned when broken." />
   <itemIndex type="integer" default="0" description="Variant of the sub-object." />
   
-  <Extra type="description" name="objectphysics_item" />
+  <Extra type="description" name="An object that spawns sub-objects when broken." />
 </Template>

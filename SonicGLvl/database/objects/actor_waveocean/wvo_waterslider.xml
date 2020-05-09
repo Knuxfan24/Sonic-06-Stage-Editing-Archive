@@ -3,5 +3,5 @@
   <path type="string" default="" description="Name of the spline in a PATH file for the player to move on." />
   <radius type="float" default="0" description="" />
   
-  <Extra type="description" name="wvo_waterslider" />
+  <Extra type="description" name="A spline that guides the character when sliding on water." />
 </Template>

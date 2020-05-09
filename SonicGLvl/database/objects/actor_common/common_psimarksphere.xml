@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <radius type="float" default="0" description="" />
-  <event type="string" default="" description="" />
+  <radius type="float" default="10" description="Radius of the sphere." />
+  <event type="string" default="" description="Event to trigger when interacting with the object." />
   
   <Extra type="description" name="common_psimarksphere" />
 </Template>

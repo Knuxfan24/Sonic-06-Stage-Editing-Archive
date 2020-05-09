@@ -4,5 +4,5 @@
   <lifetime type="float" default="0" description="Time taken for the object to be active." />
   <scale type="float" default="0" description="Size of the object." />
   
-  <Extra type="description" name="passring" />
+  <Extra type="description" name="A large orange ring used as checkpoints similar to arcade racing games." />
 </Template>

@@ -14,5 +14,5 @@
   <brokenhead type="string" default="" description="" />
   <allbrk type="bool" default="false" description="" />
   
-  <Extra type="description" name="wap_searchlight" />
+  <Extra type="description" name="A light that searches for the player." />
 </Template>

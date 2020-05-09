@@ -6,10 +6,10 @@
   <mainlight type="string" default="" description="Name of the Main light parameters defined in the Lua scene parameters." />
   <sublight type="string" default="" description="Name of the Sub light parameters defined in the Lua scene parameters." />
   <ambient type="string" default="" description="Name of the Ambient light parameters defined in the Lua scene parameters." />
-  <default type="integer" default="0" description="" />
+  <default type="integer" default="0" description="Unknown." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="lightanimation" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that creates animated light." />
 </Template>

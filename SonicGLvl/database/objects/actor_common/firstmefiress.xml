@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <vs type="string" default="" description="" />
+  <vs type="string" default="" description="Unknown." />
   
-  <Extra type="description" name="firstmefiress" />
+  <Extra type="description" name="Unknown object." />
 </Template>

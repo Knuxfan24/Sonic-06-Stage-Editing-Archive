@@ -5,5 +5,5 @@
   <appear_time type="float" default="0" description="Time taken for the object to move forwards." />
   <disappear_time type="float" default="0" description="Time taken for the object to move backwards." />
   
-  <Extra type="description" name="dtd_movingfloor" />
+  <Extra type="description" name="A floor that moves back and forth into a wall." />
 </Template>

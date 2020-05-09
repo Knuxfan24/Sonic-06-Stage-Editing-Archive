@@ -3,5 +3,5 @@
   <target type="float" default="4294967295" description="" /> <!-- uint32 -->
   <offtime type="float" default="0" description="Time taken for the switch to reset." />
   
-  <Extra type="description" name="end_soleannaswitch" />
+  <Extra type="description" name="A switch that resets 'end_inputwarp' and 'end_outputwarp.'" />
 </Template>

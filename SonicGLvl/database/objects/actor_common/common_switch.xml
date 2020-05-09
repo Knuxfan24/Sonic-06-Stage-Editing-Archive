@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <content type="integer" default="0" description="Behaviour when interacting with the object." />
+  <content type="integer" default="0" description="1 - Remains active after interaction.
+2 - Deactivates when player isn't colliding.
+3 - Deactivates after the 'time' parameter expires.
+4 - Toggle mode." />
+
   <eventcolli type="string" default="" description="Event to trigger when enabling with the object." />
   <event_off type="string" default="" description="Event to trigger when disabling with the object." />
   <time type="float" default="0" description="Time taken for the switch to go inactive with certain behaviours." />
   <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
   
-  <Extra type="description" name="common_switch" />
+  <Extra type="description" name="A magic floating orb that remotely activates things." />
 </Template>

@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <Extra type="description" name="kdv_decalog" />
+  <Extra type="description" name="A sphere that creates mist on the framebuffer." />
 </Template>

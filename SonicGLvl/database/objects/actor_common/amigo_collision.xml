@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="float" default="0" description="" />
-  <width type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
+  <length type="float" default="10" description="" />
+  <width type="float" default="15" description="" />
+  <height type="float" default="15" description="" />
   <target type="float" default="4294967295" description="Targetted object when entering the volume." /> <!-- uint32 -->
   <chase type="bool" default="false" description="Determines if the character activated by this volume follows the player." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="amigo_collision" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that configures a targetted player object upon entering." />
 </Template>

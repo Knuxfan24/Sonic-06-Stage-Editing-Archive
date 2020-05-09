@@ -5,5 +5,5 @@
   <target type="float" default="4294967295" description="Targetted object." /> <!-- uint32 -->
   <globalflag type="integer" default="0" description="" />
   
-  <Extra type="description" name="spring_twn" />
+  <Extra type="description" name="Bounce Pad!" />
 </Template>

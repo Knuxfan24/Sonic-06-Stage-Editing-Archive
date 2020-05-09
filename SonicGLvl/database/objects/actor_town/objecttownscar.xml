@@ -7,5 +7,5 @@
   <color type="integer" default="0" description="" />
   <hp type="integer" default="0" description="" />
   
-  <Extra type="description" name="objecttownscar" />
+  <Extra type="description" name="A car... Beep-beep!" />
 </Template>

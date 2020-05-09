@@ -4,5 +4,5 @@
   <starttime type="float" default="0" description="" />
   <endtime type="float" default="0" description="" />
   
-  <Extra type="description" name="end_timekeeper" />
+  <Extra type="description" name="An object that initialises the other End of the World objects." />
 </Template>

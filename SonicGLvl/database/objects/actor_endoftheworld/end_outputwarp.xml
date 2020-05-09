@@ -15,5 +15,5 @@
   <error type="float" default="0" description="" />
   <ypos type="float" default="0" description="" />
   
-  <Extra type="description" name="end_outputwarp" />
+  <Extra type="description" name="An object that throws other objects at the player." />
 </Template>

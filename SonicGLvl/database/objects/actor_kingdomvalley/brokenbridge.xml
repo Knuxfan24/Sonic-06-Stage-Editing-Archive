@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <Extra type="description" name="brokenbridge" />
+  <Extra type="description" name="A bridge that collapses when targetted." />
 </Template>

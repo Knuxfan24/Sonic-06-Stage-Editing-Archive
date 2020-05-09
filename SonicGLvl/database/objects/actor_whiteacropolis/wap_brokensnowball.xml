@@ -3,5 +3,5 @@
   <power type="float" default="0" description="" />
   <rate type="float" default="0" description="" />
   
-  <Extra type="description" name="wap_brokensnowball" />
+  <Extra type="description" name="Someone's failed snowball fight." />
 </Template>

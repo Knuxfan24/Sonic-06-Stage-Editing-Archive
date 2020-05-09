@@ -6,5 +6,5 @@
   <motspd type="float" default="0" description="" />
   <jumpframe type="float" default="0" description="" />
   
-  <Extra type="description" name="bungee" />
+  <Extra type="description" name="A vine pulled down by the player and used as a spring." />
 </Template>

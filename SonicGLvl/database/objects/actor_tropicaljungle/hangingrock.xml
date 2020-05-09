@@ -2,5 +2,5 @@
 <Template>
   <nocheckdamage type="bool" default="false" description="" />
   
-  <Extra type="description" name="hangingrock" />
+  <Extra type="description" name="A hanging cube that falls when interacted with." />
 </Template>

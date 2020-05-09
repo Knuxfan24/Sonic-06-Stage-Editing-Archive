@@ -3,5 +3,5 @@
   <textID type="string" default="" description="Hint to play from an MST when interacting with the object." />
   <download type="string" default="" description="PKG file to load data from." />
   
-  <Extra type="description" name="download_obj" />
+  <Extra type="description" name="A dummy object that plays a hint when collected." />
 </Template>

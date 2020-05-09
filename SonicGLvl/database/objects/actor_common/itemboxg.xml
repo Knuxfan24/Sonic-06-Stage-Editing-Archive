@@ -2,5 +2,5 @@
 <Template>
   <content type="integer" default="0" description="Item given when interacting with the object." />
   
-  <Extra type="description" name="itemboxg" />
+  <Extra type="description" name="A bubbly container that holds special items on the ground!" />
 </Template>

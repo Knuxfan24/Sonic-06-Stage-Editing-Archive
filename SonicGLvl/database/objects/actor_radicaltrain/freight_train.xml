@@ -20,5 +20,5 @@
   <acc type="float" default="0" description="" />
   <dec type="float" default="0" description="" />
   <boss type="bool" default="false" description="" />
-  <Extra type="description" name="freight_train" />
+  <Extra type="description" name="A standard cargo train." />
 </Template>

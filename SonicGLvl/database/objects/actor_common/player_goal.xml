@@ -3,5 +3,5 @@
   <cam_pos type="vector" description="Position of the camera." />
   <cam_tgt type="vector" description="Target of the camera." />
   
-  <Extra type="description" name="player_goal" />
+  <Extra type="description" name="An object that marks the goal position for the character with camera values." />
 </Template>

@@ -8,5 +8,5 @@
   <Extra type="preview_box_x" name="Width" />
   <Extra type="preview_box_y" name="Height" />
   <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="dtd_billiardswitch" />
+  <Extra type="description" name="A volume that triggers an event when a 'dtd_billiard' object enters it." />
 </Template>

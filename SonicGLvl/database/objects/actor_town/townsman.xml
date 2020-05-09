@@ -19,5 +19,5 @@
   <target_ride type="float" default="4294967295" description="" /> <!-- uint32 -->
   <globalflag type="integer" default="0" description="" />
   
-  <Extra type="description" name="townsman" />
+  <Extra type="description" name="Hey!" />
 </Template>

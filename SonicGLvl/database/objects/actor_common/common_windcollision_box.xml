@@ -1,15 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="float" default="0" description="" />
-  <width type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
-  <power type="float" default="0" description="" />
-  <floatheight type="float" default="0" description="" />
-  <content type="integer" default="0" description="" />
-  <signal type="bool" default="false" description="" />
+  <length type="float" default="10" description="" />
+  <width type="float" default="15" description="" />
+  <height type="float" default="15" description="" />
+  <power type="float" default="200" description="Vertical ascension speed." />
+  <floatheight type="float" default="200" description="Maximum height before returning to the default player state." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="common_windcollision_box" />
+  <content type="integer" default="1" description="1 - Wind
+2 - Leaves" />
+
+  <signal type="bool" default="false" description="Unknown." />
+  
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that blasts the player with wind." />
 </Template>

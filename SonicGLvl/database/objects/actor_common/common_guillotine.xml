@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="integer" default="0" description="Length of the guillotine." />
-  <content type="integer" default="0" description="" />
-  <upwidth type="float" default="0" description="Maximum height of the guillotine." />
-  <downwidth type="float" default="0" description="Minimum height of the guillotine." />
-  <time type="float" default="0" description="Time taken when at the peak points of the guillotine." />
-  <speed type="float" default="0" description="Speed of the guillotine movement." />
-  <distance type="float" default="0" description="Distance between the player and the guillotine before it starts moving." />
+  <length type="integer" default="3" description="Length of the guillotine." />
+  
+  <content type="integer" default="3" description="1 - Idle.
+2 - Move up and down.
+3 - Track player." />
 
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="common_guillotine" />
+  <upwidth type="float" default="300" description="Maximum height of the guillotine." />
+  <downwidth type="float" default="300" description="Minimum height of the guillotine." />
+  <time type="float" default="1" description="Time taken when at the peak points of the guillotine." />
+  <speed type="float" default="800" description="Speed of the guillotine movement." />
+  <distance type="float" default="5" description="Distance between the player and the guillotine before it starts moving." />
+
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A cylindrical object with spikes that spins." />
 </Template>

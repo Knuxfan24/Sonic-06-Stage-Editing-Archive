@@ -2,5 +2,5 @@
 <Template>
   <event type="string" default="" description="Hint to play from an MST when interacting with the object." />
   
-  <Extra type="description" name="common_hint" />
+  <Extra type="description" name="Do you really need a hint on what this is?" />
 </Template>

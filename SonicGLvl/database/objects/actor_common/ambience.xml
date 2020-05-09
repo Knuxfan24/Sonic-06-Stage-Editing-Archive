@@ -3,5 +3,5 @@
   <bank type="string" default="" description="SBK file to load sounds from." />
   <name type="string" default="" description="Sound to load from the SBK." />
   
-  <Extra type="description" name="ambience" />
+  <Extra type="description" name="A point that creates sound." />
 </Template>

@@ -3,5 +3,5 @@
   <length type="float" default="0" description="" />
   
   <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="pendulum" />
+  <Extra type="description" name="A pendulum that can be interacted with as a physics object." />
 </Template>

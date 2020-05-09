@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <name type="string" default="" description="" />
-  <type type="integer" default="0" description="" />
+  <name type="string" default="" description="Unknown." />
+  <type type="integer" default="0" description="Unknown." />
   
-  <Extra type="description" name="firstiblis" />
+  <Extra type="description" name="Unknown object - crashes the game when loaded." />
 </Template>

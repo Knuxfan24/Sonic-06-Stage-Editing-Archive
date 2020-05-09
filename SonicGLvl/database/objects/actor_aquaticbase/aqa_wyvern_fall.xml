@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <name type="string" default="" description="" />
-  <wait type="float" default="0" description="" />
-  <hight type="float" default="0" description="" />
-  <speed type="float" default="0" description="" />
+  <name type="string" default="" description="Unknown." />
+  <wait type="float" default="0" description="Unknown." />
+  <hight type="float" default="0" description="Unknown." />
+  <speed type="float" default="0" description="Unknown." />
   
-  <Extra type="description" name="aqa_wyvern_fall" />
+  <Extra type="preview_box_y" name="hight" />
+  <Extra type="description" name="Unknown object - crashes the game when loaded." />
 </Template>

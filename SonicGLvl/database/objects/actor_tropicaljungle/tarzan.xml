@@ -14,5 +14,5 @@
   <camy type="float" default="0" description="" />
   <isrouge type="bool" default="false" description="" />
   
-  <Extra type="description" name="tarzan" />
+  <Extra type="description" name="A rope that can be swung on and used as a spring at maximum height." />
 </Template>

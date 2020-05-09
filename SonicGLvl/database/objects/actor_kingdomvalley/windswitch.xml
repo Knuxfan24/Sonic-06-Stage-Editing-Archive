@@ -6,5 +6,5 @@
   <target4 type="float" default="4294967295" description="" /> <!-- uint32 -->
   <base type="integer" default="0" description="" />
   
-  <Extra type="description" name="windswitch" />
+  <Extra type="description" name="A stone switch that spins when activated... fancy!" />
 </Template>

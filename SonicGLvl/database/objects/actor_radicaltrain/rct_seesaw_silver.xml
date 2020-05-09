@@ -14,5 +14,5 @@
   <lua type="string" default="" description="Lua script to use for object initialisation." />
   
   <Extra type="preview_box_y" name="Height" />
-  <Extra type="description" name="rct_seesaw_silver" />
+  <Extra type="description" name="Another glorified weighing scale, but this one weighs physics objects instead." />
 </Template>

@@ -4,5 +4,5 @@
   <global_flag_no type="integer" default="0" description="" />
   <my_color type="integer" default="0" description="Colour of the orb." />
   
-  <Extra type="description" name="trial_post" />
+  <Extra type="description" name="A stone pillar with an orb that glows under certain conditions." />
 </Template>

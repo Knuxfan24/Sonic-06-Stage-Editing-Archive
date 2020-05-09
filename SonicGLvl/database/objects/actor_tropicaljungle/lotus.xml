@@ -9,5 +9,5 @@
   <espmode type="bool" default="false" description="Determines if the object requires psychokinesis." />
   <nocontime type="float" default="0" description="" />
   
-  <Extra type="description" name="lotus" />
+  <Extra type="description" name="A lotus that also acts like a trampoline, for some reason." />
 </Template>

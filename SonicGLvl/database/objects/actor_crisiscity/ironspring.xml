@@ -7,5 +7,5 @@
   <out_time type="float" default="0" description="" />
   <on_time type="float" default="0" description="" />
   
-  <Extra type="description" name="ironspring" />
+  <Extra type="description" name="An iron girder that can be bent with psychokinesis and used as a spring." />
 </Template>

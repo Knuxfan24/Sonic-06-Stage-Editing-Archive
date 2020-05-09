@@ -5,5 +5,5 @@
   <time type="float" default="0" description="Time taken before restoring control to the player." />
   
   <Extra type="preview_box_y" name="Height" />
-  <Extra type="description" name="updownreel" />
+  <Extra type="description" name="A pulley that reels the character up." />
 </Template>

@@ -5,8 +5,8 @@
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="common_hint_collision" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that plays a hint upon entering." />
 </Template>

@@ -3,5 +3,5 @@
   <length type="float" default="0" description="" />
   <hitpower type="float" default="0" description="" />
   
-  <Extra type="description" name="espswing" />
+  <Extra type="description" name="A wooden log that can be swung with psychokinesis." />
 </Template>

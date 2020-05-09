@@ -2,10 +2,10 @@
 <Template>
   <bank type="string" default="" description="PLC file to load particles from." />
   <name type="string" default="" description="Particle to load from the PLC." />
-  <cycle type="float" default="0" description="" />
-  <cyclewidth type="float" default="0" description="" />
+  <cycle type="float" default="0" description="Unknown." />
+  <cyclewidth type="float" default="0" description="Unknown." />
   <sebank type="string" default="" description="SBK file to load sounds from." />
   <sename type="string" default="" description="Sound to load from the SBK." />
   
-  <Extra type="description" name="particle" />
+  <Extra type="description" name="A point that creates particles." />
 </Template>

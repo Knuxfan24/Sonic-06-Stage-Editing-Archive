@@ -5,5 +5,5 @@
   <noeffect type="bool" default="false" description="Determines if the object should have sand particles." />
   
   <Extra type="preview_box_y" name="Height" />
-  <Extra type="description" name="dtd_pillar_eagle" />
+  <Extra type="description" name="A larger pillar that typically rises out of sand." />
 </Template>

@@ -7,5 +7,5 @@
   <maxlen type="float" default="0" description="Minimum height of the scales." />
   <difference type="float" default="0" description="Maximum height of the opposite scale." />
   
-  <Extra type="description" name="rct_seesaw" />
+  <Extra type="description" name="I mean, a seesaw would be more fun, but it's just a glorified weighing scale." />
 </Template>
