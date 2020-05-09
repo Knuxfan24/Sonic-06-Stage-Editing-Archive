@@ -68,7 +68,7 @@ namespace Sonic_06_GLvl_Converter
 
                                 //Change temp[1] & temp[5]
                                 if (temp[1] != paramNames[objectParam])
-                                    Main.listOfIDs.Add($"[{DateTime.Now:HH:mm:ss tt}] '{temp[1]}' in '{objectName}' has been replaced with '{paramNames[objectParam]}'");
+                                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] '{temp[1]}' in '{objectName}' has been replaced with '{paramNames[objectParam]}'");
 
                                 temp[1] = paramNames[objectParam];
                                 temp[5] = paramNames[objectParam];
@@ -89,7 +89,7 @@ namespace Sonic_06_GLvl_Converter
             uint objectID = 0;
 
             foreach (SetObject obj in sourceSET.Objects) {
-                Main.listOfIDs.Add($"[{DateTime.Now:HH:mm:ss tt}] Object '{objectID}' ID changed from {obj.ObjectID} to {objectID}");
+                Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object '{objectID}' ID changed from {obj.ObjectID} to {objectID}");
                 obj.ObjectID = objectID;
                 objectID++;
             }

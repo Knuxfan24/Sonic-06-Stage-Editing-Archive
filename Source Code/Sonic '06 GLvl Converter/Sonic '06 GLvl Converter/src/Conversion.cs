@@ -31,7 +31,7 @@ namespace Sonic_06_GLvl_Converter
                     if (sourceObj.ObjectName != "") targetObj.ObjectName = sourceObj.ObjectName;
                     _GensSetData.Objects.Add(targetObj);
 
-                    Main.listOfIDs.Add($"[{DateTime.Now:HH:mm:ss tt}] Object: {targetObj.ObjectType} | Name: {targetObj.ObjectName} | ID: {objectID}");
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object: {targetObj.ObjectType} | Name: {targetObj.ObjectName} | ID: {objectID}");
                     objectID++;
                 }
 
@@ -47,7 +47,7 @@ namespace Sonic_06_GLvl_Converter
                     if (sourceObj.ObjectName != "") targetObj.ObjectName = sourceObj.ObjectName;
                     _S06SetData.Objects.Add(targetObj);
 
-                    Main.listOfIDs.Add($"[{DateTime.Now:HH:mm:ss tt}] Object: {targetObj.ObjectType} | Name: {targetObj.ObjectName} | ID: {objectID}");
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object: {targetObj.ObjectType} | Name: {targetObj.ObjectName} | ID: {objectID}");
                     objectID++;
                 }
 

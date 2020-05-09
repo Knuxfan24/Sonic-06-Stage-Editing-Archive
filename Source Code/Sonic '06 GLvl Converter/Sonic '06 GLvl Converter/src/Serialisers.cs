@@ -80,7 +80,7 @@ namespace Sonic_06_GLvl_Converter.Serialisers
                     } else candidateInfo = candidateInfo.Parent;
                 }
             } catch (Exception ex) {
-                Console.WriteLine($"[{DateTime.Now:HH:mm:ss tt}] [Error] Failed to check directories...\n{ex}");
+                Console.WriteLine($"[{DateTime.Now:hh:mm:ss tt}] [Error] Failed to check directories...\n{ex}");
             }
 
             return isChild;
