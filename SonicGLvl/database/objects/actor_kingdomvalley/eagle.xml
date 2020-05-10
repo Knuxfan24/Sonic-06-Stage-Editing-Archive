@@ -3,6 +3,7 @@
   <speed1 type="float" default="0" description="The speed the object moves at." />
   <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <noloop type="bool" default="false" description="Determines if the object only follows this spline once." />
-  
+
+  <Extra type="model" name="kdv_obj_eagle01.model" />
   <Extra type="description" name="FREEDOM?" />
 </Template>

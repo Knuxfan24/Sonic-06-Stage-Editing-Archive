@@ -8,6 +8,7 @@
   <charge3 type="float" default="0" description="" />
   <espmode type="bool" default="false" description="Determines if the object requires psychokinesis." />
   <nocontime type="float" default="0" description="" />
-  
+
+  <Extra type="model" name="tpj_obj_lotus.model" />
   <Extra type="description" name="A lotus that also acts like a trampoline, for some reason." />
 </Template>

@@ -2,6 +2,7 @@
 <Template>
   <velocity type="float" default="3000" description="The speed the player will be launched at." />
   <time type="float" default="0.5" description="Time taken before restoring control to the player." />
-  
+
+  <Extra type="model" name="cmn_obj_widespring.model" />
   <Extra type="description" name="Bounce Pad!" />
 </Template>

@@ -6,6 +6,7 @@
   <time type="float" default="0" description="" />
   <temp type="float" default="0" description="" />
   <flag type="bool" default="false" description="" />
-  
+
+  <Extra type="model" name="kdv_obj_eagle01.model" />
   <Extra type="description" name="EXTRA FREEDOM?" />
 </Template>

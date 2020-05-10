@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <global_flag type="integer" default="0" description="" />
-  
+
+  <Extra type="model" name="twn_obj_silvermdl.model" />
   <Extra type="description" name="A silver medal - the appearance of these are bound by save data." />
 </Template>

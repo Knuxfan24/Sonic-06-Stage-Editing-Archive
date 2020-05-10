@@ -20,5 +20,7 @@
   <acc type="float" default="0" description="" />
   <dec type="float" default="0" description="" />
   <boss type="bool" default="false" description="" />
+
+  <Extra type="model" name="rct_obj_freightA.model" />
   <Extra type="description" name="A standard cargo train." />
 </Template>

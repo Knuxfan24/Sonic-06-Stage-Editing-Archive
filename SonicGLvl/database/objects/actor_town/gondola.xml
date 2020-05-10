@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <ky_path type="string" default="" description="" />
-  
+
+  <Extra type="model" name="twn_gondola_a.model" />
   <Extra type="description" name="It's a fancy boat." />
 </Template>

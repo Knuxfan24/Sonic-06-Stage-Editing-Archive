@@ -12,5 +12,5 @@
   <target8 type="float" default="4294967295" description="Ninth object to target." /> <!-- uint32 -->
   <event type="string" default="" description="Event to trigger when the object is enabled." />
   
-  <Extra type="description" name="switch_collector" />
+  <Extra type="description" name="Collects multiple switches together to trigger an event." />
 </Template>

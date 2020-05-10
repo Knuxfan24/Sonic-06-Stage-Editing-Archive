@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <attacktime1 type="float" default="0" description="" />
-  <attacktime2 type="float" default="0" description="" />
+  <attacktime1 type="float" default="0" description="Unknown." />
+  <attacktime2 type="float" default="0" description="Unknown." />
   <attackrange type="float" default="0" description="Maximum distance for the shockwaves." />
-  <firstmode type="integer" default="0" description="" />
-  <event type="string" default="" description="Event to trigger when interacting with the object." />
   
+  <firstmode type="integer" default="1" description="1 - Idle
+2 - Charging" />
+  
+  <event type="string" default="" description="Event to trigger when interacting with the object." />
+
+  <Extra type="model" name="flc_obj_core.model" />
   <Extra type="description" name="A large ball of fire that's destroyed with psychokinesis." />
 </Template>

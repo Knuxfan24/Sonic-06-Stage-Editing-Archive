@@ -5,6 +5,7 @@
   <targetobj type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
   <motspd type="float" default="0" description="" />
   <jumpframe type="float" default="0" description="" />
-  
+
+  <Extra type="model" name="tpj_obj_bungee.model" />
   <Extra type="description" name="A vine pulled down by the player and used as a spring." />
 </Template>

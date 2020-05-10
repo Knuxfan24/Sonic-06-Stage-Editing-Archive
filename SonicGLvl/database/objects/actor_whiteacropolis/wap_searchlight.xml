@@ -13,6 +13,7 @@
   <onintersect type="string" default="" description="" />
   <brokenhead type="string" default="" description="" />
   <allbrk type="bool" default="false" description="" />
-  
+
+  <Extra type="model" name="wap_obj_search.model" />
   <Extra type="description" name="A light that searches for the player." />
 </Template>

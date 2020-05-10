@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <attackpower type="integer" default="0" description="" />
-  <waittime type="float" default="0" description="" />
-  <time type="float" default="0" description="" />
-  <placetype type="integer" default="0" description="" />
-  
+  <attackpower type="integer" default="0" description="Unknown." />
+  <waittime type="float" default="5" description="Time taken to start erupting." />
+  <time type="float" default="1" description="Time spent erupting." />
+  <placetype type="integer" default="0" description="Unknown." />
+
+  <Extra type="model" name="flc_obj_crater.model" />
   <Extra type="description" name="A crater that spews flames at intervals." />
 </Template>

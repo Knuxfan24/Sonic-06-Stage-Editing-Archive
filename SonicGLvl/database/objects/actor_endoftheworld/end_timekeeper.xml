@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <starttime type="float" default="0" description="" />
-  <endtime type="float" default="0" description="" />
+  <target type="float" default="4294967295" description="Unknown." /> <!-- uint32 -->
+  <starttime type="float" default="0" description="Time taken for the light to change." />
+  <endtime type="float" default="0" description="Time taken for the light to be restored." />
   
   <Extra type="description" name="An object that initialises the other End of the World objects." />
 </Template>

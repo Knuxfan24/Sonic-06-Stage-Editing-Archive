@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <Extra type="description" name="darkness" />
+  <Extra type="model" name="twn_obj_darkness.model" />
+  <Extra type="description" name="The Book... er... Sceptre of Darkness." />
 </Template>

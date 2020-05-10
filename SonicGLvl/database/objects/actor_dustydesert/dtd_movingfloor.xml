@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <on_time type="float" default="0" description="Time taken for the object to remain on." />
-  <off_time type="float" default="0" description="Time taken for the object to remain off." />
-  <appear_time type="float" default="0" description="Time taken for the object to move forwards." />
-  <disappear_time type="float" default="0" description="Time taken for the object to move backwards." />
+  <on_time type="float" default="3" description="Time taken for the object to remain on." />
+  <off_time type="float" default="2" description="Time taken for the object to remain off." />
+  <appear_time type="float" default="1" description="Time taken for the object to move forwards." />
+  <disappear_time type="float" default="1" description="Time taken for the object to move backwards." />
   
+  <Extra type="model" name="dtd_obj_movingfloor.model" /> 
   <Extra type="description" name="A floor that moves back and forth into a wall." />
 </Template>

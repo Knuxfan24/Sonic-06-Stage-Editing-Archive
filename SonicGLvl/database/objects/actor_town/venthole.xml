@@ -2,6 +2,7 @@
 <Template>
   <eventname type="string" default="" description="" />
   <warp_target type="vector" description="" />
-  
+
+  <Extra type="model" name="twn_obj_manhole.model" />
   <Extra type="description" name="A vent that can be broken into with the bound attack that transports the player." />
 </Template>

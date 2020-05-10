@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target1 type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <target2 type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <target3 type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <target4 type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <base type="integer" default="0" description="" />
+  <target1 type="float" default="4294967295" description="The first windroad to activate." /> <!-- uint32 -->
+  <target2 type="float" default="4294967295" description="The second windroad to activate." /> <!-- uint32 -->
+  <target3 type="float" default="4294967295" description="The third windroad to activate." /> <!-- uint32 -->
+  <target4 type="float" default="4294967295" description="The four windroad to activate." /> <!-- uint32 -->
   
+  <base type="integer" default="0" description="0 - No Base
+1 - Base" />
+
+  <Extra type="model" name="kdv_obj_wswitch.model" />
   <Extra type="description" name="A stone switch that spins when activated... fancy!" />
 </Template>

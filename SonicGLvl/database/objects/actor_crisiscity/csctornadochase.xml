@@ -6,6 +6,7 @@
   <homing type="float" default="0" description="Unknown." />
   <throwspd type="vector" description="Unknown." />
   <topos type="vector" description="Unknown." />
-  
+
+  <Extra type="model" name="csc_obj_tornadoA.model" />
   <Extra type="description" name="That tornado's carrying a car!" />
 </Template>

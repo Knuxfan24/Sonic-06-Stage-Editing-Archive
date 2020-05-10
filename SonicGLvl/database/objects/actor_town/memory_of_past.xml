@@ -5,6 +5,7 @@
   <textID type="string" default="" description="" />
   <targetID type="float" default="4294967295" description="" /> <!-- uint32 -->
   <lifetime type="float" default="0" description="Time taken for the duration of the vision." />
-  
+
+  <Extra type="model" name="cmn_espmark.model" />
   <Extra type="description" name="memory_of_past" />
 </Template>

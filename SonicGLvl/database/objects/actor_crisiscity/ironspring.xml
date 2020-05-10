@@ -6,6 +6,7 @@
   <power type="float" default="3000" description="The speed the player will be launched at." />
   <out_time type="float" default="0.5" description="Time taken to restore control to the player." />
   <on_time type="float" default="0" description="Unknown." />
-  
+
+  <Extra type="model" name="csc_obj_ironspring.model" />
   <Extra type="description" name="An iron girder that can be bent with psychokinesis and used as a spring." />
 </Template>

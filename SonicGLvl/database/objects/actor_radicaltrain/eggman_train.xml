@@ -25,6 +25,7 @@
   <camera type="vector" description="" />
   <end type="float" default="0" description="" />
   <minspeed type="float" default="0" description="" />
-  
+
+  <Extra type="model" name="rct_obj_Etrain.model" />
   <Extra type="description" name="Eggman's black train used in Shadow's episode." />
 </Template>

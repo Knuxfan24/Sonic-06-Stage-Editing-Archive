@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <time type="float" default="0" description="Time taken before the object falls." />
-  
+
+  <Extra type="model" name="kdv_stairsL.model" />
   <Extra type="description" name="A set of stairs arranged to the right that collapse." />
 </Template>

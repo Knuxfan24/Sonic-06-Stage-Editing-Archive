@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <motionspd type="float" default="0" description="" />
+  <motionspd type="float" default="0" description="Unknown." />
   
-  <Extra type="description" name="freezedmantle" />
+  <Extra type="description" name="A pool of lava with a platform that raises out of it when activated - used in Silver's Flame Core." />
 </Template>

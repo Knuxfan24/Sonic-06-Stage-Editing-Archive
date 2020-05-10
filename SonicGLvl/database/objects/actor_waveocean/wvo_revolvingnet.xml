@@ -2,6 +2,7 @@
 <Template>
   <velocity type="float" default="0" description="The speed the player will be launched at." />
   <control type="float" default="0" description="Time taken before restoring control to the player." />
-  
+
+  <Extra type="model" name="wvo_obj_net.model" />
   <Extra type="description" name="A gate with a bottom half that spins when attacked, launching the player forwards." />
 </Template>

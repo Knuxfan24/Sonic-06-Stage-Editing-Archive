@@ -9,6 +9,7 @@
   <waitfruit type="bool" default="false" description="Determines if the turtle waits for a fruit object to be activated." />
   <waitride type="bool" default="false" description="Determines if the turtle waits for the player before following a spline." />
   <pathname type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
-  
+
+  <Extra type="model" name="tpj_obj_turtle.model" />
   <Extra type="description" name="I like turtles!" />
 </Template>

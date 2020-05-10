@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <nocheckdamage type="bool" default="false" description="" />
-  
+
+  <Extra type="model" name="tpj_obj_cube.model" />
   <Extra type="description" name="A hanging cube that falls when interacted with." />
 </Template>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <kind0 type="string" default="" description="First name of the object to toss." />
+  <kind0 type="string" default="WoodBox_Vs" description="First name of the object to toss." />
   <kind1 type="string" default="" description="Second name of the object to toss." />
   <kind2 type="string" default="" description="Third name of the object to toss." />
   <kind3 type="string" default="" description="Fourth name of the object to toss." />
@@ -13,7 +13,8 @@
   <speed type="float" default="0" description="The speed the object will be launched at." />
   <time type="float" default="0" description="" />
   <error type="float" default="0" description="" />
-  <ypos type="float" default="0" description="" />
+  <ypos type="float" default="0" description="The height of the object." />
   
+  <Extra type="model" name="end_obj_outhall_nos_.model" /> 
   <Extra type="description" name="An object that throws other objects at the player." />
 </Template>

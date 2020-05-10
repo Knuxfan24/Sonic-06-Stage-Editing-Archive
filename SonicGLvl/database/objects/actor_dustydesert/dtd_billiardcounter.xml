@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <count type="integer" default="0" description="Starting number to be initialised with." />
-  <time type="float" default="0" description="Time taken for the balls to explode." />
+  <count type="integer" default="0" description="Number of switches to be disposed." />
+  <time type="float" default="0" description="Unknown." />
   <target0 type="float" default="4294967295" description="First object to target." /> <!-- uint32 -->
   <target1 type="float" default="4294967295" description="Second object to target." /> <!-- uint32 -->
   <target2 type="float" default="4294967295" description="Third object to target." /> <!-- uint32 -->
@@ -12,5 +12,5 @@
   <target7 type="float" default="4294967295" description="Eighth object to target." /> <!-- uint32 -->
   <target8 type="float" default="4294967295" description="Ninth object to target." /> <!-- uint32 -->
   
-  <Extra type="description" name="dtd_billiardcounter" />
+  <Extra type="description" name="Unknown object." />
 </Template>

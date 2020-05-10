@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <radius type="float" default="0" description="" />
+  <radius type="float" default="0" description="Unknown." />
   
-  <Extra type="description" name="A point that creates sand particles in the wind." />
+  <Extra type="description" name="Unknown object." />
 </Template>

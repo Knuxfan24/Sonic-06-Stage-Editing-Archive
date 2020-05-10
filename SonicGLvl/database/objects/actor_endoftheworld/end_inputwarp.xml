@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <force type="float" default="0" description="The input force to pull objects closer." />
-  <time type="float" default="0" description="" />
-  <radmin type="float" default="0" description="" />
-  <radmax type="float" default="0" description="" />
-  <appear type="float" default="0" description="" />
+  <time type="float" default="0" description="Unknown." />
+  <radmin type="float" default="0" description="The wider (typically weaker) radius to be pulled in from." />
+  <radmax type="float" default="0" description="The smaller (typically stronger) radius to be pulled in from." />
+  <appear type="float" default="0" description="Time taken for the object to appear." />
   
+  <Extra type="model" name="end_obj_inhall_nos_.model" /> 
   <Extra type="description" name="An object that pulls in other objects." />
 </Template>

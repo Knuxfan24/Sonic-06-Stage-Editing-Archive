@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
+  <Extra type="model" name="twn_obj_shopTV.model" />
   <Extra type="description" name="Enrique's remote shop display." />
 </Template>

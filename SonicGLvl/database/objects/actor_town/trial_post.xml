@@ -2,7 +2,10 @@
 <Template>
   <eventname type="string" default="" description="" />
   <global_flag_no type="integer" default="0" description="" />
-  <my_color type="integer" default="0" description="Colour of the orb." />
-  
+  <my_color type="integer" default="1" description="Colour of the orb." />
+
+  <Extra type="model" name="twn_obj_trialpillar01.model" condition="my_color == 1" />
+  <Extra type="model" name="twn_obj_trialpillar02.model" condition="my_color == 2" />
+  <Extra type="model" name="twn_obj_trialpillar03.model" condition="my_color == 3" />
   <Extra type="description" name="A stone pillar with an orb that glows under certain conditions." />
 </Template>

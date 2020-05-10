@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <textID type="string" default="" description="Hint to play from an MST when interacting with the object." />
-  
+
+  <Extra type="model" name="twn_obj_present.model" />
   <Extra type="description" name="A present that plays a hint when collected." />
 </Template>

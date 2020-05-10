@@ -13,6 +13,7 @@
   <camz type="float" default="0" description="" />
   <camy type="float" default="0" description="" />
   <isrouge type="bool" default="false" description="" />
-  
+
+  <Extra type="model" name="tpj_obj_tarzan.model" />
   <Extra type="description" name="A rope that can be swung on and used as a spring at maximum height." />
 </Template>

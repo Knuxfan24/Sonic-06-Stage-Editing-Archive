@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <time1 type="float" default="0" description="" />
-  <time2 type="float" default="0" description="" />
-  
+  <time1 type="float" default="0" description="Time taken for the bridge to collapse initially." />
+  <time2 type="float" default="0" description="Time taken for the bridge to collapse further." />
+
+  <Extra type="model" name="kdv_obj_bridge01.model" />
   <Extra type="description" name="A bridge that collapses when interacted with." />
 </Template>

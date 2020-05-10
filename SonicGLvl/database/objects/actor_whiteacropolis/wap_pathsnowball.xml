@@ -4,6 +4,7 @@
   <speed type="float" default="0" description="The speed the object moves at." />
   <distance type="float" default="0" description="" />
   <coefficient type="float" default="0" description="" />
-  
+
+  <Extra type="model" name="wap_obj_pathsnowball.model" />
   <Extra type="description" name="That avalanche is carrying a snowball-- wait..." />
 </Template>

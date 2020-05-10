@@ -2,7 +2,8 @@
 <Template>
   <height type="float" default="-1000" description="The length of the wire." />
   <height2 type="float" default="-100" description="The maximum height of the ring." />
-  <time type="float" default="1.5" description="Time taken before restoring control to the player." />
-  
+  <time type="float" default="1.5" description="Time the reel takes to move from one position to the other." />
+
+  <Extra type="model" name="cmn_obj_updownreel.model" />
   <Extra type="description" name="A pulley that reels the character up." />
 </Template>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <height type="float" default="0" description="" />
-  <time type="float" default="0" description="Time taken for the object to move to its final position." />
-  <noeffect type="bool" default="false" description="Determines if the object should have sand particles." />
+  <height type="float" default="0" description="The height the pillar should start at." />
+  <time type="float" default="8" description="Time taken for the pillar to move to its final position." />
+  <noeffect type="bool" default="false" description="Determines if the pillar should have sand particles." />
   
-  <Extra type="preview_box_y" name="Height" />
+  <Extra type="model" name="dtd_obj_pillarB.model" /> 
   <Extra type="description" name="A larger pillar that typically rises out of sand." />
 </Template>

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="float" default="0" description="" />
-  <width type="float" default="0" description="" />
-  <height type="float" default="0" description="" />
-  <volcanoobj type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <cycletime type="float" default="0" description="" />
-  <cycletimr type="float" default="0" description="" />
-  <volcanocycle type="float" default="0" description="" />
-  <volcanodelay type="float" default="0" description="" />
-  <volcanotime type="float" default="0" description="" />
-  <bombheight type="float" default="0" description="" />
-  <bombrange type="float" default="0" description="" />
-  <bombangle type="float" default="0" description="" />
+  <length type="float" default="10" description="" />
+  <width type="float" default="15" description="" />
+  <height type="float" default="15" description="" />
+  <volcanoobj type="float" default="4294967295" description="Targeted object to destroy." /> <!-- uint32 -->
+  <cycletime type="float" default="0.2" description="Frequency of the bombs appearing." />
+  <cycletimr type="float" default="0.1" description="Time taken before throwing bombs again." />
+  <volcanocycle type="float" default="0" description="Unknown." />
+  <volcanodelay type="float" default="0" description="Unknown." />
+  <volcanotime type="float" default="0" description="Unknown." />
+  <bombheight type="float" default="3000" description="Starting height of the bombs." />
+  <bombrange type="float" default="5000" description="Starting distance from the player." />
+  <bombangle type="float" default="30" description="Starting angle of the bombs." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="flc_volcanicbomb" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that throws chunks of flaming rock." />
 </Template>

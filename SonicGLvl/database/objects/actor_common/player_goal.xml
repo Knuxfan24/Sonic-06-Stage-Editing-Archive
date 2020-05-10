@@ -2,6 +2,18 @@
 <Template>
   <cam_pos type="vector" description="Position of the camera." />
   <cam_tgt type="vector" description="Target of the camera." />
-  
+  <glvl_playername type="string" default="sonic_new" description="Character type (only used by SonicGLvl for previewing)." />
+
+  <Extra type="model" name="sonic_new_playergoal.model" condition="glvl_playername == sonic_new" />
+  <Extra type="model" name="sonic_fast_playergoal.model" condition="glvl_playername == sonic_fast" />
+  <Extra type="model" name="princess_playergoal.model" condition="glvl_playername == princess" />
+  <Extra type="model" name="tails_playergoal.model" condition="glvl_playername == tails" />
+  <Extra type="model" name="knuckles_playergoal.model" condition="glvl_playername == knuckles" />
+  <Extra type="model" name="shadow_playergoal.model" condition="glvl_playername == shadow" />
+  <Extra type="model" name="rouge_playergoal.model" condition="glvl_playername == rouge" />
+  <Extra type="model" name="omega_playergoal.model" condition="glvl_playername == omega" />
+  <Extra type="model" name="silver_playergoal.model" condition="glvl_playername == silver" />
+  <Extra type="model" name="blaze_playergoal.model" condition="glvl_playername == blaze" />
+  <Extra type="model" name="amy_playergoal.model" condition="glvl_playername == amy" />
   <Extra type="description" name="An object that marks the goal position for the character with camera values." />
 </Template>

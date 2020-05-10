@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <preparetime type="float" default="0" description="" />
+  <preparetime type="float" default="0" description="Time taken for the light to go out - if zero, it will be lit permanently upon attacking it." />
   <event type="string" default="" description="Event to trigger when interacting with the object." />
-  
-  <Extra type="description" name="flamesequence" />
+
+  <Extra type="model" name="flc_obj_flameSequence.model" />
+  <Extra type="description" name="If all of the lights shine at once, your way will become clear." />
 </Template>

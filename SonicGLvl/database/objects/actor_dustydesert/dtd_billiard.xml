@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <count type="integer" default="0" description="Starting number to be initialised with." />
-  <time type="float" default="0" description="Time taken for the balls to explode." />
-  <power type="float" default="0" description="" />
+  <count type="integer" default="0" description="Unknown." />
+  <time type="float" default="0" description="Unknown." />
+  <power type="float" default="100" description="Force taken by attacking." />
   
+  <Extra type="model" name="dtd_obj_ball.model" /> 
   <Extra type="description" name="A ball that counts to zero." />
 </Template>

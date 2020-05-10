@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <signal type="integer" default="0" description="" />
-  <esp type="integer" default="0" description="" />
-  <open type="integer" default="0" description="" />
-  <close type="integer" default="0" description="" />
-  <content type="integer" default="0" description="" />
+  <signal type="integer" default="1" description="1 - Door can be opened by a target." />
+  <esp type="integer" default="0" description="Unknown." />
+  <open type="integer" default="0" description="Unknown." />
+  <close type="integer" default="0" description="Unknown." />
   
+  <content type="integer" default="1" description="1 - Open
+2 - Closed" />
+  
+  <Extra type="model" name="dtd_obj_door.model" /> 
   <Extra type="description" name="A door with the Dusty Desert theme." />
 </Template>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <target type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
-  
+
+  <Extra type="model" name="wvo_obj_bridgeA.model" />
   <Extra type="description" name="A bridge that shatters, throwing the character into a 'chainjump' event." />
 </Template>

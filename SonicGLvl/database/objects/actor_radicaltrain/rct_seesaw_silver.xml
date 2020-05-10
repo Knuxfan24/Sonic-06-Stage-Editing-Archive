@@ -12,7 +12,7 @@
   <left_x type="float" default="0" description="" />
   <left_z type="float" default="0" description="" />
   <lua type="string" default="" description="Lua script to use for object initialisation." />
-  
-  <Extra type="preview_box_y" name="Height" />
+
+  <Extra type="model" name="rct_obj_seesaw.model" />
   <Extra type="description" name="Another glorified weighing scale, but this one weighs physics objects instead." />
 </Template>

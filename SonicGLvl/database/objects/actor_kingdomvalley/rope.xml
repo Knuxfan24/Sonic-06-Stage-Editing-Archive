@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <target type="vector" description="Position of the other end of the rope." />
-  <height1 type="float" default="0" description="Maximum height of the first jump." />
-  <height2 type="float" default="0" description="Maximum height of the second jump." />
-  <height3 type="float" default="0" description="Maximum height of the third jump." />
-  <dec type="float" default="0" description="" />
-  <time1 type="float" default="0" description="" />
-  <time2 type="float" default="0" description="" />
-  <time3 type="float" default="0" description="" />
+  <height1 type="float" default="1000" description="Maximum height of the first jump." />
+  <height2 type="float" default="2000" description="Maximum height of the second jump." />
+  <height3 type="float" default="3000" description="Maximum height of the third jump." />
+  <dec type="float" default="0" description="Unknown." />
+  <time1 type="float" default="0.5" description="Time taken to restore control to the player for the first jump." />
+  <time2 type="float" default="1" description="Time taken to restore control to the player for the second jump." />
+  <time3 type="float" default="1.5" description="Time taken to restore control to the player for the third jump." />
   
   <Extra type="description" name="A rope that springs the player at multiple set heights." />
 </Template>

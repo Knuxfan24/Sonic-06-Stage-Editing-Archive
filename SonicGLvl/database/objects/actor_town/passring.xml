@@ -3,6 +3,7 @@
   <nextring type="float" default="4294967295" description="Targets the next object in the chain." /> <!-- uint32 -->
   <lifetime type="float" default="0" description="Time taken for the object to be active." />
   <scale type="float" default="0" description="Size of the object." />
-  
+
+  <Extra type="model" name="twn_obj_passring.model" />
   <Extra type="description" name="A large orange ring used as checkpoints similar to arcade racing games." />
 </Template>
