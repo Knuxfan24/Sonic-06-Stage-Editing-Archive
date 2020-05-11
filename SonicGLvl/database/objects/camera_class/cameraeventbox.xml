@@ -3,9 +3,14 @@
   <length type="float" default="10" description="" />
   <width type="float" default="15" description="" />
   <height type="float" default="15" description="" />
-  <cancelable type="bool" default="false" description="" />
+  <cancelable type="bool" default="false" description="Unknown." />
   <prio type="integer" default="0" description="The priority of the volume - higher values will be prioritised over other stacked volumes." />
-  <onintersect type="integer" default="0" description="" />
+  
+  <onintersect type="integer" default="1" description="1 - Track the player and focus on data0
+2 - Moves from data0 to data1 and follows the player
+3 - A static camera from data0
+4 - Track the player from data0 | 5 - Tracks data0" />
+  
   <data0 type="vector" description="Position of the camera." />
   <data1 type="vector" description="Target of the camera." />
   

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <power type="float" default="0" description="" />
-  <rate type="float" default="0" description="" />
+  <power type="float" default="50" description="The impact taken from the player." />
+  <rate type="float" default="0.05" description="The size of the snowball when attacked." />
 
   <Extra type="model" name="wap_obj_havoksnowball.model" />
   <Extra type="description" name="Someone's failed snowball fight." />

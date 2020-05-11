@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <spd type="float" default="0" description="" />
-  <pathname type="string" default="" description="" />
+  <spd type="float" default="800" description="Speed of the player on the spline." />
+  <pathname type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <targetobj type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
-  <motspd type="float" default="0" description="" />
-  <jumpframe type="float" default="0" description="" />
+  <motspd type="float" default="1" description="Speed of the animation." />
+  <jumpframe type="float" default="0" description="Unknown." />
 
   <Extra type="model" name="tpj_obj_bungee.model" />
   <Extra type="description" name="A vine pulled down by the player and used as a spring." />

@@ -180,9 +180,9 @@
   <Extra type="model" name="wap_obj_rock02.model" condition="objectName == wap_rock02" />
   <Extra type="model" name="wap_obj_watchtower.model" condition="objectName == wap_watchtower" />
   <Extra type="model" name="wap_obj_watchtower.model" condition="objectName == wap_watchtowerboss" />
-  <Extra type="model" name="cmn_woodbox.model" condition="objectName == WoodBox" />
-  <Extra type="model" name="cmn_woodbox.model" condition="objectName == WoodBox_Prime" />
-  <Extra type="model" name="cmn_woodbox.model" condition="objectName == WoodBox_Vs" />
+  <Extra type="model" name="WoodBox.model" condition="objectName == WoodBox" />
+  <Extra type="model" name="WoodBox.model" condition="objectName == WoodBox_Prime" />
+  <Extra type="model" name="WoodBox.model" condition="objectName == WoodBox_Vs" />
   <Extra type="model" name="wvo_obj_bridgeA.model" condition="objectName == wvo_bridgeA" />
   <Extra type="model" name="wvo_obj_bridgeA.model" condition="objectName == wvo_bridgeA2" />
   <Extra type="model" name="wvo_obj_bridgeB.model" condition="objectName == wvo_bridgeB" />

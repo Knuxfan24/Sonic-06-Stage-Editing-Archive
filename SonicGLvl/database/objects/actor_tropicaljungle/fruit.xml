@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <turtle type="float" default="4294967295" description="" /> <!-- uint32 -->
+  <turtle type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
 
   <Extra type="model" name="tpj_obj_fruit.model" />
   <Extra type="description" name="Some delicious fruit that you can feed turtles with." />

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
-  <speed type="float" default="0" description="The speed the object moves at." />
-  <distance type="float" default="0" description="" />
-  <coefficient type="float" default="0" description="" />
+  <speed type="float" default="1000" description="The speed the object moves at." />
+  <distance type="float" default="0" description="Unknown." />
+  <coefficient type="float" default="0" description="Unknown." />
 
   <Extra type="model" name="wap_obj_pathsnowball.model" />
   <Extra type="description" name="That avalanche is carrying a snowball-- wait..." />

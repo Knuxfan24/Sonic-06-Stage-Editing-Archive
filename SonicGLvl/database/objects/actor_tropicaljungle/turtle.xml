@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <redowntime type="float" default="0" description="" />
-  <damagetime type="float" default="0" description="" />
-  <turntime type="float" default="0" description="" />
+  <redowntime type="float" default="0" description="Unknown." />
+  <damagetime type="float" default="0" description="Unknown." />
+  <turntime type="float" default="0" description="Unknown." />
   <speedswim type="float" default="0" description="The speed the object moves at." />
-  <doreverse type="bool" default="false" description="" />
-  <doloop type="bool" default="false" description="" />
+  <doreverse type="bool" default="false" description="Unknown." />
+  <doloop type="bool" default="false" description="Unknown." />
   <waitfruit type="bool" default="false" description="Determines if the turtle waits for a fruit object to be activated." />
   <waitride type="bool" default="false" description="Determines if the turtle waits for the player before following a spline." />
   <pathname type="string" default="" description="Name of the spline in a PATH file for the object to follow." />

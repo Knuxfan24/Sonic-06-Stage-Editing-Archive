@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <top type="float" default="0" description="" />
-  <bottom type="float" default="0" description="" />
-  <jumpspeed type="float" default="0" description="" />
-  <jumpcheckspeed type="float" default="0" description="" />
-  <fixdirection type="bool" default="false" description="" />
-  <hittutaspeed type="float" default="0" description="" />
-  <weight type="float" default="0" description="" />
-  <hitangle type="float" default="0" description="" />
-  <jumpcheckangle type="float" default="0" description="" />
+  <top type="float" default="0" description="Height of the rope." />
+  <bottom type="float" default="0" description="Height of the player's origin point." />
+  <jumpspeed type="float" default="0" description="The speed coming out of the rope" />
+  <jumpcheckspeed type="float" default="0" description="Time taken to restore control to the player." />
+  <fixdirection type="bool" default="false" description="Determines if the player can turn on the rope." />
+  <hittutaspeed type="float" default="0" description="The swinging speed of the rope." />
+  <weight type="float" default="0" description="Weight of the player." />
+  <hitangle type="float" default="0" description="Unknown." />
+  <jumpcheckangle type="float" default="0" description="The angle where the player can jump fully." />
   <targetobj type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
-  <camz type="float" default="0" description="" />
-  <camy type="float" default="0" description="" />
-  <isrouge type="bool" default="false" description="" />
+  <camz type="float" default="0" description="Position of the camera." />
+  <camy type="float" default="0" description="Height of the camera." />
+  <isrouge type="bool" default="false" description="Unknown." />
 
   <Extra type="model" name="tpj_obj_tarzan.model" />
   <Extra type="description" name="A rope that can be swung on and used as a spring at maximum height." />

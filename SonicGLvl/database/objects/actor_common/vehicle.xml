@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <type type="integer" default="4" description="1 - Jeep | 2 - Bike | 3 - Hovercraft | 4 - Glider" />
+  <type type="integer" default="1" description="1 - Jeep | 2 - Bike | 3 - Hovercraft | 4 - Glider" />
   <downfilename type="string" default="" description="Unknown." />
   <isGetOut type="bool" default="false" description="Determines if the character can exit the vehicle." />
   <isShoot type="bool" default="false" description="Determines if the vehicle has weapons." />

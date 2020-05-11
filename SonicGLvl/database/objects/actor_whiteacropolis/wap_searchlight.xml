@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <pitchangle type="float" default="0" description="" />
-  <pitchrange type="float" default="0" description="" />
-  <pitchspeed type="float" default="0" description="" />
-  <pitchtime type="float" default="0" description="" />
-  <yawangle type="float" default="0" description="" />
-  <yawrange type="float" default="0" description="" />
-  <yawspeed type="float" default="0" description="" />
-  <yawtime type="float" default="0" description="" />
-  <findtime type="float" default="0" description="" />
-  <loselength type="float" default="0" description="" />
-  <onintersect type="string" default="" description="" />
-  <brokenhead type="string" default="" description="" />
-  <allbrk type="bool" default="false" description="" />
+  <pitchangle type="float" default="40" description="The angle for the light to start with on the Y axis." />
+  <pitchrange type="float" default="20" description="The range for the character to be in on the Y axis." />
+  <pitchspeed type="float" default="1" description="The speed of the light on the Y axis." />
+  <pitchtime type="float" default="360" description="Time taken to correct the angle on the Y axis." />
+  <yawangle type="float" default="60" description="The angle for the light to start with on the X axis." />
+  <yawrange type="float" default="40" description="The range for the character to be in on the X axis." />
+  <yawspeed type="float" default="1" description="The speed of the light on the X axis." />
+  <yawtime type="float" default="0.01" description="Time taken to correct the angle on the X axis." />
+  <findtime type="float" default="1000" description="Time taken to start finding the player." />
+  <loselength type="float" default="0" description="Unknown." />
+  <onintersect type="string" default="" description="Event to trigger when entering the light." />
+  <brokenhead type="string" default="" description="Event to trigger when breaking the light." />
+  <allbrk type="bool" default="false" description="Unknown." />
 
   <Extra type="model" name="wap_obj_search.model" />
   <Extra type="description" name="A light that searches for the player." />

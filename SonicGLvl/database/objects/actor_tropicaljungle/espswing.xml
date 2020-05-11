@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <length type="float" default="0" description="" />
-  <hitpower type="float" default="0" description="" />
+  <length type="float" default="2000" description="Length of the vines holding up the swing." />
+  <hitpower type="float" default="0" description="Unknown." />
 
   <Extra type="model" name="tpj_obj_swing.model" />
   <Extra type="description" name="A wooden log that can be swung with psychokinesis." />
