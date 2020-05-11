@@ -2,5 +2,5 @@
 <Template>
   <radius type="float" default="0" description="" />
   
-  <Extra type="description" name="tamaire_collision_sphere" />
+  <Extra type="description" name="Unknown object." />
 </Template>

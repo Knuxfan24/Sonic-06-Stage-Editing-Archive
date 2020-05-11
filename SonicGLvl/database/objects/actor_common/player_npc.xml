@@ -2,6 +2,16 @@
 <Template>
   <content type="integer" default="0" description="1 - Sonic | 2 - Shadow | 3 - Silver | 4 - Sonic and Elise
 5 - Tails | 6 - Knuckles | 7 - Amy | 8 - Blaze | 9 - Rouge | 10 - Omega | 11 - Super Sonic | 12 - Super Shadow | 13 - Super Silver | 14 - Elise" />
-  
+
+  <Extra type="model" name="sonic_new_playerstart.model" condition="content == 1" />
+  <Extra type="model" name="shadow_new_playerstart.model" condition="content == 2" />
+  <Extra type="model" name="silver_new_playerstart.model" condition="content == 3" />
+  <Extra type="model" name="princess_new_playerstart.model" condition="content == 4" />
+  <Extra type="model" name="tails_new_playerstart.model" condition="content == 5" />
+  <Extra type="model" name="knuckles_new_playerstart.model" condition="content == 6" />
+  <Extra type="model" name="amy_new_playerstart.model" condition="content == 7" />
+  <Extra type="model" name="blaze_new_playerstart.model" condition="content == 8" />
+  <Extra type="model" name="rouge_new_playerstart.model" condition="content == 9" />
+  <Extra type="model" name="omega_new_playerstart.model" condition="content == 10" />
   <Extra type="description" name="player_npc" />
 </Template>

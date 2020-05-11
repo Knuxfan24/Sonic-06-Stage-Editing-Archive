@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <radius type="float" default="0" description="" />
+  <radius type="float" default="10" description="Distance before the mark is visible." />
   <event type="string" default="" description="Event to trigger when interacting with the object." />
-  <textID type="string" default="" description="" />
-  <targetID type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <lifetime type="float" default="0" description="Time taken for the duration of the vision." />
+  <textID type="string" default="" description="Hint to play from an MST when interacting with the object." />
+  <targetID type="float" default="4294967295" description="Targeted object to make active." /> <!-- uint32 -->
+  <lifetime type="float" default="0" description="Time taken before the object is disposed after interacting with it." />
 
   <Extra type="model" name="cmn_espmark.model" />
-  <Extra type="description" name="memory_of_past" />
+  <Extra type="description" name="Silver the Hedgehog: now with clairvoyance!" />
 </Template>

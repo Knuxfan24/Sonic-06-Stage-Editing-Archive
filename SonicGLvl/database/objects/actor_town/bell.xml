@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <eventname type="string" default="" description="Event to trigger when interacting with the object." />
-  <group_name type="string" default="" description="" />
+  <group_name type="string" default="" description="Unknown." />
 
   <Extra type="model" name="twn_obj_bell.model" />
   <Extra type="description" name="Ding-dong!" />

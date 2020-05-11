@@ -8,8 +8,8 @@
   <content type="integer" default="1" description="1 - Open
 2 - Closed" />
 
-  <lifepoint type="integer" default="0" description="" />
-  <onbroken type="string" default="" description="" />
+  <lifepoint type="integer" default="0" description="Health of the door... really?" />
+  <onbroken type="string" default="" description="Event to trigger when destroyed." />
 
   <Extra type="model" name="twn_obj_door.model" />
   <Extra type="description" name="A door with the Soleanna theme." />

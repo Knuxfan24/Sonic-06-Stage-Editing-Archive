@@ -5,12 +5,12 @@
   <retspeed type="float" default="0" description="The speed the scales moves at when turning idle." />
   <maxlen type="float" default="0" description="Minimum height of the scales." />
   <difference type="float" default="0" description="Maximum height of the opposite scale." />
-  <right type="integer" default="0" description="" />
-  <right_x type="float" default="0" description="" />
-  <right_z type="float" default="0" description="" />
-  <left type="integer" default="0" description="" />
-  <left_x type="float" default="0" description="" />
-  <left_z type="float" default="0" description="" />
+  <right type="integer" default="0" description="Unknown." />
+  <right_x type="float" default="0" description="Unknown." />
+  <right_z type="float" default="0" description="Unknown." />
+  <left type="integer" default="0" description="Unknown." />
+  <left_x type="float" default="0" description="Unknown." />
+  <left_z type="float" default="0" description="Unknown." />
   <lua type="string" default="" description="Lua script to use for object initialisation." />
 
   <Extra type="model" name="rct_obj_seesaw.model" />

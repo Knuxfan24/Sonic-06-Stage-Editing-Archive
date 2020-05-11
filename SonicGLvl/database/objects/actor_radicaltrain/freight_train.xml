@@ -2,24 +2,24 @@
 <Template>
   <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <speed type="float" default="0" description="The speed the object moves at." />
-  <interpolation type="float" default="0" description="" />
+  <interpolation type="float" default="0" description="Interpolated angle curves when taking sharp turns on splines." />
   <num type="integer" default="0" description="Maximum number of carriages." />
-  <interval type="float" default="0" description="" />
-  <loop type="integer" default="0" description="" />
-  <start type="float" default="0" description="" />
-  <on1 type="string" default="" description="" />
-  <on2 type="string" default="" description="" />
-  <on3 type="string" default="" description="" />
-  <on4 type="string" default="" description="" />
-  <on5 type="string" default="" description="" />
-  <on6 type="string" default="" description="" />
-  <on7 type="string" default="" description="" />
-  <on8 type="string" default="" description="" />
-  <on9 type="string" default="" description="" />
-  <on10 type="string" default="" description="" />
-  <acc type="float" default="0" description="" />
-  <dec type="float" default="0" description="" />
-  <boss type="bool" default="false" description="" />
+  <interval type="float" default="0" description="Unknown." />
+  <loop type="integer" default="0" description="Unknown." />
+  <start type="float" default="0" description="Unknown." />
+  <on1 type="string" default="" description="Unknown." />
+  <on2 type="string" default="" description="Unknown." />
+  <on3 type="string" default="" description="Unknown." />
+  <on4 type="string" default="" description="Unknown." />
+  <on5 type="string" default="" description="Unknown." />
+  <on6 type="string" default="" description="Unknown." />
+  <on7 type="string" default="" description="Unknown." />
+  <on8 type="string" default="" description="Unknown." />
+  <on9 type="string" default="" description="Unknown." />
+  <on10 type="string" default="" description="Unknown." />
+  <acc type="float" default="0" description="Unknown." />
+  <dec type="float" default="0" description="Unknown." />
+  <boss type="bool" default="false" description="Unknown." />
 
   <Extra type="model" name="rct_obj_freightA.model" />
   <Extra type="description" name="A standard cargo train." />

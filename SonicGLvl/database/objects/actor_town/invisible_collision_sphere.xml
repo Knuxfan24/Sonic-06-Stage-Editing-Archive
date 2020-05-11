@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <radius type="float" default="0" description="" />
-  <lifepoint type="integer" default="0" description="" />
-  <onbroken type="string" default="" description="" />
+  <lifepoint type="integer" default="0" description="Unknown." />
+  <onbroken type="string" default="" description="Unknown." />
   
-  <Extra type="description" name="invisible_collision_sphere" />
+  <Extra type="description" name="Unknown object." />
 </Template>
