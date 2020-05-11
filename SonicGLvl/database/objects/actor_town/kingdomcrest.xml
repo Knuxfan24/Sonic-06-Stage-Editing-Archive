@@ -4,5 +4,6 @@
   <global_flag2 type="integer" default="0" description="Spawns the object if this global flag and the first is enabled." />
   <global_flag3 type="integer" default="0" description="Spawns the object if all global flags are enabled." />
   
+  <Extra type="model" name="twn_obj_crest.model" />
   <Extra type="description" name="A glowing cylinder used for the entrance of Kingdom Valley." />
 </Template>
