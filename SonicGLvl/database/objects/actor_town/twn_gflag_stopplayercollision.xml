@@ -3,10 +3,10 @@
   <length type="float" default="0" description="" />
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
-  <global_flag type="integer" default="0" description="" />
+  <global_flag type="integer" default="0" description="Defines a global flag." />
   
-  <Extra type="preview_box_x" name="Width" />
-  <Extra type="preview_box_y" name="Height" />
-  <Extra type="preview_box_z" name="Length" />
-  <Extra type="description" name="twn_gflag_stopplayercollision" />
+  <Extra type="preview_box_x" name="width" />
+  <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="length" />
+  <Extra type="description" name="A volume that creates invisible collision to stop the player when a global flag is disabled." />
 </Template>

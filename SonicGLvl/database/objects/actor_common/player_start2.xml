@@ -3,6 +3,17 @@
   <player_no type="integer" default="0" description="Identifier for the player defined in Lua." />
   <player_name type="string" default="sonic_new" description="Name of the character by Lua script filename." />
   <amigo type="bool" default="false" description="Determines if this character follows the player." />
-  
+
+  <Extra type="model" name="sonic_new_playerstart.model" condition="player_name == sonic_new" />
+  <Extra type="model" name="sonic_fast_playerstart.model" condition="player_name == sonic_fast" />
+  <Extra type="model" name="princess_playerstart.model" condition="player_name == princess" />
+  <Extra type="model" name="tails_playerstart.model" condition="player_name == tails" />
+  <Extra type="model" name="knuckles_playerstart.model" condition="player_name == knuckles" />
+  <Extra type="model" name="shadow_playerstart.model" condition="player_name == shadow" />
+  <Extra type="model" name="rouge_playerstart.model" condition="player_name == rouge" />
+  <Extra type="model" name="omega_playerstart.model" condition="player_name == omega" />
+  <Extra type="model" name="silver_playerstart.model" condition="player_name == silver" />
+  <Extra type="model" name="blaze_playerstart.model" condition="player_name == blaze" />
+  <Extra type="model" name="amy_playerstart.model" condition="player_name == amy" />
   <Extra type="description" name="An object that marks the player beginning the stage. This can also be used for other players and also characters for AI initialisation." />
 </Template>

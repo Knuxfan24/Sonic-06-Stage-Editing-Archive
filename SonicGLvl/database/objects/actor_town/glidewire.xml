@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <target type="vector" description="" />
+  <target type="vector" description="Position of the other end of the rope." />
   
-  <Extra type="description" name="glidewire" />
+  <Extra type="description" name="A three-dimensional grind wire created dynamically by a vector." />
 </Template>

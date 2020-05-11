@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <global_flag type="integer" default="0" description="" />
+  <global_flag type="integer" default="0" description="Defines a global flag." />
   
-  <Extra type="description" name="twn_flagdoor" />
+  <Extra type="model" name="wvo_obj_doorA.model" />
+  <Extra type="description" name="A gate that can be opened with a global flag." />
 </Template>

@@ -3,5 +3,199 @@
   <objectName type="string" default="WoodBox" description="Name of the object." />
   <restart type="bool" default="false" description="Determines if the object should respawn." />
   
+  <Extra type="model" name="aqa_obj_floor01.model" condition="objectName == aqa_floor01" />
+  <Extra type="model" name="aqa_obj_floor02.model" condition="objectName == aqa_floor02" />
+  <Extra type="model" name="aqa_obj_floor03.model" condition="objectName == aqa_floor03" />
+  <Extra type="model" name="aqa_obj_floor04.model" condition="objectName == aqa_floor04" />
+  <Extra type="model" name="aqa_obj_floor05.model" condition="objectName == aqa_floor05" />
+  <Extra type="model" name="aqa_obj_floor06.model" condition="objectName == aqa_floor06" />
+  <Extra type="model" name="aqa_obj_foothold.model" condition="objectName == aqa_foothold" />
+  <Extra type="model" name="csc_obj_billboard.model" condition="objectName == billboard" />
+  <Extra type="model" name="unknown_objphys.model" condition="objectName == bldgwaste_a" />
+  <Extra type="model" name="unknown_objphys.model" condition="objectName == bldgwaste_b" />
+  <Extra type="model" name="unknown_objphys.model" condition="objectName == bldgwaste_c" />
+  <Extra type="model" name="cmn_bombbox.model" condition="objectName == BombBox" />
+  <Extra type="model" name="cmn_bombbox.model" condition="objectName == BombBox_Prime" />
+  <Extra type="model" name="cmn_bombbox.model" condition="objectName == BombBox_Vs" />
+  <Extra type="model" name="twn_barrel_b_a.model" condition="objectName == cmn_barrel_b_a" />
+  <Extra type="model" name="twn_barrel_s_a.model" condition="objectName == cmn_barrel_s_a" />
+  <Extra type="model" name="twn_chair_a.model" condition="objectName == cmn_chair_a" />
+  <Extra type="model" name="twn_obj_drumA.model" condition="objectName == cmn_drumA" />
+  <Extra type="model" name="twn_obj_drumB.model" condition="objectName == cmn_drumB" />
+  <Extra type="model" name="twn_obj_tableA.model" condition="objectName == cmn_tableA" />
+  <Extra type="model" name="twn_obj_container.model" condition="objectName == container" />
+  <Extra type="model" name="twn_obj_container.model" condition="objectName == container_d" />
+  <Extra type="model" name="csc_obj_breakroad.model" condition="objectName == csc_breakroad" />
+  <Extra type="model" name="csc_obj_breakroad.model" condition="objectName == csc_breakroad_no" />
+  <Extra type="model" name="csc_obj_breakwall.model" condition="objectName == csc_breakwall" />
+  <Extra type="model" name="csc_obj_breakwall.model" condition="objectName == csc_breakwall_esp" />
+  <Extra type="model" name="csc_obj_breakwall.model" condition="objectName == csc_breakwall02" />
+  <Extra type="model" name="csc_obj_breakrock.model" condition="objectName == csc_rock" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_breakrock.model" condition="objectName == csc_rock_d" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_tank.model" condition="objectName == csc_tank" />
+  <Extra type="model" name="csc_obj_tank_base.model" condition="objectName == csc_tank_base" />
+  <Extra type="model" name="csc_obj_tank.model" condition="objectName == csc_tank_d" />
+  <Extra type="model" name="csc_obj_tank.model" condition="objectName == csc_tank2" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_debrisB.model" condition="objectName == debrisB" />
+  <Extra type="model" name="csc_obj_debrisB.model" condition="objectName == debrisB_br" />
+  <Extra type="model" name="csc_obj_debrisB.model" condition="objectName == debrisB_h" />
+  <Extra type="model" name="dtd_obj_breakwall.model" condition="objectName == dtd_breakwall" />
+  <Extra type="model" name="dtd_obj_statue.model" condition="objectName == dtd_obj_statue" />
+  <Extra type="model" name="dtd_obj_statue.model" condition="objectName == dtd_obj_statue_fix" />
+  <Extra type="model" name="dtd_obj_statue.model" condition="objectName == dtd_obj_statue_mefires" />  <!-- Maybe? -->
+  <Extra type="model" name="dtd_obj_statue.model" condition="objectName == dtd_obj_statue2" />  <!-- Maybe? -->
+  <Extra type="model" name="dtd_obj_statueboss.model" condition="objectName == dtd_obj_statueboss" />
+  <Extra type="model" name="dtd_obj_pillarC.model" condition="objectName == dtd_pillarC" />
+  <Extra type="model" name="dtd_obj_pot.model" condition="objectName == dtd_pot" />
+  <Extra type="model" name="dtd_obj_setbridge.model" condition="objectName == dtd_setbridge" />
+  <Extra type="model" name="dtd_obj_setfloor.model" condition="objectName == dtd_setfloor" />
+  <Extra type="model" name="dtd_obj_setpole.model" condition="objectName == dtd_setpole" />
+  <Extra type="model" name="dtd_obj_setroad.model" condition="objectName == dtd_setroad" />
+  <Extra type="model" name="cmn_flashbox.model" condition="objectName == FlashBox" />
+  <Extra type="model" name="cmn_flashbox.model" condition="objectName == FlashBox_Prime" />
+  <Extra type="model" name="flc_obj_breakrock.model" condition="objectName == flc_breakrock" />
+  <Extra type="model" name="flc_obj_darkmapA.model" condition="objectName == flc_darkmapA" />
+  <Extra type="model" name="flc_obj_darkmapC.model" condition="objectName == flc_darkmapC" />
+  <Extra type="model" name="flc_obj_darkmapD.model" condition="objectName == flc_darkmapD" />
+  <Extra type="model" name="unknown_objphys.model" condition="objectName == flc_flamepedestal" />
+  <Extra type="model" name="flc_obj_foothold.model" condition="objectName == flc_foothold" />
+  <Extra type="model" name="flc_obj_mapA_big.model" condition="objectName == flc_mapA_big" />
+  <Extra type="model" name="flc_obj_mapA_small.model" condition="objectName == flc_mapA_small" />
+  <Extra type="model" name="flc_obj_mapB.model" condition="objectName == flc_mapB" />
+  <Extra type="model" name="flc_obj_mapC.model" condition="objectName == flc_mapC" />
+  <Extra type="model" name="flc_obj_stalactite.model" condition="objectName == flc_stalactite" />
+  <Extra type="model" name="flc_obj_bossbomb.model" condition="objectName == flc_volcanicbomb_boss2" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_glass.model" condition="objectName == glass" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_groundA.model" condition="objectName == groundA" />
+  <Extra type="model" name="csc_obj_groundB.model" condition="objectName == groundB" />
+  <Extra type="model" name="cmn_thornpole.model" condition="objectName == guillotine" />  <!-- Maybe? -->
+  <Extra type="model" name="cmn_havokthorn.model" condition="objectName == havokthorn" />
+  <Extra type="model" name="cmn_havokthorn.model" condition="objectName == havokthorn_fix" />
+  <Extra type="model" name="cmn_ironbox.model" condition="objectName == IronBox" />
+  <Extra type="model" name="cmn_ironbox.model" condition="objectName == IronBox_Vs" />
+  <Extra type="model" name="kdv_obj_C_biggate_nos_.model" condition="objectName == kdv_biggate" />
+  <Extra type="model" name="kdv_mapA_bridge01.model" condition="objectName == kdv_breakbridge" />  <!-- Maybe? -->
+  <Extra type="model" name="kdv_mapA_bridge01.model" condition="objectName == kdv_breakbridge_d" />  <!-- Maybe? -->
+  <Extra type="model" name="kdv_obj_Tower.model" condition="objectName == kdv_breaktower" />  <!-- Maybe? -->
+  <Extra type="model" name="kdv_obj_C_linearch_nos_.model" condition="objectName == kdv_linearch" />
+  <Extra type="model" name="kdv_obj_C_pillar01.model" condition="objectName == kdv_Pillar01" />
+  <Extra type="model" name="kdv_obj_C_pillar01.model" condition="objectName == kdv_Pillar01_br" />
+  <Extra type="model" name="kdv_obj_rock01.model" condition="objectName == kdv_rock" />
+  <Extra type="model" name="kdv_obj_rock02.model" condition="objectName == kdv_rock02" />
+  <Extra type="model" name="kdv_obj_scaffold.model" condition="objectName == kdv_scaffold" />
+  <Extra type="model" name="csc_obj_obstacleA.model" condition="objectName == obstacleA" />
+  <Extra type="model" name="csc_obj_obstacleB.model" condition="objectName == obstacleB" />
+  <Extra type="model" name="csc_obj_pickuptruck.model" condition="objectName == pickuptruck" />
+  <Extra type="model" name="csc_obj_pickuptruck.model" condition="objectName == pickuptruck_br" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_pickuptruck.model" condition="objectName == pickuptruck_d" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_pickuptruck.model" condition="objectName == pickuptruck_h" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_pickuptruck.model" condition="objectName == pickuptruck_h_esp" />  <!-- Maybe? -->
+  <Extra type="model" name="csc_obj_pipe.model" condition="objectName == pipe" />
+  <Extra type="model" name="csc_obj_pipe.model" condition="objectName == pipe_d" />
+  <Extra type="model" name="csc_obj_pipe.model" condition="objectName == pipe_h" />
+  <Extra type="model" name="csc_obj_pipe.model" condition="objectName == pipe2" />  <!-- Maybe? -->
+  <Extra type="model" name="rct_obj_barricade.model" condition="objectName == rct_barricade" />
+  <Extra type="model" name="rct_obj_barrier.model" condition="objectName == rct_barrier" />
+  <Extra type="model" name="rct_obj_beltbase.model" condition="objectName == rct_beltbase" />
+  <Extra type="model" name="rct_obj_container.model" condition="objectName == rct_container_hard" />
+  <Extra type="model" name="rct_obj_fence.model" condition="objectName == rct_fence" />
+  <Extra type="model" name="rct_obj_ladder.model" condition="objectName == rct_ladder" />
+  <Extra type="model" name="rct_obj_pick.model" condition="objectName == rct_pick" />
+  <Extra type="model" name="rct_obj_pillar.model" condition="objectName == rct_pillar" />
+  <Extra type="model" name="rct_obj_rock.model" condition="objectName == rct_rock" />
+  <Extra type="model" name="rct_obj_scoop.model" condition="objectName == rct_scoop" />
+  <Extra type="model" name="rct_obj_timber.model" condition="objectName == rct_timber" />
+  <Extra type="model" name="flc_obj_tower.model" condition="objectName == rct_tower" /> <!-- I think? -->
+  <Extra type="model" name="rct_obj_truck.model" condition="objectName == rct_truck" />
+  <Extra type="model" name="cmn_woodbox.model" condition="objectName == ReinforcedWoodBox" />
+  <Extra type="model" name="csc_obj_roadA.model" condition="objectName == roadA" />
+  <Extra type="model" name="csc_obj_sportscar.model" condition="objectName == sportscar_br" />
+  <Extra type="model" name="csc_obj_sportscar.model" condition="objectName == sportscar_d" />
+  <Extra type="model" name="csc_obj_sportscar.model" condition="objectName == sportscar_h" />
+  <Extra type="model" name="csc_obj_sportscar.model" condition="objectName == sportscar_h_esp" />
+  <Extra type="model" name="kdv_obj_stained01.model" condition="objectName == stained" /> <!-- There is a Stained02 for something? -->
+  <Extra type="model" name="csc_obj_streetlamp.model" condition="objectName == streetlamp" />
+  <Extra type="model" name="csc_obj_taxi.model" condition="objectName == taxi" />
+  <Extra type="model" name="csc_obj_taxi.model" condition="objectName == taxi_br" />
+  <Extra type="model" name="csc_obj_taxi.model" condition="objectName == taxi_d" />
+  <Extra type="model" name="csc_obj_taxi.model" condition="objectName == taxi_h" />
+  <Extra type="model" name="csc_obj_taxi.model" condition="objectName == taxi_h_esp" />
+  <Extra type="model" name="tpj_obj_board.model" condition="objectName == tpj_obj_board" />
+  <Extra type="model" name="tpj_obj_gate.model" condition="objectName == tpj_obj_gate" />
+  <Extra type="model" name="tpj_obj_gate.model" condition="objectName == tpj_obj_gate_r" />
+  <Extra type="model" name="tpj_obj_gateA.model" condition="objectName == tpj_obj_gateA" />
+  <Extra type="model" name="tpj_obj_gateA.model" condition="objectName == tpj_obj_gateA_r" />
+  <Extra type="model" name="tpj_obj_gateB.model" condition="objectName == tpj_obj_gateB" />
+  <Extra type="model" name="tpj_obj_gateB.model" condition="objectName == tpj_obj_gateB_r" />
+  <Extra type="model" name="tpj_obj_logwall.model" condition="objectName == tpj_obj_logwall" />
+  <Extra type="model" name="tpj_obj_logwall.model" condition="objectName == tpj_obj_logwall_r" />
+  <Extra type="model" name="tpj_obj_oldtree.model" condition="objectName == tpj_obj_oldtree" />
+  <Extra type="model" name="tpj_obj_ruinA.model" condition="objectName == tpj_obj_ruinA" />
+  <Extra type="model" name="tpj_obj_ruinA.model" condition="objectName == tpj_obj_ruinA_r" />
+  <Extra type="model" name="tpj_obj_ruinB.model" condition="objectName == tpj_obj_ruinB" />
+  <Extra type="model" name="tpj_obj_ruinB.model" condition="objectName == tpj_obj_ruinB_r" />
+  <Extra type="model" name="tpj_obj_sphere.model" condition="objectName == tpj_obj_sphere" />
+  <Extra type="model" name="tpj_obj_woodwall.model" condition="objectName == tpj_obj_woodwall" />
+  <Extra type="model" name="twn_obj_a1lampA.model" condition="objectName == twn_a1lampA" />
+  <Extra type="model" name="twn_apple.model" condition="objectName == twn_apple" />
+  <Extra type="model" name="twn_obj_ball.model" condition="objectName == twn_ball" />
+  <Extra type="model" name="twn_barrel_b_a.model" condition="objectName == twn_barrel_b_a" />
+  <Extra type="model" name="twn_barrel_bnc_a.model" condition="objectName == twn_barrel_bnc_a" />
+  <Extra type="model" name="twn_barrel_bnc_a.model" condition="objectName == twn_barrel_bnc_a_katai" />  <!-- Maybe? -->
+  <Extra type="model" name="twn_barrel_s_a.model" condition="objectName == twn_barrel_s_a" />
+  <Extra type="model" name="twn_obj_barricade.model" condition="objectName == twn_barricade" />
+  <Extra type="model" name="twn_obj_benchA.model" condition="objectName == twn_benchA" />
+  <Extra type="model" name="unknown_objphys.model" condition="objectName == twn_breakbridge" /> <!-- Quite a few twn bridge models -->
+  <Extra type="model" name="twn_chair_a.model" condition="objectName == twn_chair_a" />
+  <Extra type="model" name="twn_chair_b.model" condition="objectName == twn_chair_b" />
+  <Extra type="model" name="twn_obj_container.model" condition="objectName == twn_container" />
+  <Extra type="model" name="twn_obj_corn.model" condition="objectName == twn_corn" />
+  <Extra type="model" name="twn_obj_direction.model" condition="objectName == twn_direction" />
+  <Extra type="model" name="twn_obj_drumA.model" condition="objectName == twn_drumA" />
+  <Extra type="model" name="twn_obj_drumA.model" condition="objectName == twn_drumA2" />
+  <Extra type="model" name="twn_obj_drumB.model" condition="objectName == twn_drumB" />
+  <Extra type="model" name="twn_obj_drumB.model" condition="objectName == twn_drumB2" />
+  <Extra type="model" name="twn_obj_numberbox00.model" condition="objectName == twn_numberbox00" />
+  <Extra type="model" name="twn_obj_numberbox01.model" condition="objectName == twn_numberbox01" />
+  <Extra type="model" name="twn_obj_numberbox02.model" condition="objectName == twn_numberbox02" />
+  <Extra type="model" name="twn_obj_numberbox03.model" condition="objectName == twn_numberbox03" />
+  <Extra type="model" name="twn_obj_numberbox04.model" condition="objectName == twn_numberbox04" />
+  <Extra type="model" name="twn_obj_numberbox05.model" condition="objectName == twn_numberbox05" />
+  <Extra type="model" name="twn_obj_numberbox06.model" condition="objectName == twn_numberbox06" />
+  <Extra type="model" name="twn_obj_numberbox07.model" condition="objectName == twn_numberbox07" />
+  <Extra type="model" name="twn_obj_numberbox08.model" condition="objectName == twn_numberbox08" />
+  <Extra type="model" name="twn_obj_numberbox09.model" condition="objectName == twn_numberbox09" />
+  <Extra type="model" name="twn_obj_deadend.model" condition="objectName == twn_obj_deadend" />
+  <Extra type="model" name="twn_obj_goal.model" condition="objectName == twn_obj_goal" />
+  <Extra type="model" name="twn_obj_signA.model" condition="objectName == twn_obj_signA" />
+  <Extra type="model" name="twn_obj_signB.model" condition="objectName == twn_obj_signB" />
+  <Extra type="model" name="twn_obj_signC.model" condition="objectName == twn_obj_signC" />
+  <Extra type="model" name="twn_obj_tableA.model" condition="objectName == twn_tableA" />
+  <Extra type="model" name="twn_obj_tableB.model" condition="objectName == twn_target" />
+  <Extra type="model" name="twn_obj_manhole.model" condition="objectName == vent_h" />
+  <Extra type="model" name="wap_obj_iceboard.model" condition="objectName == wap_iceboard" />
+  <Extra type="model" name="wap_obj_iceboard.model" condition="objectName == wap_iceboard_r" />
+  <Extra type="model" name="cmn_laserpole.model" condition="objectName == wap_pole" />
+  <Extra type="model" name="wap_obj_rock01.model" condition="objectName == wap_rock" />
+  <Extra type="model" name="wap_obj_rock02.model" condition="objectName == wap_rock02" />
+  <Extra type="model" name="wap_obj_watchtower.model" condition="objectName == wap_watchtower" />
+  <Extra type="model" name="wap_obj_watchtower.model" condition="objectName == wap_watchtowerboss" />
+  <Extra type="model" name="WoodBox.model" condition="objectName == WoodBox" />
+  <Extra type="model" name="WoodBox.model" condition="objectName == WoodBox_Prime" />
+  <Extra type="model" name="WoodBox.model" condition="objectName == WoodBox_Vs" />
+  <Extra type="model" name="wvo_obj_bridgeA.model" condition="objectName == wvo_bridgeA" />
+  <Extra type="model" name="wvo_obj_bridgeA.model" condition="objectName == wvo_bridgeA2" />
+  <Extra type="model" name="wvo_obj_bridgeB.model" condition="objectName == wvo_bridgeB" />
+  <Extra type="model" name="wvo_obj_bridgeB.model" condition="objectName == wvo_bridgeB2" />
+  <Extra type="model" name="wvo_obj_chairA.model" condition="objectName == wvo_chair" />
+  <Extra type="model" name="wvo_obj_cycad.model" condition="objectName == wvo_cycad" />
+  <Extra type="model" name="wvo_obj_foothold.model" condition="objectName == wvo_foothold" />
+  <Extra type="model" name="wvo_obj_cliffB.model" condition="objectName == wvo_obj_cliffB" />
+  <Extra type="model" name="wvo_obj_parasolA.model" condition="objectName == wvo_parasolA" />
+  <Extra type="model" name="wvo_obj_parasolB.model" condition="objectName == wvo_parasolB" />
+  <Extra type="model" name="wvo_obj_rock01.model" condition="objectName == wvo_rock" />
+  <Extra type="model" name="wvo_obj_rock02.model" condition="objectName == wvo_rock2" />
+  <Extra type="model" name="wvo_obj_tableA.model" condition="objectName == wvo_table" />
+  <Extra type="model" name="wvo_obj_cliffA.model" condition="objectName == wvo_wvo_obj_cliffA" />
   <Extra type="description" name="Boxes, lemons, spikes! You want it? It's yours, my friend, as long as you have enough memory!" />
 </Template>

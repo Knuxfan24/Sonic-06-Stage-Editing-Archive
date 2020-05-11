@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <radius type="float" default="10" description="Radius of the sphere." />
+  <radius type="float" default="10" description="Distance before the mark is visible." />
   <event type="string" default="" description="Event to trigger when interacting with the object." />
   
   <Extra type="model" name="cmn_espmark.model" /> 

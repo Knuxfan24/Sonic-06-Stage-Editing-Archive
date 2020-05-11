@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <type type="integer" default="0" description="" />
-  <pathname type="string" default="" description="" />
-  <brainname type="string" default="" description="" />
-  <downfilename type="string" default="" description="" />
-  <color type="integer" default="0" description="" />
-  <hp type="integer" default="0" description="" />
+  <type type="integer" default="1" description="1 - Compact
+2 - Sedan
+3 - Wagon" />
   
+  <pathname type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
+  <brainname type="string" default="NpcCarBot" description="The AI setup the car should use." />
+  <downfilename type="string" default="" description="Unknown." />
+  <color type="integer" default="0" description="Shade of the car colour." />
+  <hp type="integer" default="0" description="Health of the car." />
+
+  <Extra type="model" name="twn_obj_carCompact.model" condition="type == 1" />
+  <Extra type="model" name="twn_obj_carSedan.model" condition="type == 2" />
+  <Extra type="model" name="twn_obj_carWagon.model" condition="type == 3" />
   <Extra type="description" name="A car... Beep-beep!" />
 </Template>

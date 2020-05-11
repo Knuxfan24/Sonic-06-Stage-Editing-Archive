@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <objectName type="string" default="" description="Name of the object." />
+  <objectName type="string" default="twn_hardrock" description="Name of the object." />
 
   <Extra type="model" name="twn_obj_hardrock.model" />
   <Extra type="description" name="twn_hardrock" />

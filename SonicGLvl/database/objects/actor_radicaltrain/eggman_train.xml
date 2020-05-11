@@ -2,29 +2,29 @@
 <Template>
   <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <speed type="float" default="0" description="The speed the object moves at." />
-  <interpolation type="float" default="0" description="" />
+  <interpolation type="float" default="0" description="Interpolated angle curves when taking sharp turns on splines." />
   <num type="integer" default="0" description="Maximum number of carriages." />
-  <interval type="float" default="0" description="" />
-  <loop type="integer" default="0" description="" />
-  <start type="float" default="0" description="" />
-  <type type="integer" default="0" description="" />
-  <bombtime type="float" default="0" description="" />
-  <hp1 type="integer" default="0" description="" />
-  <hp2 type="integer" default="0" description="" />
-  <brake type="float" default="0" description="" />
-  <event type="string" default="" description="" />
-  <timeover type="string" default="" description="" />
-  <break type="integer" default="0" description="" />
-  <waittime type="float" default="0" description="" />
-  <distance type="float" default="0" description="" />
-  <timing type="float" default="0" description="" />
-  <vel type="float" default="0" description="" />
-  <acc type="float" default="0" description="" />
-  <dec type="float" default="0" description="" />
-  <left type="bool" default="false" description="" />
-  <camera type="vector" description="" />
-  <end type="float" default="0" description="" />
-  <minspeed type="float" default="0" description="" />
+  <interval type="float" default="0" description="Unknown." />
+  <loop type="integer" default="0" description="Unknown." />
+  <start type="float" default="0" description="Unknown." />
+  <type type="integer" default="0" description="Unknown." />
+  <bombtime type="float" default="0" description="Unknown." />
+  <hp1 type="integer" default="0" description="Unknown." />
+  <hp2 type="integer" default="0" description="Unknown." />
+  <brake type="float" default="0" description="Unknown." />
+  <event type="string" default="" description="Unknown." />
+  <timeover type="string" default="" description="Unknown." />
+  <break type="integer" default="0" description="Unknown." />
+  <waittime type="float" default="0" description="Unknown." />
+  <distance type="float" default="0" description="Unknown." />
+  <timing type="float" default="0" description="Unknown." />
+  <vel type="float" default="0" description="Unknown." />
+  <acc type="float" default="0" description="Unknown." />
+  <dec type="float" default="0" description="Unknown." />
+  <left type="bool" default="false" description="Unknown." />
+  <camera type="vector" description="Unknown." />
+  <end type="float" default="0" description="Unknown." />
+  <minspeed type="float" default="0" description="Unknown." />
 
   <Extra type="model" name="rct_obj_Etrain.model" />
   <Extra type="description" name="Eggman's black train used in Shadow's episode." />

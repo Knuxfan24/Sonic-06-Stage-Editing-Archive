@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <actorname type="string" default="" description="" />
-  <mantype type="integer" default="0" description="Variant of the chosen actor." />
-  <bodycolor type="integer" default="0" description="" />
-  <haircolor type="integer" default="0" description="" />
-  <mankind type="string" default="" description="" />
-  <pathway type="string" default="" description="" />
-  <action type="string" default="" description="" />
-  <talkevent type="string" default="" description="" />
-  <target type="vector" description="" />
-  <target_actor type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <manvariation type="integer" default="0" description="" />
-  <turnmode type="integer" default="0" description="" />
-  <brain type="string" default="" description="" />
-  <brainparam type="string" default="" description="" />
-  <norangeout type="bool" default="false" description="" />
-  <nododge type="bool" default="false" description="" />
-  <target_ride type="float" default="4294967295" description="" /> <!-- uint32 -->
-  <globalflag type="integer" default="0" description="" />
+  <actorname type="string" default="" description="Name of the NPC." />
+  <mantype type="integer" default="1" description="Variant of the NPC." />
+  <bodycolor type="integer" default="0" description="Unknown." />
+  <haircolor type="integer" default="0" description="Unknown." />
+  <mankind type="string" default="" description="Unknown." />
+  <pathway type="string" default="" description="Name of the Kynapse AI method to use." />
+  <action type="string" default="" description="The action being played by the NPC." />
+  <talkevent type="string" default="" description="Unknown." />
+  <target type="vector" description="Unknown." />
+  <target_actor type="float" default="4294967295" description="Unknown." /> <!-- uint32 -->
+  <manvariation type="integer" default="0" description="Unknown." />
+  <turnmode type="integer" default="0" description="Unknown." />
+  <brain type="string" default="" description="The AI type for the NPC to use." />
+  <brainparam type="string" default="" description="Unknown." />
+  <norangeout type="bool" default="false" description="Determines if the NPC AI cannot despawn at a large range." />
+  <nododge type="bool" default="false" description="Determines if the NPC avoids the player when running past at high speed." />
+  <target_ride type="float" default="4294967295" description="The object to attach this NPC to." /> <!-- uint32 -->
+  <globalflag type="integer" default="0" description="Defines a global flag." />
   
   <Extra type="description" name="Hey!" />
 </Template>

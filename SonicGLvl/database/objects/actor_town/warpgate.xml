@@ -1,8 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <stageName type="string" default="" description="Event to trigger when interacting with the object." />
-  <appearances type="integer" default="0" description="Variant of the image." />
+  
+  <appearances type="integer" default="0" description="0 - AQA | 1 - CSC | 2 - DTD | 3/9/11 - WVO
+4 - FLC | 5 - KDV | 6 - RCT | 7 - TPJ | 8 - WAP
+10 - EOTW" />
 
   <Extra type="model" name="twn_obj_warpgate_aqa.model" condition="appearances == 0" />
+  <Extra type="model" name="twn_obj_warpgate_csc.model" condition="appearances == 1" />
+  <Extra type="model" name="twn_obj_warpgate_dtd.model" condition="appearances == 2" />
+  <Extra type="model" name="twn_obj_warpgate_wvo.model" condition="appearances == 3" />
+  <Extra type="model" name="twn_obj_warpgate_flc.model" condition="appearances == 4" />
+  <Extra type="model" name="twn_obj_warpgate_kdv.model" condition="appearances == 5" />
+  <Extra type="model" name="twn_obj_warpgate_rct.model" condition="appearances == 6" />
+  <Extra type="model" name="twn_obj_warpgate_tpj.model" condition="appearances == 7" />
+  <Extra type="model" name="twn_obj_warpgate_wap.model" condition="appearances == 8" />
+  <Extra type="model" name="twn_obj_warpgate_wvo.model" condition="appearances == 9" />
+  <Extra type="model" name="twn_obj_warpgate_eotw.model" condition="appearances == 10" />
+  <Extra type="model" name="twn_obj_warpgate_wvo.model" condition="appearances == 11" />
   <Extra type="description" name="A magic mirror that teleports the player to another location." />
 </Template>

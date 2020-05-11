@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <eventname type="string" default="" description="" />
-  <warp_target type="vector" description="" />
+  <eventname type="string" default="" description="Event to trigger when entering the vent." />
+  <warp_target type="vector" description="Position to warp to when entering the vent." />
 
   <Extra type="model" name="twn_obj_manhole.model" />
   <Extra type="description" name="A vent that can be broken into with the bound attack that transports the player." />

@@ -3,7 +3,7 @@
   <forward type="float" default="0" description="The speed the object moves forwards at." />
   <backward type="float" default="0" description="The speed the object moves backwards at." />
   <time1 type="float" default="0" description="Time taken for the object to change direction." />
-  <time2 type="float" default="0" description="" />
+  <time2 type="float" default="0" description="Unknown." />
 
   <Extra type="model" name="rct_obj_belt.model" />
   <Extra type="description" name="A conveyor belt that changes direction." />

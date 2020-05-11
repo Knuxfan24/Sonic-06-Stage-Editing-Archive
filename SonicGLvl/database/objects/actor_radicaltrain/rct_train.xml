@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <path type="string" default="" description="" />
-  <speed type="float" default="0" description="" />
-  <interpolation type="float" default="0" description="" />
-  <num type="integer" default="0" description="" />
-  <interval type="float" default="0" description="" />
-  <loop type="integer" default="0" description="" />
-  <start type="float" default="0" description="" />
+  <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
+  <speed type="float" default="0" description="The speed the object moves at." />
+  <interpolation type="float" default="0" description="Interpolated angle curves when taking sharp turns on splines." />
+  <num type="integer" default="0" description="Maximum number of carriages." />
+  <interval type="float" default="0" description="Unknown." />
+  <loop type="integer" default="0" description="Unknown." />
+  <start type="float" default="0" description="Unknown." />
 
   <Extra type="model" name="rct_obj_trainA.model" />
   <Extra type="description" name="rct_train" />

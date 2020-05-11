@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
-  <global_flag1 type="integer" default="0" description="" />
-  <global_flag2 type="integer" default="0" description="" />
-  <global_flag3 type="integer" default="0" description="" />
+  <global_flag1 type="integer" default="0" description="Spawns the object if the global flag is enabled." />
+  <global_flag2 type="integer" default="0" description="Spawns the object if this global flag and the first is enabled." />
+  <global_flag3 type="integer" default="0" description="Spawns the object if all global flags are enabled." />
   
-  <Extra type="description" name="kingdomcrest" />
+  <Extra type="description" name="A glowing cylinder used for the entrance of Kingdom Valley." />
 </Template>
