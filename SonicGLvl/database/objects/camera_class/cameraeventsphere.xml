@@ -12,5 +12,8 @@
   <data0 type="vector" description="Position of the camera." />
   <data1 type="vector" description="Target of the camera." />
   
+  <Extra type="preview_box_x" name="radius" />
+  <Extra type="preview_box_y" name="radius" />
+  <Extra type="preview_box_z" name="radius" />
   <Extra type="description" name="A volume that starts a camera event." />
 </Template>

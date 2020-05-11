@@ -9,7 +9,9 @@
 2 - Leaves" />
 
   <signal type="bool" default="false" description="Unknown." />
-  
+
+  <Extra type="preview_box_x" name="radius" />
   <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="radius" />
   <Extra type="description" name="A volume that blasts the player with wind." />
 </Template>

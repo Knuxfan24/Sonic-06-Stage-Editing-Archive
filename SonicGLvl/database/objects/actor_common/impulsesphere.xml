@@ -2,6 +2,9 @@
 <Template>
   <radius type="float" default="0" description="" />
   <impulse type="float" default="0" description="Force applied to physics objects." />
-  
+
+  <Extra type="preview_box_x" name="radius" />
+  <Extra type="preview_box_y" name="radius" />
+  <Extra type="preview_box_z" name="radius" />
   <Extra type="description" name="A volume that destroys physics objects." />
 </Template>

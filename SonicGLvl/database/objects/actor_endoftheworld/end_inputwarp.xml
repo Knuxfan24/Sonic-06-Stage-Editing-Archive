@@ -6,6 +6,12 @@
   <radmax type="float" default="0" description="The smaller (typically stronger) radius to be pulled in from." />
   <appear type="float" default="0" description="Time taken for the object to appear." />
   
-  <Extra type="model" name="end_obj_inhall_nos_.model" /> 
+  <Extra type="model" name="end_obj_inhall_nos_.model" />
+  <Extra type="preview_box_x" name="radmin" />
+  <Extra type="preview_box_y" name="radmin" />
+  <Extra type="preview_box_z" name="radmin" />
+  <Extra type="preview_box_x" name="radmax" />
+  <Extra type="preview_box_y" name="radmax" />
+  <Extra type="preview_box_z" name="radmax" />
   <Extra type="description" name="An object that pulls in other objects." />
 </Template>

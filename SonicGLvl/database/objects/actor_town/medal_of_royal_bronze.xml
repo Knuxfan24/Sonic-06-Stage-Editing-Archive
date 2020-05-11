@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <Extra type="model" name="twn_obj_bronzemdl.model" />
+  <Extra type="offset_rotation_y_speed" name="-40" />
   <Extra type="description" name="A bronze medal that awards the player 1000 points." />
 </Template>

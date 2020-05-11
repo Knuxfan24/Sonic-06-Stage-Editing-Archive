@@ -3,5 +3,6 @@
   <global_flag type="integer" default="0" description="Defines a global flag." />
 
   <Extra type="model" name="twn_obj_silvermdl.model" />
+  <Extra type="offset_rotation_y_speed" name="-40" />
   <Extra type="description" name="A silver medal - the appearance of these are bound by save data." />
 </Template>

@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <radius type="float" default="0" description="Unknown." />
-  
+
+  <Extra type="preview_box_x" name="radius" />
+  <Extra type="preview_box_y" name="radius" />
+  <Extra type="preview_box_z" name="radius" />
   <Extra type="description" name="Unknown object." />
 </Template>

@@ -4,7 +4,9 @@
   <height type="float" default="0" description="" />
   <lifepoint type="integer" default="0" description="Unknown." />
   <onbroken type="string" default="" description="Unknown." />
-  
+
+  <Extra type="preview_box_x" name="radius" />
   <Extra type="preview_box_y" name="height" />
+  <Extra type="preview_box_z" name="radius" />
   <Extra type="description" name="Unknown object." />
 </Template>
