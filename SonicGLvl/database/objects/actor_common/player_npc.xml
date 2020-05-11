@@ -13,5 +13,9 @@
   <Extra type="model" name="blaze_playerstart.model" condition="content == 8" />
   <Extra type="model" name="rouge_playerstart.model" condition="content == 9" />
   <Extra type="model" name="omega_playerstart.model" condition="content == 10" />
+  <Extra type="model" name="supersonic_playerstart.model" condition="content == 11" />
+  <Extra type="model" name="supershadow_playerstart.model" condition="content == 12" />
+  <Extra type="model" name="supersilver_playerstart.model" condition="content == 13" />
+  <Extra type="model" name="elise_playerstart.model" condition="content == 14" />
   <Extra type="description" name="player_npc" />
 </Template>
