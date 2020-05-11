@@ -34,5 +34,15 @@
   <Extra type="model" name="en_eSearcher.model" condition="typeName == eSearcher" />
   <Extra type="model" name="en_eStinger.model" condition="typeName == eStinger" />
   <Extra type="model" name="en_eWalker.model" condition="typeName == eWalker" />
+  <Extra type="model" name="en_eCerberus.model" condition="typeName == eCerberus" />
+  <Extra type="model" name="en_eGenesis.model" condition="typeName == eGenesis" />
+  <Extra type="model" name="en_eWyvern.model" condition="typeName == eWyvern" />
+  <Extra type="model" name="en_iblis01.model" condition="typeName == firstIblis" />
+  <Extra type="model" name="en_Iblis02.model" condition="typeName == secondIblis" />
+  <Extra type="model" name="en_iblis03.model" condition="typeName == thirdIblis" />
+  <Extra type="model" name="en_mefiress.model" condition="typeName == firstmefiress" />
+  <Extra type="model" name="en_mefiress.model" condition="typeName == secondmefiress" />
+  <Extra type="model" name="en_Solaris01.model" condition="typeName == solaris01" />
+  <Extra type="model" name="en_Solaris02.model" condition="typeName == solaris02" />
   <Extra type="description" name="Eggman's robots!" />
 </Template>
