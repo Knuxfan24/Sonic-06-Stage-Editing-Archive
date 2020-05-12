@@ -5,6 +5,9 @@
   <appearances type="integer" default="0" description="0 - AQA | 1 - CSC | 2 - DTD | 3/9/11 - WVO
 4 - FLC | 5 - KDV | 6 - RCT | 7 - TPJ | 8 - WAP
 10 - EOTW" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="twn_obj_warpgate_aqa.model" condition="appearances == 0" />
   <Extra type="model" name="twn_obj_warpgate_csc.model" condition="appearances == 1" />

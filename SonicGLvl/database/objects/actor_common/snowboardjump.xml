@@ -8,6 +8,9 @@
   <rate type="float" default="0.5" description="The height the player will be launched at." />
   <bpower_rate type="float" default="0.7" description="The speed of the jump elevation." />
   <time type="float" default="1" description="Time taken before restoring control to the player." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="preview_box_x" name="width" />
   <Extra type="preview_box_y" name="height" />

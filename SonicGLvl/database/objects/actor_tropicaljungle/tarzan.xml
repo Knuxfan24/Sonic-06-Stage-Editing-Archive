@@ -13,6 +13,9 @@
   <camz type="float" default="0" description="Position of the camera." />
   <camy type="float" default="0" description="Height of the camera." />
   <isrouge type="bool" default="false" description="Unknown." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="tpj_obj_tarzan.model" />
   <Extra type="description" name="A rope that can be swung on and used as a spring at maximum height." />

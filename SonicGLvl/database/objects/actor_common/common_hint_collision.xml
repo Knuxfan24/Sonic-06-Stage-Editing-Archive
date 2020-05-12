@@ -4,6 +4,9 @@
   <length type="float" default="0" description="" />
   <width type="float" default="0" description="" />
   <height type="float" default="0" description="" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="preview_box_x" name="width" />
   <Extra type="preview_box_y" name="height" />

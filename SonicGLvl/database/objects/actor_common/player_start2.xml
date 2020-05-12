@@ -3,6 +3,9 @@
   <player_no type="integer" default="0" description="Identifier for the player defined in Lua." />
   <player_name type="string" default="sonic_new" description="Name of the character by Lua script filename." />
   <amigo type="bool" default="false" description="Determines if this character follows the player." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="sonic_new_playerstart.model" condition="player_name == sonic_new" />
   <Extra type="model" name="sonic_fast_playerstart.model" condition="player_name == sonic_fast" />

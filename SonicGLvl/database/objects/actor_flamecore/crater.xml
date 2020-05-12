@@ -4,6 +4,9 @@
   <waittime type="float" default="5" description="Time taken to start erupting." />
   <time type="float" default="1" description="Time spent erupting." />
   <placetype type="integer" default="0" description="Unknown." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="flc_obj_crater.model" />
   <Extra type="description" name="A crater that spews flames at intervals." />

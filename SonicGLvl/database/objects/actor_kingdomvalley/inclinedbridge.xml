@@ -2,6 +2,9 @@
 <Template>
   <time1 type="float" default="0" description="Time taken for the bridge to collapse initially." />
   <time2 type="float" default="0" description="Time taken for the bridge to collapse further." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="kdv_obj_bridge01.model" />
   <Extra type="description" name="A bridge that collapses when interacted with." />

@@ -11,6 +11,9 @@
   <target7 type="float" default="4294967295" description="Eighth object to target." /> <!-- uint32 -->
   <target8 type="float" default="4294967295" description="Ninth object to target." /> <!-- uint32 -->
   <event type="string" default="" description="Event to trigger when the object is enabled." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="Collects multiple switches together to trigger an event." />
 </Template>

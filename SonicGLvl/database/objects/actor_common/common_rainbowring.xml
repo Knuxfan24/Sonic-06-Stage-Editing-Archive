@@ -4,6 +4,9 @@
   <yaw type="float" default="0" description="The angle the player will be launched at on the X axis." />
   <velocity type="float" default="3000" description="The speed the player will be launched at." />
   <time type="float" default="0.5" description="Time taken before restoring control to the player." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="cmn_obj_rainbowring.model" /> 
   <Extra type="description" name="It's a ring with all colours on the spectrum that just happens to launch the player." />

@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <event type="string" default="" description="Event to trigger when interacting with the object." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="cmn_obj_key.model" /> 
   <Extra type="description" name="Place this object to unlock its secrets..." />

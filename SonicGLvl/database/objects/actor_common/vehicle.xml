@@ -5,6 +5,9 @@
   <isGetOut type="bool" default="false" description="Determines if the character can exit the vehicle." />
   <isShoot type="bool" default="false" description="Determines if the vehicle has weapons." />
   <RoutePath type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="Gadget_Jeep.model" condition="type == 1" />
   <Extra type="model" name="Gadget_Bike.model" condition="type == 2" />

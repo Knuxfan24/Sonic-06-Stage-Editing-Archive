@@ -4,6 +4,9 @@
   <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <speed type="float" default="800" description="The speed the object moves at." />
   <interpolation type="float" default="0.05" description="Interpolated angle curves when taking sharp turns on splines." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="Initialises an object on a spline - requires the object to be referenced in the 'PathObj.bin' file." />
 </Template>

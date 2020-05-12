@@ -18,6 +18,9 @@
   <nododge type="bool" default="false" description="Determines if the NPC avoids the player when running past at high speed." />
   <target_ride type="float" default="4294967295" description="The object to attach this NPC to." /> <!-- uint32 -->
   <globalflag type="integer" default="0" description="Defines a global flag." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="Hey!" />
 </Template>

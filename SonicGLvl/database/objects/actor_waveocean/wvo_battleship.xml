@@ -2,6 +2,9 @@
 <Template>
   <path type="string" default="" description="Name of the spline in a PATH file for the object to follow." />
   <distance type="float" default="15000" description="The distance from the player." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="wvo_obj_eCarrier.model" />
   <Extra type="description" name="A smaller variant of the Egg Carrier for perspective." />

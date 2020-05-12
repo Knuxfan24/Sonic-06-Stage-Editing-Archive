@@ -8,6 +8,9 @@
   <charge3 type="float" default="0" description="Time taken to charge the third jump with psychokinesis." />
   <espmode type="bool" default="false" description="Determines if the object requires psychokinesis." />
   <nocontime type="float" default="0" description="Time taken to restore control to the player." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="tpj_obj_lotus.model" />
   <Extra type="description" name="A lotus that also acts like a trampoline, for some reason." />

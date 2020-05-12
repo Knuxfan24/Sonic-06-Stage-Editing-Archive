@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
   <speed type="float" default="2" description="Speed of the glass panel moving down." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="aqa_obj_breakdoorA.model" /> 
   <Extra type="description" name="A glass barrier that can be shattered by the player." />

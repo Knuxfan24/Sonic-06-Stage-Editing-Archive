@@ -7,6 +7,9 @@
   
   <base type="integer" default="0" description="0 - No Base
 1 - Base" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="kdv_obj_wswitch.model" />
   <Extra type="description" name="A stone switch that spins when activated... fancy!" />

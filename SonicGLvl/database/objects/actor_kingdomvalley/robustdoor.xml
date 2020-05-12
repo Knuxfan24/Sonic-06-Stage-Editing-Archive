@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
+  
   <Extra type="model" name="kdv_obj_door.model" />
   <Extra type="description" name="A door with the Kingdom Valley theme that doesn't correct its collision when opened." />
 </Template>

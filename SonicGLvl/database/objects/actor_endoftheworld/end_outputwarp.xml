@@ -14,6 +14,9 @@
   <time type="float" default="0" description="" />
   <error type="float" default="0" description="" />
   <ypos type="float" default="0" description="The height of the object." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="end_obj_outhall_nos_.model" /> 
   <Extra type="description" name="An object that throws other objects at the player." />

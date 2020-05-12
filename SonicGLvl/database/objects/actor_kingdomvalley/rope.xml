@@ -8,6 +8,9 @@
   <time1 type="float" default="0.5" description="Time taken to restore control to the player for the first jump." />
   <time2 type="float" default="1" description="Time taken to restore control to the player for the second jump." />
   <time3 type="float" default="1.5" description="Time taken to restore control to the player for the third jump." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="A rope that springs the player at multiple set heights." />
 </Template>

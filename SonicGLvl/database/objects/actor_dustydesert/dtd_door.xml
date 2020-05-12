@@ -7,6 +7,9 @@
   
   <content type="integer" default="1" description="1 - Open
 2 - Closed" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="dtd_obj_door.model" /> 
   <Extra type="description" name="A door with the Dusty Desert theme." />

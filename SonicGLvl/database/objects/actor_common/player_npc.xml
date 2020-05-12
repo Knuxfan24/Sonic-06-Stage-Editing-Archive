@@ -2,6 +2,9 @@
 <Template>
   <content type="integer" default="1" description="1 - Sonic | 2 - Shadow | 3 - Silver | 4 - Sonic and Elise
 5 - Tails | 6 - Knuckles | 7 - Amy | 8 - Blaze | 9 - Rouge | 10 - Omega | 11 - Super Sonic | 12 - Super Shadow | 13 - Super Silver | 14 - Elise" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="sonic_new_playerstart.model" condition="content == 1" />
   <Extra type="model" name="shadow_playerstart.model" condition="content == 2" />

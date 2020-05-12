@@ -11,6 +11,9 @@
   <dec type="float" default="0" description="Unknown." />
   <camera type="vector" description="Unknown." />
   <end type="float" default="0" description="Unknown." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="rct_obj_trainA.model" />
   <Extra type="description" name="A red train used in Sonic's episode." />

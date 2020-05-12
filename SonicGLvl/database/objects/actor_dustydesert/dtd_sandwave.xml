@@ -2,6 +2,9 @@
 <Template>
   <time type="float" default="6" description="The frequency of the waves." />
   <speed type="float" default="1000" description="The speed the waves move at." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="dtd_obj_sandzone.model" /> 
   <Extra type="description" name="An object that creates sand waves." />

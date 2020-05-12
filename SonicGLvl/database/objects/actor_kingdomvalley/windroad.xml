@@ -4,6 +4,9 @@
   <disappeartime type="float" default="45" description="Time taken before the object disappears." />
   <speed type="float" default="80" description="The speed the object moves at." />
   <path type="string" default="" description="Name of the spline in a PATH file for the player to grind on." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="A wind path that the player can grind on." />
 </Template>

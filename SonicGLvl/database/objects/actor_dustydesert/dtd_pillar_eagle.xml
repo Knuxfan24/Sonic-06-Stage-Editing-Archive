@@ -3,6 +3,9 @@
   <height type="float" default="0" description="The height the pillar should start at." />
   <time type="float" default="8" description="Time taken for the pillar to move to its final position." />
   <noeffect type="bool" default="false" description="Determines if the pillar should have sand particles." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="dtd_obj_pillarB.model" /> 
   <Extra type="description" name="A larger pillar that typically rises out of sand." />

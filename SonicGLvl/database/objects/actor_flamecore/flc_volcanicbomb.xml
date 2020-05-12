@@ -12,6 +12,9 @@
   <bombheight type="float" default="3000" description="Starting height of the bombs." />
   <bombrange type="float" default="5000" description="Starting distance from the player." />
   <bombangle type="float" default="30" description="Starting angle of the bombs." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="preview_box_x" name="width" />
   <Extra type="preview_box_y" name="height" />

@@ -3,6 +3,9 @@
   <power type="float" default="120" description="The walking speed of the mercury bubble." />
   <deceleration type="float" default="0.01" description="The deceleration speed." />
   <psi type="float" default="0" description="Unused?" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="A large bubble of mercury that characters can walk on." />
 </Template>

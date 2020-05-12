@@ -3,6 +3,9 @@
   <shadow type="bool" default="true" description="Determines if the object casts a shadow." />
   <pathparam type="float" default="0" description="Start of the position of the spline when lightdashing." />
   <path type="string" default="" description="Name of the spline in a PATH file for the player to lightdash on." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="cmn_obj_ring.model" />
   <Extra type="offset_rotation_y_speed" name="120" />

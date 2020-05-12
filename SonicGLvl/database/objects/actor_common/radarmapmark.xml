@@ -5,6 +5,9 @@
   <mark type="integer" default="0" description="1 - Green Arrow | 2 - Blue Circle | 3 - Orange Circle
 4 - Yellow Circle | 5 - Yellow Square | 6 - Green Square
 7 - Red Square | 8 - Yellow Star | 9 - Red Circle" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <animation type="bool" default="false" description="Determines if the object animates on the radar map." />
   

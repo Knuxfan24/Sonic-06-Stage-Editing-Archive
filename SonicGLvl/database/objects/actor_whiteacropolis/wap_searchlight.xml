@@ -13,6 +13,9 @@
   <onintersect type="string" default="" description="Event to trigger when entering the light." />
   <brokenhead type="string" default="" description="Event to trigger when breaking the light." />
   <allbrk type="bool" default="false" description="Unknown." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="wap_obj_search.model" />
   <Extra type="description" name="A light that searches for the player." />

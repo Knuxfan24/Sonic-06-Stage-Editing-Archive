@@ -3,6 +3,9 @@
   <target type="float" default="4294967295" description="Unknown." /> <!-- uint32 -->
   <starttime type="float" default="0" description="Time taken for the light to change." />
   <endtime type="float" default="0" description="Time taken for the light to be restored." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="An object that initialises the other End of the World objects." />
 </Template>

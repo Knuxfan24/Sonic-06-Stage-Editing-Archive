@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Template>
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
+  
   <Extra type="model" name="twn_obj_bronzemdl.model" />
   <Extra type="offset_rotation_y_speed" name="-40" />
   <Extra type="description" name="A bronze medal that awards the player 1000 points." />

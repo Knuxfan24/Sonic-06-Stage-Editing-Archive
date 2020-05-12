@@ -6,6 +6,9 @@
   <fade type="float" default="0.25" description="Time taken to fade the audio when entering and exiting the volume." />
   <bank type="string" default="" description="SBK file to load sounds from." />
   <name type="string" default="" description="Sound to load from the SBK." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="preview_box_x" name="width" />
   <Extra type="preview_box_y" name="height" />

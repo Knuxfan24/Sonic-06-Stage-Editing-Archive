@@ -4,6 +4,9 @@
   <name type="string" default="" description="Particle to load from the PLC." />
   <sebank type="string" default="" description="SBK file to load sounds from." />
   <sename type="string" default="" description="Sound to load from the SBK." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="description" name="A sphere that creates particles." />
 </Template>

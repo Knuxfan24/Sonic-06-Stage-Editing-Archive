@@ -14,6 +14,9 @@
   <actionPath type="string" default="" description="Name of the spline in a PATH file for the enemy to follow." />
   <attackTarget type="float" default="4294967295" description="Target for the enemy to attack before spotting the player." /> <!-- uint32 -->
   <homingTarget type="float" default="4294967295" description="Target for the enemy to fly to when destroyed." /> <!-- uint32 -->
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="preview_box_x" name="radius" />
   <Extra type="preview_box_y" name="radius" />

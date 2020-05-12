@@ -9,6 +9,9 @@
   <event_off type="string" default="" description="Event to trigger when disabling the switch." />
   <time type="float" default="0" description="Time taken for the switch to go inactive with certain behaviours." />
   <target type="float" default="4294967295" description="Targeted object." /> <!-- uint32 -->
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="cmn_obj_switch.model" /> 
   <Extra type="description" name="A magic floating orb that remotely activates things." />

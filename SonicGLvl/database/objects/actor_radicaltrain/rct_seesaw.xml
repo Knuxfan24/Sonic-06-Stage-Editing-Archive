@@ -6,6 +6,9 @@
   <time type="float" default="0" description="Time taken before the scales collapse at the maximum height." />
   <maxlen type="float" default="0" description="Minimum height of the scales." />
   <difference type="float" default="0" description="Maximum height of the opposite scale." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="rct_obj_seesaw.model" />
   <Extra type="description" name="I mean, a seesaw would be more fun, but it's just a glorified weighing scale." />

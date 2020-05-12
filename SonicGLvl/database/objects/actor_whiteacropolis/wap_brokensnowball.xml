@@ -2,6 +2,9 @@
 <Template>
   <power type="float" default="50" description="The impact taken from the player." />
   <rate type="float" default="0.05" description="The size of the snowball when attacked." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="wap_obj_havoksnowball.model" />
   <Extra type="description" name="Someone's failed snowball fight." />

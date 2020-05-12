@@ -9,6 +9,9 @@
   <default type="integer" default="0" description="Unknown." />
   <into type="float" default="0" description="Time taken to fade the light into the new parameters when entering the volume." />
   <out type="float" default="0" description="Time taken to fade the light into the original parameters when exiting the volume." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="preview_box_x" name="width" />
   <Extra type="preview_box_y" name="height" />

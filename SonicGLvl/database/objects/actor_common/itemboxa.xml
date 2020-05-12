@@ -3,6 +3,9 @@
   <content type="integer" default="2" description="1 - 5 Rings | 2 - 10 Rings | 3 - 20 Rings | 4 - 1-UP
 5 - Speed Shoes | 6 - Gauge Up | 7 - Invincibility
 8 - Shield" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="cmn_obj_itmboxRing5.model" condition="content == 1" />
   <Extra type="model" name="cmn_obj_itmboxRing10.model" condition="content == 2" />

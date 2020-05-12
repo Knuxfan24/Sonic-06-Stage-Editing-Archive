@@ -8,6 +8,9 @@
   <distance type="float" default="0" description="Unknown." />
   <coefficient type="float" default="0" description="Unknown." />
   <onintersect type="string" default="" description="Event to trigger when interacting with the object." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="wvo_obj_orca.model" />
   <Extra type="description" name="Whoa, that's a big one." />

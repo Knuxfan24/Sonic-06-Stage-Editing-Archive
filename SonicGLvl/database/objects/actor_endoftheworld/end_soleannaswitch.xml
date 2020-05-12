@@ -2,6 +2,9 @@
 <Template>
   <target type="float" default="4294967295" description="Target for a 'end_timekeeper' object." /> <!-- uint32 -->
   <offtime type="float" default="0" description="Time taken for the switch to reset." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="end_obj_switch.model" /> 
   <Extra type="description" name="A switch that resets the 'end_timekeeper' object." />

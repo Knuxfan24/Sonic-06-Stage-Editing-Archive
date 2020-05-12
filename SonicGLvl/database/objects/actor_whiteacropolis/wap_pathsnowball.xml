@@ -4,6 +4,9 @@
   <speed type="float" default="1000" description="The speed the object moves at." />
   <distance type="float" default="0" description="Unknown." />
   <coefficient type="float" default="0" description="Unknown." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="wap_obj_pathsnowball.model" />
   <Extra type="description" name="That avalanche is carrying a snowball-- wait..." />

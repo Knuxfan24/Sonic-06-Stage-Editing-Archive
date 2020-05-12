@@ -2,6 +2,9 @@
 <Template>
   <preparetime type="float" default="0" description="Time taken for the light to go out - if zero, it will be lit permanently upon attacking it." />
   <event type="string" default="" description="Event to trigger when interacting with the object." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="flc_obj_flameSequence.model" />
   <Extra type="description" name="If all of the lights shine at once, your way will become clear." />

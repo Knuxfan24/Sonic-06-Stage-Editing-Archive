@@ -15,16 +15,19 @@ namespace Sonic_06_GLvl_Converter
         /// <param name="targetSETPath">Final location of the created SET data.</param>
         /// <param name="mode">[true: GLvl] [false: '06]</param>
         /// <returns>Converted SET data.</returns>
-        public static void ConvertSET(string sourceSETPath, string groupXMLPath, string targetSETPath, bool mode) {
+        public static void ConvertSET(string sourceSETPath, string groupXMLPath, string targetSETPath, bool mode)
+        {
             uint objectID = 0;
             S06SetData _S06SetData = new S06SetData();
             GensSetData _GensSetData = new GensSetData();
 
             //Objects
-            if (mode) {
+            if (mode)
+            {
                 _S06SetData.Load(sourceSETPath);
 
-                foreach (SetObject sourceObj in _S06SetData.Objects) {
+                foreach (SetObject sourceObj in _S06SetData.Objects)
+                {
                     SetObject targetObj = ObjectConversion(sourceObj, objectID, mode);
                     targetObj.DrawDistance = sourceObj.DrawDistance;
                     targetObj.UnknownBytes = sourceObj.UnknownBytes;
@@ -35,12 +38,29 @@ namespace Sonic_06_GLvl_Converter
                     objectID++;
                 }
 
+                for (int i = 0; i < _GensSetData.Objects.Count; i++)
+                {
+                    _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(float), _S06SetData.Objects[i].DrawDistance));
+                    _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(string), _S06SetData.Objects[i].ObjectName));
+                    if (_S06SetData.Objects[i].UnknownBytes[3] == 1)
+                    {
+                        _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(bool), true));
+                    }
+                    else
+                    {
+                        _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(bool), false));
+                    }
+                }
+
                 _GensSetData.Save(targetSETPath, true);
-            } else {
+            }
+            else
+            {
                 _GensSetData.Load(sourceSETPath);
                 _S06SetData.Name = "test";
 
-                foreach (SetObject sourceObj in _GensSetData.Objects) {
+                foreach (SetObject sourceObj in _GensSetData.Objects)
+                {
                     SetObject targetObj = ObjectConversion(sourceObj, objectID, mode);
                     targetObj.DrawDistance = sourceObj.DrawDistance;
                     targetObj.UnknownBytes = sourceObj.UnknownBytes;
@@ -51,16 +71,69 @@ namespace Sonic_06_GLvl_Converter
                     objectID++;
                 }
 
+                for (int i = 0; i < _S06SetData.Objects.Count; i++)
+                {
+                    int numOfParams = _GensSetData.Objects[i].Parameters.Count;
+                    _S06SetData.Objects[i].DrawDistance = float.Parse(_GensSetData.Objects[i].Parameters[numOfParams - 3].Data.ToString());
+                    _S06SetData.Objects[i].ObjectName = _GensSetData.Objects[i].Parameters[numOfParams - 2].Data.ToString();
+                    if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "False")
+                    {
+                        byte[] bytesGLVL = new byte[16];
+                        bytesGLVL[0] = 64;
+                        bytesGLVL[1] = 0;
+                        bytesGLVL[2] = 0;
+                        bytesGLVL[3] = 0;
+                        bytesGLVL[4] = 0;
+                        bytesGLVL[5] = 0;
+                        bytesGLVL[6] = 0;
+                        bytesGLVL[7] = 0;
+                        bytesGLVL[8] = 0;
+                        bytesGLVL[9] = 0;
+                        bytesGLVL[10] = 0;
+                        bytesGLVL[11] = 0;
+                        bytesGLVL[12] = 0;
+                        bytesGLVL[13] = 0;
+                        bytesGLVL[14] = 0;
+                        bytesGLVL[15] = 0;
+                        _S06SetData.Objects[i].UnknownBytes = bytesGLVL;
+                    }
+                    if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "True")
+                    {
+                        byte[] bytesGLVL = new byte[16];
+                        bytesGLVL[0] = 64;
+                        bytesGLVL[1] = 0;
+                        bytesGLVL[2] = 0;
+                        bytesGLVL[3] = 1;
+                        bytesGLVL[4] = 0;
+                        bytesGLVL[5] = 0;
+                        bytesGLVL[6] = 0;
+                        bytesGLVL[7] = 0;
+                        bytesGLVL[8] = 0;
+                        bytesGLVL[9] = 0;
+                        bytesGLVL[10] = 0;
+                        bytesGLVL[11] = 0;
+                        bytesGLVL[12] = 0;
+                        bytesGLVL[13] = 0;
+                        bytesGLVL[14] = 0;
+                        bytesGLVL[15] = 0;
+                        _S06SetData.Objects[i].UnknownBytes = bytesGLVL;
+                    }
+                    //numOfParams - 2 = Draw
+                }
+
                 //Groups
-                if (groupXMLPath.Length != 0) {
+                if (groupXMLPath.Length != 0)
+                {
                     XDocument xml = XDocument.Load(groupXMLPath);
 
-                    foreach (XElement groupElem in xml.Root.Elements("Group")) {
+                    foreach (XElement groupElem in xml.Root.Elements("Group"))
+                    {
                         XElement groupNameElem = groupElem.Element("Name");
                         XElement groupObjectCountElem = groupElem.Element("ObjectCount");
                         XElement groupTypeElem = groupElem.Element("Type");
 
-                        SetGroup group = new SetGroup() {
+                        SetGroup group = new SetGroup()
+                        {
                             GroupName = groupNameElem.Value,
                             GroupObjectCount = uint.Parse(groupObjectCountElem.Value),
                             GroupType = groupTypeElem.Value
@@ -84,19 +157,22 @@ namespace Sonic_06_GLvl_Converter
         /// </summary>
         /// <param name="sourceSETPath">Path to the original SET</param>
         /// <param name="groupXMLPath">Path to the file to save the Groups to</param>
-        public static void GLVLGroupExport(string sourceSETPath, string groupXMLPath) {
+        public static void GLVLGroupExport(string sourceSETPath, string groupXMLPath)
+        {
             S06SetData sourceSET = new S06SetData();
             sourceSET.Load(sourceSETPath);
 
             XElement rootElem = new XElement("SetGroup");
-            foreach (var group in sourceSET.Groups) {
+            foreach (var group in sourceSET.Groups)
+            {
                 XElement groupElem = new XElement("Group");
                 XElement groupNameElem = new XElement($"Name", group.GroupName);
                 XElement groupTypeElem = new XElement($"Type", group.GroupType);
                 XElement groupObjectCountElem = new XElement($"ObjectCount", group.GroupObjectCount);
                 XElement objectIDsElem = new XElement("ObjectIDs");
 
-                for (int i = 0; i < group.ObjectIDs.Count; i++) {
+                for (int i = 0; i < group.ObjectIDs.Count; i++)
+                {
                     XElement objectIDElem = new XElement($"ObjectID{i}", group.ObjectIDs[i]);
                     objectIDsElem.Add(objectIDElem);
                 }
@@ -116,7 +192,8 @@ namespace Sonic_06_GLvl_Converter
         /// <param name="mode">[true: GLvl] [false: '06]</param>
         /// <param name="origVector">A string representation of the original Vector3</param>
         /// <returns></returns>
-        public static Vector3 VectorMaths(bool mode, string origVector) {
+        public static Vector3 VectorMaths(bool mode, string origVector)
+        {
             string[] origVectorArray = origVector.Split(' ');
             origVectorArray[0] = origVectorArray[0].Remove(0, 1);
             origVectorArray[0] = origVectorArray[0].Remove(origVectorArray[0].Length - 1, 1);
@@ -135,8 +212,10 @@ namespace Sonic_06_GLvl_Converter
         /// <param name="volume">Volume from SET data.</param>
         /// <param name="modifier">Float modifier for conversion.</param>
         /// <returns>Corrected float.</returns>
-        public static float VolumeConversion(bool mode, float volume, float modifier) {
-            switch (mode) {
+        public static float VolumeConversion(bool mode, float volume, float modifier)
+        {
+            switch (mode)
+            {
                 // Convert to GLvl
                 case true: return volume / modifier;
                 // Convert to '06
@@ -153,20 +232,26 @@ namespace Sonic_06_GLvl_Converter
         /// <param name="sourceObj">Source object parameter.</param>
         /// <param name="paramNumber">Parameter index to change.</param>
         /// <returns>Modified object parameter.</returns>
-        public static SetObjectParam TargetConversion(bool mode, SetObject sourceObj, int paramNumber) {
+        public static SetObjectParam TargetConversion(bool mode, SetObject sourceObj, int paramNumber)
+        {
             uint uintCheck;
-            if (!mode) {
+            if (!mode)
+            {
                 // Convert to '06
                 if (uint.TryParse(sourceObj.Parameters[paramNumber].Data.ToString(), out uintCheck)) return new SetObjectParam(typeof(uint), uintCheck);
                 else return new SetObjectParam(typeof(uint), 4294967295u);
-            } else {
+            }
+            else
+            {
                 // Convert to GLvl
-                if (uint.TryParse(sourceObj.Parameters[paramNumber].Data.ToString(), out uintCheck)) {
+                if (uint.TryParse(sourceObj.Parameters[paramNumber].Data.ToString(), out uintCheck))
+                {
                     if (uintCheck != 4294967295u)
                         return new SetObjectParam(typeof(uint), uintCheck);
                     else
                         return new SetObjectParam(typeof(string), "4.29497e+009");
-                } else
+                }
+                else
                     return new SetObjectParam(typeof(uint), 4294967295u);
             }
         }
@@ -177,8 +262,10 @@ namespace Sonic_06_GLvl_Converter
         /// <param name="objectID">The object ID</param>
         /// <param name="mode">[true: GLvl] [false: '06]</param></param>
         /// <returns></returns>
-        public static SetObject ObjectConversion(SetObject sourceObj, uint objectID, bool mode) {
-            SetObject targetObj = new SetObject {
+        public static SetObject ObjectConversion(SetObject sourceObj, uint objectID, bool mode)
+        {
+            SetObject targetObj = new SetObject
+            {
                 ObjectType = sourceObj.ObjectType,
                 ObjectID = objectID,
                 ObjectName = $"{sourceObj.ObjectType}{objectID}",
@@ -186,7 +273,8 @@ namespace Sonic_06_GLvl_Converter
                 UnknownBytes = new byte[] { 64, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00 }
             };
 
-            switch (sourceObj.ObjectType) {
+            switch (sourceObj.ObjectType)
+            {
                 //actor_aquaticbase
                 case "aqa_mercury_small":
                     targetObj.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(sourceObj.Parameters[0].Data.ToString()))); //hp
@@ -213,7 +301,7 @@ namespace Sonic_06_GLvl_Converter
                     break;
                 case "aqa_magnet":
                     targetObj.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(sourceObj.Parameters[0].Data.ToString()))); //kind
-                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[1].Data.ToString()))); //radius
+                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), VolumeConversion(mode, float.Parse(sourceObj.Parameters[1].Data.ToString()), 100))); //radius
                     targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[2].Data.ToString()))); //force
                     targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[3].Data.ToString()))); //offtime
                     break;
@@ -369,13 +457,13 @@ namespace Sonic_06_GLvl_Converter
                     targetObj.Parameters.Add(new SetObjectParam(typeof(string), sourceObj.Parameters[0].Data)); //typeName
                     targetObj.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(sourceObj.Parameters[1].Data.ToString()))); //typeNumber
                     targetObj.Parameters.Add(new SetObjectParam(typeof(string), sourceObj.Parameters[2].Data)); //scriptName
-                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[3].Data.ToString()))); //radius
+                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), VolumeConversion(mode, float.Parse(sourceObj.Parameters[3].Data.ToString()), 100))); //radius
                     break;
                 case "enemyextra":
                     targetObj.Parameters.Add(new SetObjectParam(typeof(string), sourceObj.Parameters[0].Data)); //typeName
                     targetObj.Parameters.Add(new SetObjectParam(typeof(int), int.Parse(sourceObj.Parameters[1].Data.ToString()))); //typeNumber
                     targetObj.Parameters.Add(new SetObjectParam(typeof(string), sourceObj.Parameters[2].Data)); //scriptName
-                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[3].Data.ToString()))); //radius
+                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), VolumeConversion(mode, float.Parse(sourceObj.Parameters[3].Data.ToString()), 100))); //radius
                     targetObj.Parameters.Add(new SetObjectParam(typeof(bool), sourceObj.Parameters[4].Data)); //restart
                     targetObj.Parameters.Add(new SetObjectParam(typeof(bool), sourceObj.Parameters[5].Data)); //findPlayer
                     targetObj.Parameters.Add(new SetObjectParam(typeof(bool), sourceObj.Parameters[6].Data)); //isBoss
@@ -747,7 +835,7 @@ namespace Sonic_06_GLvl_Converter
                     targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[3].Data.ToString()))); //disappear_time
                     break;
                 case "dtd_sandeffect":
-                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[0].Data.ToString()))); //radius
+                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), VolumeConversion(mode, float.Parse(sourceObj.Parameters[0].Data.ToString()), 100))); //radius
                     break;
 
                 //actor_endoftheworld
@@ -1224,7 +1312,7 @@ namespace Sonic_06_GLvl_Converter
                     break;
                 case "tpj_runninground":
                     targetObj.Parameters.Add(new SetObjectParam(typeof(string), sourceObj.Parameters[0].Data)); //path
-                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), float.Parse(sourceObj.Parameters[1].Data.ToString()))); //radius
+                    targetObj.Parameters.Add(new SetObjectParam(typeof(float), VolumeConversion(mode, float.Parse(sourceObj.Parameters[1].Data.ToString()), 100))); //radius
                     break;
 
                 //actor_waveocean

@@ -9,6 +9,9 @@
   <downfilename type="string" default="" description="Unknown." />
   <color type="integer" default="0" description="Shade of the car colour." />
   <hp type="integer" default="0" description="Health of the car." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="twn_obj_carCompact.model" condition="type == 1" />
   <Extra type="model" name="twn_obj_carSedan.model" condition="type == 2" />

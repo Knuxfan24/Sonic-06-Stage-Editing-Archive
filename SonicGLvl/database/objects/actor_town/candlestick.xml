@@ -2,6 +2,9 @@
 <Template>
   <fire_lifetime type="float" default="0" description="Time taken before the fire is extinguished." />
   <eventname type="string" default="" description="Event to trigger when interacting with the object." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="twn_obj_candlestick.model" />
   <Extra type="description" name="A candle stick that uses special chemicals to produce a purple flame - activated with Chaos Spear." />

@@ -3,6 +3,9 @@
   <eventname type="string" default="" description="Event to trigger when activated." />
   <global_flag_no type="integer" default="0" description="Defines a global flag." />
   <my_color type="integer" default="1" description="1 - Red | 2 - Yellow | 3 - Blue" />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="twn_obj_trialpillar01.model" condition="my_color == 1" />
   <Extra type="model" name="twn_obj_trialpillar02.model" condition="my_color == 2" />

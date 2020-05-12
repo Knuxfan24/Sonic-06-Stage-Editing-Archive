@@ -6,6 +6,9 @@
 
   <flag1 type="bool" default="false" description="Unknown." />
   <flag2 type="bool" default="false" description="Unknown." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="cmn_obj_itemboxGroundRing5.model" condition="content == 1" />
   <Extra type="model" name="cmn_obj_itemboxGroundRing10.model" condition="content == 2" />

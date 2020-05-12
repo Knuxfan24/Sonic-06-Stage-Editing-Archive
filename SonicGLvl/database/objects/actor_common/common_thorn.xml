@@ -6,6 +6,9 @@
 
   <outtime type="float" default="1" description="Time taken for the spikes to rise." />
   <intime type="float" default="1" description="Time taken for the spikes to fall." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
   <Extra type="model" name="cmn_obj_thornOn.model" condition="content == 1" />
   <Extra type="model" name="cmn_obj_thornOn.model" condition="content == 2" />

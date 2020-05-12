@@ -5,6 +5,9 @@
   <textID type="string" default="" description="Hint to play from an MST when interacting with the object." />
   <targetID type="float" default="4294967295" description="Targeted object to make active." /> <!-- uint32 -->
   <lifetime type="float" default="0" description="Time taken before the object is disposed after interacting with it." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="cmn_espmark.model" />
   <Extra type="preview_box_x" name="radius" />

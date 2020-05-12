@@ -3,6 +3,9 @@
   <cam_pos type="vector" description="Position of the camera." />
   <cam_tgt type="vector" description="Target of the camera." />
   <glvl_playername type="string" default="sonic_new" description="Character type (only used by SonicGLvl for previewing)." />
+  <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
+  <ObjName type="string" default="" description="The internal name of the object." />
+  <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="sonic_new_playergoal.model" condition="glvl_playername == sonic_new" />
   <Extra type="model" name="sonic_fast_playergoal.model" condition="glvl_playername == sonic_fast" />
