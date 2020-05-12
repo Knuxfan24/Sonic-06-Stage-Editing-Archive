@@ -5,7 +5,7 @@ namespace Sonic_06_GLvl_Converter
 {
     static class Program
     {
-        public static string GlobalVersion = "Version 1.0";
+        public static string GlobalVersion = "Version 1.1";
 
         [STAThread]
 

@@ -22,62 +22,48 @@ namespace Sonic_06_GLvl_Converter
             GensSetData _GensSetData = new GensSetData();
 
             //Objects
-            if (mode)
-            {
+            if (mode) {
                 _S06SetData.Load(sourceSETPath);
 
-                foreach (SetObject sourceObj in _S06SetData.Objects)
-                {
+                foreach (SetObject sourceObj in _S06SetData.Objects) {
                     SetObject targetObj = ObjectConversion(sourceObj, objectID, mode);
                     targetObj.DrawDistance = sourceObj.DrawDistance;
                     targetObj.UnknownBytes = sourceObj.UnknownBytes;
                     if (sourceObj.ObjectName != "") targetObj.ObjectName = sourceObj.ObjectName;
                     _GensSetData.Objects.Add(targetObj);
-
-                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object: {targetObj.ObjectType} | Name: {targetObj.ObjectName} | ID: {objectID}");
-                    objectID++;
                 }
 
-                for (int i = 0; i < _GensSetData.Objects.Count; i++)
-                {
+                for (int i = 0; i < _GensSetData.Objects.Count; i++) {
                     _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(float), _S06SetData.Objects[i].DrawDistance));
                     _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(string), _S06SetData.Objects[i].ObjectName));
                     if (_S06SetData.Objects[i].UnknownBytes[3] == 1)
-                    {
                         _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(bool), true));
-                    }
                     else
-                    {
                         _GensSetData.Objects[i].Parameters.Add(new SetObjectParam(typeof(bool), false));
-                    }
+
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object: {_GensSetData.Objects[i].ObjectType} | Name: {_GensSetData.Objects[i].ObjectName} | ID: {objectID}");
+                    objectID++;
                 }
 
                 _GensSetData.Save(targetSETPath, true);
-            }
-            else
-            {
+            } else {
                 _GensSetData.Load(sourceSETPath);
                 _S06SetData.Name = "test";
 
-                foreach (SetObject sourceObj in _GensSetData.Objects)
-                {
+                foreach (SetObject sourceObj in _GensSetData.Objects) {
                     SetObject targetObj = ObjectConversion(sourceObj, objectID, mode);
                     targetObj.DrawDistance = sourceObj.DrawDistance;
                     targetObj.UnknownBytes = sourceObj.UnknownBytes;
                     if (sourceObj.ObjectName != "") targetObj.ObjectName = sourceObj.ObjectName;
                     _S06SetData.Objects.Add(targetObj);
-
-                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object: {targetObj.ObjectType} | Name: {targetObj.ObjectName} | ID: {objectID}");
-                    objectID++;
                 }
 
-                for (int i = 0; i < _S06SetData.Objects.Count; i++)
-                {
+                for (int i = 0; i < _S06SetData.Objects.Count; i++) {
                     int numOfParams = _GensSetData.Objects[i].Parameters.Count;
                     _S06SetData.Objects[i].DrawDistance = float.Parse(_GensSetData.Objects[i].Parameters[numOfParams - 3].Data.ToString());
                     _S06SetData.Objects[i].ObjectName = _GensSetData.Objects[i].Parameters[numOfParams - 2].Data.ToString();
-                    if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "False")
-                    {
+
+                    if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "False") {
                         byte[] bytesGLVL = new byte[16];
                         bytesGLVL[0] = 64;
                         bytesGLVL[1] = 0;
@@ -96,9 +82,7 @@ namespace Sonic_06_GLvl_Converter
                         bytesGLVL[14] = 0;
                         bytesGLVL[15] = 0;
                         _S06SetData.Objects[i].UnknownBytes = bytesGLVL;
-                    }
-                    if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "True")
-                    {
+                    } else if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "True") {
                         byte[] bytesGLVL = new byte[16];
                         bytesGLVL[0] = 64;
                         bytesGLVL[1] = 0;
@@ -118,7 +102,9 @@ namespace Sonic_06_GLvl_Converter
                         bytesGLVL[15] = 0;
                         _S06SetData.Objects[i].UnknownBytes = bytesGLVL;
                     }
-                    //numOfParams - 2 = Draw
+
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object: {_S06SetData.Objects[i].ObjectType} | Name: {_S06SetData.Objects[i].ObjectName} | ID: {objectID}");
+                    objectID++;
                 }
 
                 //Groups
