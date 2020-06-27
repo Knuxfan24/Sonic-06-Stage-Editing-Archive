@@ -633,6 +633,7 @@ namespace Sonic_06_GLvl_Converter
                 case "player_goal":
                     targetObj.Parameters.Add(new SetObjectParam(typeof(Vector3), VectorMaths(mode, sourceObj.Parameters[0].Data.ToString()))); //cam_pos
                     targetObj.Parameters.Add(new SetObjectParam(typeof(Vector3), VectorMaths(mode, sourceObj.Parameters[1].Data.ToString()))); //cam_tgt
+                    targetObj.Parameters.Add(new SetObjectParam(typeof(string), "sonic_new"));
                     break;
                 case "common_stopplayercollision":
                     targetObj.Parameters.Add(new SetObjectParam(typeof(float), VolumeConversion(mode, float.Parse(sourceObj.Parameters[0].Data.ToString()), 100))); //length
