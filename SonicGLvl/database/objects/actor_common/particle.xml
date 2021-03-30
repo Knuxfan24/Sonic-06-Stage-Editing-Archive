@@ -10,5 +10,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
+  <Extra type="model" name="setparticle.mesh" />
   <Extra type="description" name="A point that creates particles." />
 </Template>
