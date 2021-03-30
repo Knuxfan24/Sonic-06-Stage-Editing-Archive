@@ -15,6 +15,7 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
+  <Extra type="model" name="Camera.mesh" />
   <Extra type="preview_box_x" name="radius" />
   <Extra type="preview_box_y" name="radius" />
   <Extra type="preview_box_z" name="radius" />
