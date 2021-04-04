@@ -8,7 +8,7 @@
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
   <Extra type="model" name="sonic_new_playerstart.model" condition="player_name == sonic_new" />
-  <Extra type="model" name="sonic_fast_playerstart.model" condition="player_name == sonic_fast" />
+  <Extra type="model" name="sonic_new_playerstart.model" condition="player_name == sonic_fast" />
   <Extra type="model" name="princess_playerstart.model" condition="player_name == princess" />
   <Extra type="model" name="snow_board_wap_playerstart.model" condition="player_name == snow_board_wap" />
   <Extra type="model" name="snow_board_playerstart.model" condition="player_name == snow_board" />

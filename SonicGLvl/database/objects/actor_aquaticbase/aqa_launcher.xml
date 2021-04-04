@@ -11,6 +11,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="aqa_obj_launcher.model" /> 
+  <Extra type="model" name="aqa/aqa_obj_launcher.model" /> 
   <Extra type="description" name="An object that fires bubbles of mercury." />
 </Template>
