@@ -8,6 +8,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="dtd_obj_movingfloor.model" /> 
+  <Extra type="model" name="dtd/dtd_obj_movingfloor.model" /> 
   <Extra type="description" name="A floor that moves back and forth into a wall." />
 </Template>
