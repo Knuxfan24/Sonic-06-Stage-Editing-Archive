@@ -22,7 +22,6 @@
   <Extra type="model" name="cmn_ironbox.model" condition="objectName == IronBox_Prime" />
   <Extra type="model" name="cmn_ironbox.model" condition="objectName == IronBox_Vs" />
   <Extra type="model" name="cmn_ironbox_brk.model" condition="objectName == IronBoxBrk" />
-  <Extra type="model" name=".model" condition="objectName == BrickWall" />
   <Extra type="model" name="cmn_bombbox.model" condition="objectName == BombBox" />
   <Extra type="model" name="cmn_bombbox.model" condition="objectName == BombBox_Prime" />
   <Extra type="model" name="cmn_bombbox.model" condition="objectName == BombBox_Vs" />
