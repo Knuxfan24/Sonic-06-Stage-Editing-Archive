@@ -8,6 +8,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="csc_obj_billboard.model" />
+  <Extra type="model" name="csc/csc_obj_billboard.model" />
   <Extra type="description" name="Here comes a billboard!" />
 </Template>

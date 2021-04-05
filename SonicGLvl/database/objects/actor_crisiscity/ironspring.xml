@@ -10,6 +10,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="csc_obj_ironspring.model" />
+  <Extra type="model" name="csc/csc_obj_ironframe.model" />
   <Extra type="description" name="An iron girder that can be bent with psychokinesis and used as a spring." />
 </Template>
