@@ -5,6 +5,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="cmn_obj_hint.model" /> 
+  <Extra type="model" name="cmn/cmn_Hint.model" /> 
   <Extra type="description" name="Do you really need a hint on what this is?" />
 </Template>

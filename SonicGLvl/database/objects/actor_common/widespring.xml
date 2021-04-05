@@ -6,6 +6,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="cmn_obj_widespring.model" />
+  <Extra type="model" name="cmn/cmn_widespring.model" />
   <Extra type="description" name="Bounce Pad!" />
 </Template>

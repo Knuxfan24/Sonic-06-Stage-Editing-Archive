@@ -8,6 +8,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="cmn_obj_dashring.model" /> 
+  <Extra type="model" name="cmn/cmn_dashring.model" /> 
   <Extra type="description" name="A ring that characters can jump through for more height." />
 </Template>

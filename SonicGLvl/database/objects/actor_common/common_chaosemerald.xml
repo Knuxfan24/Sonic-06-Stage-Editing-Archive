@@ -6,12 +6,12 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="cmn_obj_emeraldW.model" condition="content == 1" />
-  <Extra type="model" name="cmn_obj_emeraldS.model" condition="content == 2" />
-  <Extra type="model" name="cmn_obj_emeraldY.model" condition="content == 3" />
-  <Extra type="model" name="cmn_obj_emeraldP.model" condition="content == 4" />
-  <Extra type="model" name="cmn_obj_emeraldG.model" condition="content == 5" />
-  <Extra type="model" name="cmn_obj_emeraldB.model" condition="content == 6" />
-  <Extra type="model" name="cmn_obj_emeraldR.model" condition="content == 7" />
+  <Extra type="model" name="cmn/cmn_emeraldW.model" condition="content == 1" />
+  <Extra type="model" name="cmn/cmn_emeraldS.model" condition="content == 2" />
+  <Extra type="model" name="cmn/cmn_emeraldY.model" condition="content == 3" />
+  <Extra type="model" name="cmn/cmn_emeraldP.model" condition="content == 4" />
+  <Extra type="model" name="cmn/cmn_emeraldG.model" condition="content == 5" />
+  <Extra type="model" name="cmn/cmn_emeraldB.model" condition="content == 6" />
+  <Extra type="model" name="cmn/cmn_emeraldR.model" condition="content == 7" />
   <Extra type="description" name="You mean... the Chaos Emeralds?" />
 </Template>
