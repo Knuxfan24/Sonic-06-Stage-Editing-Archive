@@ -6,6 +6,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="tpj_obj_swing.model" />
+  <Extra type="model" name="tpj/tpj_obj_swing.model" />
   <Extra type="description" name="A wooden log that can be swung with psychokinesis." />
 </Template>
