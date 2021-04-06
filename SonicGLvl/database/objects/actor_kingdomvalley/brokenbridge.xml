@@ -4,6 +4,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="kdv_mapA_bridge01.model" />
+  <Extra type="model" name="kdv/kdv_mapA_bridge01.model" />
   <Extra type="description" name="Unknown object." />
 </Template>

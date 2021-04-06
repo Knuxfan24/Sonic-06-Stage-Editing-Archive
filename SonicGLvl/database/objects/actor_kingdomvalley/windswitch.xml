@@ -11,6 +11,7 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="kdv_obj_wswitch.model" />
+  <Extra type="model" name="kdv/Wswitch.model" condition="base == 0" />
+  <Extra type="model" name="kdv/Wswitch_base.model" condition="base == 1" />
   <Extra type="description" name="A stone switch that spins when activated... fancy!" />
 </Template>
