@@ -12,6 +12,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="wap_obj_door.model" />
+  <Extra type="model" name="wap/wap_obj_door.model" />
   <Extra type="description" name="A door with the White Acropolis theme." />
 </Template>
