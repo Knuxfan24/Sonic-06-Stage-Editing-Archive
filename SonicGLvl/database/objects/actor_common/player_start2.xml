@@ -7,21 +7,30 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="sonic_new_playerstart.model" condition="player_name == sonic_new" />
-  <Extra type="model" name="sonic_new_playerstart.model" condition="player_name == sonic_fast" />
-  <Extra type="model" name="princess_playerstart.model" condition="player_name == princess" />
-  <Extra type="model" name="snow_board_wap_playerstart.model" condition="player_name == snow_board_wap" />
-  <Extra type="model" name="snow_board_playerstart.model" condition="player_name == snow_board" />
-  <Extra type="model" name="tails_playerstart.model" condition="player_name == tails" />
-  <Extra type="model" name="knuckles_playerstart.model" condition="player_name == knuckles" />
-  <Extra type="model" name="shadow_playerstart.model" condition="player_name == shadow" />
-  <Extra type="model" name="rouge_playerstart.model" condition="player_name == rouge" />
-  <Extra type="model" name="omega_playerstart.model" condition="player_name == omega" />
-  <Extra type="model" name="silver_playerstart.model" condition="player_name == silver" />
-  <Extra type="model" name="blaze_playerstart.model" condition="player_name == blaze" />
-  <Extra type="model" name="amy_playerstart.model" condition="player_name == amy" />
-  <Extra type="model" name="supersonic_playerstart.model" condition="player_name == supersonic" />
-  <Extra type="model" name="supershadow_playerstart.model" condition="player_name == supershadow" />
-  <Extra type="model" name="supersilver_playerstart.model" condition="player_name == supersilver" />
+  <Extra type="model" name="player/sonic_playerstart.model" condition="player_name == sonic_new" />
+  <Extra type="model" name="player/tails_playerstart.model" condition="player_name == tails" />
+  <Extra type="model" name="player/knuckles_playerstart.model" condition="player_name == knuckles" />
+  <Extra type="model" name="player/sonic_playerstart.model" condition="player_name == sonic_boss_dr3" />
+  <Extra type="model" name="player/sonic_playerstart.model" condition="player_name == snow_board" />
+  <Extra type="model" name="player/sonic_playerstart.model" condition="player_name == sonic_fast" />
+  <Extra type="model" name="player/princess_playerstart.model" condition="player_name == princess" />
+  <Extra type="model" name="player/shadow_playerstart.model" condition="player_name == shadow" />
+  <Extra type="model" name="player/silver_playerstart.model" condition="player_name == silver" />
+  <Extra type="model" name="player/sonic_playerstart.model" condition="player_name == snow_board_wap" />
+  <Extra type="model" name="player/rouge_playerstart.model" condition="player_name == rouge" />
+  <Extra type="model" name="player/shadow_playerstart.model" condition="player_name == shadow_glider" />
+  <Extra type="model" name="player/shadow_playerstart.model" condition="player_name == shadow_none" />
+  <Extra type="model" name="player/shadow_playerstart.model" condition="player_name == shadow_hover" />
+  <Extra type="model" name="player/shadow_playerstart.model" condition="player_name == shadow_jeep" />
+  <Extra type="model" name="player/omega_playerstart.model" condition="player_name == omega" />
+  <Extra type="model" name="player/shadow_playerstart.model" condition="player_name == shadow_bike" />
+  <Extra type="model" name="player/blaze_playerstart.model" condition="player_name == blaze" />
+  <Extra type="model" name="player/silver_playerstart.model" condition="player_name == silver_boss_iblis1" />
+  <Extra type="model" name="player/amy_playerstart.model" condition="player_name == amy" />
+  <Extra type="model" name="player/silver_playerstart.model" condition="player_name == silver_boss_dr2" />
+  <Extra type="model" name="player/silver_playerstart.model" condition="player_name == silver_boss_iblis3" />
+  <Extra type="model" name="player/supersonic_playerstart.model" condition="player_name == supersonic" />
+  <Extra type="model" name="player/supershadow_playerstart.model" condition="player_name == supershadow" />
+  <Extra type="model" name="player/supersilver_playerstart.model" condition="player_name == supersilver" />
   <Extra type="description" name="An object that marks the player beginning the stage. This can also be used for other players and also characters for AI initialisation." />
 </Template>
