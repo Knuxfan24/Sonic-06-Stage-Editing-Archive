@@ -10,6 +10,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="rct_obj_seesaw.model" />
+  <Extra type="model" name="rct/rct_obj_seesaw.model" />
   <Extra type="description" name="I mean, a seesaw would be more fun, but it's just a glorified weighing scale." />
 </Template>

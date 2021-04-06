@@ -8,6 +8,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="rct_obj_belt.model" />
+  <Extra type="model" name="rct/rct_obj_belt.model" />
   <Extra type="description" name="A conveyor belt that changes direction." />
 </Template>

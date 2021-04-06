@@ -29,6 +29,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="rct_obj_Etrain.model" />
+  <Extra type="model" name="rct/rct_obj_EtrainA.model" />
   <Extra type="description" name="Eggman's black train used in Shadow's episode." />
 </Template>
