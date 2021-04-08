@@ -44,8 +44,9 @@
   <Extra type="model" name="enemy/en_iblis01.model" condition="typeName == firstIblis" />
   <Extra type="model" name="enemy/en_Iblis02.model" condition="typeName == secondIblis" />
   <Extra type="model" name="enemy/en_iblis03.model" condition="typeName == thirdIblis" />
-  <Extra type="model" name="enemy/en_mefiress.model" condition="typeName == firstmefiress" />
-  <Extra type="model" name="enemy/en_mefiress.model" condition="typeName == secondmefiress" />
+  <Extra type="model" name="enemy/en_fmef.model" condition="typeName == firstmefiress" />
+  <Extra type="model" name="enemy/en_fmef.model" condition="typeName == secondmefiress" />
+  <Extra type="model" name="enemy/en_Kyozoress.model" condition="typeName == Kyozoress" />
   <Extra type="model" name="enemy/en_Solaris01.model" condition="typeName == solaris01" />
   <Extra type="model" name="enemy/en_Solaris02.model" condition="typeName == solaris02" />
   <Extra type="description" name="Eggman's robots!" />
