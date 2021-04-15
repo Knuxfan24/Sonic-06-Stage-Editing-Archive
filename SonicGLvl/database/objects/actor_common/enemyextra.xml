@@ -36,7 +36,7 @@
   <Extra type="model" name="enemy/en_eBluster.model" condition="typeName == eBluster" />
   <Extra type="model" name="enemy/en_eBusterFly.model" condition="typeName == eBuster(Fly)" />
   <Extra type="model" name="enemy/en_eCannon.model" condition="typeName == eCannon" />
-  <Extra type="model" name="enemy/en_eCannonFly.model" condition="typeName == eCannon(Fly)" />
+  <Extra type="model" name="enemy/en_eCannon.model" condition="typeName == eCannon(Fly)" />
   <Extra type="model" name="enemy/en_echaser.model" condition="typeName == eChaser" />
   <Extra type="model" name="enemy/en_eCommander.model" condition="typeName == eCommander" />
   <Extra type="model" name="enemy/en_eFlyer.model" condition="typeName == eFlyer" />
