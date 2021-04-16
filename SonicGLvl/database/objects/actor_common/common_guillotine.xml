@@ -15,8 +15,8 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="cmn_obj_guillotineA.model" condition="length == 1" />
-  <Extra type="model" name="cmn_obj_guillotineB.model" condition="length == 2" />
-  <Extra type="model" name="cmn_obj_guillotineC.model" condition="length == 3" />
+  <Extra type="model" name="cmn/cmn_guillotineA.model" condition="length == 1" />
+  <Extra type="model" name="cmn/cmn_guillotineB.model" condition="length == 2" />
+  <Extra type="model" name="cmn/cmn_guillotineC.model" condition="length == 3" />
   <Extra type="description" name="A cylindrical object with spikes that spins." />
 </Template>

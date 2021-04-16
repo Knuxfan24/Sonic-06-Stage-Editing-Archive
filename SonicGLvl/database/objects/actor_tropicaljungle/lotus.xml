@@ -12,6 +12,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="tpj_obj_lotus.model" />
+  <Extra type="model" name="tpj/tpj_obj_lotus.model" />
   <Extra type="description" name="A lotus that also acts like a trampoline, for some reason." />
 </Template>

@@ -5,6 +5,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="kdv_obj_pendulum.model" />
+  <Extra type="model" name="kdv/kdv_obj_pendullum01.model" />
   <Extra type="description" name="A pendulum that can be interacted with as a physics object." />
 </Template>

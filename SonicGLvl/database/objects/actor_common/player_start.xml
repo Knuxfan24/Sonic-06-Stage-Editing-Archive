@@ -5,5 +5,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
+  <Extra type="model" name="player/sonic_playerstart.model" /> 
   <Extra type="description" name="An object that marks the player beginning the stage. This can also be used for other players and also characters for AI initialisation." />
 </Template>

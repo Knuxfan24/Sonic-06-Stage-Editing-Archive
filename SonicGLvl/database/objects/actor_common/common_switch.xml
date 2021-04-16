@@ -13,6 +13,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="cmn_obj_switch.model" /> 
+  <Extra type="model" name="cmn/cmn_switch01.model" /> 
   <Extra type="description" name="A magic floating orb that remotely activates things." />
 </Template>

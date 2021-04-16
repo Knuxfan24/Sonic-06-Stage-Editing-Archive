@@ -4,6 +4,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="kdv_obj_rainbow.model" />
+  <Extra type="model" name="kdv/ef_etc017_00_a_x_00.model" />
   <Extra type="description" name="A rainbow that fades the closer you get to it." />
 </Template>

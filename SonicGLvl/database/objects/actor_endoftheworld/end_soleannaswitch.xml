@@ -6,6 +6,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="end_obj_switch.model" /> 
+  <Extra type="model" name="end/end_obj_switch.model" /> 
   <Extra type="description" name="A switch that resets the 'end_timekeeper' object." />
 </Template>

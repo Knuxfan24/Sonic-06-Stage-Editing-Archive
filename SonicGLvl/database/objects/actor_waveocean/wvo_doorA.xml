@@ -12,6 +12,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="wvo_obj_doorA.model" />
+  <Extra type="model" name="wvo/wvo_obj_doorA.model" />
   <Extra type="description" name="A small gate with spikes." />
 </Template>

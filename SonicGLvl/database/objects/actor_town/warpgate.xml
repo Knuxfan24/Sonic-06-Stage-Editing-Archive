@@ -9,17 +9,17 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="twn_obj_warpgate_aqa.model" condition="appearances == 0" />
-  <Extra type="model" name="twn_obj_warpgate_csc.model" condition="appearances == 1" />
-  <Extra type="model" name="twn_obj_warpgate_dtd.model" condition="appearances == 2" />
-  <Extra type="model" name="twn_obj_warpgate_wvo.model" condition="appearances == 3" />
-  <Extra type="model" name="twn_obj_warpgate_flc.model" condition="appearances == 4" />
-  <Extra type="model" name="twn_obj_warpgate_kdv.model" condition="appearances == 5" />
-  <Extra type="model" name="twn_obj_warpgate_rct.model" condition="appearances == 6" />
-  <Extra type="model" name="twn_obj_warpgate_tpj.model" condition="appearances == 7" />
-  <Extra type="model" name="twn_obj_warpgate_wap.model" condition="appearances == 8" />
-  <Extra type="model" name="twn_obj_warpgate_wvo.model" condition="appearances == 9" />
-  <Extra type="model" name="twn_obj_warpgate_eotw.model" condition="appearances == 10" />
-  <Extra type="model" name="twn_obj_warpgate_wvo.model" condition="appearances == 11" />
+  <Extra type="model" name="twn/twn_obj_warpgate_aqa.model" condition="appearances == 0" />
+  <Extra type="model" name="twn/twn_obj_warpgate_csc.model" condition="appearances == 1" />
+  <Extra type="model" name="twn/twn_obj_warpgate_dtd.model" condition="appearances == 2" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 3" />
+  <Extra type="model" name="twn/twn_obj_warpgate_flc.model" condition="appearances == 4" />
+  <Extra type="model" name="twn/twn_obj_warpgate_kdv.model" condition="appearances == 5" />
+  <Extra type="model" name="twn/twn_obj_warpgate_rct.model" condition="appearances == 6" />
+  <Extra type="model" name="twn/twn_obj_warpgate_tpj.model" condition="appearances == 7" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wap.model" condition="appearances == 8" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 9" />
+  <Extra type="model" name="twn/twn_obj_warpgate_eotw.model" condition="appearances == 10" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 11" />
   <Extra type="description" name="A magic mirror that teleports the player to another location." />
 </Template>

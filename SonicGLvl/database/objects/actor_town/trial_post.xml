@@ -7,8 +7,8 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="twn_obj_trialpillar01.model" condition="my_color == 1" />
-  <Extra type="model" name="twn_obj_trialpillar02.model" condition="my_color == 2" />
-  <Extra type="model" name="twn_obj_trialpillar03.model" condition="my_color == 3" />
+  <Extra type="model" name="twn/twn_obj_trialpillar01.model" condition="my_color == 1" />
+  <Extra type="model" name="twn/twn_obj_trialpillar02.model" condition="my_color == 2" />
+  <Extra type="model" name="twn/twn_obj_trialpillar03.model" condition="my_color == 3" />
   <Extra type="description" name="A stone pillar with an orb that glows under certain conditions." />
 </Template>

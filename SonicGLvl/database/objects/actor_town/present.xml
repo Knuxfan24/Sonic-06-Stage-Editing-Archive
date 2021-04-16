@@ -5,6 +5,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="twn_obj_present.model" />
+  <Extra type="model" name="twn/twn_obj_present.model" />
   <Extra type="description" name="A present that plays a hint when collected." />
 </Template>

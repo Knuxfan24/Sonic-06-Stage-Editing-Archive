@@ -9,9 +9,9 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="Gadget_Jeep.model" condition="type == 1" />
-  <Extra type="model" name="Gadget_Bike.model" condition="type == 2" />
-  <Extra type="model" name="Gadget_Hover.model" condition="type == 3" />
-  <Extra type="model" name="Gadget_Glider.model" condition="type == 4" />
+  <Extra type="model" name="vehicle/Gadget_Jeep.model" condition="type == 1" />
+  <Extra type="model" name="vehicle/Gadget_Bike.model" condition="type == 2" />
+  <Extra type="model" name="vehicle/Gadget_Hover.model" condition="type == 3" />
+  <Extra type="model" name="vehicle/Gadget_Glider.model" condition="type == 4" />
   <Extra type="description" name="I Am... All of Me." />
 </Template>

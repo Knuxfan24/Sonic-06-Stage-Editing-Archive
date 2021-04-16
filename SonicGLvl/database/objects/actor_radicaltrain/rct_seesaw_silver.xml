@@ -16,6 +16,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="rct_obj_seesaw.model" />
+  <Extra type="model" name="rct/rct_obj_seesaw.model" />
   <Extra type="description" name="Another glorified weighing scale, but this one weighs physics objects instead." />
 </Template>

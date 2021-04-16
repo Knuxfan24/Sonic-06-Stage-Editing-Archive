@@ -6,17 +6,21 @@
   <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
-
-  <Extra type="model" name="sonic_new_playergoal.model" condition="glvl_playername == sonic_new" />
-  <Extra type="model" name="sonic_fast_playergoal.model" condition="glvl_playername == sonic_fast" />
-  <Extra type="model" name="princess_playergoal.model" condition="glvl_playername == princess" />
-  <Extra type="model" name="tails_playergoal.model" condition="glvl_playername == tails" />
-  <Extra type="model" name="knuckles_playergoal.model" condition="glvl_playername == knuckles" />
-  <Extra type="model" name="shadow_playergoal.model" condition="glvl_playername == shadow" />
-  <Extra type="model" name="rouge_playergoal.model" condition="glvl_playername == rouge" />
-  <Extra type="model" name="omega_playergoal.model" condition="glvl_playername == omega" />
-  <Extra type="model" name="silver_playergoal.model" condition="glvl_playername == silver" />
-  <Extra type="model" name="blaze_playergoal.model" condition="glvl_playername == blaze" />
-  <Extra type="model" name="amy_playergoal.model" condition="glvl_playername == amy" />
+  
+  <Extra type="model" name="player/sonic_new_playergoal.model" condition="glvl_playername == sonic_new" />
+  <Extra type="model" name="player/sonic_tgs_playergoal.model" condition="glvl_playername == sonic_tgs" />
+  <Extra type="model" name="player/sonic_fast_playergoal.model" condition="glvl_playername == sonic_fast" />
+  <Extra type="model" name="player/princess_playergoal.model" condition="glvl_playername == princess" />
+  <Extra type="model" name="player/tails_playergoal.model" condition="glvl_playername == tails" />
+  <Extra type="model" name="player/knuckles_playergoal.model" condition="glvl_playername == knuckles" />
+  <Extra type="model" name="player/shadow_playergoal.model" condition="glvl_playername == shadow" />
+  <Extra type="model" name="player/rouge_playergoal.model" condition="glvl_playername == rouge" />
+  <Extra type="model" name="player/omega_playergoal.model" condition="glvl_playername == omega" />
+  <Extra type="model" name="player/silver_playergoal.model" condition="glvl_playername == silver" />
+  <Extra type="model" name="player/blaze_playergoal.model" condition="glvl_playername == blaze" />
+  <Extra type="model" name="player/amy_playergoal.model" condition="glvl_playername == amy" />
+  <Extra type="model" name="player/supersonic_playergoal.model" condition="glvl_playername == supersonic" />
+  <Extra type="model" name="player/supershadow_playergoal.model" condition="glvl_playername == supershadow" />
+  <Extra type="model" name="player/supersilver_playergoal.model" condition="glvl_playername == supersilver" />
   <Extra type="description" name="An object that marks the goal position for the character with camera values." />
 </Template>

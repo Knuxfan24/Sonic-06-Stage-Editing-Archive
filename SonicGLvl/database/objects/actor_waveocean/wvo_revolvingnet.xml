@@ -6,6 +6,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="wvo_obj_net.model" />
+  <Extra type="model" name="wvo/wvo_obj_net.model" />
   <Extra type="description" name="A gate with a bottom half that spins when attacked, launching the player forwards." />
 </Template>

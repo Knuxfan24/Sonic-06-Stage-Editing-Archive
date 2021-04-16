@@ -14,6 +14,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="flc_obj_flameSingle.model" />
+  <Extra type="model" name="flc/flc_obj_flameA.model" />
   <Extra type="description" name="Whoa, the flame died!" />
 </Template>

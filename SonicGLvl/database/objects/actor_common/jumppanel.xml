@@ -8,6 +8,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="cmn_obj_jpanel.model" /> 
+  <Extra type="model" name="cmn/cmn_jpanel.model" /> 
   <Extra type="description" name="A panel that launches the player." />
 </Template>

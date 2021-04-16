@@ -4,6 +4,6 @@
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
   
-  <Extra type="model" name="kdv_obj_door.model" />
+  <Extra type="model" name="kdv/kdv_obj_door01.model" />
   <Extra type="description" name="A door with the Kingdom Valley theme that doesn't correct its collision when opened." />
 </Template>
