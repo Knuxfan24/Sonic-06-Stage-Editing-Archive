@@ -12,8 +12,13 @@
   <Extra type="model" name="dtd/dtd_obj_bat02.model" condition="objectName == DtdBat2" />
   <Extra type="model" name="dtd/dtd_obj_bat03.model" condition="objectName == DtdBat3" />
   <Extra type="model" name="aqa/aqa_obj_dolphin02_nos_.model" condition="objectName == AqaDolphin1" />
+  <Extra type="model" name="aqa/aqa_obj_dolphin01.model" condition="objectName == AqaDolphin2" />
+  <Extra type="model" name="aqa/aqa_obj_turtle_nos_.model" condition="objectName == AqaTurtle" />
+  <Extra type="model" name="aqa/aqa_obj_fish01_nos_.model" condition="objectName == AqaFishA01" />
   <Extra type="model" name="aqa/aqa_obj_fish02_nos_.model" condition="objectName == AqaFishA02" />
   <Extra type="model" name="aqa/aqa_obj_manta_nos_.model" condition="objectName == AqaManta" />
+  <Extra type="model" name="aqa/aqa_obj_manta.model" condition="objectName == AqaManta02" />
+  <Extra type="model" name="wvo/wvo_obj_seagull01_nos_.model" condition="objectName == WvoSeagull1" />
   <Extra type="model" name="wvo/wvo_obj_dolphin01_nos_.model" condition="objectName == WvoDolphin1" />
   <Extra type="model" name="wvo/wvo_obj_dolphin02_nos_.model" condition="objectName == WvoDolphin2" />
   <Extra type="model" name="twn/twn_ds_well.model" condition="objectName == TwnWell" />
@@ -33,6 +38,6 @@
   <Extra type="model" name="twn/twn_ds_bridgectl.model" condition="objectName == TwnBridgeCtl" />
   <Extra type="model" name="tpj/tpj_obj_butterflyA_nos_.model" condition="objectName == TpjButterflyA" />
   <Extra type="model" name="tpj/tpj_obj_butterflyB_nos_.model" condition="objectName == TpjButterflyB" />
-  <Extra type="model" name="tpj/tpj_obj_flamingo_nos_.model" condition="objectName == TpjFlamingo" />  
+  <Extra type="model" name="tpj/tpj_obj_flamingo_nos_.model" condition="objectName == TpjFlamingo" />
   <Extra type="description" name="Initialises an object on a spline - requires the object to be referenced in the 'PathObj.bin' file." />
 </Template>
