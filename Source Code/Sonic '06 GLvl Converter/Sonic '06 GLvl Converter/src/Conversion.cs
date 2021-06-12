@@ -62,46 +62,30 @@ namespace Sonic_06_GLvl_Converter
                     int numOfParams = _GensSetData.Objects[i].Parameters.Count;
                     _S06SetData.Objects[i].DrawDistance = float.Parse(_GensSetData.Objects[i].Parameters[numOfParams - 3].Data.ToString());
                     _S06SetData.Objects[i].ObjectName = _GensSetData.Objects[i].Parameters[numOfParams - 2].Data.ToString();
-
-                    if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "False") {
-                        byte[] bytesGLVL = new byte[16];
-                        bytesGLVL[0] = 64;
-                        bytesGLVL[1] = 0;
-                        bytesGLVL[2] = 0;
-                        bytesGLVL[3] = 0;
-                        bytesGLVL[4] = 0;
-                        bytesGLVL[5] = 0;
-                        bytesGLVL[6] = 0;
-                        bytesGLVL[7] = 0;
-                        bytesGLVL[8] = 0;
-                        bytesGLVL[9] = 0;
-                        bytesGLVL[10] = 0;
-                        bytesGLVL[11] = 0;
-                        bytesGLVL[12] = 0;
-                        bytesGLVL[13] = 0;
-                        bytesGLVL[14] = 0;
-                        bytesGLVL[15] = 0;
-                        _S06SetData.Objects[i].UnknownBytes = bytesGLVL;
-                    } else if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "True") {
-                        byte[] bytesGLVL = new byte[16];
-                        bytesGLVL[0] = 64;
-                        bytesGLVL[1] = 0;
-                        bytesGLVL[2] = 0;
-                        bytesGLVL[3] = 1;
-                        bytesGLVL[4] = 0;
-                        bytesGLVL[5] = 0;
-                        bytesGLVL[6] = 0;
-                        bytesGLVL[7] = 0;
-                        bytesGLVL[8] = 0;
-                        bytesGLVL[9] = 0;
-                        bytesGLVL[10] = 0;
-                        bytesGLVL[11] = 0;
-                        bytesGLVL[12] = 0;
-                        bytesGLVL[13] = 0;
-                        bytesGLVL[14] = 0;
-                        bytesGLVL[15] = 0;
-                        _S06SetData.Objects[i].UnknownBytes = bytesGLVL;
+                    if (_S06SetData.Objects[i].ObjectName == "")
+                    {
+                        _S06SetData.Objects[i].ObjectName = $"{_S06SetData.Objects[i].ObjectType}{i}";
                     }
+
+                    byte[] bytesGLVL = new byte[16];
+                    bytesGLVL[0] = 64;
+                    bytesGLVL[1] = 0;
+                    bytesGLVL[2] = 0;
+                    bytesGLVL[3] = 0;
+                    bytesGLVL[4] = 0;
+                    bytesGLVL[5] = 0;
+                    bytesGLVL[6] = 0;
+                    bytesGLVL[7] = 0;
+                    bytesGLVL[8] = 0;
+                    bytesGLVL[9] = 0;
+                    bytesGLVL[10] = 0;
+                    bytesGLVL[11] = 0;
+                    bytesGLVL[12] = 0;
+                    bytesGLVL[13] = 0;
+                    bytesGLVL[14] = 0;
+                    bytesGLVL[15] = 0;
+                    _S06SetData.Objects[i].UnknownBytes = bytesGLVL;
+                    if (_GensSetData.Objects[i].Parameters[numOfParams - 1].Data.ToString() == "True") { _S06SetData.Objects[i].UnknownBytes[3] = 1; }
 
                     Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Object: {_S06SetData.Objects[i].ObjectType} | Name: {_S06SetData.Objects[i].ObjectName} | ID: {objectID}");
                     objectID++;

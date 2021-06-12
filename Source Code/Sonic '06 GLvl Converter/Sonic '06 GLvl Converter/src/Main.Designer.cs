@@ -47,9 +47,13 @@
             this.Label_Description_TargetSET = new System.Windows.Forms.Label();
             this.Button_Convert = new System.Windows.Forms.Button();
             this.ListBox_ConversionLog = new System.Windows.Forms.ListBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.Button_GenerationsPatch = new System.Windows.Forms.Button();
             this.Button_About = new System.Windows.Forms.Button();
+            this.TextBox_FilteredNames = new System.Windows.Forms.TextBox();
+            this.Label_FilteredNames = new System.Windows.Forms.Label();
+            this.Label_Description_FilteredNames = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.Button_ReplaceNames = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Button_SourceSET
@@ -272,7 +276,7 @@
             this.Button_Convert.FlatAppearance.BorderSize = 0;
             this.Button_Convert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Convert.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Button_Convert.Location = new System.Drawing.Point(476, 502);
+            this.Button_Convert.Location = new System.Drawing.Point(476, 598);
             this.Button_Convert.Name = "Button_Convert";
             this.Button_Convert.Size = new System.Drawing.Size(75, 23);
             this.Button_Convert.TabIndex = 178;
@@ -290,21 +294,10 @@
             this.ListBox_ConversionLog.ForeColor = System.Drawing.SystemColors.Control;
             this.ListBox_ConversionLog.FormattingEnabled = true;
             this.ListBox_ConversionLog.ItemHeight = 15;
-            this.ListBox_ConversionLog.Location = new System.Drawing.Point(16, 247);
+            this.ListBox_ConversionLog.Location = new System.Drawing.Point(16, 307);
             this.ListBox_ConversionLog.Name = "ListBox_ConversionLog";
-            this.ListBox_ConversionLog.Size = new System.Drawing.Size(536, 242);
+            this.ListBox_ConversionLog.Size = new System.Drawing.Size(536, 287);
             this.ListBox_ConversionLog.TabIndex = 179;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(13, 222);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 17);
-            this.label7.TabIndex = 180;
-            this.label7.Text = "Conversion Log";
             // 
             // Button_GenerationsPatch
             // 
@@ -314,7 +307,7 @@
             this.Button_GenerationsPatch.FlatAppearance.BorderSize = 0;
             this.Button_GenerationsPatch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_GenerationsPatch.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Button_GenerationsPatch.Location = new System.Drawing.Point(320, 502);
+            this.Button_GenerationsPatch.Location = new System.Drawing.Point(320, 598);
             this.Button_GenerationsPatch.Name = "Button_GenerationsPatch";
             this.Button_GenerationsPatch.Size = new System.Drawing.Size(150, 23);
             this.Button_GenerationsPatch.TabIndex = 181;
@@ -329,7 +322,7 @@
             this.Button_About.FlatAppearance.BorderSize = 0;
             this.Button_About.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_About.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Button_About.Location = new System.Drawing.Point(16, 502);
+            this.Button_About.Location = new System.Drawing.Point(16, 598);
             this.Button_About.Name = "Button_About";
             this.Button_About.Size = new System.Drawing.Size(75, 23);
             this.Button_About.TabIndex = 182;
@@ -337,15 +330,82 @@
             this.Button_About.UseVisualStyleBackColor = false;
             this.Button_About.Click += new System.EventHandler(this.Button_About_Click);
             // 
+            // TextBox_FilteredNames
+            // 
+            this.TextBox_FilteredNames.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TextBox_FilteredNames.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.TextBox_FilteredNames.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TextBox_FilteredNames.ForeColor = System.Drawing.SystemColors.Control;
+            this.TextBox_FilteredNames.Location = new System.Drawing.Point(16, 242);
+            this.TextBox_FilteredNames.Name = "TextBox_FilteredNames";
+            this.TextBox_FilteredNames.Size = new System.Drawing.Size(535, 23);
+            this.TextBox_FilteredNames.TabIndex = 184;
+            this.TextBox_FilteredNames.TextChanged += new System.EventHandler(this.TextBox_FilteredNames_TextChanged);
+            // 
+            // Label_FilteredNames
+            // 
+            this.Label_FilteredNames.AutoSize = true;
+            this.Label_FilteredNames.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.Label_FilteredNames.ForeColor = System.Drawing.SystemColors.Control;
+            this.Label_FilteredNames.Location = new System.Drawing.Point(13, 220);
+            this.Label_FilteredNames.Name = "Label_FilteredNames";
+            this.Label_FilteredNames.Size = new System.Drawing.Size(138, 17);
+            this.Label_FilteredNames.TabIndex = 183;
+            this.Label_FilteredNames.Text = "Filtered Object Names";
+            // 
+            // Label_Description_FilteredNames
+            // 
+            this.Label_Description_FilteredNames.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Label_Description_FilteredNames.AutoSize = true;
+            this.Label_Description_FilteredNames.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Description_FilteredNames.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.Label_Description_FilteredNames.Location = new System.Drawing.Point(258, 222);
+            this.Label_Description_FilteredNames.Name = "Label_Description_FilteredNames";
+            this.Label_Description_FilteredNames.Size = new System.Drawing.Size(293, 15);
+            this.Label_Description_FilteredNames.TabIndex = 186;
+            this.Label_Description_FilteredNames.Text = "Object names to NOT overwrite, seperated by commas.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(16, 287);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 17);
+            this.label3.TabIndex = 187;
+            this.label3.Text = "Conversion Log";
+            // 
+            // Button_ReplaceNames
+            // 
+            this.Button_ReplaceNames.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Button_ReplaceNames.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.Button_ReplaceNames.Enabled = false;
+            this.Button_ReplaceNames.FlatAppearance.BorderSize = 0;
+            this.Button_ReplaceNames.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_ReplaceNames.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Button_ReplaceNames.Location = new System.Drawing.Point(164, 598);
+            this.Button_ReplaceNames.Name = "Button_ReplaceNames";
+            this.Button_ReplaceNames.Size = new System.Drawing.Size(150, 23);
+            this.Button_ReplaceNames.TabIndex = 188;
+            this.Button_ReplaceNames.Text = "Replace Object Names";
+            this.Button_ReplaceNames.UseVisualStyleBackColor = false;
+            this.Button_ReplaceNames.Click += new System.EventHandler(this.Button_ReplaceNames_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.ClientSize = new System.Drawing.Size(566, 540);
+            this.ClientSize = new System.Drawing.Size(566, 636);
+            this.Controls.Add(this.Button_ReplaceNames);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.TextBox_FilteredNames);
+            this.Controls.Add(this.Label_FilteredNames);
+            this.Controls.Add(this.Label_Description_FilteredNames);
             this.Controls.Add(this.Button_About);
             this.Controls.Add(this.Button_GenerationsPatch);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.ListBox_ConversionLog);
             this.Controls.Add(this.Button_Convert);
             this.Controls.Add(this.Button_TargetSET);
@@ -395,10 +455,14 @@
         private System.Windows.Forms.Label Label_TargetSET;
         private System.Windows.Forms.Button Button_Convert;
         private System.Windows.Forms.ListBox ListBox_ConversionLog;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button Button_GenerationsPatch;
         private System.Windows.Forms.Label Label_Description_TargetSET;
         private System.Windows.Forms.Button Button_About;
+        private System.Windows.Forms.TextBox TextBox_FilteredNames;
+        private System.Windows.Forms.Label Label_FilteredNames;
+        private System.Windows.Forms.Label Label_Description_FilteredNames;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Button_ReplaceNames;
     }
 }
 

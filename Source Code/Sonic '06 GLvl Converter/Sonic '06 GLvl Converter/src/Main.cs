@@ -6,12 +6,14 @@ using System.Windows.Forms;
 using System.ComponentModel;
 using System.Collections.Generic;
 using Sonic_06_GLvl_Converter.Serialisers;
+using System.Linq;
 
 namespace Sonic_06_GLvl_Converter
 {
     public partial class Main : Form
     {
         public static List<string> listOfIDs = new List<string>();
+        public static List<string> filteredObjects = new List<string>();
 
         public Main() {
             InitializeComponent();
@@ -49,11 +51,17 @@ namespace Sonic_06_GLvl_Converter
                 Label_Description_TargetSET.ForeColor = SystemColors.ControlDark;
             }
 
-            // Enable Patch Generations SET button if the source and templates paths are legitimate.
-            Button_GenerationsPatch.Enabled = Paths.CheckFileLegitimacy(TextBox_SourceSET.Text) && Paths.CheckPathLegitimacy(TextBox_GLVLTemplates.Text);
+            // Enable Replace Names button if the source and target paths are legitimate.
+            Button_ReplaceNames.Enabled = Paths.CheckFileLegitimacy(TextBox_SourceSET.Text);
+
+            // Enable Patch Generations SET button if the source and templates paths are legitimate and it points to a Generations SET.
+            if (Path.GetExtension(TextBox_SourceSET.Text) != ".set") { Button_GenerationsPatch.Enabled = Paths.CheckFileLegitimacy(TextBox_SourceSET.Text) && Paths.CheckPathLegitimacy(TextBox_GLVLTemplates.Text); }
+            else { Button_GenerationsPatch.Enabled = false; }
 
             // Enable Convert button if the source and target paths are legitimate.
-            Button_Convert.Enabled = Paths.CheckFileLegitimacy(TextBox_SourceSET.Text) || Paths.CheckFileLegitimacy(TextBox_TargetSET.Text);
+            Button_Convert.Enabled = Paths.CheckFileLegitimacy(TextBox_SourceSET.Text);
+
+            TextBox_FilteredNames.Text = Properties.Settings.Default.FilteredNames;
         }
 
         private void TextBox_SourceSET_TextChanged(object sender, EventArgs e) {
@@ -65,7 +73,7 @@ namespace Sonic_06_GLvl_Converter
             Properties.Settings.Default.TargetSET = TextBox_TargetSET.Text;
 
             // Enable Convert button if the source and target paths are legitimate.
-            Button_Convert.Enabled = Paths.CheckFileLegitimacy(TextBox_SourceSET.Text) || Paths.CheckFileLegitimacy(TextBox_TargetSET.Text);
+            Button_Convert.Enabled = Paths.CheckFileLegitimacy(TextBox_SourceSET.Text);
 
             // Save changes...
             Properties.Settings.Default.Save();
@@ -199,6 +207,35 @@ namespace Sonic_06_GLvl_Converter
                             "Knuxfan24 - Lead programmer and reverse-engineer\n" +
                             "HyperPolygon64 - UI stuff and slaved away at code",
                             "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void Button_ReplaceNames_Click(object sender, EventArgs e)
+        {
+            listOfIDs.Clear();
+            ListBox_ConversionLog.Items.Clear();
+            filteredObjects.Clear();
+
+            if (TextBox_FilteredNames.Text != "")
+            {
+                filteredObjects = TextBox_FilteredNames.Text.Split(',').ToList();
+            }
+
+            // GLVL
+            if (Path.GetExtension(TextBox_SourceSET.Text) == ".xml") { GLvlPatcher.RenameObjectsGens(TextBox_SourceSET.Text); }
+
+            // '06
+            if (Path.GetExtension(TextBox_SourceSET.Text) == ".set") { GLvlPatcher.RenameObjectsS06(TextBox_SourceSET.Text); }
+
+            for (int i = listOfIDs.Count - 1; i >= 0; i--)
+                ListBox_ConversionLog.Items.Add(listOfIDs[i]);
+        }
+
+        private void TextBox_FilteredNames_TextChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.FilteredNames = TextBox_FilteredNames.Text;
+
+            // Save changes...
+            Properties.Settings.Default.Save();
         }
     }
 }
