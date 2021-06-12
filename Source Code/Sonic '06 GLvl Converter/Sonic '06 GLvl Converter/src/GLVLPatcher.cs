@@ -96,5 +96,53 @@ namespace Sonic_06_GLvl_Converter
 
             sourceSET.Save(sourceSETPath, true);
         }
+
+        public static void RenameObjectsGens(string sourceSETPath)
+        {
+            GensSetData sourceSET = new GensSetData();
+            sourceSET.Load(sourceSETPath);
+            uint objectID = 0;
+
+            foreach (SetObject obj in sourceSET.Objects)
+            {
+                if (!Main.filteredObjects.Any(obj.Parameters[obj.Parameters.Count - 2].Data.ToString().Contains))
+                {
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Renamed '{obj.Parameters[obj.Parameters.Count - 2].Data}' to '{obj.ObjectType}{objectID}'");
+                    obj.Parameters[obj.Parameters.Count - 2].Data = $"{obj.ObjectType}{objectID}";
+                    objectID++;
+                }
+                else
+                {
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Skipped '{obj.Parameters[obj.Parameters.Count - 2].Data}' due to filtered string");
+                    objectID++;
+                }
+            }
+
+            sourceSET.Save(sourceSETPath, true);
+        }
+
+        public static void RenameObjectsS06(string sourceSETPath)
+        {
+            S06SetData sourceSET = new S06SetData();
+            sourceSET.Load(sourceSETPath);
+            uint objectID = 0;
+
+            foreach (SetObject obj in sourceSET.Objects)
+            {
+                if (!Main.filteredObjects.Any(obj.ObjectName.Contains))
+                {
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Renamed '{obj.ObjectName}' to '{obj.ObjectType}{objectID}'");
+                    obj.ObjectName = $"{obj.ObjectType}{objectID}";
+                    objectID++;
+                }
+                else
+                {
+                    Main.listOfIDs.Add($"[{DateTime.Now:hh:mm:ss tt}] Skipped '{obj.ObjectName}' due to filtered string");
+                    objectID++;
+                }
+            }
+
+            sourceSET.Save(sourceSETPath, true);
+        }
     }
 }
