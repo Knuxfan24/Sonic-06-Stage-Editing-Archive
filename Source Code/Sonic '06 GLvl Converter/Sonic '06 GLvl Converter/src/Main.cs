@@ -221,13 +221,25 @@ namespace Sonic_06_GLvl_Converter
             }
 
             // GLVL
-            if (Path.GetExtension(TextBox_SourceSET.Text) == ".xml") { GLvlPatcher.RenameObjectsGens(TextBox_SourceSET.Text); }
+            if (Path.GetExtension(TextBox_SourceSET.Text) == ".xml")
+            {
+                GLvlPatcher.RenameObjectsGens(TextBox_SourceSET.Text);
+
+                for (int i = listOfIDs.Count - 1; i >= 0; i--)
+                    ListBox_ConversionLog.Items.Add(listOfIDs[i]);
+
+                GLvlPatcher.PatchObjectIDs(TextBox_SourceSET.Text);
+                GLvlPatcher.PatchParameterNames(TextBox_SourceSET.Text, TextBox_GLVLTemplates.Text);
+            }
 
             // '06
-            if (Path.GetExtension(TextBox_SourceSET.Text) == ".set") { GLvlPatcher.RenameObjectsS06(TextBox_SourceSET.Text); }
+            if (Path.GetExtension(TextBox_SourceSET.Text) == ".set")
+            {
+                GLvlPatcher.RenameObjectsS06(TextBox_SourceSET.Text);
+                for (int i = listOfIDs.Count - 1; i >= 0; i--)
+                    ListBox_ConversionLog.Items.Add(listOfIDs[i]);
+            }
 
-            for (int i = listOfIDs.Count - 1; i >= 0; i--)
-                ListBox_ConversionLog.Items.Add(listOfIDs[i]);
         }
 
         private void TextBox_FilteredNames_TextChanged(object sender, EventArgs e)
