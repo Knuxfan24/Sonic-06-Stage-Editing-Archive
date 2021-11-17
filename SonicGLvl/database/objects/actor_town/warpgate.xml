@@ -2,24 +2,24 @@
 <Template>
   <stageName type="string" default="" description="Event to trigger when interacting with the object." />
   
-  <appearances type="integer" default="0" description="0 - AQA | 1 - CSC | 2 - DTD | 3/9/11 - WVO
-4 - FLC | 5 - KDV | 6 - RCT | 7 - TPJ | 8 - WAP
-10 - EOTW" />
+  <appearances type="integer" default="0" description="1 - AQA | 2 - CSC | 3 - DTD | 4/10/12 - WVO
+5 - FLC | 6 - KDV | 7 - RCT | 8 - TPJ | 9 - WAP
+11 - EOTW" />
   <DrawDistance type="float" default="0" description="How close the object needs to be to the player before spawning." />
   <ObjName type="string" default="" description="The internal name of the object." />
   <StartInactive type="bool" default="false" description="Whether the object starts inactive." />
 
-  <Extra type="model" name="twn/twn_obj_warpgate_aqa.model" condition="appearances == 0" />
-  <Extra type="model" name="twn/twn_obj_warpgate_csc.model" condition="appearances == 1" />
-  <Extra type="model" name="twn/twn_obj_warpgate_dtd.model" condition="appearances == 2" />
-  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 3" />
-  <Extra type="model" name="twn/twn_obj_warpgate_flc.model" condition="appearances == 4" />
-  <Extra type="model" name="twn/twn_obj_warpgate_kdv.model" condition="appearances == 5" />
-  <Extra type="model" name="twn/twn_obj_warpgate_rct.model" condition="appearances == 6" />
-  <Extra type="model" name="twn/twn_obj_warpgate_tpj.model" condition="appearances == 7" />
-  <Extra type="model" name="twn/twn_obj_warpgate_wap.model" condition="appearances == 8" />
-  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 9" />
-  <Extra type="model" name="twn/twn_obj_warpgate_eotw.model" condition="appearances == 10" />
-  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 11" />
+  <Extra type="model" name="twn/twn_obj_warpgate_aqa.model" condition="appearances == 1" />
+  <Extra type="model" name="twn/twn_obj_warpgate_csc.model" condition="appearances == 2" />
+  <Extra type="model" name="twn/twn_obj_warpgate_dtd.model" condition="appearances == 3" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 4" />
+  <Extra type="model" name="twn/twn_obj_warpgate_flc.model" condition="appearances == 5" />
+  <Extra type="model" name="twn/twn_obj_warpgate_kdv.model" condition="appearances == 6" />
+  <Extra type="model" name="twn/twn_obj_warpgate_rct.model" condition="appearances == 7" />
+  <Extra type="model" name="twn/twn_obj_warpgate_tpj.model" condition="appearances == 8" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wap.model" condition="appearances == 9" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 10" />
+  <Extra type="model" name="twn/twn_obj_warpgate_eotw.model" condition="appearances == 11" />
+  <Extra type="model" name="twn/twn_obj_warpgate_wvo.model" condition="appearances == 12" />
   <Extra type="description" name="A magic mirror that teleports the player to another location." />
 </Template>
